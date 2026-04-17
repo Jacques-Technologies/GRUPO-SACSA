@@ -4016,130 +4016,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "frame",
-              "id": "mwNyf",
-              "name": "Icon Size Variants",
-              "fill": "#f3f4f6",
-              "cornerRadius": 4,
-              "layout": "vertical",
-              "gap": 16,
-              "padding": 16,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "Q8zdP",
-                  "name": "sizeTitle",
-                  "fill": "$Negro",
-                  "content": "Variantes de Tamaño",
-                  "fontFamily": "Poppins",
-                  "fontSize": 14,
-                  "fontWeight": "600"
-                },
-                {
-                  "type": "frame",
-                  "id": "gHcot",
-                  "name": "sizeRow",
-                  "gap": 24,
-                  "alignItems": "end",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "TrLI7",
-                      "name": "Icon/size-16",
-                      "reusable": true,
-                      "layout": "vertical",
-                      "gap": 4,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon_font",
-                          "id": "CMiui",
-                          "name": "iconSize16",
-                          "width": 16,
-                          "height": 16,
-                          "iconFontName": "star",
-                          "iconFontFamily": "feather",
-                          "fill": "$Color Primario"
-                        },
-                        {
-                          "type": "text",
-                          "id": "hItqh",
-                          "name": "labelSize16",
-                          "fill": "#6b7280",
-                          "content": "16px",
-                          "fontFamily": "Inter",
-                          "fontSize": 10,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "b3Q9p",
-                      "name": "Icon/size-24",
-                      "reusable": true,
-                      "layout": "vertical",
-                      "gap": 4,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon_font",
-                          "id": "XPYGi",
-                          "name": "iconSize24",
-                          "width": 24,
-                          "height": 24,
-                          "iconFontName": "star",
-                          "iconFontFamily": "feather",
-                          "fill": "$Color Primario"
-                        },
-                        {
-                          "type": "text",
-                          "id": "evGn6",
-                          "name": "labelSize24",
-                          "fill": "#6b7280",
-                          "content": "24px",
-                          "fontFamily": "Inter",
-                          "fontSize": 10,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "XnMfx",
-                      "name": "Icon/size-32",
-                      "reusable": true,
-                      "layout": "vertical",
-                      "gap": 4,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon_font",
-                          "id": "w0Zzk",
-                          "name": "iconSize32",
-                          "width": 32,
-                          "height": 32,
-                          "iconFontName": "star",
-                          "iconFontFamily": "feather",
-                          "fill": "$Color Primario"
-                        },
-                        {
-                          "type": "text",
-                          "id": "RQrGS",
-                          "name": "labelSize32",
-                          "fill": "#6b7280",
-                          "content": "32px",
-                          "fontFamily": "Inter",
-                          "fontSize": 10,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -4186,7 +4062,7 @@
                   "type": "frame",
                   "id": "tL8uM",
                   "name": "pillTabsContainer",
-                  "fill": "#f3f4f6",
+                  "fill": "$Gris 3",
                   "cornerRadius": 20,
                   "gap": 8,
                   "padding": 8,
@@ -9663,8 +9539,8 @@
     {
       "type": "frame",
       "id": "ob3oX",
-      "x": 7879,
-      "y": 979,
+      "x": 3900,
+      "y": 1576,
       "name": "Almacenes - Dark Mode",
       "clip": true,
       "width": 1200,
@@ -13815,7 +13691,7 @@
           "y": 103,
           "name": "Advanced Components",
           "width": 740,
-          "fill": "#f9fafb",
+          "fill": "$DarkBorder",
           "cornerRadius": 8,
           "layout": "vertical",
           "gap": 16,
@@ -13825,7 +13701,7 @@
               "type": "text",
               "id": "3z12A",
               "name": "advTitle",
-              "fill": "$Negro",
+              "fill": "$DarkText",
               "content": "Estados de componentes",
               "fontFamily": "Poppins",
               "fontSize": 16,
@@ -13934,7 +13810,12 @@
                         {
                           "id": "b5UsE",
                           "type": "ref",
-                          "ref": "GdOmp"
+                          "ref": "GdOmp",
+                          "fill": "$DarkCard",
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "$DarkSurface"
+                          }
                         }
                       ]
                     },
@@ -13959,7 +13840,13 @@
                         {
                           "id": "ybDA7",
                           "type": "ref",
-                          "ref": "dh1lq"
+                          "ref": "dh1lq",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#60a5fa"
+                          },
+                          "fill": "$DarkCard"
                         }
                       ]
                     },
@@ -13984,7 +13871,18 @@
                         {
                           "id": "FcLMM",
                           "type": "ref",
-                          "ref": "15iqq"
+                          "ref": "15iqq",
+                          "fill": "$DarkCard",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$DarkSurface"
+                          },
+                          "descendants": {
+                            "pYUI9": {
+                              "fill": "$DarkText"
+                            }
+                          }
                         }
                       ]
                     }
@@ -14020,12 +13918,34 @@
                     {
                       "id": "OGm0U",
                       "type": "ref",
-                      "ref": "UGoU5"
+                      "ref": "UGoU5",
+                      "descendants": {
+                        "GIQTc": {
+                          "fill": [],
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "$Gris 1"
+                          }
+                        }
+                      }
                     },
                     {
                       "id": "35mCB",
                       "type": "ref",
-                      "ref": "Qvt6h"
+                      "ref": "Qvt6h",
+                      "descendants": {
+                        "DqmKf": {
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#60a5fa"
+                          },
+                          "fill": []
+                        },
+                        "roLoC": {
+                          "fill": "#60a5fa"
+                        }
+                      }
                     }
                   ]
                 }
@@ -14039,7 +13959,7 @@
           "x": 1145,
           "y": 103,
           "name": "Textarea Component",
-          "fill": "#f9fafb",
+          "fill": "$DarkBorder",
           "cornerRadius": 8,
           "layout": "vertical",
           "gap": 16,
@@ -14049,7 +13969,7 @@
               "type": "text",
               "id": "gIQ7p",
               "name": "textareaTitle",
-              "fill": "$Negro",
+              "fill": "$DarkText",
               "content": "Inputs",
               "fontFamily": "Poppins",
               "fontSize": 16,
@@ -14058,32 +13978,103 @@
             {
               "id": "IoGc0",
               "type": "ref",
-              "ref": "GrYs9"
+              "ref": "GrYs9",
+              "descendants": {
+                "WzYuj": {
+                  "fill": "$DarkText"
+                },
+                "S3Jxl": {
+                  "fill": "$DarkCard",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$DarkSurface"
+                  }
+                }
+              }
             },
             {
               "id": "WxFH8",
               "type": "ref",
-              "ref": "lgtez"
+              "ref": "lgtez",
+              "descendants": {
+                "B1g0m": {
+                  "fill": "$DarkText"
+                },
+                "c0PLd": {
+                  "fill": "$DarkCard",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$DarkSurface"
+                  }
+                }
+              }
             },
             {
               "id": "Y8hyE",
               "type": "ref",
-              "ref": "NpGRk"
+              "ref": "NpGRk",
+              "descendants": {
+                "5JK46": {
+                  "fill": "$DarkText"
+                },
+                "NeqQw": {
+                  "fill": "$DarkCard",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$DarkSurface"
+                  }
+                }
+              }
             },
             {
               "id": "aokQl",
               "type": "ref",
-              "ref": "XH5jx"
+              "ref": "XH5jx",
+              "descendants": {
+                "3qxPN": {
+                  "fill": "$DarkText"
+                },
+                "dsl25": {
+                  "fill": "$DarkCard",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$DarkSurface"
+                  }
+                }
+              }
             },
             {
               "id": "zrnzh",
               "type": "ref",
-              "ref": "QfB6y"
+              "ref": "QfB6y",
+              "descendants": {
+                "6iwwY": {
+                  "fill": "$DarkText"
+                },
+                "hP7Vj": {
+                  "fill": "$DarkBorder",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$DarkSurface"
+                  }
+                },
+                "4LP5d": {
+                  "fill": "#60a5fa"
+                },
+                "ZevHR": {
+                  "fill": "#60a5fa"
+                }
+              }
             },
             {
               "id": "pBANV",
               "type": "ref",
-              "ref": "dUTC9"
+              "ref": "dUTC9",
+              "fill": "$DarkCard",
+              "stroke": {
+                "thickness": 1,
+                "fill": "$DarkSurface"
+              }
             }
           ]
         },
@@ -14093,7 +14084,7 @@
           "x": 1458,
           "y": 103,
           "name": "Textarea Component",
-          "fill": "$DarkSurface",
+          "fill": "$DarkBorder",
           "cornerRadius": 8,
           "layout": "vertical",
           "gap": 16,
@@ -14112,17 +14103,51 @@
             {
               "id": "RYYIX",
               "type": "ref",
-              "ref": "8YIEz"
+              "ref": "8YIEz",
+              "fill": "$DarkCard",
+              "stroke": {
+                "thickness": 1,
+                "fill": "$DarkSurface"
+              },
+              "descendants": {
+                "49Los": {
+                  "fill": "$Gris 1"
+                }
+              }
             },
             {
               "id": "J3z9V",
               "type": "ref",
-              "ref": "nDcm8"
+              "ref": "nDcm8",
+              "descendants": {
+                "YP2Pk": {
+                  "fill": "$DarkText"
+                },
+                "2lgHQ": {
+                  "fill": "$DarkCard",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$DarkSurface"
+                  }
+                }
+              }
             },
             {
               "id": "ohcP9",
               "type": "ref",
-              "ref": "IPMtR"
+              "ref": "IPMtR",
+              "descendants": {
+                "QavfG": {
+                  "fill": "$DarkText"
+                },
+                "L0hrV": {
+                  "fill": "$DarkCard",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$DarkSurface"
+                  }
+                }
+              }
             }
           ]
         },
@@ -14132,7 +14157,7 @@
           "x": 875,
           "y": 103,
           "name": "Button Icon Components",
-          "fill": "#f9fafb",
+          "fill": "$DarkBorder",
           "cornerRadius": 8,
           "layout": "vertical",
           "gap": 16,
@@ -14142,7 +14167,7 @@
               "type": "text",
               "id": "cr6sg",
               "name": "buttonIconTitle",
-              "fill": "$Negro",
+              "fill": "$DarkText",
               "content": "Componentes Básicos",
               "fontFamily": "Poppins",
               "fontSize": 16,
@@ -14157,7 +14182,18 @@
             {
               "id": "QBFU9",
               "type": "ref",
-              "ref": "ykYqP"
+              "ref": "ykYqP",
+              "fill": [],
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#60a5fa"
+              },
+              "descendants": {
+                "VTnFM": {
+                  "fill": "#60a5fa"
+                }
+              }
             },
             {
               "id": "usVna",
@@ -14168,27 +14204,62 @@
             {
               "id": "w6Zb6",
               "type": "ref",
-              "ref": "ByfVQ"
+              "ref": "ByfVQ",
+              "fill": [],
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#60a5fa"
+              },
+              "descendants": {
+                "pyPpz": {
+                  "fill": "#60a5fa"
+                },
+                "5sa38": {
+                  "fill": "#60a5fa"
+                }
+              }
             },
             {
               "id": "2jQR4",
               "type": "ref",
-              "ref": "N9o5o"
+              "ref": "N9o5o",
+              "fill": "#dd0000ff"
             },
             {
               "id": "PhTxX",
               "type": "ref",
-              "ref": "IjtgM"
+              "ref": "IjtgM",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$DarkTextSecondary"
+              },
+              "descendants": {
+                "97vrE": {
+                  "fill": "$DarkTextSecondary"
+                }
+              }
             },
             {
               "id": "DQa2x",
               "type": "ref",
-              "ref": "ZlmrH"
+              "ref": "ZlmrH",
+              "fill": "$DarkCard"
             },
             {
               "id": "0RYXU",
               "type": "ref",
-              "ref": "kyNMQ"
+              "ref": "kyNMQ",
+              "fill": "#333333",
+              "descendants": {
+                "3f00H": {
+                  "fill": "$Blanco"
+                },
+                "UrgET": {
+                  "fill": "$Blanco"
+                }
+              }
             }
           ]
         },
@@ -14198,7 +14269,7 @@
           "x": 1802,
           "y": 103,
           "name": "Textarea Component",
-          "fill": "$DarkSurface",
+          "fill": "$DarkBorder",
           "cornerRadius": 8,
           "layout": "vertical",
           "gap": 16,
@@ -14221,7 +14292,7 @@
               "fill": "$DarkCard",
               "stroke": {
                 "thickness": 1,
-                "fill": "$DarkBorder"
+                "fill": "$DarkSurface"
               },
               "descendants": {
                 "BEaCv": {
@@ -14242,7 +14313,7 @@
               "fill": "$DarkCard",
               "stroke": {
                 "thickness": 1,
-                "fill": "$DarkBorder"
+                "fill": "$DarkSurface"
               },
               "descendants": {
                 "WOexc": {
@@ -14263,7 +14334,7 @@
               "fill": "$DarkCard",
               "stroke": {
                 "thickness": 1,
-                "fill": "$DarkBorder"
+                "fill": "$DarkSurface"
               },
               "descendants": {
                 "yrg2D": {
@@ -14288,7 +14359,7 @@
           "x": 1458,
           "y": 377,
           "name": "File Upload Component",
-          "fill": "$DarkSurface",
+          "fill": "$DarkBorder",
           "cornerRadius": 8,
           "layout": "vertical",
           "gap": 16,
@@ -14307,12 +14378,51 @@
             {
               "id": "Xeyli",
               "type": "ref",
-              "ref": "JVTs8"
+              "ref": "JVTs8",
+              "stroke": {
+                "thickness": 2,
+                "fill": "$DarkSurface"
+              },
+              "fill": "$DarkCard",
+              "descendants": {
+                "txCDp": {
+                  "fill": "$Gris 1"
+                },
+                "V1MSs": {
+                  "fill": "$Blanco"
+                },
+                "VUhMn": {
+                  "fill": "$Gris 1"
+                }
+              }
             },
             {
               "id": "VKIPQ",
               "type": "ref",
-              "ref": "6te6P"
+              "ref": "6te6P",
+              "fill": "#1d4d1d80",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$DarkPrimary"
+              },
+              "descendants": {
+                "JG0IV": {
+                  "fill": "$DarkPrimary"
+                },
+                "Td9GL": {
+                  "fill": "$DarkBG"
+                },
+                "MoCvj": {
+                  "fill": "$Gris 1"
+                },
+                "iREBC": {
+                  "fill": "$Gris 1"
+                },
+                "Nw6Ml": {
+                  "fill": "$DarkPrimary"
+                }
+              }
             }
           ]
         },
@@ -14323,7 +14433,7 @@
           "y": 103,
           "name": "Cell Badge Variants",
           "height": 464,
-          "fill": "$DarkSurface",
+          "fill": "$DarkBorder",
           "cornerRadius": 8,
           "layout": "vertical",
           "gap": 16,
@@ -14358,7 +14468,7 @@
                 "thickness": {
                   "bottom": 2
                 },
-                "fill": "$Color Secundario"
+                "fill": "$DarkPrimary"
               },
               "descendants": {
                 "7TtEA": {
@@ -14375,7 +14485,7 @@
                 "thickness": {
                   "bottom": 1
                 },
-                "fill": "$DarkBorder"
+                "fill": "$DarkSurface"
               }
             },
             {
@@ -14387,7 +14497,7 @@
                 "thickness": {
                   "bottom": 1
                 },
-                "fill": "$DarkBorder"
+                "fill": "$DarkSurface"
               },
               "descendants": {
                 "MRraV": {
@@ -14407,11 +14517,11 @@
                 "thickness": {
                   "bottom": 1
                 },
-                "fill": "$DarkBorder"
+                "fill": "$DarkSurface"
               },
               "descendants": {
                 "dj1o1": {
-                  "fill": "#555555"
+                  "fill": "$Gris 1"
                 }
               }
             },
@@ -14424,11 +14534,11 @@
                 "thickness": {
                   "bottom": 1
                 },
-                "fill": "$DarkBorder"
+                "fill": "$DarkSurface"
               },
               "descendants": {
                 "DOLpZ": {
-                  "fill": "#333333"
+                  "fill": "$DarkBorder"
                 },
                 "DOLpZ/9ndMb": {
                   "fill": "$DarkTextSecondary"
@@ -14444,11 +14554,11 @@
           "y": 603,
           "name": "Badge with Icons",
           "width": 798,
-          "fill": "$DarkSurface",
+          "fill": "$DarkBorder",
           "cornerRadius": 8,
           "gap": 16,
           "padding": 16,
-          "alignItems": "center",
+          "alignItems": "end",
           "children": [
             {
               "type": "text",
@@ -14607,7 +14717,7 @@
           "x": 77,
           "y": 31,
           "name": "dsTitle",
-          "fill": "$Color Primario",
+          "fill": "$DarkText",
           "content": "Design System",
           "fontFamily": "$Font Primaria",
           "fontSize": 28,
@@ -14619,7 +14729,7 @@
           "x": 2665,
           "y": 103,
           "name": "Icon Catalog",
-          "fill": "$DarkSurface",
+          "fill": "$DarkBorder",
           "cornerRadius": 8,
           "layout": "vertical",
           "gap": 16,
@@ -14649,7 +14759,6 @@
               "type": "frame",
               "id": "6WYX7",
               "name": "Navigation Icons",
-              "fill": "#333333",
               "cornerRadius": 4,
               "layout": "vertical",
               "gap": 16,
@@ -14729,7 +14838,6 @@
               "type": "frame",
               "id": "Xwb6d",
               "name": "Action Icons",
-              "fill": "#333333",
               "cornerRadius": 4,
               "layout": "vertical",
               "gap": 16,
@@ -14754,17 +14862,32 @@
                     {
                       "id": "3aUXB",
                       "type": "ref",
-                      "ref": "Tn929"
+                      "ref": "Tn929",
+                      "descendants": {
+                        "05mJi": {
+                          "fill": "$Color Secundario"
+                        }
+                      }
                     },
                     {
                       "id": "8kCep",
                       "type": "ref",
-                      "ref": "pGJrp"
+                      "ref": "pGJrp",
+                      "descendants": {
+                        "mZ5Xa": {
+                          "fill": "$Color Secundario"
+                        }
+                      }
                     },
                     {
                       "id": "pmiWX",
                       "type": "ref",
-                      "ref": "yCN3S"
+                      "ref": "yCN3S",
+                      "descendants": {
+                        "Uoq2B": {
+                          "fill": "$Color Secundario"
+                        }
+                      }
                     },
                     {
                       "id": "gYgcZ",
@@ -14794,7 +14917,6 @@
               "type": "frame",
               "id": "tZKjo",
               "name": "Common Icons",
-              "fill": "#333333",
               "cornerRadius": 4,
               "layout": "vertical",
               "gap": 16,
@@ -14819,73 +14941,52 @@
                     {
                       "id": "rD17T",
                       "type": "ref",
-                      "ref": "06Gro"
+                      "ref": "06Gro",
+                      "descendants": {
+                        "6naio": {
+                          "fill": "$Color Secundario"
+                        }
+                      }
                     },
                     {
                       "id": "4wnnn",
                       "type": "ref",
-                      "ref": "ySGWQ"
+                      "ref": "ySGWQ",
+                      "descendants": {
+                        "qtXWh": {
+                          "fill": "$Color Secundario"
+                        }
+                      }
                     },
                     {
                       "id": "qFeYI",
                       "type": "ref",
-                      "ref": "aJuTj"
+                      "ref": "aJuTj",
+                      "descendants": {
+                        "S8po9": {
+                          "fill": "$Color Secundario"
+                        }
+                      }
                     },
                     {
                       "id": "JgZED",
                       "type": "ref",
-                      "ref": "oHJ0O"
+                      "ref": "oHJ0O",
+                      "descendants": {
+                        "RRdDJ": {
+                          "fill": "$Color Secundario"
+                        }
+                      }
                     },
                     {
                       "id": "hZ5m5",
                       "type": "ref",
-                      "ref": "IKoh6"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "F8zZU",
-              "name": "Icon Size Variants",
-              "fill": "#333333",
-              "cornerRadius": 4,
-              "layout": "vertical",
-              "gap": 16,
-              "padding": 16,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "HyWmF",
-                  "name": "sizeTitle",
-                  "fill": "$DarkText",
-                  "content": "Variantes de Tamaño",
-                  "fontFamily": "Poppins",
-                  "fontSize": 14,
-                  "fontWeight": "600"
-                },
-                {
-                  "type": "frame",
-                  "id": "vcBxB",
-                  "name": "sizeRow",
-                  "gap": 24,
-                  "alignItems": "end",
-                  "children": [
-                    {
-                      "id": "u9xDT",
-                      "type": "ref",
-                      "ref": "TrLI7"
-                    },
-                    {
-                      "id": "6Fl03",
-                      "type": "ref",
-                      "ref": "b3Q9p"
-                    },
-                    {
-                      "id": "JIS2T",
-                      "type": "ref",
-                      "ref": "XnMfx"
+                      "ref": "IKoh6",
+                      "descendants": {
+                        "1OqW4": {
+                          "fill": "$Color Secundario"
+                        }
+                      }
                     }
                   ]
                 }
@@ -14899,7 +15000,7 @@
           "x": 3175,
           "y": 103,
           "name": "Modern Tabs Variants",
-          "fill": "$DarkSurface",
+          "fill": "$DarkBorder",
           "cornerRadius": 8,
           "layout": "vertical",
           "gap": 24,
@@ -14936,7 +15037,7 @@
                   "type": "frame",
                   "id": "5X0xb",
                   "name": "pillTabsContainer",
-                  "fill": "#333333",
+                  "fill": "$DarkSurface",
                   "cornerRadius": 20,
                   "gap": 8,
                   "padding": 8,
@@ -14948,14 +15049,20 @@
                       "fill": "$DarkCard",
                       "descendants": {
                         "49UNg": {
-                          "fill": "$DarkTextSecondary"
+                          "fill": "$Gris 1"
                         }
                       }
                     },
                     {
                       "id": "NXdss",
                       "type": "ref",
-                      "ref": "jyyeC"
+                      "ref": "jyyeC",
+                      "fill": "$DarkPrimary",
+                      "descendants": {
+                        "6nAXg": {
+                          "fill": "$DarkCard"
+                        }
+                      }
                     },
                     {
                       "id": "kQZA5",
@@ -14964,7 +15071,7 @@
                       "fill": "$DarkCard",
                       "descendants": {
                         "Xmamw": {
-                          "fill": "$DarkTextSecondary"
+                          "fill": "$Gris 1"
                         }
                       }
                     }
@@ -14993,7 +15100,7 @@
                   "type": "frame",
                   "id": "XDnsK",
                   "name": "badgeTabsContainer",
-                  "fill": "#333333",
+                  "fill": "$DarkSurface",
                   "cornerRadius": 8,
                   "gap": 24,
                   "padding": 16,
@@ -15010,7 +15117,7 @@
                           "type": "text",
                           "id": "WhubL",
                           "name": "badgeTabInactiveText",
-                          "fill": "$DarkTextSecondary",
+                          "fill": "$Gris 1",
                           "content": "Notifications",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
@@ -15022,7 +15129,7 @@
                           "name": "badgeTabInactiveBadge",
                           "width": 20,
                           "height": 20,
-                          "fill": "#ef4444",
+                          "fill": "#437cf0ff",
                           "cornerRadius": 10,
                           "justifyContent": "center",
                           "alignItems": "center",
@@ -15056,7 +15163,7 @@
                           "type": "text",
                           "id": "pIsvh",
                           "name": "badgeTabActiveText",
-                          "fill": "$Color Primario",
+                          "fill": "$DarkPrimary",
                           "content": "Messages",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
@@ -15068,7 +15175,7 @@
                           "name": "badgeTabActiveBadge",
                           "width": 20,
                           "height": 20,
-                          "fill": "$Color Primario",
+                          "fill": "$DarkPrimary",
                           "cornerRadius": 10,
                           "justifyContent": "center",
                           "alignItems": "center",
@@ -15099,7 +15206,7 @@
                           "type": "text",
                           "id": "v3SVk",
                           "name": "badgeTabInactive2Text",
-                          "fill": "$DarkTextSecondary",
+                          "fill": "$Gris 1",
                           "content": "Archive",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
@@ -15127,19 +15234,37 @@
               "ref": "AEHCH",
               "descendants": {
                 "mc0QB": {
-                  "fill": "$DarkTextSecondary"
+                  "fill": "$Gris 1"
                 }
               }
             },
             {
               "id": "kpESB",
               "type": "ref",
-              "ref": "lqCDT"
+              "ref": "lqCDT",
+              "descendants": {
+                "5nxGO": {
+                  "fill": "$DarkPrimary"
+                },
+                "YCukK": {
+                  "fill": "$DarkPrimary"
+                }
+              }
             },
             {
               "id": "ScF1w",
               "type": "ref",
-              "ref": "5DkQZ"
+              "ref": "5DkQZ",
+              "fill": "#60a5fa33",
+              "descendants": {
+                "qB3LP": {
+                  "fill": "#60a5fa"
+                },
+                "qsWgp": {
+                  "fill": "#60a5fa",
+                  "enabled": false
+                }
+              }
             },
             {
               "type": "frame",
@@ -15163,7 +15288,7 @@
                   "descendants": {
                     "mc0QB": {
                       "content": "General",
-                      "fill": "$DarkTextSecondary"
+                      "fill": "$Gris 1"
                     }
                   }
                 },
@@ -15174,18 +15299,29 @@
                   "name": "t2b",
                   "descendants": {
                     "5nxGO": {
-                      "content": "Seguridad"
+                      "content": "Seguridad",
+                      "fill": "$DarkPrimary"
+                    },
+                    "YCukK": {
+                      "fill": "$DarkPrimary"
                     }
                   }
                 },
                 {
-                  "id": "OoSb9",
+                  "id": "CpfkX",
                   "type": "ref",
                   "ref": "5DkQZ",
-                  "name": "t2c",
+                  "fill": "#60a5fa33",
+                  "x": 231,
+                  "y": 11,
                   "descendants": {
                     "qB3LP": {
+                      "fill": "#60a5fa",
                       "content": "Notificaciones"
+                    },
+                    "qsWgp": {
+                      "fill": "#60a5fa",
+                      "enabled": false
                     }
                   }
                 },
@@ -15197,7 +15333,7 @@
                   "descendants": {
                     "mc0QB": {
                       "content": "Facturación",
-                      "fill": "$DarkTextSecondary"
+                      "fill": "$Gris 1"
                     }
                   }
                 }
@@ -15772,19 +15908,19 @@
     },
     "DarkBG": {
       "type": "color",
-      "value": "#1a1a1a"
+      "value": "#111827"
     },
     "DarkBorder": {
       "type": "color",
-      "value": "#404040"
+      "value": "#0b0b1e"
     },
     "DarkCard": {
       "type": "color",
-      "value": "#2d2d2d"
+      "value": "#111827"
     },
     "DarkSurface": {
       "type": "color",
-      "value": "#252525"
+      "value": "#1f2937"
     },
     "DarkText": {
       "type": "color",
@@ -15793,6 +15929,10 @@
     "DarkTextSecondary": {
       "type": "color",
       "value": "#d1d5db"
+    },
+    "DarkPrimary": {
+      "type": "color",
+      "value": "#22c55e"
     }
   }
 }
