@@ -16145,7 +16145,7 @@
       "textGrowth": "fixed-width-height",
       "width": 6591,
       "height": 350,
-      "content": "12 - VISUALIZAR INVENTARIO DE ALMACEN",
+      "content": "13 - CREAR ALMACEN",
       "fontFamily": "Inter",
       "fontSize": 300,
       "fontWeight": "normal"
@@ -16159,7 +16159,7 @@
       "textGrowth": "fixed-width-height",
       "width": 6591,
       "height": 350,
-      "content": "13 - VISUALIZAR DETALLE DE UN PRODUCTO",
+      "content": "14 - VISUALIZAR DETALLE DE UN PRODUCTO",
       "fontFamily": "Inter",
       "fontSize": 300,
       "fontWeight": "normal"
@@ -60463,6 +60463,974 @@
                   "content": "Ver detalle"
                 }
               }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "z7RRZ",
+      "x": 6412,
+      "y": 40522,
+      "name": "Detalle de Producto",
+      "clip": true,
+      "width": 1440,
+      "height": 960,
+      "fill": "$Blanco",
+      "children": [
+        {
+          "id": "iFBdM",
+          "type": "ref",
+          "ref": "k5ohLD",
+          "name": "Sidebar Modulos"
+        },
+        {
+          "type": "frame",
+          "id": "c0m23",
+          "name": "Frame 27",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Gp86S",
+              "name": "HeaderRow",
+              "width": "fill_container",
+              "gap": 6,
+              "padding": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "v52Mmn",
+                  "name": "Breadcrumb",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "l0NrXT",
+                      "name": "crumbAlmacen",
+                      "fill": "$Gris 1",
+                      "content": "Almacén",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "DIV2s",
+                      "name": "chevron",
+                      "width": 12,
+                      "height": 12,
+                      "icon": "chevron-right",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Tryt9",
+                      "name": "crumbInventario",
+                      "fill": "$Gris 1",
+                      "content": "Inventario",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "lCxn0",
+                      "name": "chevron2",
+                      "width": 12,
+                      "height": 12,
+                      "icon": "chevron-right",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "saam2",
+                      "name": "crumbCurrent",
+                      "fill": "$Negro",
+                      "content": "Fungicida Mancozeb",
+                      "fontFamily": "$Font Primaria",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tdOrA",
+              "name": "Main Content",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "$Fondo",
+              "layout": "vertical",
+              "gap": 24,
+              "padding": 40,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rNaXE",
+                  "name": "ProductInfoCard",
+                  "width": "fill_container",
+                  "fill": "$Blanco",
+                  "cornerRadius": 12,
+                  "gap": 20,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DQFsc",
+                      "name": "iconWrap",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "$Hover 3",
+                      "cornerRadius": 14,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "p4LzO",
+                          "name": "icon",
+                          "width": 30,
+                          "height": 30,
+                          "icon": "package",
+                          "library": "feather",
+                          "fill": "$Color Primario"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lpx5y",
+                      "name": "nameCol",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Fy5Lj",
+                          "name": "productName",
+                          "fill": "$Negro",
+                          "content": "Fungicida Mancozeb",
+                          "fontFamily": "$Font Primaria",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "LqQso",
+                          "name": "metaRow",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "cRnvI",
+                              "name": "codeGroup",
+                              "gap": 6,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "jPZEL",
+                                  "name": "icon",
+                                  "width": 14,
+                                  "height": 14,
+                                  "icon": "hash",
+                                  "library": "feather",
+                                  "fill": "$Gris 1"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "d2sN9v",
+                                  "name": "codeText",
+                                  "fill": "$Gris 1",
+                                  "content": "PRD-1042",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "qFSZf",
+                              "name": "providerGroup",
+                              "gap": 6,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "b4Nzaw",
+                                  "name": "icon",
+                                  "width": 14,
+                                  "height": 14,
+                                  "icon": "truck",
+                                  "library": "feather",
+                                  "fill": "$Gris 1"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ZKzp6",
+                                  "name": "providerText",
+                                  "fill": "$Gris 1",
+                                  "content": "Agroquímicos del Bajío S.A. de C.V.",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ki4cA",
+                      "name": "divider",
+                      "width": 1,
+                      "height": 56,
+                      "fill": "$Gris 3"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vZ8xR",
+                      "name": "stockCol",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OxeIT",
+                          "name": "stockLabel",
+                          "fill": "$Gris 1",
+                          "content": "CANTIDAD EN INVENTARIO ACTUAL",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 10,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.4
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Lo7co",
+                          "name": "stockValRow",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "h53nc",
+                              "name": "stockValue",
+                              "fill": "$Color Primario",
+                              "content": "124",
+                              "fontFamily": "$Font Primaria",
+                              "fontSize": 26,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "nVrAH",
+                              "name": "stockUnit",
+                              "fill": "$Gris 1",
+                              "content": "kg",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Z3VvrR",
+                  "name": "sectionTitle",
+                  "fill": "$Negro",
+                  "content": "Movimientos del producto",
+                  "fontFamily": "$Font Primaria",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "o1OdO",
+                  "name": "TableWrapper",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$Blanco",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "PoIRE",
+                      "name": "TableHeaderRow",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$Gris 3",
+                      "stroke": "$Gris 2",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "gap": 14,
+                      "padding": [
+                        0,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Myn3Y",
+                          "name": "h_Tipo",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": 130,
+                          "content": "TIPO",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "y53Tf",
+                          "name": "h_Fecha",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": 110,
+                          "content": "FECHA",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "PAjJO",
+                          "name": "h_Lote / Destino",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "LOTE / DESTINO",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "ltSiq",
+                          "name": "h_Autorizó",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": 150,
+                          "content": "AUTORIZÓ",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "P0zGVy",
+                          "name": "h_Costo",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": 130,
+                          "content": "COSTO",
+                          "textAlign": "right",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "C4xP1C",
+                      "name": "row",
+                      "width": "fill_container",
+                      "height": 54,
+                      "stroke": "$Gris 3",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "gap": 14,
+                      "padding": [
+                        0,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "QdM7j",
+                          "name": "c_Tipo",
+                          "width": 130,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "c9fuJz",
+                              "name": "badge_tipo",
+                              "fill": "$Hover 3",
+                              "cornerRadius": 20,
+                              "gap": 5,
+                              "padding": [
+                                4,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "EC1gq",
+                                  "name": "icon",
+                                  "width": 11,
+                                  "height": 11,
+                                  "icon": "arrow-down-circle",
+                                  "library": "feather",
+                                  "fill": "$Color Primario"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Uw38T",
+                                  "name": "text",
+                                  "fill": "$Color Primario",
+                                  "content": "Entrada",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 11,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "lsm92",
+                          "name": "c_Fecha",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": 110,
+                          "content": "20/Ago/2026",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "P2gin",
+                          "name": "c_Destino",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Almacén Principal",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "M5JGUP",
+                          "name": "c_Autorizo",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": 150,
+                          "content": "Ramiro Osuna",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "J6DFr",
+                          "name": "c_Costo",
+                          "fill": "$Color Primario",
+                          "textGrowth": "fixed-width",
+                          "width": 130,
+                          "content": "+$18,750.00",
+                          "textAlign": "right",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CVRTN",
+                      "name": "row",
+                      "width": "fill_container",
+                      "height": 54,
+                      "stroke": "$Gris 3",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "gap": 14,
+                      "padding": [
+                        0,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "O7H1hO",
+                          "name": "c_Tipo",
+                          "width": 130,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "ORtn4",
+                              "name": "badge_tipo",
+                              "fill": "#E0E7FF",
+                              "cornerRadius": 20,
+                              "gap": 5,
+                              "padding": [
+                                4,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "ktSOP",
+                                  "name": "icon",
+                                  "width": 11,
+                                  "height": 11,
+                                  "icon": "arrow-up-circle",
+                                  "library": "feather",
+                                  "fill": "#4338CA"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "cnLo9",
+                                  "name": "text",
+                                  "fill": "#4338CA",
+                                  "content": "Salida",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 11,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "C0GGk",
+                          "name": "c_Fecha",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": 110,
+                          "content": "22/Ago/2026",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ppPr3",
+                          "name": "c_Destino",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "LT-2038 · Maíz",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ismc6",
+                          "name": "c_Autorizo",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": 150,
+                          "content": "Ramiro Osuna",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "KY9nK",
+                          "name": "c_Costo",
+                          "fill": "$Negativo",
+                          "textGrowth": "fixed-width",
+                          "width": 130,
+                          "content": "-$1,250.00",
+                          "textAlign": "right",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dGu7p",
+                      "name": "row",
+                      "width": "fill_container",
+                      "height": 54,
+                      "stroke": "$Gris 3",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "gap": 14,
+                      "padding": [
+                        0,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "tb6LM",
+                          "name": "c_Tipo",
+                          "width": 130,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Ca7ww",
+                              "name": "badge_tipo",
+                              "fill": "#F3E8FF",
+                              "cornerRadius": 20,
+                              "gap": 5,
+                              "padding": [
+                                4,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "nFQMu",
+                                  "name": "icon",
+                                  "width": 11,
+                                  "height": 11,
+                                  "icon": "repeat",
+                                  "library": "feather",
+                                  "fill": "#7E22CE"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "EnH4X",
+                                  "name": "text",
+                                  "fill": "#7E22CE",
+                                  "content": "Traslado",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 11,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "T5SP6B",
+                          "name": "c_Fecha",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": 110,
+                          "content": "03/Sep/2026",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "oMWZi",
+                          "name": "c_Destino",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Subalmacén · Sistema de Riego",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "i9CJYD",
+                          "name": "c_Autorizo",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": 150,
+                          "content": "Ana Torres",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "PmJCd",
+                          "name": "c_Costo",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": 130,
+                          "content": "—",
+                          "textAlign": "right",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cFueL",
+                      "name": "row",
+                      "width": "fill_container",
+                      "height": 54,
+                      "stroke": "$Gris 3",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "gap": 14,
+                      "padding": [
+                        0,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "JQvGQ",
+                          "name": "c_Tipo",
+                          "width": 130,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "BcZCw",
+                              "name": "badge_tipo",
+                              "fill": "#fef3c7",
+                              "cornerRadius": 20,
+                              "gap": 5,
+                              "padding": [
+                                4,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "r10s0I",
+                                  "name": "icon",
+                                  "width": 11,
+                                  "height": 11,
+                                  "icon": "sliders",
+                                  "library": "feather",
+                                  "fill": "#b45309"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "rcUft",
+                                  "name": "text",
+                                  "fill": "#b45309",
+                                  "content": "Ajuste",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 11,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "oxFOv",
+                          "name": "c_Fecha",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": 110,
+                          "content": "02/Sep/2026",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "NGlvm",
+                          "name": "c_Destino",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "LT-2038 · Maíz",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "k6Z858",
+                          "name": "c_Autorizo",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": 150,
+                          "content": "Carlos Medina",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Z51sG",
+                          "name": "c_Costo",
+                          "fill": "$Negativo",
+                          "textGrowth": "fixed-width",
+                          "width": 130,
+                          "content": "-$1,000.00",
+                          "textAlign": "right",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wf9Ii",
+                      "name": "row",
+                      "width": "fill_container",
+                      "height": 54,
+                      "stroke": "$Gris 3",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "gap": 14,
+                      "padding": [
+                        0,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "aIFJN",
+                          "name": "c_Tipo",
+                          "width": 130,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "cpKIH",
+                              "name": "badge_tipo",
+                              "fill": "#fef3c7",
+                              "cornerRadius": 20,
+                              "gap": 5,
+                              "padding": [
+                                4,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "rwE6n",
+                                  "name": "icon",
+                                  "width": 11,
+                                  "height": 11,
+                                  "icon": "sliders",
+                                  "library": "feather",
+                                  "fill": "#b45309"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "t1CuV",
+                                  "name": "text",
+                                  "fill": "#b45309",
+                                  "content": "Ajuste",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 11,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "KxgZn",
+                          "name": "c_Fecha",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": 110,
+                          "content": "05/Sep/2026",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "BmbQv",
+                          "name": "c_Destino",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Almacén Principal",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "e1ds6q",
+                          "name": "c_Autorizo",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": 150,
+                          "content": "Carlos Medina",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "i6B6nh",
+                          "name": "c_Costo",
+                          "fill": "$Negativo",
+                          "textGrowth": "fixed-width",
+                          "width": 130,
+                          "content": "-$1,680.00",
+                          "textAlign": "right",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
