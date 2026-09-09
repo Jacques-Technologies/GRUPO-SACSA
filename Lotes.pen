@@ -295,8 +295,7 @@
                   "fill": "#00000000",
                   "stroke": "#0a3d14",
                   "strokeWidth": {
-                    "top": 1,
-                    "bottom": 1
+                    "top": 1
                   },
                   "strokeAlignment": "inner",
                   "gap": 12,
@@ -405,6 +404,61 @@
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "unHUo",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "HGYHd",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "sliders",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BQbMH",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Listas y parámetros",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "ePidW",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
                     }
                   ]
                 }
@@ -7823,7 +7877,6 @@
                       "name": "navItem Cultivos productivos",
                       "width": "fill_container",
                       "height": 44,
-                      "fill": "#0a3d14ff",
                       "gap": 12,
                       "padding": [
                         0,
@@ -7845,7 +7898,7 @@
                           "type": "text",
                           "id": "b1oyQa",
                           "name": "navLabel",
-                          "fill": "$Blanco",
+                          "fill": "$Color Secundario",
                           "content": "Cultivos productivos",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
@@ -7864,8 +7917,7 @@
                   "fill": "#00000000",
                   "stroke": "#0a3d14",
                   "strokeWidth": {
-                    "top": 1,
-                    "bottom": 1
+                    "top": 1
                   },
                   "strokeAlignment": "inner",
                   "gap": 12,
@@ -7974,6 +8026,61 @@
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VepF1",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "tSRne",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "sliders",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vxul4",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Listas y parámetros",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "vC41V",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
                     }
                   ]
                 }
@@ -10707,7 +10814,6 @@
                       "name": "navItem Cultivos productivos",
                       "width": "fill_container",
                       "height": 44,
-                      "fill": "#0a3d14ff",
                       "gap": 12,
                       "padding": [
                         0,
@@ -10729,7 +10835,7 @@
                           "type": "text",
                           "id": "aI5X3",
                           "name": "navLabel",
-                          "fill": "$Blanco",
+                          "fill": "$Color Secundario",
                           "content": "Cultivos productivos",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
@@ -10748,8 +10854,7 @@
                   "fill": "#00000000",
                   "stroke": "#0a3d14",
                   "strokeWidth": {
-                    "top": 1,
-                    "bottom": 1
+                    "top": 1
                   },
                   "strokeAlignment": "inner",
                   "gap": 12,
@@ -10858,6 +10963,61 @@
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QVJxr",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "CeQIN",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "sliders",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "d0nqs",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Listas y parámetros",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "JwtZh",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
                     }
                   ]
                 }
