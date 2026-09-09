@@ -1,0 +1,63 @@
+{
+  "version": "2.17",
+  "children": [],
+  "variables": {
+    "Fondo": {
+      "type": "color",
+      "value": "#f6efd2"
+    },
+    "Hover 1": {
+      "type": "color",
+      "value": "#0d521c"
+    },
+    "Color Secundario": {
+      "type": "color",
+      "value": "#ffc714"
+    },
+    "Font Secundaria": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "Blanco": {
+      "type": "color",
+      "value": "#fdfdfd"
+    },
+    "Font Primaria": {
+      "type": "string",
+      "value": "Poppins"
+    },
+    "Gris 3": {
+      "type": "color",
+      "value": "#f3f4f6"
+    },
+    "Color Primario": {
+      "type": "color",
+      "value": "#00861c"
+    },
+    "Gris 1": {
+      "type": "color",
+      "value": "#9ca3af"
+    },
+    "Negro": {
+      "type": "color",
+      "value": "#1f1f1f"
+    },
+    "Hover 3": {
+      "type": "color",
+      "value": "#f0fdf4"
+    },
+    "Gris 2": {
+      "type": "color",
+      "value": "#d1d5db"
+    },
+    "Fondo-2": {
+      "type": "color",
+      "value": "#f7f2dc"
+    },
+    "Hover 2": {
+      "type": "color",
+      "value": "#059669"
+    }
+  },
+  "fileToken": "3190a378-217f-410d-8517-5d8993a2392d"
+}
