@@ -7819,22 +7819,22 @@
     },
     {
       "type": "text",
-      "id": "z7b8Q",
-      "x": 3429,
-      "y": 3832,
+      "id": "cKw7i",
+      "x": 16,
+      "y": 6878,
       "fill": "$Color Primario",
-      "content": "ACTIVIDADES ",
+      "content": "REGISTRAR UN COSTO",
       "fontFamily": "Inter",
       "fontSize": 300,
       "fontWeight": "normal"
     },
     {
       "type": "text",
-      "id": "eCVj9",
-      "x": 6090,
+      "id": "z7b8Q",
+      "x": 3429,
       "y": 3832,
       "fill": "$Color Primario",
-      "content": "COSECHAS",
+      "content": "PRODUCCIÓN",
       "fontFamily": "Inter",
       "fontSize": 300,
       "fontWeight": "normal"
@@ -8726,32 +8726,7 @@
                               "id": "YrNnF",
                               "name": "t",
                               "fill": "$Gris 1",
-                              "content": "Actividades",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "C9HKN",
-                          "name": "tab_Cosechas",
-                          "height": "fill_container",
-                          "stroke": "#00000000",
-                          "strokeWidth": {
-                            "bottom": 2
-                          },
-                          "strokeAlignment": "inner",
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "TK3jd",
-                              "name": "t",
-                              "fill": "$Gris 1",
-                              "content": "Cosechas",
+                              "content": "Producción",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -11665,32 +11640,7 @@
                               "id": "D8sHF",
                               "name": "t",
                               "fill": "$Gris 1",
-                              "content": "Actividades",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 14,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "wffxN",
-                          "name": "tab_Cosechas",
-                          "height": "fill_container",
-                          "stroke": "#00000000",
-                          "strokeWidth": {
-                            "bottom": 2
-                          },
-                          "strokeAlignment": "inner",
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "d3WIV",
-                              "name": "t",
-                              "fill": "$Gris 1",
-                              "content": "Cosechas",
+                              "content": "Producción",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "normal"
