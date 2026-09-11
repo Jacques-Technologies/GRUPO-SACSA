@@ -222,6 +222,71 @@
                 },
                 {
                   "type": "frame",
+                  "id": "NIefS",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "qjVVN",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "grid",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RMkNR",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lotes",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "P2g8t",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "cf4p8",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
                   "id": "GaWbq",
                   "name": "navItem Registro de costos",
                   "width": "fill_container",
@@ -6138,6 +6203,71 @@
                           "fontWeight": "normal"
                         }
                       ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UVaHM",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Isfqp",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "grid",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iFcd5",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lotes",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "cViMd",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "oV5jC",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
                     }
                   ]
                 },
@@ -13250,6 +13380,71 @@
                           "fontWeight": "normal"
                         }
                       ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wCDZn",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "EOJkh",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "grid",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aQpLC",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lotes",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "Oyeud",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "FvaNl",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
                     }
                   ]
                 },
@@ -21717,37 +21912,24 @@
           "children": [
             {
               "type": "frame",
-              "id": "soCgI",
-              "name": "iconRing",
-              "width": 76,
-              "height": 76,
+              "id": "U7DmnC",
+              "name": "iconCircle",
+              "width": 56,
+              "height": 56,
               "fill": "$Hover 3",
-              "cornerRadius": 38,
+              "cornerRadius": 28,
               "justifyContent": "center",
               "alignItems": "center",
               "children": [
                 {
-                  "type": "frame",
-                  "id": "R82gd",
-                  "name": "iconCircle",
-                  "width": 54,
-                  "height": 54,
-                  "fill": "$Color Primario",
-                  "cornerRadius": 27,
-                  "justifyContent": "center",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "pIrsr",
-                      "name": "icon",
-                      "width": 27,
-                      "height": 27,
-                      "icon": "check",
-                      "library": "feather",
-                      "fill": "$Blanco"
-                    }
-                  ]
+                  "type": "icon",
+                  "id": "NggvK",
+                  "name": "icon",
+                  "width": 28,
+                  "height": 28,
+                  "icon": "check-circle",
+                  "library": "feather",
+                  "fill": "$Color Primario"
                 }
               ]
             },
@@ -24610,37 +24792,24 @@
           "children": [
             {
               "type": "frame",
-              "id": "UIB6B",
-              "name": "iconRing",
-              "width": 76,
-              "height": 76,
+              "id": "O2Bqan",
+              "name": "iconCircle",
+              "width": 56,
+              "height": 56,
               "fill": "$Hover 3",
-              "cornerRadius": 38,
+              "cornerRadius": 28,
               "justifyContent": "center",
               "alignItems": "center",
               "children": [
                 {
-                  "type": "frame",
-                  "id": "ulgXj",
-                  "name": "iconCircle",
-                  "width": 54,
-                  "height": 54,
-                  "fill": "$Color Primario",
-                  "cornerRadius": 27,
-                  "justifyContent": "center",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "XBZDy",
-                      "name": "icon",
-                      "width": 27,
-                      "height": 27,
-                      "icon": "check",
-                      "library": "feather",
-                      "fill": "$Blanco"
-                    }
-                  ]
+                  "type": "icon",
+                  "id": "dH2fM",
+                  "name": "icon",
+                  "width": 28,
+                  "height": 28,
+                  "icon": "check-circle",
+                  "library": "feather",
+                  "fill": "$Color Primario"
                 }
               ]
             },
@@ -25158,6 +25327,71 @@
                           "fontWeight": "normal"
                         }
                       ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cmYpn",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "JgJjc",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "grid",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pJCTR",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lotes",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "vZbCE",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "tghlX",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
                     }
                   ]
                 },
@@ -30882,37 +31116,24 @@
           "children": [
             {
               "type": "frame",
-              "id": "Kavgm",
-              "name": "iconRing",
-              "width": 76,
-              "height": 76,
+              "id": "ukmE5",
+              "name": "iconCircle",
+              "width": 56,
+              "height": 56,
               "fill": "$Hover 3",
-              "cornerRadius": 38,
+              "cornerRadius": 28,
               "justifyContent": "center",
               "alignItems": "center",
               "children": [
                 {
-                  "type": "frame",
-                  "id": "dZudN",
-                  "name": "iconCircle",
-                  "width": 54,
-                  "height": 54,
-                  "fill": "$Color Primario",
-                  "cornerRadius": 27,
-                  "justifyContent": "center",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "BhVsx",
-                      "name": "icon",
-                      "width": 27,
-                      "height": 27,
-                      "icon": "check",
-                      "library": "feather",
-                      "fill": "$Blanco"
-                    }
-                  ]
+                  "type": "icon",
+                  "id": "E1Gn48",
+                  "name": "icon",
+                  "width": 28,
+                  "height": 28,
+                  "icon": "check-circle",
+                  "library": "feather",
+                  "fill": "$Color Primario"
                 }
               ]
             },

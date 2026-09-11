@@ -482,6 +482,71 @@
                 },
                 {
                   "type": "frame",
+                  "id": "WSaoG",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "lH7tJ",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "grid",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "O66kPL",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lotes",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "TUcE8",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "skERs",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
                   "id": "QK9Pw",
                   "name": "navItem Mano de Obra",
                   "width": "fill_container",
@@ -1460,6 +1525,71 @@
                           "fontWeight": "600"
                         }
                       ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ywVHa",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "tp7ER",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "grid",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "K0XzF",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lotes",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "h20EcD",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "cBoAY",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
                     }
                   ]
                 },
@@ -9605,6 +9735,71 @@
                 },
                 {
                   "type": "frame",
+                  "id": "Ka5ge",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "f1IlMr",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "grid",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "m1kkvI",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lotes",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "w7Gftv",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "X08ZzE",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
                   "id": "ei8r5",
                   "name": "navItem Mano de Obra",
                   "width": "fill_container",
@@ -11021,6 +11216,71 @@
                           "fontWeight": "normal"
                         }
                       ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DCS2K",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "JPkmJ",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "grid",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qRK0K",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lotes",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "rHfJi",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "CRI9g",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
                     }
                   ]
                 },
@@ -16396,6 +16656,71 @@
                 },
                 {
                   "type": "frame",
+                  "id": "b1a4zh",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "HjerG",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "grid",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "z72MU",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lotes",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "YxA89",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "TSlzX",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
                   "id": "oyvIb",
                   "name": "navItem Mano de Obra",
                   "width": "fill_container",
@@ -17302,6 +17627,71 @@
                           "fontWeight": "600"
                         }
                       ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "r5KBDa",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "GCPxG",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "grid",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oamyn",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lotes",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "itrbV",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "YeBsU",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
                     }
                   ]
                 },
@@ -27053,6 +27443,71 @@
                           "fontWeight": "600"
                         }
                       ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zgGKu",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "HxRqG",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "grid",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "V9BSb",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lotes",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "xAeoo",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "cjxfK",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
                     }
                   ]
                 },
@@ -38163,6 +38618,71 @@
                 },
                 {
                   "type": "frame",
+                  "id": "KD7qb",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "AwUdd",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "grid",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CILKY",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lotes",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "en7M4",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "T0g27l",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
                   "id": "bqal3",
                   "name": "navItem Mano de Obra",
                   "width": "fill_container",
@@ -45153,7 +45673,7 @@
                           "id": "SxfsA",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "02/09/2026",
+                          "content": "02/Sep/2026",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -45464,6 +45984,71 @@
                           "fontWeight": "600"
                         }
                       ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ifjqO",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Rkber",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "grid",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vnnxa",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lotes",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "lt58Z",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "W7RG7",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
                     }
                   ]
                 },
@@ -48424,6 +49009,71 @@
                           "fontWeight": "600"
                         }
                       ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "E2MDS",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "z5wBDS",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "grid",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "j5yhrQ",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lotes",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "DgDPc",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "o1X3z",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
                     }
                   ]
                 },
@@ -52562,6 +53212,71 @@
                 },
                 {
                   "type": "frame",
+                  "id": "JmvBp",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "d0xHMn",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "grid",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "j35hb",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lotes",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "UxKox",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "OBpLv",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
                   "id": "Eu2QT",
                   "name": "navItem Mano de Obra",
                   "width": "fill_container",
@@ -54571,6 +55286,71 @@
                 },
                 {
                   "type": "frame",
+                  "id": "PaSI5",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "ZYvX6",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "grid",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hRShp",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lotes",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "YGmz8",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "XJqHM",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
                   "id": "m6c0d9",
                   "name": "navItem Mano de Obra",
                   "width": "fill_container",
@@ -55403,6 +56183,71 @@
                           "fontWeight": "normal"
                         }
                       ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eTrzA",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "qfQvI",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "grid",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HejsM",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lotes",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "ziLoh",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "YzSjC",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
                     }
                   ]
                 },
@@ -61034,6 +61879,71 @@
                           "fontWeight": "normal"
                         }
                       ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sI6Ib",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "at926",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "grid",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nEqOJ",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lotes",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "hR2WE",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "SW1so",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
                     }
                   ]
                 },

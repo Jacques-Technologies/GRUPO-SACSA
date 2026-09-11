@@ -6152,7 +6152,7 @@
                               "id": "N7FaC",
                               "name": "detailValue3",
                               "fill": "#6b7280",
-                              "content": "2026-04-10 14:32 - Por: Admin",
+                              "content": "10/Abr/2026 · 14:32 - Por: Admin",
                               "fontFamily": "Inter",
                               "fontSize": 12,
                               "fontWeight": "normal"
@@ -6558,7 +6558,7 @@
                               "id": "BTVR6",
                               "name": "detailValue3c",
                               "fill": "#6b7280",
-                              "content": "2026-04-09 09:15 - Por: Manager",
+                              "content": "09/Abr/2026 · 09:15 - Por: Manager",
                               "fontFamily": "Inter",
                               "fontSize": 12,
                               "fontWeight": "normal"
@@ -8057,7 +8057,7 @@
                               "id": "k6uqB",
                               "name": "detailValue3",
                               "fill": "#d1d5db",
-                              "content": "2026-04-10 14:32 - Por: Admin",
+                              "content": "10/Abr/2026 · 14:32 - Por: Admin",
                               "fontFamily": "Inter",
                               "fontSize": 12,
                               "fontWeight": "normal"
@@ -8463,7 +8463,7 @@
                               "id": "N5Rme",
                               "name": "detailValue3c",
                               "fill": "#6b7280",
-                              "content": "2026-04-09 09:15 - Por: Manager",
+                              "content": "09/Abr/2026 · 09:15 - Por: Manager",
                               "fontFamily": "Inter",
                               "fontSize": 12,
                               "fontWeight": "normal"
@@ -13988,7 +13988,7 @@
                               "id": "JO0t7",
                               "name": "detailValue2",
                               "fill": "$Negro",
-                              "content": "16/04/2026",
+                              "content": "16/Abr/2026",
                               "fontFamily": "Poppins",
                               "fontSize": 12,
                               "fontWeight": "600"
@@ -17085,7 +17085,7 @@
                               "id": "uYBuJ",
                               "name": "value",
                               "fill": "$Blanco",
-                              "content": "01/09/2026",
+                              "content": "01/Sep/2026",
                               "fontFamily": "$Font Primaria",
                               "fontSize": 14,
                               "fontWeight": "700"
@@ -21781,7 +21781,7 @@
                                   "id": "XO4fr",
                                   "name": "value",
                                   "fill": "$Negro",
-                                  "content": "01/09/2026",
+                                  "content": "01/Sep/2026",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 13,
                                   "fontWeight": "500"
@@ -69843,7 +69843,7 @@
                           "id": "StLUO",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "02/09/2026",
+                          "content": "02/Sep/2026",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
