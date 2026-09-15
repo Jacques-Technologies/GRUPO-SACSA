@@ -8983,7 +8983,7 @@
       "id": "AgG3v",
       "x": 14345,
       "y": 11428,
-      "name": "Nueva Solicitud de Salida - Modal",
+      "name": "Nuevo producto",
       "clip": true,
       "width": 640,
       "fill": "$Blanco",
@@ -15486,10 +15486,10 @@
                           "type": "text",
                           "id": "TFgWH",
                           "name": "value",
-                          "fill": "$Gris 1",
+                          "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Buscar cultivo productivo de lote (ej. LT-2044 · Maíz · 12.5 ha)...",
+                          "content": "LT-2044 · Maíz · 8 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -15620,34 +15620,23 @@
                     },
                     {
                       "type": "frame",
-                      "id": "G0IJu",
+                      "id": "zuFYB",
                       "name": "row",
                       "width": "fill_container",
-                      "height": 48,
                       "stroke": "$Gris 3",
                       "strokeWidth": {
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        10
-                      ],
-                      "alignItems": "center",
+                      "layout": "vertical",
                       "children": [
                         {
                           "type": "frame",
-                          "id": "k9n99",
-                          "name": "c_ProductoField",
+                          "id": "JDGSH",
+                          "name": "line",
                           "width": "fill_container",
-                          "height": 34,
-                          "fill": "$Blanco",
-                          "cornerRadius": 6,
-                          "stroke": "$Gris 2",
-                          "strokeWidth": 1,
-                          "strokeAlignment": "inner",
-                          "gap": 6,
+                          "height": 48,
+                          "gap": 8,
                           "padding": [
                             0,
                             10
@@ -15655,119 +15644,192 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "icon",
-                              "id": "tMqIw",
-                              "name": "icon",
-                              "width": 13,
-                              "height": 13,
-                              "icon": "search",
-                              "library": "feather",
-                              "fill": "$Gris 1"
+                              "type": "frame",
+                              "id": "q1MCwk",
+                              "name": "c_ProductoField",
+                              "width": "fill_container",
+                              "height": 34,
+                              "fill": "$Blanco",
+                              "cornerRadius": 6,
+                              "stroke": "$Gris 2",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "gap": 6,
+                              "padding": [
+                                0,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "XEtyD",
+                                  "name": "icon",
+                                  "width": 13,
+                                  "height": 13,
+                                  "icon": "search",
+                                  "library": "feather",
+                                  "fill": "$Gris 1"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "f0Yqu",
+                                  "name": "value",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Fungicida Mancozeb",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "A0y1u",
+                              "name": "c_CantidadField",
+                              "width": 55,
+                              "height": 34,
+                              "fill": "$Blanco",
+                              "cornerRadius": 6,
+                              "stroke": "$Gris 2",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "padding": [
+                                0,
+                                8
+                              ],
+                              "justifyContent": "end",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "oIO6E",
+                                  "name": "value",
+                                  "fill": "$Negro",
+                                  "content": "155",
+                                  "textAlign": "right",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Kgwa9",
+                              "name": "c_UnidadField",
+                              "width": 72,
+                              "height": 34,
+                              "fill": "$Blanco",
+                              "cornerRadius": 6,
+                              "gap": 4,
+                              "padding": [
+                                0,
+                                8
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "md6uV",
+                                  "name": "value",
+                                  "fill": "$Negro",
+                                  "content": "kg",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
                             },
                             {
                               "type": "text",
-                              "id": "lXBOX",
-                              "name": "value",
+                              "id": "kXzVE",
+                              "name": "c_Importe",
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Fertilizante Foliar X-20",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "w54Zc",
-                          "name": "c_CantidadField",
-                          "width": 55,
-                          "height": 34,
-                          "fill": "$Blanco",
-                          "cornerRadius": 6,
-                          "stroke": "$Gris 2",
-                          "strokeWidth": 1,
-                          "strokeAlignment": "inner",
-                          "padding": [
-                            0,
-                            8
-                          ],
-                          "justifyContent": "end",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "e02D4z",
-                              "name": "value",
-                              "fill": "$Negro",
-                              "content": "200",
+                              "width": 95,
+                              "content": "$19,375.00",
                               "textAlign": "right",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
-                              "fontWeight": "600"
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "DfELC",
+                              "name": "c_delBtn",
+                              "width": 20,
+                              "height": 20,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "oief3",
+                                  "name": "icon",
+                                  "width": 15,
+                                  "height": 15,
+                                  "icon": "trash-2",
+                                  "library": "feather",
+                                  "fill": "$Negativo"
+                                }
+                              ]
                             }
                           ]
                         },
                         {
                           "type": "frame",
-                          "id": "bmjKL",
-                          "name": "c_UnidadField",
-                          "width": 72,
-                          "height": 34,
-                          "fill": "$Blanco",
-                          "cornerRadius": 6,
-                          "gap": 4,
+                          "id": "eztls",
+                          "name": "IndicatorWrap",
+                          "width": "fill_container",
                           "padding": [
                             0,
-                            8
+                            10,
+                            10,
+                            10
                           ],
-                          "justifyContent": "space_between",
-                          "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "hfCn5",
-                              "name": "value",
-                              "fill": "$Negro",
-                              "content": "L",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "Idwmd",
-                          "name": "c_Importe",
-                          "fill": "$Negro",
-                          "textGrowth": "fixed-width",
-                          "width": 95,
-                          "content": "$37,100.00",
-                          "textAlign": "right",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 13,
-                          "fontWeight": "700"
-                        },
-                        {
-                          "type": "frame",
-                          "id": "Yoozf",
-                          "name": "c_delBtn",
-                          "width": 20,
-                          "height": 20,
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "zD6WA",
-                              "name": "icon",
-                              "width": 15,
-                              "height": 15,
-                              "icon": "trash-2",
-                              "library": "feather",
-                              "fill": "$Negativo"
+                              "type": "frame",
+                              "id": "EaCHI",
+                              "name": "ConsumoEsperadoNote",
+                              "width": "fill_container",
+                              "fill": "#fef3c7",
+                              "cornerRadius": 6,
+                              "gap": 8,
+                              "padding": [
+                                7,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "VkgfW",
+                                  "name": "icon",
+                                  "width": 14,
+                                  "height": 14,
+                                  "icon": "alert-triangle",
+                                  "library": "feather",
+                                  "fill": "#b45309"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "xt79o",
+                                  "name": "text",
+                                  "fill": "#78350f",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Este cultivo lleva 145 kg de Fungicida Mancozeb este ciclo (esperado: 160 kg según 8 ha) — con esta salida: 300 kg. Supera lo esperado para este ciclo.",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 11,
+                                  "fontWeight": "600"
+                                }
+                              ]
                             }
                           ]
                         }
@@ -15775,34 +15837,23 @@
                     },
                     {
                       "type": "frame",
-                      "id": "tTWN1",
+                      "id": "fEhCz",
                       "name": "row",
                       "width": "fill_container",
-                      "height": 48,
                       "stroke": "$Gris 3",
                       "strokeWidth": {
                         "bottom": 1
                       },
                       "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        10
-                      ],
-                      "alignItems": "center",
+                      "layout": "vertical",
                       "children": [
                         {
                           "type": "frame",
-                          "id": "yNrah",
-                          "name": "c_ProductoField",
+                          "id": "dsjrk",
+                          "name": "line",
                           "width": "fill_container",
-                          "height": 34,
-                          "fill": "$Blanco",
-                          "cornerRadius": 6,
-                          "stroke": "$Gris 2",
-                          "strokeWidth": 1,
-                          "strokeAlignment": "inner",
-                          "gap": 6,
+                          "height": 48,
+                          "gap": 8,
                           "padding": [
                             0,
                             10
@@ -15810,119 +15861,192 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "icon",
-                              "id": "x6yIF",
-                              "name": "icon",
-                              "width": 13,
-                              "height": 13,
-                              "icon": "search",
-                              "library": "feather",
-                              "fill": "$Gris 1"
+                              "type": "frame",
+                              "id": "RtQRa",
+                              "name": "c_ProductoField",
+                              "width": "fill_container",
+                              "height": 34,
+                              "fill": "$Blanco",
+                              "cornerRadius": 6,
+                              "stroke": "$Gris 2",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "gap": 6,
+                              "padding": [
+                                0,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "Db7WV",
+                                  "name": "icon",
+                                  "width": 13,
+                                  "height": 13,
+                                  "icon": "search",
+                                  "library": "feather",
+                                  "fill": "$Gris 1"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Iycp8",
+                                  "name": "value",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Fertilizante Triple 17",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "C1uGcD",
+                              "name": "c_CantidadField",
+                              "width": 55,
+                              "height": 34,
+                              "fill": "$Blanco",
+                              "cornerRadius": 6,
+                              "stroke": "$Gris 2",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "padding": [
+                                0,
+                                8
+                              ],
+                              "justifyContent": "end",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "BekYI",
+                                  "name": "value",
+                                  "fill": "$Negro",
+                                  "content": "500",
+                                  "textAlign": "right",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "a55N1D",
+                              "name": "c_UnidadField",
+                              "width": 72,
+                              "height": 34,
+                              "fill": "$Blanco",
+                              "cornerRadius": 6,
+                              "gap": 4,
+                              "padding": [
+                                0,
+                                8
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "GtVHY",
+                                  "name": "value",
+                                  "fill": "$Negro",
+                                  "content": "kg",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
                             },
                             {
                               "type": "text",
-                              "id": "M9ubA",
-                              "name": "value",
+                              "id": "WyaDI",
+                              "name": "c_Importe",
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Urea 46%",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "thBzD",
-                          "name": "c_CantidadField",
-                          "width": 55,
-                          "height": 34,
-                          "fill": "$Blanco",
-                          "cornerRadius": 6,
-                          "stroke": "$Gris 2",
-                          "strokeWidth": 1,
-                          "strokeAlignment": "inner",
-                          "padding": [
-                            0,
-                            8
-                          ],
-                          "justifyContent": "end",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "LAufP",
-                              "name": "value",
-                              "fill": "$Negro",
-                              "content": "500",
+                              "width": 95,
+                              "content": "$9,000.00",
                               "textAlign": "right",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
-                              "fontWeight": "600"
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "hYY3a",
+                              "name": "c_delBtn",
+                              "width": 20,
+                              "height": 20,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "eRHrd",
+                                  "name": "icon",
+                                  "width": 15,
+                                  "height": 15,
+                                  "icon": "trash-2",
+                                  "library": "feather",
+                                  "fill": "$Negativo"
+                                }
+                              ]
                             }
                           ]
                         },
                         {
                           "type": "frame",
-                          "id": "wjHSN",
-                          "name": "c_UnidadField",
-                          "width": 72,
-                          "height": 34,
-                          "fill": "$Blanco",
-                          "cornerRadius": 6,
-                          "gap": 4,
+                          "id": "WzhBh",
+                          "name": "IndicatorWrap",
+                          "width": "fill_container",
                           "padding": [
                             0,
-                            8
+                            10,
+                            10,
+                            10
                           ],
-                          "justifyContent": "space_between",
-                          "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "v1QMJ",
-                              "name": "value",
-                              "fill": "$Negro",
-                              "content": "kg",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "g4LsC",
-                          "name": "c_Importe",
-                          "fill": "$Negro",
-                          "textGrowth": "fixed-width",
-                          "width": 95,
-                          "content": "$9,100.00",
-                          "textAlign": "right",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 13,
-                          "fontWeight": "700"
-                        },
-                        {
-                          "type": "frame",
-                          "id": "u7UG68",
-                          "name": "c_delBtn",
-                          "width": 20,
-                          "height": 20,
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "vYYmB",
-                              "name": "icon",
-                              "width": 15,
-                              "height": 15,
-                              "icon": "trash-2",
-                              "library": "feather",
-                              "fill": "$Negativo"
+                              "type": "frame",
+                              "id": "bbdIN",
+                              "name": "ConsumoEsperadoNote",
+                              "width": "fill_container",
+                              "fill": "#fef3c7",
+                              "cornerRadius": 6,
+                              "gap": 8,
+                              "padding": [
+                                7,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "tJHJ6",
+                                  "name": "icon",
+                                  "width": 14,
+                                  "height": 14,
+                                  "icon": "alert-triangle",
+                                  "library": "feather",
+                                  "fill": "#b45309"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ajccR",
+                                  "name": "text",
+                                  "fill": "#78350f",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Este cultivo lleva 190 kg de Fertilizante Triple 17 este ciclo (esperado: 220 kg según 8 ha) — con esta salida: 690 kg. Supera lo esperado para este ciclo.",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 11,
+                                  "fontWeight": "600"
+                                }
+                              ]
                             }
                           ]
                         }
@@ -16193,7 +16317,7 @@
                       "id": "Hg7kR",
                       "name": "label",
                       "fill": "$Negro",
-                      "content": "Almacén origen*",
+                      "content": "Almacén origen",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "600"
