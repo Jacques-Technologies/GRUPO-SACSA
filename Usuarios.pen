@@ -4261,6 +4261,248 @@
                       "fill": "$Gris 1"
                     }
                   ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wbJw0",
+                  "name": "dropdownRoles",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$Blanco",
+                  "cornerRadius": 8,
+                  "stroke": "$Gris 2",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000001f",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 20
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DwyEw",
+                      "name": "ddHeader",
+                      "width": "fill_container",
+                      "fill": "$Gris 3",
+                      "stroke": "$Gris 2",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "padding": [
+                        8,
+                        14
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "L8tEh",
+                          "name": "t",
+                          "fill": "$Gris 1",
+                          "content": "ROLES",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 10,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.6
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ScKJA",
+                      "name": "row",
+                      "width": "fill_container",
+                      "fill": "$Blanco",
+                      "stroke": "$Gris 3",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "gap": 12,
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "hSkkM",
+                          "name": "name",
+                          "fill": "$Negro",
+                          "content": "Almacenista",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KUCYK",
+                      "name": "row",
+                      "width": "fill_container",
+                      "fill": "$Hover 3",
+                      "stroke": "$Gris 3",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "gap": 12,
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "bM1Wt",
+                          "name": "name",
+                          "fill": "$Negro",
+                          "content": "Administrador del sistema",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FWxqI",
+                      "name": "row",
+                      "width": "fill_container",
+                      "fill": "$Blanco",
+                      "stroke": "$Gris 3",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "gap": 12,
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jBZpe",
+                          "name": "name",
+                          "fill": "$Negro",
+                          "content": "Anotador de campo",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "y7limE",
+                      "name": "row",
+                      "width": "fill_container",
+                      "fill": "$Blanco",
+                      "stroke": "$Gris 3",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "gap": 12,
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "HB16N",
+                          "name": "name",
+                          "fill": "$Negro",
+                          "content": "Supervisor de campo",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SbKVo",
+                      "name": "row",
+                      "width": "fill_container",
+                      "fill": "$Blanco",
+                      "stroke": "$Gris 3",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "gap": 12,
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Q10lP",
+                          "name": "name",
+                          "fill": "$Negro",
+                          "content": "Administración",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xmzxq",
+                      "name": "row",
+                      "width": "fill_container",
+                      "fill": "$Blanco",
+                      "stroke": "$Gris 3",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "gap": 12,
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rMzou",
+                          "name": "name",
+                          "fill": "$Negro",
+                          "content": "Dirección",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -5362,6 +5604,102 @@
                             {
                               "type": "ellipse",
                               "id": "sCRoO",
+                              "name": "knob",
+                              "fill": "$Blanco",
+                              "width": 16,
+                              "height": 16
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NVswP",
+                  "name": "perm_Costos de agua",
+                  "width": "fill_container",
+                  "height": 42,
+                  "stroke": "$Gris 3",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 10,
+                  "padding": [
+                    0,
+                    16,
+                    0,
+                    32
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XB4Bg",
+                      "name": "label",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Alta de rostros y claves",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12.5,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "R2lfZ",
+                      "name": "verCol",
+                      "width": 64,
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "buP70",
+                          "name": "toggle",
+                          "width": 36,
+                          "height": 20,
+                          "fill": "$Color Primario",
+                          "cornerRadius": 10,
+                          "padding": 2,
+                          "justifyContent": "end",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "P3kQMq",
+                              "name": "knob",
+                              "fill": "$Blanco",
+                              "width": 16,
+                              "height": 16
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kLjqz",
+                      "name": "editCol",
+                      "width": 64,
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "V6mVzH",
+                          "name": "toggle",
+                          "width": 36,
+                          "height": 20,
+                          "fill": "$Color Primario",
+                          "cornerRadius": 10,
+                          "padding": 2,
+                          "justifyContent": "end",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "C8D8j",
                               "name": "knob",
                               "fill": "$Blanco",
                               "width": 16,
