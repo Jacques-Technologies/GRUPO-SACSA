@@ -504,26 +504,6 @@
                   "children": [
                     {
                       "type": "text",
-                      "id": "cUtpV",
-                      "name": "crumb",
-                      "fill": "$Gris 1",
-                      "content": "Administración",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "EdQOh",
-                      "name": "chevron",
-                      "width": 12,
-                      "height": 12,
-                      "icon": "chevron-right",
-                      "library": "feather",
-                      "fill": "$Gris 2"
-                    },
-                    {
-                      "type": "text",
                       "id": "E0rFsx",
                       "name": "crumbCurrent",
                       "fill": "$Negro",
@@ -3054,26 +3034,6 @@
                   "gap": 8,
                   "alignItems": "center",
                   "children": [
-                    {
-                      "type": "text",
-                      "id": "QrbCA",
-                      "name": "crumb",
-                      "fill": "$Gris 1",
-                      "content": "Administración",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "500"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "VwiV8",
-                      "name": "chevron",
-                      "width": 12,
-                      "height": 12,
-                      "icon": "chevron-right",
-                      "library": "feather",
-                      "fill": "$Gris 2"
-                    },
                     {
                       "type": "text",
                       "id": "u9xx8",
@@ -10453,7 +10413,7 @@
     {
       "type": "frame",
       "id": "QH7IF",
-      "x": 581,
+      "x": 631,
       "y": -1857,
       "name": "Iniciar sesión - Mobile",
       "clip": true,
@@ -11386,7 +11346,7 @@
     {
       "type": "frame",
       "id": "pg3BJ",
-      "x": 1033,
+      "x": 1083,
       "y": -1857,
       "name": "Olvidé mi contraseña - Mobile",
       "clip": true,
@@ -11633,7 +11593,7 @@
     {
       "type": "frame",
       "id": "p1JzVO",
-      "x": 1512,
+      "x": 1562,
       "y": -1857,
       "name": "Nueva contraseña - Mobile",
       "clip": true,
