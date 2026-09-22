@@ -4996,6 +4996,48 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "z3QMt",
+                          "name": "c_PrecioField",
+                          "width": 185,
+                          "height": 34,
+                          "fill": "$Blanco",
+                          "cornerRadius": 6,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "JhSEE",
+                              "name": "icon",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "hFlm4",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Caducidad: dd/mmm/aa",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -5177,6 +5219,48 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "hPWTB",
+                          "name": "c_PrecioField",
+                          "width": 185,
+                          "height": 34,
+                          "fill": "$Blanco",
+                          "cornerRadius": 6,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "CJG0T",
+                              "name": "icon",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "pvcY2",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Caducidad: dd/mmm/aa",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -5353,6 +5437,48 @@
                                   "fill": "$Negativo"
                                 }
                               ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "NybOa",
+                          "name": "c_PrecioField",
+                          "width": 185,
+                          "height": 34,
+                          "fill": "$Blanco",
+                          "cornerRadius": 6,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "cJGCj",
+                              "name": "icon",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "GeJnl",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Caducidad: dd/mmm/aa",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -6571,6 +6697,48 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "LE5CF",
+                          "name": "c_PrecioField",
+                          "width": 185,
+                          "height": 34,
+                          "fill": "$Blanco",
+                          "cornerRadius": 6,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "hBHCw",
+                              "name": "icon",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "RGz26",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Caducidad: dd/mmm/aa",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -6752,6 +6920,48 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "a3gHdp",
+                          "name": "c_PrecioField",
+                          "width": 185,
+                          "height": 34,
+                          "fill": "$Blanco",
+                          "cornerRadius": 6,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "DxPP1",
+                              "name": "icon",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "I2RJtw",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Caducidad: dd/mmm/aa",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -6928,6 +7138,48 @@
                                   "fill": "$Negativo"
                                 }
                               ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aw7Vf",
+                          "name": "c_PrecioField",
+                          "width": 185,
+                          "height": 34,
+                          "fill": "$Blanco",
+                          "cornerRadius": 6,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "WcV9g",
+                              "name": "icon",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "oakOv",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Caducidad: dd/mmm/aa",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -8326,6 +8578,48 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "QQu8Z",
+                          "name": "c_PrecioField",
+                          "width": 185,
+                          "height": 34,
+                          "fill": "$Blanco",
+                          "cornerRadius": 6,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "HqWSZ",
+                              "name": "icon",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "P5S5Z",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Caducidad: dd/mmm/aa",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -8507,6 +8801,48 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "KoNBC",
+                          "name": "c_PrecioField",
+                          "width": 185,
+                          "height": 34,
+                          "fill": "$Blanco",
+                          "cornerRadius": 6,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "GBncT",
+                              "name": "icon",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "JsTNl",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Caducidad: dd/mmm/aa",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -8683,6 +9019,48 @@
                                   "fill": "$Negativo"
                                 }
                               ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xAdv7",
+                          "name": "c_PrecioField",
+                          "width": 185,
+                          "height": 34,
+                          "fill": "$Blanco",
+                          "cornerRadius": 6,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "SNe4m",
+                              "name": "icon",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "BotWM",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Caducidad: dd/mmm/aa",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -13828,6 +14206,48 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nAdjJ",
+                          "name": "c_PrecioField",
+                          "width": 185,
+                          "height": 34,
+                          "fill": "$Blanco",
+                          "cornerRadius": 6,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "v1PPw",
+                              "name": "icon",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "FpmFo",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Caducidad: dd/mmm/aa",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -14009,6 +14429,48 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "b7LeHF",
+                          "name": "c_PrecioField",
+                          "width": 185,
+                          "height": 34,
+                          "fill": "$Blanco",
+                          "cornerRadius": 6,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "ICFao",
+                              "name": "icon",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "AZMje",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Caducidad: dd/mmm/aa",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -14187,6 +14649,327 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ysfnC",
+                          "name": "c_PrecioField",
+                          "width": 185,
+                          "height": 34,
+                          "fill": "$Blanco",
+                          "cornerRadius": 6,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "SgbXo",
+                              "name": "icon",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "NK2NT",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Caducidad: dd/mmm/aa",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kDBCn",
+                      "name": "ResumenSection",
+                      "width": "fill_container",
+                      "fill": "$Gris 3",
+                      "cornerRadius": 8,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "QLqpg",
+                          "name": "resRow1",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "z61bL",
+                              "name": "importeField",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 5,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "vGYWF",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "content": "Importe de factura *",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "pYTh1",
+                                  "name": "field",
+                                  "width": "fill_container",
+                                  "height": 40,
+                                  "fill": "$Blanco",
+                                  "cornerRadius": 8,
+                                  "stroke": "$Gris 2",
+                                  "strokeWidth": 1,
+                                  "strokeAlignment": "inner",
+                                  "gap": 6,
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "iGd07",
+                                      "name": "currency",
+                                      "fill": "$Negro",
+                                      "content": "$ 67,450.00",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 14,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "YyBP2",
+                              "name": "totalCalculadoField",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 5,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "gRNs5",
+                                  "name": "label",
+                                  "fill": "$Gris 1",
+                                  "content": "Total calculado (renglones)",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "ugyhr",
+                                  "name": "field",
+                                  "width": "fill_container",
+                                  "height": 40,
+                                  "fill": "$Gris 3",
+                                  "cornerRadius": 8,
+                                  "stroke": "$Gris 2",
+                                  "strokeWidth": 1,
+                                  "strokeAlignment": "inner",
+                                  "gap": 6,
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "ZUH0r",
+                                      "name": "currency",
+                                      "fill": "$Gris 1",
+                                      "content": "$ 67,200.00",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 14,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "C13Tw",
+                          "name": "ImporteWarning",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "igbKd",
+                              "name": "warnIcon",
+                              "width": 15,
+                              "height": 15,
+                              "icon": "alert-triangle",
+                              "library": "feather",
+                              "fill": "#b45309"
+                            },
+                            {
+                              "type": "text",
+                              "id": "yge9U",
+                              "name": "warnText",
+                              "fill": "#b45309",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "El total de los renglones ($67,200.00) no coincide con el Importe de factura ($67,450.00). Diferencia: $250.00. Puedes guardar de todas formas si la factura física indica este importe.",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DRHLP",
+                          "layoutPosition": "absolute",
+                          "x": 0,
+                          "y": 34,
+                          "name": "productoDropdown",
+                          "clip": true,
+                          "width": 592,
+                          "fill": "$Blanco",
+                          "cornerRadius": 10,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#00000026",
+                            "offset": {
+                              "x": 0,
+                              "y": 6
+                            },
+                            "blur": 16
+                          },
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Jc4rZ",
+                              "name": "noMatchRow",
+                              "width": "fill_container",
+                              "padding": [
+                                12,
+                                14
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "QS6Er",
+                                  "name": "text",
+                                  "fill": "$Gris 1",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "No se encontraron productos para “Sulfato de Amonio Granulado” en el catálogo.",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "kIgB5",
+                              "name": "createOption",
+                              "width": "fill_container",
+                              "fill": "$Hover 3",
+                              "stroke": "$Gris 3",
+                              "strokeWidth": {
+                                "top": 1
+                              },
+                              "strokeAlignment": "inner",
+                              "layout": "vertical",
+                              "gap": 10,
+                              "padding": [
+                                12,
+                                14
+                              ],
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "acRj1",
+                                  "name": "headerRow",
+                                  "width": "fill_container",
+                                  "gap": 12,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "OmqGj",
+                                      "name": "icon",
+                                      "width": 20,
+                                      "height": 20,
+                                      "icon": "plus-circle",
+                                      "library": "feather",
+                                      "fill": "$Color Primario"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "l9G8Bt",
+                                      "name": "textCol",
+                                      "width": "fill_container",
+                                      "layout": "vertical",
+                                      "gap": 2,
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "VIBjl",
+                                          "name": "title",
+                                          "fill": "$Hover 1",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Crear producto nuevo: “Sulfato de Amonio Granulado”",
+                                          "fontFamily": "$Font Secundaria",
+                                          "fontSize": 13,
+                                          "fontWeight": "700"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "Qlfid",
+                                          "name": "caption",
+                                          "fill": "$Gris 1",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Se dará de alta automáticamente en el catálogo.",
+                                          "fontFamily": "$Font Secundaria",
+                                          "fontSize": 11,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
                         }
                       ]
                     }
@@ -14218,159 +15001,6 @@
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 13,
                       "fontWeight": "600"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "kDBCn",
-              "name": "ResumenSection",
-              "width": "fill_container",
-              "fill": "$Gris 3",
-              "cornerRadius": 8,
-              "layout": "vertical",
-              "gap": 10,
-              "padding": 14,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "QLqpg",
-                  "name": "resRow1",
-                  "width": "fill_container",
-                  "gap": 16,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "z61bL",
-                      "name": "importeField",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 5,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "vGYWF",
-                          "name": "label",
-                          "fill": "$Negro",
-                          "content": "Importe de factura *",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "600"
-                        },
-                        {
-                          "type": "frame",
-                          "id": "pYTh1",
-                          "name": "field",
-                          "width": "fill_container",
-                          "height": 40,
-                          "fill": "$Blanco",
-                          "cornerRadius": 8,
-                          "stroke": "$Gris 2",
-                          "strokeWidth": 1,
-                          "strokeAlignment": "inner",
-                          "gap": 6,
-                          "padding": [
-                            0,
-                            14
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "iGd07",
-                              "name": "currency",
-                              "fill": "$Negro",
-                              "content": "$ 67,450.00",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 14,
-                              "fontWeight": "600"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "YyBP2",
-                      "name": "totalCalculadoField",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 5,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "gRNs5",
-                          "name": "label",
-                          "fill": "$Gris 1",
-                          "content": "Total calculado (renglones)",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "600"
-                        },
-                        {
-                          "type": "frame",
-                          "id": "ugyhr",
-                          "name": "field",
-                          "width": "fill_container",
-                          "height": 40,
-                          "fill": "$Gris 3",
-                          "cornerRadius": 8,
-                          "stroke": "$Gris 2",
-                          "strokeWidth": 1,
-                          "strokeAlignment": "inner",
-                          "gap": 6,
-                          "padding": [
-                            0,
-                            14
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "ZUH0r",
-                              "name": "currency",
-                              "fill": "$Gris 1",
-                              "content": "$ 67,200.00",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 14,
-                              "fontWeight": "600"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "C13Tw",
-                  "name": "ImporteWarning",
-                  "width": "fill_container",
-                  "gap": 8,
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "igbKd",
-                      "name": "warnIcon",
-                      "width": 15,
-                      "height": 15,
-                      "icon": "alert-triangle",
-                      "library": "feather",
-                      "fill": "#b45309"
-                    },
-                    {
-                      "type": "text",
-                      "id": "yge9U",
-                      "name": "warnText",
-                      "fill": "#b45309",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "El total de los renglones ($67,200.00) no coincide con el Importe de factura ($67,450.00). Diferencia: $250.00. Puedes guardar de todas formas si la factura física indica este importe.",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -14505,132 +15135,6 @@
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "500"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "DRHLP",
-              "layoutPosition": "absolute",
-              "x": 24,
-              "y": 515,
-              "name": "productoDropdown",
-              "clip": true,
-              "width": 592,
-              "fill": "$Blanco",
-              "cornerRadius": 10,
-              "stroke": "$Gris 2",
-              "strokeWidth": 1,
-              "strokeAlignment": "inner",
-              "effect": {
-                "type": "shadow",
-                "shadowType": "outer",
-                "color": "#00000026",
-                "offset": {
-                  "x": 0,
-                  "y": 6
-                },
-                "blur": 16
-              },
-              "layout": "vertical",
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "Jc4rZ",
-                  "name": "noMatchRow",
-                  "width": "fill_container",
-                  "padding": [
-                    12,
-                    14
-                  ],
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "QS6Er",
-                      "name": "text",
-                      "fill": "$Gris 1",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "No se encontraron productos para “Sulfato de Amonio Granulado” en el catálogo.",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "kIgB5",
-                  "name": "createOption",
-                  "width": "fill_container",
-                  "fill": "$Hover 3",
-                  "stroke": "$Gris 3",
-                  "strokeWidth": {
-                    "top": 1
-                  },
-                  "strokeAlignment": "inner",
-                  "layout": "vertical",
-                  "gap": 10,
-                  "padding": [
-                    12,
-                    14
-                  ],
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "acRj1",
-                      "name": "headerRow",
-                      "width": "fill_container",
-                      "gap": 12,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "OmqGj",
-                          "name": "icon",
-                          "width": 20,
-                          "height": 20,
-                          "icon": "plus-circle",
-                          "library": "feather",
-                          "fill": "$Color Primario"
-                        },
-                        {
-                          "type": "frame",
-                          "id": "l9G8Bt",
-                          "name": "textCol",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 2,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "VIBjl",
-                              "name": "title",
-                              "fill": "$Hover 1",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Crear producto nuevo: “Sulfato de Amonio Granulado”",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 13,
-                              "fontWeight": "700"
-                            },
-                            {
-                              "type": "text",
-                              "id": "Qlfid",
-                              "name": "caption",
-                              "fill": "$Gris 1",
-                              "textGrowth": "fixed-width",
-                              "width": "fill_container",
-                              "content": "Se dará de alta automáticamente en el catálogo.",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 11,
-                              "fontWeight": "normal"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -15412,6 +15916,48 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "FXpP6",
+                          "name": "c_PrecioField",
+                          "width": 185,
+                          "height": 34,
+                          "fill": "$Blanco",
+                          "cornerRadius": 6,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "L3XNpL",
+                              "name": "icon",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "SC81q",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Caducidad: dd/mmm/aa",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -15591,6 +16137,48 @@
                                   "fill": "$Negativo"
                                 }
                               ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "v09vkg",
+                          "name": "c_PrecioField",
+                          "width": 185,
+                          "height": 34,
+                          "fill": "$Blanco",
+                          "cornerRadius": 6,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "jkbm5",
+                              "name": "icon",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "WShKa",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Caducidad: dd/mmm/aa",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -15808,6 +16396,48 @@
                                   "fontWeight": "500"
                                 }
                               ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "w32j8w",
+                          "name": "c_PrecioField",
+                          "width": 185,
+                          "height": 34,
+                          "fill": "$Blanco",
+                          "cornerRadius": 6,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "i2Ypdw",
+                              "name": "icon",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "yHQHv",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Caducidad: dd/mmm/aa",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -70417,6 +71047,48 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zafZB",
+                          "name": "c_PrecioField",
+                          "width": 185,
+                          "height": 34,
+                          "fill": "$Blanco",
+                          "cornerRadius": 6,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "H5PMlD",
+                              "name": "icon",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "OZE5K",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Caducidad: dd/mmm/aa",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -70598,6 +71270,48 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "QMU6k",
+                          "name": "c_PrecioField",
+                          "width": 185,
+                          "height": 34,
+                          "fill": "$Blanco",
+                          "cornerRadius": 6,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "GE6wU",
+                              "name": "icon",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "GIh9F",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Caducidad: dd/mmm/aa",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -70774,6 +71488,48 @@
                                   "fill": "$Negativo"
                                 }
                               ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "pU9ji",
+                          "name": "c_PrecioField",
+                          "width": 185,
+                          "height": 34,
+                          "fill": "$Blanco",
+                          "cornerRadius": 6,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "rgh2z",
+                              "name": "icon",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Lxvij",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Caducidad: dd/mmm/aa",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
