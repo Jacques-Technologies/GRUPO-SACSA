@@ -52,7 +52,7 @@
           "children": [
             {
               "type": "frame",
-              "id": "WgBjz",
+              "id": "k4oj9",
               "name": "logoRow",
               "width": "fill_container",
               "padding": [
@@ -61,17 +61,17 @@
               ],
               "children": [
                 {
-                  "type": "text",
-                  "id": "ZkcYH",
-                  "name": "logo",
-                  "fill": "$Blanco",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Sistema Inventarios de Lotes",
-                  "textAlign": "center",
-                  "fontFamily": "$Font Primaria",
-                  "fontSize": 16,
-                  "fontWeight": "700"
+                  "type": "rectangle",
+                  "cornerRadius": 5,
+                  "id": "niBN8",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
+                    "mode": "fill"
+                  },
+                  "width": 184,
+                  "height": 125
                 }
               ]
             },
@@ -260,16 +260,6 @@
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "P2g8t",
-                      "name": "navIcon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "feather",
-                      "fill": "$Gris 2"
                     },
                     {
                       "type": "rectangle",
@@ -675,6 +665,61 @@
                     {
                       "type": "rectangle",
                       "id": "J53R9",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "S3VkfD",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Yucsu",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "user-cog",
+                      "library": "lucide",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "W1sRp",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Usuarios",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "Nt0vM",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -3103,7 +3148,7 @@
                       "type": "frame",
                       "id": "f1c2X8",
                       "name": "btnBitacora",
-                      "height": 52,
+                      "height": "fill_container",
                       "fill": "$Blanco",
                       "cornerRadius": 8,
                       "stroke": "$Color Primario",
@@ -3141,38 +3186,41 @@
                     },
                     {
                       "type": "frame",
-                      "id": "sGTk8",
-                      "name": "btnExportar",
-                      "height": 52,
-                      "fill": "$Color Primario",
+                      "id": "Q4m2TM",
+                      "name": "btn_Exportar Excel",
+                      "height": 42,
+                      "fill": "$Blanco",
                       "cornerRadius": 8,
-                      "gap": 10,
+                      "stroke": "$Gris 2",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 8,
                       "padding": [
                         0,
-                        22
+                        16
                       ],
                       "justifyContent": "center",
                       "alignItems": "center",
                       "children": [
                         {
                           "type": "icon",
-                          "id": "PdWZH",
+                          "id": "sBiyp",
                           "name": "icon",
-                          "width": 17,
-                          "height": 17,
+                          "width": 16,
+                          "height": 16,
                           "icon": "download",
                           "library": "feather",
-                          "fill": "$Blanco"
+                          "fill": "$Negro"
                         },
                         {
                           "type": "text",
-                          "id": "sFDV5",
-                          "name": "label",
-                          "fill": "$Blanco",
-                          "content": "Exportar reporte",
+                          "id": "c2w82",
+                          "name": "t",
+                          "fill": "$Negro",
+                          "content": "Descargar",
                           "fontFamily": "$Font Secundaria",
-                          "fontSize": 15,
-                          "fontWeight": "700"
+                          "fontSize": 14,
+                          "fontWeight": "500"
                         }
                       ]
                     }
@@ -6017,7 +6065,7 @@
       "name": "Registro de costos · Maquinaria",
       "clip": true,
       "width": 1440,
-      "height": 1050,
+      "height": 1120,
       "fill": "$Blanco",
       "children": [
         {
@@ -6038,7 +6086,7 @@
           "children": [
             {
               "type": "frame",
-              "id": "eLjFf",
+              "id": "iXxlQ",
               "name": "logoRow",
               "width": "fill_container",
               "padding": [
@@ -6047,17 +6095,17 @@
               ],
               "children": [
                 {
-                  "type": "text",
-                  "id": "FYNDV",
-                  "name": "logo",
-                  "fill": "$Blanco",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Sistema Inventarios de Lotes",
-                  "textAlign": "center",
-                  "fontFamily": "$Font Primaria",
-                  "fontSize": 16,
-                  "fontWeight": "700"
+                  "type": "rectangle",
+                  "cornerRadius": 5,
+                  "id": "yRB4h",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
+                    "mode": "fill"
+                  },
+                  "width": 184,
+                  "height": 125
                 }
               ]
             },
@@ -6246,16 +6294,6 @@
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "cViMd",
-                      "name": "navIcon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "feather",
-                      "fill": "$Gris 2"
                     },
                     {
                       "type": "rectangle",
@@ -6661,6 +6699,61 @@
                     {
                       "type": "rectangle",
                       "id": "nRjyH",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DSsPu",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "jZuTY",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "user-cog",
+                      "library": "lucide",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wMuki",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Usuarios",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "XqQJg",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -7375,7 +7468,7 @@
                                       "fill": "$Gris 1",
                                       "textGrowth": "fixed-width",
                                       "width": "fill_container",
-                                      "content": "Folio, máquina o concepto",
+                                      "content": "Folio o concepto",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 13,
                                       "fontWeight": "normal"
@@ -9522,6 +9615,76 @@
                               "fill": "$Negro"
                             }
                           ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "n8gUh",
+              "name": "FooterBar",
+              "width": "fill_container",
+              "height": 76,
+              "fill": "$Blanco",
+              "stroke": "$Gris 3",
+              "strokeWidth": {
+                "top": 1
+              },
+              "strokeAlignment": "inner",
+              "padding": [
+                0,
+                40
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VjUJT",
+                  "name": "actions",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Tnkbh",
+                      "name": "btn_Exportar Excel",
+                      "height": 42,
+                      "fill": "$Blanco",
+                      "cornerRadius": 8,
+                      "stroke": "$Gris 2",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "yKSEV",
+                          "name": "icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "download",
+                          "library": "feather",
+                          "fill": "$Negro"
+                        },
+                        {
+                          "type": "text",
+                          "id": "U8Zwx",
+                          "name": "t",
+                          "fill": "$Negro",
+                          "content": "Descargar",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "500"
                         }
                       ]
                     }
@@ -13194,7 +13357,7 @@
       "name": "Registro de costos · Costos indirectos",
       "clip": true,
       "width": 1440,
-      "height": 1050,
+      "height": 1090,
       "fill": "$Blanco",
       "children": [
         {
@@ -13215,7 +13378,7 @@
           "children": [
             {
               "type": "frame",
-              "id": "tpfuc",
+              "id": "qAkyz",
               "name": "logoRow",
               "width": "fill_container",
               "padding": [
@@ -13224,17 +13387,17 @@
               ],
               "children": [
                 {
-                  "type": "text",
-                  "id": "Vjz0y",
-                  "name": "logo",
-                  "fill": "$Blanco",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Sistema Inventarios de Lotes",
-                  "textAlign": "center",
-                  "fontFamily": "$Font Primaria",
-                  "fontSize": 16,
-                  "fontWeight": "700"
+                  "type": "rectangle",
+                  "cornerRadius": 5,
+                  "id": "BAw1D",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
+                    "mode": "fill"
+                  },
+                  "width": 184,
+                  "height": 125
                 }
               ]
             },
@@ -13423,16 +13586,6 @@
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "Oyeud",
-                      "name": "navIcon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "feather",
-                      "fill": "$Gris 2"
                     },
                     {
                       "type": "rectangle",
@@ -13838,6 +13991,61 @@
                     {
                       "type": "rectangle",
                       "id": "MVs0q",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "e0shve",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "x7tLeR",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "user-cog",
+                      "library": "lucide",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lmI69",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Usuarios",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "JGOmB",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -14444,43 +14652,6 @@
                               ]
                             }
                           ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "jhzas",
-                          "name": "btnConsultar",
-                          "height": 40,
-                          "fill": "$Hover 1",
-                          "cornerRadius": 8,
-                          "gap": 8,
-                          "padding": [
-                            0,
-                            20
-                          ],
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "ZrXNd",
-                              "name": "icon",
-                              "width": 15,
-                              "height": 15,
-                              "icon": "search",
-                              "library": "feather",
-                              "fill": "$Blanco"
-                            },
-                            {
-                              "type": "text",
-                              "id": "V7Dnqw",
-                              "name": "label",
-                              "fill": "$Blanco",
-                              "content": "Consultar",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 14,
-                              "fontWeight": "700"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -14783,54 +14954,6 @@
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "500"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "byArk",
-                          "name": "actions",
-                          "gap": 10,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "A7tG0",
-                              "name": "btnExportar",
-                              "height": 32,
-                              "cornerRadius": 6,
-                              "stroke": "$Gris 2",
-                              "strokeWidth": 1,
-                              "strokeAlignment": "inner",
-                              "gap": 6,
-                              "padding": [
-                                0,
-                                12
-                              ],
-                              "justifyContent": "center",
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "icon",
-                                  "id": "TlZCG",
-                                  "name": "icon",
-                                  "width": 13,
-                                  "height": 13,
-                                  "icon": "download",
-                                  "library": "feather",
-                                  "fill": "$Gris 1"
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "SWhyK",
-                                  "name": "label",
-                                  "fill": "$Negro",
-                                  "content": "Exportar",
-                                  "fontFamily": "$Font Secundaria",
-                                  "fontSize": 12,
-                                  "fontWeight": "600"
-                                }
-                              ]
                             }
                           ]
                         }
@@ -16661,6 +16784,76 @@
                               "fill": "$Negro"
                             }
                           ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ATMdd",
+              "name": "FooterBar",
+              "width": "fill_container",
+              "height": 76,
+              "fill": "$Blanco",
+              "stroke": "$Gris 3",
+              "strokeWidth": {
+                "top": 1
+              },
+              "strokeAlignment": "inner",
+              "padding": [
+                0,
+                40
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "IwUA0",
+                  "name": "actions",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "nUIYR",
+                      "name": "btn_Exportar Excel",
+                      "height": 42,
+                      "fill": "$Blanco",
+                      "cornerRadius": 8,
+                      "stroke": "$Gris 2",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "mH4jP",
+                          "name": "icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "download",
+                          "library": "feather",
+                          "fill": "$Negro"
+                        },
+                        {
+                          "type": "text",
+                          "id": "t3CSsp",
+                          "name": "t",
+                          "fill": "$Negro",
+                          "content": "Descargar",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "500"
                         }
                       ]
                     }
@@ -25141,7 +25334,7 @@
       "name": "Registro de costos · Agua",
       "clip": true,
       "width": 1440,
-      "height": 1050,
+      "height": 1090,
       "fill": "$Blanco",
       "children": [
         {
@@ -25162,7 +25355,7 @@
           "children": [
             {
               "type": "frame",
-              "id": "z0Sn4",
+              "id": "T4oJl",
               "name": "logoRow",
               "width": "fill_container",
               "padding": [
@@ -25171,17 +25364,17 @@
               ],
               "children": [
                 {
-                  "type": "text",
-                  "id": "JEQSL",
-                  "name": "logo",
-                  "fill": "$Blanco",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Sistema Inventarios de Lotes",
-                  "textAlign": "center",
-                  "fontFamily": "$Font Primaria",
-                  "fontSize": 16,
-                  "fontWeight": "700"
+                  "type": "rectangle",
+                  "cornerRadius": 5,
+                  "id": "ThcbB",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
+                    "mode": "fill"
+                  },
+                  "width": 184,
+                  "height": 125
                 }
               ]
             },
@@ -25370,16 +25563,6 @@
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "vZbCE",
-                      "name": "navIcon",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "feather",
-                      "fill": "$Gris 2"
                     },
                     {
                       "type": "rectangle",
@@ -25785,6 +25968,61 @@
                     {
                       "type": "rectangle",
                       "id": "GpUi0",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "s7vofE",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Kkhe9",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "user-cog",
+                      "library": "lucide",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jGLEl",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Usuarios",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "pk6dM",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -26391,43 +26629,6 @@
                               ]
                             }
                           ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "i9Oo72",
-                          "name": "btnConsultar",
-                          "height": 40,
-                          "fill": "$Hover 1",
-                          "cornerRadius": 8,
-                          "gap": 8,
-                          "padding": [
-                            0,
-                            20
-                          ],
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "R87tgn",
-                              "name": "icon",
-                              "width": 15,
-                              "height": 15,
-                              "icon": "search",
-                              "library": "feather",
-                              "fill": "$Blanco"
-                            },
-                            {
-                              "type": "text",
-                              "id": "CNcvP",
-                              "name": "label",
-                              "fill": "$Blanco",
-                              "content": "Consultar",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 14,
-                              "fontWeight": "700"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -26730,54 +26931,6 @@
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "500"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "kWo6p",
-                          "name": "actions",
-                          "gap": 10,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "yI1qJ",
-                              "name": "btnExportar",
-                              "height": 32,
-                              "cornerRadius": 6,
-                              "stroke": "$Gris 2",
-                              "strokeWidth": 1,
-                              "strokeAlignment": "inner",
-                              "gap": 6,
-                              "padding": [
-                                0,
-                                12
-                              ],
-                              "justifyContent": "center",
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "icon",
-                                  "id": "nu8bk",
-                                  "name": "icon",
-                                  "width": 13,
-                                  "height": 13,
-                                  "icon": "download",
-                                  "library": "feather",
-                                  "fill": "$Gris 1"
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "c9EqxN",
-                                  "name": "label",
-                                  "fill": "$Negro",
-                                  "content": "Exportar",
-                                  "fontFamily": "$Font Secundaria",
-                                  "fontSize": 12,
-                                  "fontWeight": "600"
-                                }
-                              ]
                             }
                           ]
                         }
@@ -28677,6 +28830,76 @@
                               "fill": "$Negro"
                             }
                           ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wbMWP",
+              "name": "FooterBar",
+              "width": "fill_container",
+              "height": 76,
+              "fill": "$Blanco",
+              "stroke": "$Gris 3",
+              "strokeWidth": {
+                "top": 1
+              },
+              "strokeAlignment": "inner",
+              "padding": [
+                0,
+                40
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vPyix",
+                  "name": "actions",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "hUj0O",
+                      "name": "btn_Exportar Excel",
+                      "height": 42,
+                      "fill": "$Blanco",
+                      "cornerRadius": 8,
+                      "stroke": "$Gris 2",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "edtmC",
+                          "name": "icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "download",
+                          "library": "feather",
+                          "fill": "$Negro"
+                        },
+                        {
+                          "type": "text",
+                          "id": "StCoe",
+                          "name": "t",
+                          "fill": "$Negro",
+                          "content": "Descargar",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "500"
                         }
                       ]
                     }

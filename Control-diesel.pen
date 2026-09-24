@@ -30,7 +30,7 @@
           "children": [
             {
               "type": "frame",
-              "id": "PDYWH",
+              "id": "kAXCE",
               "name": "logoRow",
               "width": "fill_container",
               "padding": [
@@ -39,17 +39,17 @@
               ],
               "children": [
                 {
-                  "type": "text",
-                  "id": "ewg5f",
-                  "name": "logo",
-                  "fill": "$Blanco",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Sistema Control de Diésel",
-                  "textAlign": "center",
-                  "fontFamily": "$Font Primaria",
-                  "fontSize": 16,
-                  "fontWeight": "700"
+                  "type": "rectangle",
+                  "cornerRadius": 5,
+                  "id": "h5TmGQ",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
+                    "mode": "fill"
+                  },
+                  "width": 184,
+                  "height": 125
                 }
               ]
             },
@@ -174,16 +174,6 @@
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "hAhnk",
-                      "name": "navChevron",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "feather",
-                      "fill": "$Gris 2"
                     }
                   ]
                 },
@@ -408,6 +398,61 @@
                     {
                       "type": "rectangle",
                       "id": "CReKs",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "I9chzO",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "lwhoc",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "user-cog",
+                      "library": "lucide",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LXNGs",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Usuarios",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "x4w9PN",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -3394,425 +3439,119 @@
       "fill": "$Blanco",
       "children": [
         {
-          "type": "group",
-          "id": "wBoeI",
+          "type": "frame",
+          "id": "lhNyc",
+          "name": "Sidebar Modulos",
+          "width": 240,
           "height": "fill_container",
+          "fill": "$Hover 1",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            28,
+            0,
+            20,
+            0
+          ],
           "children": [
             {
               "type": "frame",
-              "id": "ahGPt",
-              "x": 0,
-              "y": 0,
-              "name": "Sidebar Modulos",
-              "width": 240,
-              "height": "fill_container(1462)",
-              "fill": "$Hover 1",
-              "layout": "vertical",
-              "gap": 32,
+              "id": "A7G7a",
+              "name": "logoRow",
+              "width": "fill_container",
               "padding": [
-                28,
                 0,
-                20,
-                0
+                28
               ],
               "children": [
                 {
+                  "type": "rectangle",
+                  "cornerRadius": 5,
+                  "id": "hQT46",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
+                    "mode": "fill"
+                  },
+                  "width": 184,
+                  "height": 125
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wjP0l",
+              "name": "navList",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 2,
+              "children": [
+                {
                   "type": "frame",
-                  "id": "Q9b3Ik",
-                  "name": "logoRow",
+                  "id": "HxdVa",
+                  "name": "navItem Almacén",
                   "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "gap": 12,
                   "padding": [
                     0,
-                    28
+                    24
                   ],
+                  "alignItems": "center",
                   "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "kHrP3",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    },
+                    {
+                      "type": "icon",
+                      "id": "Khqal",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "box",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
                     {
                       "type": "text",
-                      "id": "SQWoH",
-                      "name": "logo",
-                      "fill": "$Blanco",
+                      "id": "IxAWn",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Sistema Control de Diésel",
-                      "textAlign": "center",
-                      "fontFamily": "$Font Primaria",
-                      "fontSize": 16,
-                      "fontWeight": "700"
+                      "content": "Almacén",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "TKLpl",
+                      "name": "navChevron",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
                     }
                   ]
                 },
                 {
                   "type": "frame",
-                  "id": "OG4tJ",
-                  "name": "navList",
-                  "width": "fill_container",
-                  "height": "fill_container",
-                  "layout": "vertical",
-                  "gap": 2,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "KdSh4",
-                      "name": "navItem Almacén",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "id": "Br3V4",
-                          "layoutPosition": "absolute",
-                          "x": 0,
-                          "y": 0,
-                          "name": "activeIndicator",
-                          "enabled": false,
-                          "fill": "$Color Secundario",
-                          "width": 3,
-                          "height": 44
-                        },
-                        {
-                          "type": "icon",
-                          "id": "q8nhNy",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "box",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "Ug9Su",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Almacén",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "icon",
-                          "id": "IYGnM",
-                          "name": "navChevron",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "chevron-down",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "ilb6r",
-                      "name": "navItem Lotes",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "stroke": "#0a3d14",
-                      "strokeWidth": {
-                        "top": 1
-                      },
-                      "strokeAlignment": "inner",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "id": "X5TFcx",
-                          "layoutPosition": "absolute",
-                          "x": 0,
-                          "y": 0,
-                          "name": "activeIndicator",
-                          "enabled": false,
-                          "fill": "$Color Secundario",
-                          "width": 3,
-                          "height": 44
-                        },
-                        {
-                          "type": "icon",
-                          "id": "h0RcA",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "grid",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "xSzu1",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Lotes",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "icon",
-                          "id": "QzwRf",
-                          "name": "navChevron",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "chevron-down",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "L5epC",
-                      "name": "navItem Registro de costos",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "stroke": "#0a3d14",
-                      "strokeWidth": {
-                        "top": 1,
-                        "bottom": 1
-                      },
-                      "strokeAlignment": "inner",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "id": "fIXs8",
-                          "layoutPosition": "absolute",
-                          "x": 0,
-                          "y": 0,
-                          "name": "activeIndicator",
-                          "enabled": false,
-                          "fill": "$Color Secundario",
-                          "width": 3,
-                          "height": 44
-                        },
-                        {
-                          "type": "icon",
-                          "id": "DVaqZ",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "dollar-sign",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "SbWnN",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Registro de costos",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "icon",
-                          "id": "TG4zN",
-                          "name": "navChevron",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "chevron-down",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "F02l8Z",
-                      "name": "navItem Control de diésel",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#0a3d14ff",
-                      "stroke": "#0a3d14",
-                      "strokeWidth": {
-                        "top": 1,
-                        "bottom": 1
-                      },
-                      "strokeAlignment": "inner",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "id": "psi9W",
-                          "layoutPosition": "absolute",
-                          "x": 0,
-                          "y": 0,
-                          "name": "activeIndicator",
-                          "fill": "$Color Secundario",
-                          "width": 3,
-                          "height": 44
-                        },
-                        {
-                          "type": "icon",
-                          "id": "CW9as",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "droplet",
-                          "library": "feather",
-                          "fill": "$Color Secundario"
-                        },
-                        {
-                          "type": "text",
-                          "id": "bS04P",
-                          "name": "navLabel",
-                          "fill": "$Blanco",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Control de diésel",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "AkRuH",
-                      "name": "navItem Trabajadores",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "stroke": "#0a3d14",
-                      "strokeWidth": {
-                        "top": 1,
-                        "bottom": 1
-                      },
-                      "strokeAlignment": "inner",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "id": "rTeUa",
-                          "layoutPosition": "absolute",
-                          "x": 0,
-                          "y": 0,
-                          "name": "activeIndicator",
-                          "enabled": false,
-                          "fill": "$Color Secundario",
-                          "width": 3,
-                          "height": 44
-                        },
-                        {
-                          "type": "icon",
-                          "id": "d3e56o",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "users",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "AZKNP",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Trabajadores",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "g3KtG",
-                      "name": "navItem Mano de Obra",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "stroke": "#0a3d14",
-                      "strokeWidth": {
-                        "bottom": 1
-                      },
-                      "strokeAlignment": "inner",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "O56rN",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "sliders",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "T06m6p",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Listas y parámetros",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "rectangle",
-                          "id": "xEwpi",
-                          "layoutPosition": "absolute",
-                          "x": 0,
-                          "y": 0,
-                          "name": "activeIndicator",
-                          "enabled": false,
-                          "fill": "$Color Secundario",
-                          "width": 3,
-                          "height": 44
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "rVb5e",
-                  "name": "navItem Cerrar sesión",
+                  "id": "E4Q56",
+                  "name": "navItem Lotes",
                   "width": "fill_container",
                   "height": 44,
                   "fill": "#00000000",
@@ -3829,29 +3568,378 @@
                   "alignItems": "center",
                   "children": [
                     {
+                      "type": "rectangle",
+                      "id": "os2La",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    },
+                    {
                       "type": "icon",
-                      "id": "RihwJ",
+                      "id": "W6zHT",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
-                      "icon": "log-out",
+                      "icon": "grid",
                       "library": "feather",
                       "fill": "$Gris 2"
                     },
                     {
                       "type": "text",
-                      "id": "lkoPk",
+                      "id": "K6Ad2s",
                       "name": "navLabel",
                       "fill": "$Gris 2",
-                      "content": "Cerrar sesión",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lotes",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
                     }
                   ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qdpjj",
+                  "name": "navItem Registro de costos",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1,
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "xwqOD",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    },
+                    {
+                      "type": "icon",
+                      "id": "j9D6Q",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "dollar-sign",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dsHjP",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Registro de costos",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "fXpFa",
+                      "name": "navChevron",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mVjt2",
+                  "name": "navItem Control de diésel",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#0a3d14ff",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1,
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "P11jX",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    },
+                    {
+                      "type": "icon",
+                      "id": "XDQlz",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "droplet",
+                      "library": "feather",
+                      "fill": "$Color Secundario"
+                    },
+                    {
+                      "type": "text",
+                      "id": "u067v4",
+                      "name": "navLabel",
+                      "fill": "$Blanco",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Control de diésel",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "c2Mwg",
+                  "name": "navItem Trabajadores",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1,
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "N6tSUL",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    },
+                    {
+                      "type": "icon",
+                      "id": "Mt5YS",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "users",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ve9W5",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Trabajadores",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yJIhd",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "dNTQj",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "sliders",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OOLxr",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Listas y parámetros",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "izxfl",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XvJdz",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "iW8qJ",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "user-cog",
+                      "library": "lucide",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qrEHP",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Usuarios",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "ZIH68",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
                 }
               ]
             },
+            {
+              "type": "frame",
+              "id": "e133FD",
+              "name": "navItem Cerrar sesión",
+              "width": "fill_container",
+              "height": 44,
+              "fill": "#00000000",
+              "stroke": "#0a3d14",
+              "strokeWidth": {
+                "top": 1
+              },
+              "strokeAlignment": "inner",
+              "gap": 12,
+              "padding": [
+                0,
+                24
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "P39Cmu",
+                  "name": "navIcon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "log-out",
+                  "library": "feather",
+                  "fill": "$Gris 2"
+                },
+                {
+                  "type": "text",
+                  "id": "R3VAdH",
+                  "name": "navLabel",
+                  "fill": "$Gris 2",
+                  "content": "Cerrar sesión",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "wBoeI",
+          "height": "fill_container",
+          "children": [
             {
               "type": "frame",
               "id": "t4uyOo",
@@ -7306,6 +7394,55 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kb1ky",
+                      "name": "actions",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "yUn13",
+                          "name": "btn_Exportar Excel",
+                          "height": 42,
+                          "fill": "$Blanco",
+                          "cornerRadius": 8,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "nxAUG",
+                              "name": "icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "download",
+                              "library": "feather",
+                              "fill": "$Negro"
+                            },
+                            {
+                              "type": "text",
+                              "id": "RzvLf",
+                              "name": "t",
+                              "fill": "$Negro",
+                              "content": "Descargar",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -7327,424 +7464,119 @@
       "fill": "$Blanco",
       "children": [
         {
-          "type": "group",
-          "id": "VaA4a",
+          "type": "frame",
+          "id": "tt8Xi",
+          "name": "Sidebar Modulos",
+          "width": 240,
+          "height": "fill_container",
+          "fill": "$Hover 1",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            28,
+            0,
+            20,
+            0
+          ],
           "children": [
             {
               "type": "frame",
-              "id": "oYlVy",
-              "x": 0,
-              "y": 0,
-              "name": "Sidebar Modulos",
-              "width": 240,
-              "height": "fill_container(1281)",
-              "fill": "$Hover 1",
-              "layout": "vertical",
-              "gap": 32,
+              "id": "ASWVr",
+              "name": "logoRow",
+              "width": "fill_container",
               "padding": [
-                28,
                 0,
-                20,
-                0
+                28
               ],
               "children": [
                 {
+                  "type": "rectangle",
+                  "cornerRadius": 5,
+                  "id": "neFPe",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
+                    "mode": "fill"
+                  },
+                  "width": 184,
+                  "height": 125
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "j0bl7",
+              "name": "navList",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 2,
+              "children": [
+                {
                   "type": "frame",
-                  "id": "htutY",
-                  "name": "logoRow",
+                  "id": "gqi2a",
+                  "name": "navItem Almacén",
                   "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "gap": 12,
                   "padding": [
                     0,
-                    28
+                    24
                   ],
+                  "alignItems": "center",
                   "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "zY3vt",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    },
+                    {
+                      "type": "icon",
+                      "id": "w7tko",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "box",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
                     {
                       "type": "text",
-                      "id": "e2yHVB",
-                      "name": "logo",
-                      "fill": "$Blanco",
+                      "id": "VGBiU",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Sistema Control de Diésel",
-                      "textAlign": "center",
-                      "fontFamily": "$Font Primaria",
-                      "fontSize": 16,
-                      "fontWeight": "700"
+                      "content": "Almacén",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "VNmHC",
+                      "name": "navChevron",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
                     }
                   ]
                 },
                 {
                   "type": "frame",
-                  "id": "wosf4",
-                  "name": "navList",
-                  "width": "fill_container",
-                  "height": "fill_container",
-                  "layout": "vertical",
-                  "gap": 2,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "MrlrI",
-                      "name": "navItem Almacén",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "id": "E7DBpt",
-                          "layoutPosition": "absolute",
-                          "x": 0,
-                          "y": 0,
-                          "name": "activeIndicator",
-                          "enabled": false,
-                          "fill": "$Color Secundario",
-                          "width": 3,
-                          "height": 44
-                        },
-                        {
-                          "type": "icon",
-                          "id": "EJH71",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "box",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "KZwOc",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Almacén",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "icon",
-                          "id": "g5R7U6",
-                          "name": "navChevron",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "chevron-down",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "yWOja",
-                      "name": "navItem Lotes",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "stroke": "#0a3d14",
-                      "strokeWidth": {
-                        "top": 1
-                      },
-                      "strokeAlignment": "inner",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "id": "Y5Gtui",
-                          "layoutPosition": "absolute",
-                          "x": 0,
-                          "y": 0,
-                          "name": "activeIndicator",
-                          "enabled": false,
-                          "fill": "$Color Secundario",
-                          "width": 3,
-                          "height": 44
-                        },
-                        {
-                          "type": "icon",
-                          "id": "TxttS",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "grid",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "K5SO9o",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Lotes",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "icon",
-                          "id": "ddDoC",
-                          "name": "navChevron",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "chevron-down",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "cVdrl",
-                      "name": "navItem Registro de costos",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "stroke": "#0a3d14",
-                      "strokeWidth": {
-                        "top": 1,
-                        "bottom": 1
-                      },
-                      "strokeAlignment": "inner",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "id": "c73lZa",
-                          "layoutPosition": "absolute",
-                          "x": 0,
-                          "y": 0,
-                          "name": "activeIndicator",
-                          "enabled": false,
-                          "fill": "$Color Secundario",
-                          "width": 3,
-                          "height": 44
-                        },
-                        {
-                          "type": "icon",
-                          "id": "XYIUE",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "dollar-sign",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "FVRZg",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Registro de costos",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "icon",
-                          "id": "zD5Ej",
-                          "name": "navChevron",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "chevron-down",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "NA86P",
-                      "name": "navItem Control de diésel",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#0a3d14ff",
-                      "stroke": "#0a3d14",
-                      "strokeWidth": {
-                        "top": 1,
-                        "bottom": 1
-                      },
-                      "strokeAlignment": "inner",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "id": "NtP79",
-                          "layoutPosition": "absolute",
-                          "x": 0,
-                          "y": 0,
-                          "name": "activeIndicator",
-                          "fill": "$Color Secundario",
-                          "width": 3,
-                          "height": 44
-                        },
-                        {
-                          "type": "icon",
-                          "id": "qnSBs",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "droplet",
-                          "library": "feather",
-                          "fill": "$Color Secundario"
-                        },
-                        {
-                          "type": "text",
-                          "id": "VkjBR",
-                          "name": "navLabel",
-                          "fill": "$Blanco",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Control de diésel",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "vZJrK",
-                      "name": "navItem Trabajadores",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "stroke": "#0a3d14",
-                      "strokeWidth": {
-                        "top": 1,
-                        "bottom": 1
-                      },
-                      "strokeAlignment": "inner",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "id": "q6sDA9",
-                          "layoutPosition": "absolute",
-                          "x": 0,
-                          "y": 0,
-                          "name": "activeIndicator",
-                          "enabled": false,
-                          "fill": "$Color Secundario",
-                          "width": 3,
-                          "height": 44
-                        },
-                        {
-                          "type": "icon",
-                          "id": "h2Klig",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "users",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "aC0pX",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Trabajadores",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "HIhWy",
-                      "name": "navItem Mano de Obra",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "stroke": "#0a3d14",
-                      "strokeWidth": {
-                        "bottom": 1
-                      },
-                      "strokeAlignment": "inner",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "viYpk",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "sliders",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "py8yh",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Listas y parámetros",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "rectangle",
-                          "id": "kjL1A",
-                          "layoutPosition": "absolute",
-                          "x": 0,
-                          "y": 0,
-                          "name": "activeIndicator",
-                          "enabled": false,
-                          "fill": "$Color Secundario",
-                          "width": 3,
-                          "height": 44
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "ICtWS",
-                  "name": "navItem Cerrar sesión",
+                  "id": "l0lME3",
+                  "name": "navItem Lotes",
                   "width": "fill_container",
                   "height": 44,
                   "fill": "#00000000",
@@ -7761,29 +7593,377 @@
                   "alignItems": "center",
                   "children": [
                     {
+                      "type": "rectangle",
+                      "id": "qQ1wr",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    },
+                    {
                       "type": "icon",
-                      "id": "N5Epv",
+                      "id": "KRHtv",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
-                      "icon": "log-out",
+                      "icon": "grid",
                       "library": "feather",
                       "fill": "$Gris 2"
                     },
                     {
                       "type": "text",
-                      "id": "QFOkD",
+                      "id": "NalxS",
                       "name": "navLabel",
                       "fill": "$Gris 2",
-                      "content": "Cerrar sesión",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lotes",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
                     }
                   ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wsMy6",
+                  "name": "navItem Registro de costos",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1,
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "e6M2VO",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    },
+                    {
+                      "type": "icon",
+                      "id": "i48ca",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "dollar-sign",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "W0jTQF",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Registro de costos",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "VHQ5X",
+                      "name": "navChevron",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UDJD7",
+                  "name": "navItem Control de diésel",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#0a3d14ff",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1,
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "GgVty",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    },
+                    {
+                      "type": "icon",
+                      "id": "V7NMY2",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "droplet",
+                      "library": "feather",
+                      "fill": "$Color Secundario"
+                    },
+                    {
+                      "type": "text",
+                      "id": "i1Qrk",
+                      "name": "navLabel",
+                      "fill": "$Blanco",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Control de diésel",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jJny0",
+                  "name": "navItem Trabajadores",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1,
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "D0vaf",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    },
+                    {
+                      "type": "icon",
+                      "id": "k22z8",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "users",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "v4XOp",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Trabajadores",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Mvy2i",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "bpOsT",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "sliders",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fkM6F",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Listas y parámetros",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "Gv8sh",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ub1Ft",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "uTU59",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "user-cog",
+                      "library": "lucide",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aKBQc",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Usuarios",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "I6NEha",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
                 }
               ]
             },
+            {
+              "type": "frame",
+              "id": "XZspD",
+              "name": "navItem Cerrar sesión",
+              "width": "fill_container",
+              "height": 44,
+              "fill": "#00000000",
+              "stroke": "#0a3d14",
+              "strokeWidth": {
+                "top": 1
+              },
+              "strokeAlignment": "inner",
+              "gap": 12,
+              "padding": [
+                0,
+                24
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "r8lEXK",
+                  "name": "navIcon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "log-out",
+                  "library": "feather",
+                  "fill": "$Gris 2"
+                },
+                {
+                  "type": "text",
+                  "id": "Wj2ka",
+                  "name": "navLabel",
+                  "fill": "$Gris 2",
+                  "content": "Cerrar sesión",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "VaA4a",
+          "children": [
             {
               "type": "frame",
               "id": "PAelK",
@@ -9469,12 +9649,12 @@
       "name": "Diésel · Detalle de maquinaria (Rendimiento esperado por actividad)",
       "clip": true,
       "width": 1600,
-      "height": 1394,
+      "height": 1185,
       "fill": "$Blanco",
       "children": [
         {
           "type": "frame",
-          "id": "K6fxk",
+          "id": "QvRbR",
           "name": "Sidebar Modulos",
           "width": 240,
           "height": "fill_container",
@@ -9490,7 +9670,7 @@
           "children": [
             {
               "type": "frame",
-              "id": "zyT1v",
+              "id": "dfv5u",
               "name": "logoRow",
               "width": "fill_container",
               "padding": [
@@ -9499,23 +9679,23 @@
               ],
               "children": [
                 {
-                  "type": "text",
-                  "id": "wPzOq",
-                  "name": "logo",
-                  "fill": "$Blanco",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Sistema Control de Diésel",
-                  "textAlign": "center",
-                  "fontFamily": "$Font Primaria",
-                  "fontSize": 16,
-                  "fontWeight": "700"
+                  "type": "rectangle",
+                  "cornerRadius": 5,
+                  "id": "BfyKM",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
+                    "mode": "fill"
+                  },
+                  "width": 184,
+                  "height": 125
                 }
               ]
             },
             {
               "type": "frame",
-              "id": "Pgzdh",
+              "id": "sWecI",
               "name": "navList",
               "width": "fill_container",
               "height": "fill_container",
@@ -9524,7 +9704,7 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "jAGoh",
+                  "id": "EKUJq",
                   "name": "navItem Almacén",
                   "width": "fill_container",
                   "height": 44,
@@ -9538,7 +9718,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "z1Z5eI",
+                      "id": "q5nJOt",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -9550,7 +9730,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "G5QB3",
+                      "id": "t4z0Lq",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -9560,7 +9740,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "LGNOE",
+                      "id": "hFOfw",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -9572,7 +9752,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "RPAGE",
+                      "id": "BE5x8",
                       "name": "navChevron",
                       "width": 18,
                       "height": 18,
@@ -9584,7 +9764,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "OwV1T",
+                  "id": "DcFF1",
                   "name": "navItem Lotes",
                   "width": "fill_container",
                   "height": 44,
@@ -9603,7 +9783,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "xxBId",
+                      "id": "mA0wr",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -9615,7 +9795,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "a7ZD3",
+                      "id": "mswdf",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -9625,7 +9805,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "wxLP0",
+                      "id": "Mhy17",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -9634,22 +9814,12 @@
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "RBSrn",
-                      "name": "navChevron",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "feather",
-                      "fill": "$Gris 2"
                     }
                   ]
                 },
                 {
                   "type": "frame",
-                  "id": "APLT6",
+                  "id": "UXtdd",
                   "name": "navItem Registro de costos",
                   "width": "fill_container",
                   "height": 44,
@@ -9669,7 +9839,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "lqKNt",
+                      "id": "v5OwC",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -9681,7 +9851,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "Q2S2q",
+                      "id": "koC74",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -9691,7 +9861,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "aSMLq",
+                      "id": "VD7qs",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -9703,7 +9873,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "xTwb2",
+                      "id": "q1uMWx",
                       "name": "navChevron",
                       "width": 18,
                       "height": 18,
@@ -9715,7 +9885,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "t69so",
+                  "id": "P0CYkG",
                   "name": "navItem Control de diésel",
                   "width": "fill_container",
                   "height": 44,
@@ -9735,7 +9905,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "Z9YaU",
+                      "id": "rV5p4",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -9746,7 +9916,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "x4Kpl",
+                      "id": "jWYYt",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -9756,7 +9926,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "coR4r",
+                      "id": "HYLhs",
                       "name": "navLabel",
                       "fill": "$Blanco",
                       "textGrowth": "fixed-width",
@@ -9770,7 +9940,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "DruvL",
+                  "id": "m9ZWJ",
                   "name": "navItem Trabajadores",
                   "width": "fill_container",
                   "height": 44,
@@ -9790,7 +9960,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "u7T4I",
+                      "id": "EMrGU",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -9802,7 +9972,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "qcUz7",
+                      "id": "wuXI3",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -9812,7 +9982,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "IOplS",
+                      "id": "WH1r3",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -9826,7 +9996,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "PqdA1",
+                  "id": "ZDnkR",
                   "name": "navItem Mano de Obra",
                   "width": "fill_container",
                   "height": 44,
@@ -9845,7 +10015,7 @@
                   "children": [
                     {
                       "type": "icon",
-                      "id": "u7uDHG",
+                      "id": "pPM5k",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -9855,7 +10025,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "yw7Qu",
+                      "id": "RWfde",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -9867,7 +10037,62 @@
                     },
                     {
                       "type": "rectangle",
-                      "id": "hLLfv",
+                      "id": "dYGb7",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "f7nG3",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "ZyNo5",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "user-cog",
+                      "library": "lucide",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "k4Xkdp",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Usuarios",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "Gvl08",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -9883,7 +10108,7 @@
             },
             {
               "type": "frame",
-              "id": "s3Hj8s",
+              "id": "f9FPO",
               "name": "navItem Cerrar sesión",
               "width": "fill_container",
               "height": 44,
@@ -9902,7 +10127,7 @@
               "children": [
                 {
                   "type": "icon",
-                  "id": "Ngssk",
+                  "id": "navwK",
                   "name": "navIcon",
                   "width": 18,
                   "height": 18,
@@ -9912,7 +10137,7 @@
                 },
                 {
                   "type": "text",
-                  "id": "ySSux",
+                  "id": "jNYIs",
                   "name": "navLabel",
                   "fill": "$Gris 2",
                   "content": "Cerrar sesión",
@@ -10291,9 +10516,10 @@
                                   "id": "B3gFRa",
                                   "name": "modelo",
                                   "fill": "$Gris 1",
-                                  "textGrowth": "fixed-width",
+                                  "textGrowth": "fixed-width-height",
                                   "width": "fill_container",
-                                  "content": "John Deere 6155M · 155 HP · Modelo 2021 · Serie 1L06155MTJK892043",
+                                  "height": 15,
+                                  "content": "John Deere 6155M · Modelo 2021 · Serie 1L06155MTJK892043",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 13,
                                   "fontWeight": "500"
@@ -12840,7 +13066,7 @@
       "children": [
         {
           "type": "frame",
-          "id": "TKytA",
+          "id": "lndlE",
           "name": "Sidebar Modulos",
           "width": 240,
           "height": "fill_container",
@@ -12856,7 +13082,7 @@
           "children": [
             {
               "type": "frame",
-              "id": "qVRht",
+              "id": "GwP6L",
               "name": "logoRow",
               "width": "fill_container",
               "padding": [
@@ -12865,23 +13091,23 @@
               ],
               "children": [
                 {
-                  "type": "text",
-                  "id": "WTxhP",
-                  "name": "logo",
-                  "fill": "$Blanco",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Sistema Control de Diésel",
-                  "textAlign": "center",
-                  "fontFamily": "$Font Primaria",
-                  "fontSize": 16,
-                  "fontWeight": "700"
+                  "type": "rectangle",
+                  "cornerRadius": 5,
+                  "id": "z8Jyz",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
+                    "mode": "fill"
+                  },
+                  "width": 184,
+                  "height": 125
                 }
               ]
             },
             {
               "type": "frame",
-              "id": "sbYmz",
+              "id": "r3dqm",
               "name": "navList",
               "width": "fill_container",
               "height": "fill_container",
@@ -12890,7 +13116,7 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "tjxYq",
+                  "id": "iyvhb",
                   "name": "navItem Almacén",
                   "width": "fill_container",
                   "height": 44,
@@ -12904,7 +13130,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "S0v7jP",
+                      "id": "jZWr4",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -12916,7 +13142,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "P62gHc",
+                      "id": "GpcHQ",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -12926,7 +13152,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "oiphE",
+                      "id": "nlGQv",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -12938,7 +13164,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "xJgUG",
+                      "id": "WsDRk",
                       "name": "navChevron",
                       "width": 18,
                       "height": 18,
@@ -12950,7 +13176,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "ICy9O",
+                  "id": "FsWzc",
                   "name": "navItem Lotes",
                   "width": "fill_container",
                   "height": 44,
@@ -12969,7 +13195,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "z0Tj7",
+                      "id": "H7vVtZ",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -12981,7 +13207,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "RH7GT",
+                      "id": "taAEV",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -12991,7 +13217,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "y9tED9",
+                      "id": "lKY6q",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -13000,22 +13226,12 @@
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "AY1ry",
-                      "name": "navChevron",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "feather",
-                      "fill": "$Gris 2"
                     }
                   ]
                 },
                 {
                   "type": "frame",
-                  "id": "fTf3J",
+                  "id": "sE659",
                   "name": "navItem Registro de costos",
                   "width": "fill_container",
                   "height": 44,
@@ -13035,7 +13251,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "CDrRJ",
+                      "id": "Y9wr70",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -13047,7 +13263,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "J5B5a",
+                      "id": "Ga7gY",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -13057,7 +13273,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "tTE2e",
+                      "id": "LfwP6",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -13069,7 +13285,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "e5TFF",
+                      "id": "c4yJ8C",
                       "name": "navChevron",
                       "width": 18,
                       "height": 18,
@@ -13081,7 +13297,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "rLMwv",
+                  "id": "o70TSp",
                   "name": "navItem Control de diésel",
                   "width": "fill_container",
                   "height": 44,
@@ -13101,7 +13317,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "ZiiUj",
+                      "id": "JEMJd",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -13112,7 +13328,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "p39u3D",
+                      "id": "YOIVy",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -13122,7 +13338,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "fNV8H",
+                      "id": "QxapE",
                       "name": "navLabel",
                       "fill": "$Blanco",
                       "textGrowth": "fixed-width",
@@ -13136,7 +13352,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "IQUfY",
+                  "id": "ksKHF",
                   "name": "navItem Trabajadores",
                   "width": "fill_container",
                   "height": 44,
@@ -13156,7 +13372,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "wDL4S",
+                      "id": "k9J19b",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -13168,7 +13384,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "Gp1uE",
+                      "id": "iwO6F",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -13178,7 +13394,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "JZ9rR",
+                      "id": "MTjRx",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -13192,7 +13408,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "ThpOn",
+                  "id": "RfBsZ",
                   "name": "navItem Mano de Obra",
                   "width": "fill_container",
                   "height": 44,
@@ -13211,7 +13427,7 @@
                   "children": [
                     {
                       "type": "icon",
-                      "id": "kPbXL",
+                      "id": "BqcUK",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -13221,7 +13437,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "lea1G",
+                      "id": "p6lZmF",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -13233,7 +13449,62 @@
                     },
                     {
                       "type": "rectangle",
-                      "id": "xmdvN",
+                      "id": "ASjqC",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "n8lZKp",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "euTpt",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "user-cog",
+                      "library": "lucide",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aZ2jE",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Usuarios",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "l5BKxr",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -13249,7 +13520,7 @@
             },
             {
               "type": "frame",
-              "id": "h7DKT",
+              "id": "AgptC",
               "name": "navItem Cerrar sesión",
               "width": "fill_container",
               "height": 44,
@@ -13268,7 +13539,7 @@
               "children": [
                 {
                   "type": "icon",
-                  "id": "z2pSMB",
+                  "id": "KDJyw",
                   "name": "navIcon",
                   "width": 18,
                   "height": 18,
@@ -13278,7 +13549,7 @@
                 },
                 {
                   "type": "text",
-                  "id": "IEpZe",
+                  "id": "Ith6z",
                   "name": "navLabel",
                   "fill": "$Gris 2",
                   "content": "Cerrar sesión",
@@ -13659,7 +13930,7 @@
                                   "fill": "$Gris 1",
                                   "textGrowth": "fixed-width",
                                   "width": "fill_container",
-                                  "content": "John Deere 6155M · 155 HP · Modelo 2021 · Serie 1L06155MTJK892043",
+                                  "content": "John Deere 6155M · Modelo 2021 · Serie 1L06155MTJK892043",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 13,
                                   "fontWeight": "500"
@@ -15867,6 +16138,7 @@
               "width": "fill_container",
               "gap": 6,
               "padding": 20,
+              "justifyContent": "space_between",
               "alignItems": "center",
               "children": [
                 {
@@ -15964,6 +16236,55 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "frame",
+                  "id": "D4CZS",
+                  "name": "actions",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "L6kfo",
+                      "name": "btn_Exportar Excel",
+                      "height": 42,
+                      "fill": "$Blanco",
+                      "cornerRadius": 8,
+                      "stroke": "$Gris 2",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "CbGmQ",
+                          "name": "icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "download",
+                          "library": "feather",
+                          "fill": "$Negro"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Gv9zr",
+                          "name": "t",
+                          "fill": "$Negro",
+                          "content": "Descargar",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -15984,7 +16305,7 @@
       "children": [
         {
           "type": "frame",
-          "id": "fBjpr",
+          "id": "IHZRS",
           "name": "Sidebar Modulos",
           "width": 240,
           "height": "fill_container",
@@ -16000,7 +16321,7 @@
           "children": [
             {
               "type": "frame",
-              "id": "Fio1A",
+              "id": "vISR1",
               "name": "logoRow",
               "width": "fill_container",
               "padding": [
@@ -16009,23 +16330,23 @@
               ],
               "children": [
                 {
-                  "type": "text",
-                  "id": "yocaK",
-                  "name": "logo",
-                  "fill": "$Blanco",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Sistema Control de Diésel",
-                  "textAlign": "center",
-                  "fontFamily": "$Font Primaria",
-                  "fontSize": 16,
-                  "fontWeight": "700"
+                  "type": "rectangle",
+                  "cornerRadius": 5,
+                  "id": "rb70A",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
+                    "mode": "fill"
+                  },
+                  "width": 184,
+                  "height": 125
                 }
               ]
             },
             {
               "type": "frame",
-              "id": "sg7PJ",
+              "id": "sc5Ak",
               "name": "navList",
               "width": "fill_container",
               "height": "fill_container",
@@ -16034,7 +16355,7 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "YJhpK",
+                  "id": "zBnMr",
                   "name": "navItem Almacén",
                   "width": "fill_container",
                   "height": 44,
@@ -16048,7 +16369,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "SzW9G",
+                      "id": "ihfLk",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -16060,7 +16381,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "A8YAb",
+                      "id": "U9Fl5",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -16070,7 +16391,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "z1hQR",
+                      "id": "h4r1M",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -16082,7 +16403,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "UpUwg",
+                      "id": "KgFai",
                       "name": "navChevron",
                       "width": 18,
                       "height": 18,
@@ -16094,7 +16415,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "F36uKD",
+                  "id": "wUCJs",
                   "name": "navItem Lotes",
                   "width": "fill_container",
                   "height": 44,
@@ -16113,7 +16434,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "MIBJK",
+                      "id": "VBmDg",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -16125,7 +16446,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "pU6GQ",
+                      "id": "mHzwW",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -16135,7 +16456,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "mXYS5",
+                      "id": "dPD23",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -16144,22 +16465,12 @@
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "r6hVrV",
-                      "name": "navChevron",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "feather",
-                      "fill": "$Gris 2"
                     }
                   ]
                 },
                 {
                   "type": "frame",
-                  "id": "Okcqz",
+                  "id": "cWkCT",
                   "name": "navItem Registro de costos",
                   "width": "fill_container",
                   "height": 44,
@@ -16179,7 +16490,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "A8FXKP",
+                      "id": "tflsE",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -16191,7 +16502,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "W1J7A",
+                      "id": "H8wJl",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -16201,7 +16512,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "KG4Tp",
+                      "id": "gy1SN",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -16213,7 +16524,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "QTcJX",
+                      "id": "fTf8p",
                       "name": "navChevron",
                       "width": 18,
                       "height": 18,
@@ -16225,7 +16536,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "MXTCN",
+                  "id": "fCeq8",
                   "name": "navItem Control de diésel",
                   "width": "fill_container",
                   "height": 44,
@@ -16245,7 +16556,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "P0OiZz",
+                      "id": "cx78m",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -16256,7 +16567,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "XNaf2",
+                      "id": "qRTQD",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -16266,7 +16577,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "VL6K6",
+                      "id": "dG0w3",
                       "name": "navLabel",
                       "fill": "$Blanco",
                       "textGrowth": "fixed-width",
@@ -16280,7 +16591,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "JAO9Y",
+                  "id": "Xb6QI",
                   "name": "navItem Trabajadores",
                   "width": "fill_container",
                   "height": 44,
@@ -16300,7 +16611,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "Gqxjy",
+                      "id": "AefY7",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -16312,7 +16623,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "oLA93",
+                      "id": "QKabF",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -16322,7 +16633,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "w1VFEE",
+                      "id": "EA0hu",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -16336,7 +16647,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "ezJGY",
+                  "id": "ptiAG",
                   "name": "navItem Mano de Obra",
                   "width": "fill_container",
                   "height": 44,
@@ -16355,7 +16666,7 @@
                   "children": [
                     {
                       "type": "icon",
-                      "id": "bRCiL",
+                      "id": "a3f5Lr",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -16365,7 +16676,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "K3BekI",
+                      "id": "aMiF0",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -16377,7 +16688,62 @@
                     },
                     {
                       "type": "rectangle",
-                      "id": "C4r12",
+                      "id": "ihILf",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mW7NW",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "oJLsH",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "user-cog",
+                      "library": "lucide",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rbL2q",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Usuarios",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "M1uuG6",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -16393,7 +16759,7 @@
             },
             {
               "type": "frame",
-              "id": "uesQ3",
+              "id": "F2Vn4L",
               "name": "navItem Cerrar sesión",
               "width": "fill_container",
               "height": 44,
@@ -16412,7 +16778,7 @@
               "children": [
                 {
                   "type": "icon",
-                  "id": "VRfEs",
+                  "id": "aeYlI",
                   "name": "navIcon",
                   "width": 18,
                   "height": 18,
@@ -16422,7 +16788,7 @@
                 },
                 {
                   "type": "text",
-                  "id": "gC9j5",
+                  "id": "f1dDHG",
                   "name": "navLabel",
                   "fill": "$Gris 2",
                   "content": "Cerrar sesión",
@@ -19405,7 +19771,7 @@
       "id": "JgOJe",
       "x": -820,
       "y": -1834,
-      "fill": "$Blanco",
+      "fill": "$Color Secundario",
       "content": "01 - VISUALIZAR CONTROL DE DIESEL",
       "fontFamily": "Inter",
       "fontSize": 300,
@@ -19416,7 +19782,7 @@
       "id": "JSTbV",
       "x": -821,
       "y": 428,
-      "fill": "$Blanco",
+      "fill": "$Color Secundario",
       "content": "02 - REGISTRAR CARGA A TANQUE GENERAL",
       "fontFamily": "Inter",
       "fontSize": 300,
@@ -19427,7 +19793,7 @@
       "id": "aZto2",
       "x": -819,
       "y": 19590,
-      "fill": "$Blanco",
+      "fill": "$Color Secundario",
       "content": "11 - VISUALIZAR MOVIMIENTOS DE TANQUE DE UNA MAQUINARIA",
       "fontFamily": "Inter",
       "fontSize": 300,
@@ -19438,7 +19804,7 @@
       "id": "DQRQl",
       "x": -820,
       "y": 7853,
-      "fill": "$Blanco",
+      "fill": "$Color Secundario",
       "content": "05 - AJUSTAR MÍNIMO DE TANQUE GENERAL",
       "fontFamily": "Inter",
       "fontSize": 300,
@@ -19449,7 +19815,7 @@
       "id": "XQJMD",
       "x": -819,
       "y": 5792,
-      "fill": "$Blanco",
+      "fill": "$Color Secundario",
       "content": "04 - REGISTRAR SALIDA A EMPRESA VINCULADA / USO NO PROPIO",
       "fontFamily": "Inter",
       "fontSize": 300,
@@ -19460,7 +19826,7 @@
       "id": "zhAai",
       "x": -820,
       "y": 9276,
-      "fill": "$Blanco",
+      "fill": "$Color Secundario",
       "content": "06 - REGISTRAR NUEVA MAQUINARIA",
       "fontFamily": "Inter",
       "fontSize": 300,
@@ -19471,7 +19837,7 @@
       "id": "dLCA0",
       "x": -819,
       "y": 11237,
-      "fill": "$Blanco",
+      "fill": "$Color Secundario",
       "content": "07 -EDITAR FICHA DE MAQUINARIA",
       "fontFamily": "Inter",
       "fontSize": 300,
@@ -19482,7 +19848,7 @@
       "id": "pXN0n",
       "x": -819,
       "y": 13247,
-      "fill": "$Blanco",
+      "fill": "$Color Secundario",
       "content": "08 - REGISTRAR AJUSTE",
       "fontFamily": "Inter",
       "fontSize": 300,
@@ -19493,7 +19859,7 @@
       "id": "KCSIX",
       "x": -819,
       "y": 15163,
-      "fill": "$Blanco",
+      "fill": "$Color Secundario",
       "content": "09 - CANCELAR  AJUSTE DE TANQUE",
       "fontFamily": "Inter",
       "fontSize": 300,
@@ -19504,7 +19870,7 @@
       "id": "phL5E",
       "x": -819,
       "y": 17164,
-      "fill": "$Blanco",
+      "fill": "$Color Secundario",
       "content": "10 - EDITAR RANGOS",
       "fontFamily": "Inter",
       "fontSize": 300,
@@ -19515,7 +19881,7 @@
       "id": "M2oJK6",
       "x": -820,
       "y": 3132,
-      "fill": "$Blanco",
+      "fill": "$Color Secundario",
       "content": "03 - REGISTRAR CARGA A MAQUINARIA PROPIA",
       "fontFamily": "Inter",
       "fontSize": 300,
@@ -19974,78 +20340,6 @@
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "K7ajbM",
-                  "name": "input_HP (si aplica)",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "wj6rZ",
-                      "name": "labelRow",
-                      "gap": 4,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "r2HX5",
-                          "name": "label",
-                          "fill": "$Negro",
-                          "content": "HP (si aplica)",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "tObY2",
-                      "name": "field",
-                      "width": "fill_container",
-                      "height": 42,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "justifyContent": "space_between",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "E3rIg",
-                          "name": "placeholder",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Ej. 110",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "j9k26R",
-                          "name": "suffix",
-                          "fill": "$Gris 1",
-                          "content": "HP",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 13,
-                          "fontWeight": "600"
                         }
                       ]
                     }
@@ -22582,78 +22876,6 @@
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "DyoE7",
-                  "name": "input_HP (si aplica)",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "t655M",
-                      "name": "labelRow",
-                      "gap": 4,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "j3O55H",
-                          "name": "label",
-                          "fill": "$Negro",
-                          "content": "HP (si aplica)",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "qEJwN",
-                      "name": "field",
-                      "width": "fill_container",
-                      "height": 42,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "justifyContent": "space_between",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "NJIRe",
-                          "name": "placeholder",
-                          "fill": "$Negro",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "155",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "kjFSk",
-                          "name": "suffix",
-                          "fill": "$Gris 1",
-                          "content": "HP",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 13,
-                          "fontWeight": "600"
                         }
                       ]
                     }
@@ -26524,7 +26746,7 @@
       "children": [
         {
           "type": "frame",
-          "id": "EaRhu",
+          "id": "yFEOy",
           "name": "Sidebar Modulos",
           "width": 240,
           "height": "fill_container",
@@ -26540,7 +26762,7 @@
           "children": [
             {
               "type": "frame",
-              "id": "Z4y5y",
+              "id": "QBJNM",
               "name": "logoRow",
               "width": "fill_container",
               "padding": [
@@ -26549,23 +26771,23 @@
               ],
               "children": [
                 {
-                  "type": "text",
-                  "id": "F6XVl",
-                  "name": "logo",
-                  "fill": "$Blanco",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Sistema Control de Diésel",
-                  "textAlign": "center",
-                  "fontFamily": "$Font Primaria",
-                  "fontSize": 16,
-                  "fontWeight": "700"
+                  "type": "rectangle",
+                  "cornerRadius": 5,
+                  "id": "xtWqK",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
+                    "mode": "fill"
+                  },
+                  "width": 184,
+                  "height": 125
                 }
               ]
             },
             {
               "type": "frame",
-              "id": "iTb12",
+              "id": "OUfjX",
               "name": "navList",
               "width": "fill_container",
               "height": "fill_container",
@@ -26574,7 +26796,7 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "Wk6dz",
+                  "id": "VU1yO",
                   "name": "navItem Almacén",
                   "width": "fill_container",
                   "height": 44,
@@ -26588,7 +26810,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "k9sUsH",
+                      "id": "OEaTF",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -26600,7 +26822,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "R23mlq",
+                      "id": "h3xboZ",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -26610,7 +26832,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "SIt36",
+                      "id": "N744K",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -26622,7 +26844,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "I2XHZ",
+                      "id": "ZJafw",
                       "name": "navChevron",
                       "width": 18,
                       "height": 18,
@@ -26634,7 +26856,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "QpIs6",
+                  "id": "XpjZg",
                   "name": "navItem Lotes",
                   "width": "fill_container",
                   "height": 44,
@@ -26653,7 +26875,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "Z6Zlfa",
+                      "id": "Noig7",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -26665,7 +26887,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "YWshq",
+                      "id": "Sebpj",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -26675,7 +26897,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "CwEth",
+                      "id": "xbPFF",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -26684,22 +26906,12 @@
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "IeRMA",
-                      "name": "navChevron",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "feather",
-                      "fill": "$Gris 2"
                     }
                   ]
                 },
                 {
                   "type": "frame",
-                  "id": "T14ki",
+                  "id": "otAIa",
                   "name": "navItem Registro de costos",
                   "width": "fill_container",
                   "height": 44,
@@ -26719,7 +26931,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "Tp3jD",
+                      "id": "vOXsG",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -26731,7 +26943,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "w88Qw",
+                      "id": "m7ypIM",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -26741,7 +26953,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "B8dKv",
+                      "id": "v0j1r",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -26753,7 +26965,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "U45hi",
+                      "id": "tnxWZ",
                       "name": "navChevron",
                       "width": 18,
                       "height": 18,
@@ -26765,7 +26977,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "s0Q9vn",
+                  "id": "qoUuz",
                   "name": "navItem Control de diésel",
                   "width": "fill_container",
                   "height": 44,
@@ -26785,7 +26997,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "FNl8Q",
+                      "id": "s9fk65",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -26796,7 +27008,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "KcXgI",
+                      "id": "rG6xW",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -26806,7 +27018,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "WkRcd",
+                      "id": "H8Fsz",
                       "name": "navLabel",
                       "fill": "$Blanco",
                       "textGrowth": "fixed-width",
@@ -26820,7 +27032,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "rj2Kn",
+                  "id": "ud1C2",
                   "name": "navItem Trabajadores",
                   "width": "fill_container",
                   "height": 44,
@@ -26840,7 +27052,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "VcGG5",
+                      "id": "TYZXt",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -26852,7 +27064,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "IvFVN",
+                      "id": "cRDLY",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -26862,7 +27074,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "lxWaH",
+                      "id": "gdX3L",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -26876,7 +27088,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "Pv4vP",
+                  "id": "GwHho",
                   "name": "navItem Mano de Obra",
                   "width": "fill_container",
                   "height": 44,
@@ -26895,7 +27107,7 @@
                   "children": [
                     {
                       "type": "icon",
-                      "id": "JrSu2",
+                      "id": "aBtD3",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -26905,7 +27117,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "SYOD1",
+                      "id": "gxwQw",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -26917,7 +27129,62 @@
                     },
                     {
                       "type": "rectangle",
-                      "id": "BWc1W",
+                      "id": "WhxOu",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dgMYt",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "xuQgu",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "user-cog",
+                      "library": "lucide",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zls25",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Usuarios",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "ShXiI",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -26933,7 +27200,7 @@
             },
             {
               "type": "frame",
-              "id": "LiuBC",
+              "id": "AJb9E",
               "name": "navItem Cerrar sesión",
               "width": "fill_container",
               "height": 44,
@@ -26952,7 +27219,7 @@
               "children": [
                 {
                   "type": "icon",
-                  "id": "M6zAZ",
+                  "id": "a2D8N",
                   "name": "navIcon",
                   "width": 18,
                   "height": 18,
@@ -26962,7 +27229,7 @@
                 },
                 {
                   "type": "text",
-                  "id": "JM3rB",
+                  "id": "lUQbf",
                   "name": "navLabel",
                   "fill": "$Gris 2",
                   "content": "Cerrar sesión",
@@ -28586,7 +28853,7 @@
       "children": [
         {
           "type": "frame",
-          "id": "bdW5S",
+          "id": "Ua5Ek",
           "name": "Sidebar Modulos",
           "width": 240,
           "height": "fill_container",
@@ -28602,7 +28869,7 @@
           "children": [
             {
               "type": "frame",
-              "id": "ZShCL",
+              "id": "D2F6o5",
               "name": "logoRow",
               "width": "fill_container",
               "padding": [
@@ -28611,23 +28878,23 @@
               ],
               "children": [
                 {
-                  "type": "text",
-                  "id": "H3wff",
-                  "name": "logo",
-                  "fill": "$Blanco",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Sistema Control de Diésel",
-                  "textAlign": "center",
-                  "fontFamily": "$Font Primaria",
-                  "fontSize": 16,
-                  "fontWeight": "700"
+                  "type": "rectangle",
+                  "cornerRadius": 5,
+                  "id": "QGVhM",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
+                    "mode": "fill"
+                  },
+                  "width": 184,
+                  "height": 125
                 }
               ]
             },
             {
               "type": "frame",
-              "id": "EkWah",
+              "id": "DI6YO",
               "name": "navList",
               "width": "fill_container",
               "height": "fill_container",
@@ -28636,7 +28903,7 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "ThVAK",
+                  "id": "ohU1Y",
                   "name": "navItem Almacén",
                   "width": "fill_container",
                   "height": 44,
@@ -28650,7 +28917,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "XGQ4E",
+                      "id": "qNolH",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -28662,7 +28929,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "D70ara",
+                      "id": "pcGHx",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -28672,7 +28939,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "yyQ95",
+                      "id": "GYFs5",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -28684,7 +28951,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "MwZSG",
+                      "id": "MIG0Z",
                       "name": "navChevron",
                       "width": 18,
                       "height": 18,
@@ -28696,7 +28963,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "O4qUz",
+                  "id": "IQzSO",
                   "name": "navItem Lotes",
                   "width": "fill_container",
                   "height": 44,
@@ -28715,7 +28982,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "C6qkb",
+                      "id": "yzDnK",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -28727,7 +28994,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "kaNvW",
+                      "id": "ITwnl",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -28737,7 +29004,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "yOd6Y",
+                      "id": "jxcDV",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -28746,22 +29013,12 @@
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
-                    },
-                    {
-                      "type": "icon",
-                      "id": "X13NKV",
-                      "name": "navChevron",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "chevron-down",
-                      "library": "feather",
-                      "fill": "$Gris 2"
                     }
                   ]
                 },
                 {
                   "type": "frame",
-                  "id": "d5I5E",
+                  "id": "C7Ej7",
                   "name": "navItem Registro de costos",
                   "width": "fill_container",
                   "height": 44,
@@ -28781,7 +29038,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "fGs72",
+                      "id": "jZZ3P",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -28793,7 +29050,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "sBcjS",
+                      "id": "lkl8U",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -28803,7 +29060,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "E53MP",
+                      "id": "cus8S",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -28815,7 +29072,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "J1SUq7",
+                      "id": "ArkUm",
                       "name": "navChevron",
                       "width": 18,
                       "height": 18,
@@ -28827,7 +29084,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "OZ5J9",
+                  "id": "mtJUO",
                   "name": "navItem Control de diésel",
                   "width": "fill_container",
                   "height": 44,
@@ -28847,7 +29104,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "mnjzy",
+                      "id": "xyIvq",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -28858,7 +29115,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "B3vIW",
+                      "id": "xItvi",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -28868,7 +29125,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "qIQUp",
+                      "id": "bUFHj",
                       "name": "navLabel",
                       "fill": "$Blanco",
                       "textGrowth": "fixed-width",
@@ -28882,7 +29139,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "j2PvT",
+                  "id": "qzZIv",
                   "name": "navItem Trabajadores",
                   "width": "fill_container",
                   "height": 44,
@@ -28902,7 +29159,7 @@
                   "children": [
                     {
                       "type": "rectangle",
-                      "id": "Y7so4",
+                      "id": "K2pM9",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -28914,7 +29171,7 @@
                     },
                     {
                       "type": "icon",
-                      "id": "FcHJF",
+                      "id": "u9tXO",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -28924,7 +29181,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "S1M7F",
+                      "id": "F1Da9H",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -28938,7 +29195,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "q4WMlz",
+                  "id": "mEwGR",
                   "name": "navItem Mano de Obra",
                   "width": "fill_container",
                   "height": 44,
@@ -28957,7 +29214,7 @@
                   "children": [
                     {
                       "type": "icon",
-                      "id": "c0D20G",
+                      "id": "oDLYT",
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
@@ -28967,7 +29224,7 @@
                     },
                     {
                       "type": "text",
-                      "id": "X1u6mo",
+                      "id": "NI9ex",
                       "name": "navLabel",
                       "fill": "$Gris 2",
                       "textGrowth": "fixed-width",
@@ -28979,7 +29236,62 @@
                     },
                     {
                       "type": "rectangle",
-                      "id": "WmOev",
+                      "id": "jKZTv",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vdSCw",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "r9qSj",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "user-cog",
+                      "library": "lucide",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LlCUz",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Usuarios",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "DlhjQ",
                       "layoutPosition": "absolute",
                       "x": 0,
                       "y": 0,
@@ -28995,7 +29307,7 @@
             },
             {
               "type": "frame",
-              "id": "NKg0y",
+              "id": "glXMd",
               "name": "navItem Cerrar sesión",
               "width": "fill_container",
               "height": 44,
@@ -29014,7 +29326,7 @@
               "children": [
                 {
                   "type": "icon",
-                  "id": "H3iPV",
+                  "id": "tGKbg",
                   "name": "navIcon",
                   "width": 18,
                   "height": 18,
@@ -29024,7 +29336,7 @@
                 },
                 {
                   "type": "text",
-                  "id": "epUbM",
+                  "id": "I5dwgS",
                   "name": "navLabel",
                   "fill": "$Gris 2",
                   "content": "Cerrar sesión",
