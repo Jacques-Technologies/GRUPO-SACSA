@@ -840,7 +840,7 @@
               "name": "Main Content",
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "gap": 20,
               "padding": [
@@ -1105,7 +1105,7 @@
                                       "id": "xQRDX",
                                       "name": "value",
                                       "fill": "$Negro",
-                                      "content": "01/Sep/2026",
+                                      "content": "01/Sep/26",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 13,
                                       "fontWeight": "500"
@@ -1185,7 +1185,7 @@
                                       "id": "LW4x9",
                                       "name": "value",
                                       "fill": "$Negro",
-                                      "content": "08/Sep/2026",
+                                      "content": "08/Sep/26",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 13,
                                       "fontWeight": "500"
@@ -1534,7 +1534,7 @@
                               "id": "forSH",
                               "name": "label",
                               "fill": "$Gris 1",
-                              "content": "8 registros liberados · 01/Sep – 08/Sep 2026 · no editables",
+                              "content": "8 registros liberados · 01/Sep – 08/Sep 26 · no editables",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -1595,7 +1595,7 @@
                           "fill": "$Gris 1",
                           "textGrowth": "fixed-width",
                           "width": 150,
-                          "content": "CULTIVO",
+                          "content": "CULTIVO PROD.",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "700",
@@ -1707,7 +1707,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 92,
-                          "content": "08/Sep/2026",
+                          "content": "08/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -1719,7 +1719,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 150,
-                          "content": "Sorgo — P-V 2026",
+                          "content": "Sorgo · Lote X · X ha ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -1859,7 +1859,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 92,
-                          "content": "08/Sep/2026",
+                          "content": "08/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -1871,7 +1871,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 150,
-                          "content": "Maíz — O-I 2026",
+                          "content": "Maíz · Lote X · X ha ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -2011,7 +2011,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 92,
-                          "content": "08/Sep/2026",
+                          "content": "08/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -2023,7 +2023,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 150,
-                          "content": "Sorgo — P-V 2026",
+                          "content": "Sorgo · Lote X · X ha ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -2163,7 +2163,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 92,
-                          "content": "05/Sep/2026",
+                          "content": "05/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -2175,7 +2175,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 150,
-                          "content": "Maíz — O-I 2026",
+                          "content": "Maíz · Lote X · X ha ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -2315,7 +2315,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 92,
-                          "content": "05/Sep/2026",
+                          "content": "05/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -2327,7 +2327,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 150,
-                          "content": "Sorgo — P-V 2026",
+                          "content": "Sorgo · Lote X · X ha ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -2467,7 +2467,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 92,
-                          "content": "04/Sep/2026",
+                          "content": "04/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -2479,7 +2479,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 150,
-                          "content": "Alfalfa — Perenne",
+                          "content": "Alfalfa Perenne · Lote X · X ha ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -2619,7 +2619,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 92,
-                          "content": "03/Sep/2026",
+                          "content": "03/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -2631,7 +2631,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 150,
-                          "content": "Maíz — O-I 2026",
+                          "content": "Maíz · Lote X · X ha ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -2766,7 +2766,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 92,
-                          "content": "02/Sep/2026",
+                          "content": "02/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -3766,7 +3766,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "08/Sep/2026",
+                              "content": "08/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "600"
@@ -4542,7 +4542,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Maíz — Ciclo O-I 2026",
+                          "content": "Maíz ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -4566,7 +4566,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "L-04 · L-07",
+                      "content": "Lote 04 · Lote 07",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -4705,7 +4705,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Sorgo — Ciclo P-V 2026",
+                          "content": "Sorgo",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -4729,7 +4729,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "L-02",
+                      "content": "Lote 02",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -4868,7 +4868,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Alfalfa — Perenne",
+                          "content": "Alfalfa Perenne",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -4892,7 +4892,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "L-11",
+                      "content": "Lote 11",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -5021,7 +5021,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Trigo — Ciclo O-I 2026",
+                          "content": "Trigo",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -5045,7 +5045,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "L-08",
+                      "content": "Lote 08",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -5169,7 +5169,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Frijol — Ciclo P-V 2026",
+                          "content": "Frijol",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -5193,7 +5193,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "L-15",
+                      "content": "Lote 15",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -6874,7 +6874,7 @@
               "name": "Main Content",
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "gap": 20,
               "padding": [
@@ -7053,7 +7053,7 @@
                                       "fill": "$Negro",
                                       "textGrowth": "fixed-width",
                                       "width": "fill_container",
-                                      "content": "01/Sep/2026",
+                                      "content": "01/Sep/26",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 13,
                                       "fontWeight": "600"
@@ -7136,7 +7136,7 @@
                                       "fill": "$Negro",
                                       "textGrowth": "fixed-width",
                                       "width": "fill_container",
-                                      "content": "08/Sep/2026",
+                                      "content": "08/Sep/26",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 13,
                                       "fontWeight": "600"
@@ -7928,7 +7928,7 @@
                               "id": "UGKUz",
                               "name": "label",
                               "fill": "$Gris 1",
-                              "content": "8 registros · 01/Sep – 08/Sep 2026 · no editables",
+                              "content": "8 registros · 01/Sep – 08/Sep 26 · no editables",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -8076,7 +8076,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 92,
-                          "content": "08/Sep/2026",
+                          "content": "08/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "normal"
@@ -8166,7 +8166,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 160,
-                          "content": "Sorgo — P-V 2026",
+                          "content": "Sorgo · Lote-010 · 1.5 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "600"
@@ -8272,7 +8272,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 92,
-                          "content": "08/Sep/2026",
+                          "content": "08/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "normal"
@@ -8442,7 +8442,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 92,
-                          "content": "07/Sep/2026",
+                          "content": "07/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "normal"
@@ -8532,7 +8532,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 160,
-                          "content": "Maíz — O-I 2026",
+                          "content": "Maíz · Lote X · X ha ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "600"
@@ -8638,7 +8638,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 92,
-                          "content": "06/Sep/2026",
+                          "content": "06/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "normal"
@@ -8808,7 +8808,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 92,
-                          "content": "05/Sep/2026",
+                          "content": "05/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "normal"
@@ -8898,7 +8898,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 160,
-                          "content": "Alfalfa — Perenne",
+                          "content": "Alfalfa · Lote X · X ha ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "600"
@@ -9004,7 +9004,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 92,
-                          "content": "04/Sep/2026",
+                          "content": "04/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "normal"
@@ -9174,7 +9174,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 92,
-                          "content": "03/Sep/2026",
+                          "content": "03/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "normal"
@@ -9264,7 +9264,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 160,
-                          "content": "Trigo — O-I 2026",
+                          "content": "Trigo · Lote X · X ha ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "600"
@@ -9365,7 +9365,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 92,
-                          "content": "02/Sep/2026",
+                          "content": "02/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "normal"
@@ -11033,7 +11033,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "08/Sep/2026",
+                              "content": "08/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "600"
@@ -11904,7 +11904,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Maíz — Ciclo O-I 2026",
+                          "content": "Maíz",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -11928,7 +11928,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "L-04 · L-07",
+                      "content": "Lote 04 · Lote 07",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -12067,7 +12067,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Sorgo — Ciclo P-V 2026",
+                          "content": "Sorgo",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -12091,7 +12091,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "L-02",
+                      "content": "Lote 02",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -12230,7 +12230,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Alfalfa — Perenne",
+                          "content": "Alfalfa Perenne",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -12254,7 +12254,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "L-11",
+                      "content": "Lote 11",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -12383,7 +12383,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Trigo — Ciclo O-I 2026",
+                          "content": "Trigo ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -12407,7 +12407,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "L-08",
+                      "content": "Lote 08",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -12531,7 +12531,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Frijol — Ciclo P-V 2026",
+                          "content": "Frijol",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -12555,7 +12555,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "L-15",
+                      "content": "Lote 15",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -13229,7 +13229,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Daniela Jacques · 08/Sep/2026",
+                  "content": "Daniela Jacques · 08/Sep/26",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -14166,7 +14166,7 @@
               "name": "Main Content",
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "gap": 20,
               "padding": [
@@ -14342,7 +14342,7 @@
                                       "id": "CTk34",
                                       "name": "value",
                                       "fill": "$Negro",
-                                      "content": "01/Sep/2026",
+                                      "content": "01/Sep/26",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 13,
                                       "fontWeight": "500"
@@ -14422,7 +14422,7 @@
                                       "id": "h9bC54",
                                       "name": "value",
                                       "fill": "$Negro",
-                                      "content": "30/Sep/2026",
+                                      "content": "30/Sep/26",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 13,
                                       "fontWeight": "500"
@@ -14950,7 +14950,7 @@
                               "id": "T7hcNq",
                               "name": "meta",
                               "fill": "$Gris 1",
-                              "content": "· 01/Sep – 30/Sep 2026",
+                              "content": "· 01/Sep – 30/Sep 26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -14990,7 +14990,7 @@
                               "id": "e8ixhb",
                               "name": "label",
                               "fill": "$Gris 1",
-                              "content": "Fecha",
+                              "content": "FECHA",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "700",
@@ -15010,7 +15010,7 @@
                               "id": "oiegh",
                               "name": "label",
                               "fill": "$Gris 1",
-                              "content": "Nombre del costo",
+                              "content": "NOMBRE DEL COSTO",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "700",
@@ -15030,7 +15030,7 @@
                               "id": "yN2J4",
                               "name": "label",
                               "fill": "$Gris 1",
-                              "content": "Prorrateable",
+                              "content": "PRORRATEABLE",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "700",
@@ -15050,7 +15050,7 @@
                               "id": "pI4OE",
                               "name": "label",
                               "fill": "$Gris 1",
-                              "content": "Cultivo productivo",
+                              "content": "CULTIVO PRODUCTIVO",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "700",
@@ -15071,7 +15071,7 @@
                               "id": "mpVkF",
                               "name": "label",
                               "fill": "$Gris 1",
-                              "content": "Monto",
+                              "content": "MONTO",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "700",
@@ -15122,7 +15122,7 @@
                               "id": "xPyEX",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "12/Sep/2026",
+                              "content": "12/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -15318,7 +15318,7 @@
                               "id": "KC671",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "10/Sep/2026",
+                              "content": "10/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -15514,7 +15514,7 @@
                               "id": "jJhdH",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "09/Sep/2026",
+                              "content": "09/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -15616,7 +15616,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Maíz Blanco · Lote 4",
+                              "content": "Maíz Blanco · Lote X · X ha ",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -15710,7 +15710,7 @@
                               "id": "E8LSGk",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "08/Sep/2026",
+                              "content": "08/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -15906,7 +15906,7 @@
                               "id": "n5slz",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "05/Sep/2026",
+                              "content": "05/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -16008,7 +16008,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Sorgo Forrajero · Lote 7",
+                              "content": "Sorgo Forrajero · Lote X · X ha ",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -16102,7 +16102,7 @@
                               "id": "eJH0M",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "03/Sep/2026",
+                              "content": "03/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -16298,7 +16298,7 @@
                               "id": "i1e3H",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "02/Sep/2026",
+                              "content": "02/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -16400,7 +16400,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Frijol Negro · Lote 2",
+                              "content": "Frijol Negro · Lote X · X ha ",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -16489,7 +16489,7 @@
                               "id": "f93nH",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "01/Sep/2026",
+                              "content": "01/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -17300,7 +17300,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Sorgo — Ciclo P-V 2026",
+                          "content": "Sorgo · Lote-010 · 1.5 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -18194,6 +18194,7 @@
                   "type": "frame",
                   "id": "DtFER",
                   "name": "recap_Cultivo productivo",
+                  "width": "fill_container",
                   "layout": "vertical",
                   "gap": 2,
                   "children": [
@@ -18212,7 +18213,7 @@
                       "id": "fHNIa",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "Sorgo — Ciclo P-V 2026",
+                      "content": "Sorgo · Lote-010 · 1.5 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -18488,7 +18489,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "08/Sep/2026",
+                              "content": "08/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "600"
@@ -19408,7 +19409,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Sorgo — Ciclo P-V 2026",
+                  "content": "Sorgo · Lote-010 · 1.5 ha",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -19546,7 +19547,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "08/Sep/2026 · 08:00 – 16:30",
+                  "content": "08/Sep/26 · 08:00 – 16:30",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -19730,7 +19731,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Daniela Jacques · 08/Sep/2026",
+                  "content": "Daniela Jacques · 08/Sep/26",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -20517,7 +20518,7 @@
                           "id": "q9vmu0",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Lote 4 · Ciclo O-I 2026",
+                          "content": "Lote-04 ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -20621,7 +20622,7 @@
                           "id": "iGxQT",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Lote 7 · Ciclo O-I 2026",
+                          "content": "Lote-07",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -20714,7 +20715,7 @@
                           "id": "iJOJ3",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Lote 2 · Ciclo O-I 2026",
+                          "content": "Lote-02",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -20807,7 +20808,7 @@
                           "id": "X6rnG",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Lote 9 · Ciclo O-I 2026",
+                          "content": "Lote-09 ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -20900,7 +20901,7 @@
                           "id": "RlSV5",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Lote 1 · Ciclo O-I 2026",
+                          "content": "Lote-01 ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -21423,7 +21424,7 @@
                               "id": "HQlNr",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "15/Sep/2026",
+                              "content": "15/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -21753,7 +21754,7 @@
                       "id": "n7fjYs",
                       "name": "label",
                       "fill": "$Gris 1",
-                      "content": "Sorgo Forrajero · Lote 7",
+                      "content": "Sorgo Forrajero · Lote-07",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -22222,7 +22223,7 @@
                       "id": "lFCho",
                       "name": "v",
                       "fill": "$Negro",
-                      "content": "L 125 - Maíz - 9.7 ha",
+                      "content": "Lote-125 · Maíz · 9.7 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "600"
@@ -22253,7 +22254,7 @@
                       "id": "kgyxW",
                       "name": "v",
                       "fill": "$Negro",
-                      "content": "15/Sep/2026",
+                      "content": "15/Sep/26",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "600"
@@ -23242,7 +23243,7 @@
                               "id": "IFSU4",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "15/Sep/2026",
+                              "content": "15/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -23921,7 +23922,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Maíz — Ciclo O-I 2026",
+                          "content": "Maíz ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -23945,7 +23946,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "L-04 · L-07",
+                      "content": "Lote-04 · Lote-07",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -24084,7 +24085,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Sorgo — Ciclo P-V 2026",
+                          "content": "Sorgo",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -24108,7 +24109,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "L-02",
+                      "content": "Lote-02",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -24247,7 +24248,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Alfalfa — Perenne",
+                          "content": "Alfalfa Perenne",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -24271,7 +24272,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "L-11",
+                      "content": "Lote-11",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -24400,7 +24401,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Trigo — Ciclo O-I 2026",
+                          "content": "Trigo",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -24424,7 +24425,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "L-08",
+                      "content": "Lote-08",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -24548,7 +24549,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Frijol — Ciclo P-V 2026",
+                          "content": "Frijol",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -24572,7 +24573,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "L-15",
+                      "content": "Lote-15",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -25133,7 +25134,7 @@
                       "id": "IymmC",
                       "name": "v",
                       "fill": "$Negro",
-                      "content": "15/Sep/2026",
+                      "content": "15/Sep/26",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "600"
@@ -26143,7 +26144,7 @@
               "name": "Main Content",
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "gap": 20,
               "padding": [
@@ -26319,7 +26320,7 @@
                                       "id": "l3emnh",
                                       "name": "value",
                                       "fill": "$Negro",
-                                      "content": "01/Sep/2026",
+                                      "content": "01/Sep/26",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 13,
                                       "fontWeight": "500"
@@ -26399,7 +26400,7 @@
                                       "id": "umtzV",
                                       "name": "value",
                                       "fill": "$Negro",
-                                      "content": "30/Sep/2026",
+                                      "content": "30/Sep/26",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 13,
                                       "fontWeight": "500"
@@ -26927,7 +26928,7 @@
                               "id": "xPpzy",
                               "name": "meta",
                               "fill": "$Gris 1",
-                              "content": "· 01/Sep – 30/Sep 2026",
+                              "content": "· 01/Sep – 30/Sep 26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -26967,7 +26968,7 @@
                               "id": "qyX7V",
                               "name": "label",
                               "fill": "$Gris 1",
-                              "content": "Fecha",
+                              "content": "FECHA",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "700",
@@ -26987,7 +26988,7 @@
                               "id": "OOSTp",
                               "name": "label",
                               "fill": "$Gris 1",
-                              "content": "Factura",
+                              "content": "FACTURA",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "700",
@@ -27007,7 +27008,7 @@
                               "id": "j6Qfxw",
                               "name": "label",
                               "fill": "$Gris 1",
-                              "content": "Cultivo productivo",
+                              "content": "CULTIVO PRODUCTIVO",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "700",
@@ -27028,7 +27029,7 @@
                               "id": "LqFrR",
                               "name": "label",
                               "fill": "$Gris 1",
-                              "content": "Monto",
+                              "content": "MONTO",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "700",
@@ -27048,7 +27049,7 @@
                               "id": "No72Q",
                               "name": "label",
                               "fill": "$Gris 1",
-                              "content": "Tipo",
+                              "content": "TIPO",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "700",
@@ -27099,7 +27100,7 @@
                               "id": "KEb67",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "12/Sep/2026",
+                              "content": "12/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -27162,7 +27163,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Maíz Blanco · Lote 4",
+                              "content": "Maíz Blanco · Lote X · X ha ",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -27303,7 +27304,7 @@
                               "id": "NBgxo",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "11/Sep/2026",
+                              "content": "11/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -27366,7 +27367,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Sorgo · Lote 7",
+                              "content": "Sorgo · Lote X · X ha ",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -27507,7 +27508,7 @@
                               "id": "Isb0G",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "09/Sep/2026",
+                              "content": "09/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -27570,7 +27571,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Frijol · Lote 2",
+                              "content": "Frijol · Lote X · X ha ",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -27711,7 +27712,7 @@
                               "id": "njuST",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "07/Sep/2026",
+                              "content": "07/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -27774,7 +27775,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Maíz Amarillo · Lote 9",
+                              "content": "Maíz Amarillo · Lote X · X ha ",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -27915,7 +27916,7 @@
                               "id": "a40Uvw",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "05/Sep/2026",
+                              "content": "05/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -27978,7 +27979,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Trigo · Lote 1",
+                              "content": "Trigo · Lote X · X ha ",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -28119,7 +28120,7 @@
                               "id": "tPrMt",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "04/Sep/2026",
+                              "content": "04/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -28182,7 +28183,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Maíz Blanco · Lote 4",
+                              "content": "Maíz Blanco · Lote X · X ha ",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -28323,7 +28324,7 @@
                               "id": "OEvFN",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "02/Sep/2026",
+                              "content": "02/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -28386,7 +28387,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Sorgo · Lote 7",
+                              "content": "Sorgo · Lote X · X ha ",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -28527,7 +28528,7 @@
                               "id": "w3UjX",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "01/Sep/2026",
+                              "content": "01/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -28590,7 +28591,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Frijol · Lote 2",
+                              "content": "Frijol · Lote X · X ha ",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -29132,7 +29133,7 @@
                           "id": "CdVjf",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Lote 4 · Ciclo O-I 2026",
+                          "content": "Lote-04",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -29236,7 +29237,7 @@
                           "id": "AgoHG",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Lote 7 · Ciclo O-I 2026",
+                          "content": "Lote-07",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -29329,7 +29330,7 @@
                           "id": "kZoHP",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Lote 2 · Ciclo O-I 2026",
+                          "content": "Lote-02",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -29422,7 +29423,7 @@
                           "id": "U2HfP",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Lote 9 · Ciclo O-I 2026",
+                          "content": "Lote-09",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -29515,7 +29516,7 @@
                           "id": "YgRrc",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Lote 1 · Ciclo O-I 2026",
+                          "content": "Lote-01",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -29813,7 +29814,7 @@
                       "id": "c3AZxL",
                       "name": "value",
                       "fill": "$Hover 1",
-                      "content": "Sorgo Forrajero · Lote 7 · 62.50 ha",
+                      "content": "Sorgo Forrajero · Lote-07 · 62.50 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "700"
@@ -30441,7 +30442,7 @@
                               "id": "k0YV9",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "15/Sep/2026",
+                              "content": "15/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -30763,7 +30764,7 @@
                       "id": "GGEWW",
                       "name": "label",
                       "fill": "$Gris 1",
-                      "content": "Sorgo Forrajero · Lote 7",
+                      "content": "Sorgo Forrajero · Lote-07",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -31071,7 +31072,7 @@
                           "fill": "$Gris 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Aguas pluviales, mermas u otros gastos no clasificados",
+                          "content": "Aguas pluviales u otros gastos no clasificados",
                           "lineHeight": 1.4,
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
@@ -31456,7 +31457,7 @@
                       "id": "a8zSTG",
                       "name": "v",
                       "fill": "$Negro",
-                      "content": "Sorgo Forrajero · Lote 7",
+                      "content": "Sorgo Forrajero · Lote-07",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "600"
@@ -31837,7 +31838,7 @@
                       "id": "A7wfS",
                       "name": "label",
                       "fill": "$Gris 1",
-                      "content": "Sorgo Forrajero · Lote 7",
+                      "content": "Sorgo Forrajero · Lote-07",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -32145,7 +32146,7 @@
                           "fill": "$Gris 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Aguas pluviales, mermas u otros gastos no clasificados",
+                          "content": "Aguas pluviales u otros gastos no clasificados",
                           "lineHeight": 1.4,
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
@@ -32675,6 +32676,7 @@
                   "type": "frame",
                   "id": "c5ljU8",
                   "name": "recap_Cultivo productivo",
+                  "width": "fill_container",
                   "layout": "vertical",
                   "gap": 2,
                   "children": [
@@ -32693,7 +32695,7 @@
                       "id": "qdDNV",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "Sorgo — Ciclo P-V 2026",
+                      "content": "Sorgo · Lote-010 · 1.5 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -32969,7 +32971,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "08/Sep/2026",
+                              "content": "08/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "600"
@@ -34066,6 +34068,7 @@
                   "type": "frame",
                   "id": "FyRT8",
                   "name": "recap_Cultivo productivo",
+                  "width": "fill_container",
                   "layout": "vertical",
                   "gap": 2,
                   "children": [
@@ -34084,7 +34087,7 @@
                       "id": "tRaDg",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "Sorgo — Ciclo P-V 2026",
+                      "content": "Sorgo · Lote-010 · 1.5 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -34360,7 +34363,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "08/Sep/2026",
+                              "content": "08/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "600"
@@ -35372,7 +35375,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Sorgo — Ciclo P-V 2026",
+                  "content": "Sorgo · Lote-010 · 1.5 ha",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -35510,7 +35513,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "08/Sep/2026 · 08:00 – 16:30",
+                  "content": "08/Sep/26 · 08:00 – 16:30",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -35704,7 +35707,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Daniela Jacques · 08/Sep/2026",
+                  "content": "Daniela Jacques · 08/Sep/26",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -35906,7 +35909,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Sorgo — Ciclo P-V 2026",
+                  "content": "Sorgo · Lote-010 · 1.5 ha",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -36044,7 +36047,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "08/Sep/2026 · 08:00 – 16:30",
+                  "content": "08/Sep/26 · 08:00 – 16:30",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -36284,7 +36287,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Daniela Jacques · 08/Sep/2026",
+                  "content": "Daniela Jacques · 08/Sep/26",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,

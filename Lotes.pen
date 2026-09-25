@@ -615,7 +615,7 @@
                   "clip": true,
                   "width": "fill_container",
                   "height": "fill_container",
-                  "fill": "$Fondo",
+                  "fill": "$Fondo-2",
                   "layout": "vertical",
                   "gap": 24,
                   "padding": 40,
@@ -1083,7 +1083,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": 120,
-                              "content": "15/Ene/2026",
+                              "content": "15/Ene/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "500"
@@ -1095,7 +1095,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": 120,
-                              "content": "30/Jun/2026",
+                              "content": "30/Jun/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "500"
@@ -1173,7 +1173,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": 120,
-                              "content": "01/Feb/2026",
+                              "content": "01/Feb/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "500"
@@ -1185,7 +1185,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": 120,
-                              "content": "15/Jul/2026",
+                              "content": "15/Jul/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "500"
@@ -1263,7 +1263,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": 120,
-                              "content": "10/Mar/2026",
+                              "content": "10/Mar/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "500"
@@ -1275,7 +1275,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": 120,
-                              "content": "25/Ago/2026",
+                              "content": "25/Ago/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "500"
@@ -1353,7 +1353,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": 120,
-                              "content": "05/Ene/2026",
+                              "content": "05/Ene/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "500"
@@ -1365,7 +1365,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": 120,
-                              "content": "20/Jun/2026",
+                              "content": "20/Jun/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "500"
@@ -1443,7 +1443,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": 120,
-                              "content": "20/Ene/2026",
+                              "content": "20/Ene/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "500"
@@ -1455,7 +1455,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": 120,
-                              "content": "10/Jul/2026",
+                              "content": "10/Jul/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "500"
@@ -1533,7 +1533,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": 120,
-                              "content": "12/Feb/2026",
+                              "content": "12/Feb/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "500"
@@ -1545,7 +1545,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": 120,
-                              "content": "28/Jul/2026",
+                              "content": "28/Jul/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "500"
@@ -1623,7 +1623,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": 120,
-                              "content": "08/Ene/2026",
+                              "content": "08/Ene/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "500"
@@ -1635,7 +1635,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": 120,
-                              "content": "22/Jun/2026",
+                              "content": "22/Jun/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "500"
@@ -1713,7 +1713,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": 120,
-                              "content": "25/Ene/2026",
+                              "content": "25/Ene/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "500"
@@ -1725,7 +1725,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": 120,
-                              "content": "12/Jul/2026",
+                              "content": "12/Jul/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "500"
@@ -1893,7 +1893,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": 120,
-                              "content": "18/Mar/2026",
+                              "content": "18/Mar/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "500"
@@ -1905,7 +1905,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": 120,
-                              "content": "02/Sep/2026",
+                              "content": "02/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "500"
@@ -2575,6 +2575,16 @@
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rUrSD",
+                          "name": "req",
+                          "fill": "#dc2626",
+                          "content": "*",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 12,
+                          "fontWeight": "700"
                         }
                       ]
                     },
@@ -2967,7 +2977,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Nombre lote - 01",
+                  "content": "Lote - 04",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -4129,7 +4139,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 150,
-                      "content": "24/Jul – 30/Ago/2026",
+                      "content": "24/Jul – 30/Ago/26",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "500"
@@ -5710,7 +5720,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 150,
-                      "content": "24/Jul – 30/Ago/2026",
+                      "content": "24/Jul – 30/Ago/26",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "500"
@@ -7407,7 +7417,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 150,
-                      "content": "24/Jul – 30/Ago/2026",
+                      "content": "24/Jul – 30/Ago/26",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "500"
@@ -9228,7 +9238,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "15/Sep/2026",
+                  "content": "15/Sep/26",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -9920,7 +9930,7 @@
               "name": "RightColumn",
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "children": [
                 {
@@ -10013,7 +10023,7 @@
                               "id": "EBX5P",
                               "name": "pageSubtitle",
                               "fill": "$Gris 1",
-                              "content": "Folio CP-0142 · Lote 01 · Sembrado el 15/Ene/2026",
+                              "content": "Folio CP-0142 · Lote 01 · Sembrado el 15/Ene/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -10533,7 +10543,7 @@
                                       "fill": "$Negro",
                                       "textGrowth": "fixed-width",
                                       "width": "fill_container",
-                                      "content": "15/Ene/2026",
+                                      "content": "15/Ene/26",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 14,
                                       "fontWeight": "500"
@@ -10568,7 +10578,7 @@
                                       "fill": "$Negro",
                                       "textGrowth": "fixed-width",
                                       "width": "fill_container",
-                                      "content": "30/Jun/2026",
+                                      "content": "30/Jun/26",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 14,
                                       "fontWeight": "500"
@@ -10603,7 +10613,7 @@
                                       "fill": "$Negro",
                                       "textGrowth": "fixed-width",
                                       "width": "fill_container",
-                                      "content": "14/Ene/2026 · 09:32",
+                                      "content": "14/Ene/26 · 09:32",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 14,
                                       "fontWeight": "500"
@@ -11513,7 +11523,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 100,
-                              "content": "12/Jun/2026",
+                              "content": "12/Jun/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -11689,7 +11699,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 100,
-                              "content": "10/Jun/2026",
+                              "content": "10/Jun/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -11834,7 +11844,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 100,
-                              "content": "08/Jun/2026",
+                              "content": "08/Jun/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -11902,7 +11912,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 120,
-                              "content": "RIE-0087",
+                              "content": "AG-0087",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -12007,7 +12017,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 100,
-                              "content": "05/Jun/2026",
+                              "content": "05/Jun/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -12818,7 +12828,7 @@
               "name": "RightColumn",
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "children": [
                 {
@@ -13196,7 +13206,7 @@
                                           "fill": "$Negro",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
-                                          "content": "01/Ene/2026",
+                                          "content": "01/Ene/26",
                                           "fontFamily": "$Font Secundaria",
                                           "fontSize": 13,
                                           "fontWeight": "500"
@@ -13269,7 +13279,7 @@
                                           "fill": "$Negro",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
-                                          "content": "30/Jun/2026",
+                                          "content": "30/Jun/26",
                                           "fontFamily": "$Font Secundaria",
                                           "fontSize": 13,
                                           "fontWeight": "500"
@@ -13379,7 +13389,7 @@
                                       "id": "KZWyU",
                                       "name": "t",
                                       "fill": "$Hover 1",
-                                      "content": "Desde: 01/Ene/2026",
+                                      "content": "Desde: 01/Ene/26",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 11,
                                       "fontWeight": "600"
@@ -13418,7 +13428,7 @@
                                       "id": "LpMoQ",
                                       "name": "t",
                                       "fill": "$Hover 1",
-                                      "content": "Hasta: 30/Jun/2026",
+                                      "content": "Hasta: 30/Jun/26",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 11,
                                       "fontWeight": "600"
@@ -14754,7 +14764,7 @@
                               "fill": "$Hover 1",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Energía eléctrica · Mayo 2026",
+                              "content": "Energía eléctrica · Mayo 26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "600"
@@ -17258,7 +17268,7 @@
                           "id": "j48gi",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "15/Ene/2026",
+                          "content": "15/Ene/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "500"
@@ -17348,7 +17358,7 @@
                           "id": "acjf9",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "30/Jun/2026",
+                          "content": "30/Jun/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "500"
@@ -17639,7 +17649,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 150,
-                      "content": "24/Jul – 30/Ago/2026",
+                      "content": "24/Jul – 30/Ago/26",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "500"
@@ -18207,7 +18217,7 @@
                           "id": "w2WAHH",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "Lote 3 · Campo Norte",
+                          "content": "Lote 03",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "500"
@@ -18775,7 +18785,7 @@
                           "id": "aZ6zC",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "15/Ene/2026",
+                          "content": "15/Ene/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "500"
@@ -18865,7 +18875,7 @@
                           "id": "Z3o2r",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "30/Jun/2026",
+                          "content": "30/Jun/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "500"
@@ -19156,7 +19166,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 150,
-                      "content": "24/Jul – 30/Ago/2026",
+                      "content": "24/Jul – 30/Ago/26",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "500"
@@ -20012,7 +20022,7 @@
               "name": "RightColumn",
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "children": [
                 {
@@ -20565,7 +20575,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 110,
-                              "content": "28/Ago/2026",
+                              "content": "28/Ago/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -20634,7 +20644,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 110,
-                              "content": "21/Ago/2026",
+                              "content": "21/Ago/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -20703,7 +20713,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 110,
-                              "content": "14/Ago/2026",
+                              "content": "14/Ago/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -20772,7 +20782,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 110,
-                              "content": "07/Ago/2026",
+                              "content": "07/Ago/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -20841,7 +20851,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 110,
-                              "content": "31/Jul/2026",
+                              "content": "31/Jul/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -20910,7 +20920,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 110,
-                              "content": "24/Jul/2026",
+                              "content": "24/Jul/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -21303,7 +21313,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "COMPRADOR / CLIENTE",
+                              "content": "COMPRADOR",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 10,
                               "fontWeight": "700",
@@ -21403,7 +21413,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 95,
-                              "content": "28/Ago/2026",
+                              "content": "28/Ago/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -21509,7 +21519,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 95,
-                              "content": "21/Ago/2026",
+                              "content": "21/Ago/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -21615,7 +21625,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 95,
-                              "content": "14/Ago/2026",
+                              "content": "14/Ago/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -21721,7 +21731,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 95,
-                              "content": "07/Ago/2026",
+                              "content": "07/Ago/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -21827,7 +21837,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 95,
-                              "content": "31/Jul/2026",
+                              "content": "31/Jul/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -22379,7 +22389,7 @@
                                       "fill": "$Negro",
                                       "textGrowth": "fixed-width",
                                       "width": 150,
-                                      "content": "24/Jul – 30/Ago/2026",
+                                      "content": "24/Jul – 30/Ago/26",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 12,
                                       "fontWeight": "500"
@@ -23355,7 +23365,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 150,
-                      "content": "24/Jul/2026",
+                      "content": "24/Jul/26",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 13,
                       "fontWeight": "600"
@@ -23605,7 +23615,7 @@
                   "fill": "$Gris 1",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Muestra los compradores preestablecidos del cultivo con vigencia aplicable a hoy (18/Sep/2026) · Incluye siempre la opción \"Otro / capturar manualmente\" · Al seleccionar uno, precarga Comprador y Precio unitario abajo — ambos siguen siendo editables.",
+                  "content": "Muestra los compradores preestablecidos del cultivo con vigencia aplicable a hoy (18/Sep/26) · Incluye siempre la opción \"Otro / capturar manualmente\" · Al seleccionar uno, precarga Comprador y Precio unitario abajo — ambos siguen siendo editables.",
                   "lineHeight": 1.35,
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 11,
@@ -23633,7 +23643,7 @@
                       "id": "rMnhI",
                       "name": "label",
                       "fill": "$Negro",
-                      "content": "Comprador / Cliente",
+                      "content": "Comprador ",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "600"
@@ -24858,7 +24868,7 @@
                               "id": "MUE0y",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "28/Ago/2026",
+                              "content": "28/Ago/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -25000,7 +25010,7 @@
                               "id": "YDopm",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "28/Ago/2026 · 3,200 kg",
+                              "content": "28/Ago/26 · 3,200 kg",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -25188,7 +25198,7 @@
                           "id": "ruqkw",
                           "name": "label",
                           "fill": "$Gris 1",
-                          "content": "COSECHA 28/AGO/2026 · DISPONIBLE ACTUAL",
+                          "content": "COSECHA 28/AGO/26 · DISPONIBLE ACTUAL",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 10,
                           "fontWeight": "700",
@@ -25481,7 +25491,7 @@
                   "id": "xtzJN",
                   "name": "meta",
                   "fill": "$Gris 1",
-                  "content": "Registrada el 28/Ago/2026 · D. Jacques",
+                  "content": "Registrada el 28/Ago/26 · D. Jacques",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -25559,7 +25569,7 @@
                           "id": "P1YxZs",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "28/Ago/2026",
+                          "content": "28/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "500"
@@ -25851,7 +25861,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 150,
-                      "content": "28/Ago/2026",
+                      "content": "28/Ago/26",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 13,
                       "fontWeight": "600"
@@ -26102,7 +26112,7 @@
                           "id": "D2sp0d",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Subido el 28/Ago/2026 · 412 KB",
+                          "content": "Subido el 28/Ago/26 · 412 KB",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -27364,7 +27374,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 150,
-                      "content": "24/Jul – 30/Ago/2026",
+                      "content": "24/Jul – 30/Ago/26",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "500"
@@ -27991,7 +28001,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "15/Ene/2026",
+                      "content": "15/Ene/26",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -28026,7 +28036,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "30/Jun/2026",
+                      "content": "30/Jun/26",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -28061,7 +28071,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "14/Ene/2026 · 09:32",
+                      "content": "14/Ene/26 · 09:32",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -30016,7 +30026,7 @@
               "name": "RightColumn",
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "children": [
                 {
@@ -30569,7 +30579,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 110,
-                              "content": "28/Ago/2026",
+                              "content": "28/Ago/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -30638,7 +30648,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 110,
-                              "content": "21/Ago/2026",
+                              "content": "21/Ago/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -30707,7 +30717,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 110,
-                              "content": "14/Ago/2026",
+                              "content": "14/Ago/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -30776,7 +30786,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 110,
-                              "content": "07/Ago/2026",
+                              "content": "07/Ago/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -30845,7 +30855,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 110,
-                              "content": "31/Jul/2026",
+                              "content": "31/Jul/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -30914,7 +30924,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 110,
-                              "content": "24/Jul/2026",
+                              "content": "24/Jul/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -31307,7 +31317,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "COMPRADOR / CLIENTE",
+                              "content": "COMPRADOR",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 10,
                               "fontWeight": "700",
@@ -31407,7 +31417,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 95,
-                              "content": "28/Ago/2026",
+                              "content": "28/Ago/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -31513,7 +31523,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 95,
-                              "content": "21/Ago/2026",
+                              "content": "21/Ago/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -31619,7 +31629,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 95,
-                              "content": "14/Ago/2026",
+                              "content": "14/Ago/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -31725,7 +31735,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 95,
-                              "content": "07/Ago/2026",
+                              "content": "07/Ago/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -31831,7 +31841,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": 95,
-                              "content": "31/Jul/2026",
+                              "content": "31/Jul/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -32383,7 +32393,7 @@
                                       "fill": "$Negro",
                                       "textGrowth": "fixed-width",
                                       "width": 150,
-                                      "content": "24/Jul – 30/Ago/2026",
+                                      "content": "24/Jul – 30/Ago/26",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 12,
                                       "fontWeight": "500"

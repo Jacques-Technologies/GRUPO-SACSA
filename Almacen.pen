@@ -1446,7 +1446,7 @@
           "id": "f1W1ry",
           "name": "Sidebar Modulos",
           "width": 240,
-          "height": 960,
+          "height": "fill_container",
           "fill": "$Hover 1",
           "layout": "vertical",
           "gap": 32,
@@ -2552,7 +2552,7 @@
                                   "fill": "$Gris 1",
                                   "textGrowth": "fixed-width",
                                   "width": 140,
-                                  "content": "01/Ago/2026",
+                                  "content": "01/Ago/26",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 14,
                                   "fontWeight": "normal"
@@ -2615,7 +2615,7 @@
                                   "fill": "$Gris 1",
                                   "textGrowth": "fixed-width",
                                   "width": 140,
-                                  "content": "01/Sep/2026",
+                                  "content": "01/Sep/26",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 14,
                                   "fontWeight": "normal"
@@ -2926,7 +2926,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "05/Sep/2026",
+                          "content": "05/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -3051,7 +3051,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "01/Sep/2026",
+                          "content": "01/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -3176,7 +3176,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "01/Sep/2026",
+                          "content": "01/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -3301,7 +3301,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "30/Ago/2026",
+                          "content": "30/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -3426,7 +3426,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "28/Ago/2026",
+                          "content": "28/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -3551,7 +3551,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "25/Ago/2026",
+                          "content": "25/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -3676,7 +3676,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "20/Ago/2026",
+                          "content": "20/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -3801,7 +3801,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "15/Ago/2026",
+                          "content": "15/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -4206,55 +4206,6 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "S1MMjS",
-                  "name": "facturaField",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "OgsDn",
-                      "name": "label",
-                      "fill": "$Negro",
-                      "content": "Número de factura *",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "JZYaD",
-                      "name": "field",
-                      "width": "fill_container",
-                      "height": 40,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "blnYq",
-                          "name": "value",
-                          "fill": "$Negro",
-                          "content": "FC-00483",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
                   "id": "h2RRv",
                   "name": "fechaField",
                   "width": "fill_container",
@@ -4266,7 +4217,7 @@
                       "id": "MNb3b",
                       "name": "label",
                       "fill": "$Negro",
-                      "content": "Fecha *",
+                      "content": "Proveedor ",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "600"
@@ -4295,7 +4246,7 @@
                           "name": "icon",
                           "width": 15,
                           "height": 15,
-                          "icon": "calendar",
+                          "icon": "search",
                           "library": "feather",
                           "fill": "$Gris 1"
                         },
@@ -4303,8 +4254,126 @@
                           "type": "text",
                           "id": "DYskU",
                           "name": "value",
+                          "fill": "$Gris 1",
+                          "content": "Busca proveedor...",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VUBSd",
+              "name": "Row1",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "z9wVI",
+                  "name": "facturaField",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qz8FK",
+                      "name": "label",
+                      "fill": "$Negro",
+                      "content": "Número de factura *",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rQYzw",
+                      "name": "field",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$Blanco",
+                      "cornerRadius": 8,
+                      "stroke": "$Gris 2",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Qt5w4",
+                          "name": "value",
                           "fill": "$Negro",
-                          "content": "01/Sep/2026",
+                          "content": "FC-00483",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WZljD",
+                  "name": "fechaField",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "p9kBC",
+                      "name": "label",
+                      "fill": "$Negro",
+                      "content": "Fecha *",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BjOQe",
+                      "name": "field",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$Blanco",
+                      "cornerRadius": 8,
+                      "stroke": "$Gris 2",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "UQi3Q",
+                          "name": "icon",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "calendar",
+                          "library": "feather",
+                          "fill": "$Gris 1"
+                        },
+                        {
+                          "type": "text",
+                          "id": "H6hVLx",
+                          "name": "value",
+                          "fill": "$Negro",
+                          "content": "01/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -4466,7 +4535,7 @@
                                   "id": "gTwne",
                                   "name": "fecha",
                                   "fill": "$Gris 1",
-                                  "content": "Fecha OC: 12/Sep/2026",
+                                  "content": "Fecha OC: 12/Sep/26",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 11.5,
                                   "fontWeight": "normal"
@@ -4570,7 +4639,7 @@
                                   "id": "LWKwK",
                                   "name": "fecha",
                                   "fill": "$Gris 1",
-                                  "content": "Fecha OC: 10/Sep/2026",
+                                  "content": "Fecha OC: 10/Sep/26",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 11.5,
                                   "fontWeight": "normal"
@@ -4674,7 +4743,7 @@
                                   "id": "UMHQL",
                                   "name": "fecha",
                                   "fill": "$Gris 1",
-                                  "content": "Fecha OC: 08/Sep/2026",
+                                  "content": "Fecha OC: 08/Sep/26",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 11.5,
                                   "fontWeight": "normal"
@@ -4778,7 +4847,7 @@
                                   "id": "PYEXA",
                                   "name": "fecha",
                                   "fill": "$Gris 1",
-                                  "content": "Fecha OC: 02/Sep/2026",
+                                  "content": "Fecha OC: 02/Sep/26",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 11.5,
                                   "fontWeight": "normal"
@@ -6345,6 +6414,75 @@
             },
             {
               "type": "frame",
+              "id": "skq7C",
+              "name": "Row1",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Zu3g5",
+                  "name": "fechaField",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "YV2DE",
+                      "name": "label",
+                      "fill": "$Negro",
+                      "content": "Proveedor ",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "A1qjeC",
+                      "name": "field",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$Blanco",
+                      "cornerRadius": 8,
+                      "stroke": "$Gris 2",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "b9kyfX",
+                          "name": "icon",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "search",
+                          "library": "feather",
+                          "fill": "$Gris 1"
+                        },
+                        {
+                          "type": "text",
+                          "id": "p7FDRP",
+                          "name": "value",
+                          "fill": "$Gris 1",
+                          "content": "Busca proveedor...",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "S2VIG6",
               "name": "Row1",
               "width": "fill_container",
@@ -6450,7 +6588,7 @@
                           "id": "HkmtA",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "01/Sep/2026",
+                          "content": "01/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -8307,6 +8445,75 @@
             },
             {
               "type": "frame",
+              "id": "vjFzW",
+              "name": "Row1",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "u5vK07",
+                  "name": "fechaField",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EJijT",
+                      "name": "label",
+                      "fill": "$Negro",
+                      "content": "Proveedor ",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fji76",
+                      "name": "field",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$Blanco",
+                      "cornerRadius": 8,
+                      "stroke": "$Gris 2",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "j4hcIw",
+                          "name": "icon",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "search",
+                          "library": "feather",
+                          "fill": "$Gris 1"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Xb4fH",
+                          "name": "value",
+                          "fill": "$Gris 1",
+                          "content": "Busca proveedor...",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "Xf78g",
               "name": "Row1",
               "width": "fill_container",
@@ -8412,7 +8619,7 @@
                           "id": "ibpb0",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "01/Sep/2026",
+                          "content": "01/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -10347,7 +10554,7 @@
                       "id": "PBsd6",
                       "name": "label",
                       "fill": "$Negro",
-                      "content": "Proveedor *",
+                      "content": "Proveedor (opcional)",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "600"
@@ -10802,7 +11009,7 @@
                       "id": "ZDLUp",
                       "name": "label",
                       "fill": "$Negro",
-                      "content": "Proveedor *",
+                      "content": "Proveedor (opcional)",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "600"
@@ -14225,6 +14432,75 @@
             },
             {
               "type": "frame",
+              "id": "eyK7N",
+              "name": "Row1",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "C6dHJ",
+                  "name": "fechaField",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "p0yNi",
+                      "name": "label",
+                      "fill": "$Negro",
+                      "content": "Proveedor ",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BmYY7",
+                      "name": "field",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$Blanco",
+                      "cornerRadius": 8,
+                      "stroke": "$Gris 2",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "H0gwil",
+                          "name": "icon",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "search",
+                          "library": "feather",
+                          "fill": "$Gris 1"
+                        },
+                        {
+                          "type": "text",
+                          "id": "T7P1V",
+                          "name": "value",
+                          "fill": "$Gris 1",
+                          "content": "Busca proveedor...",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "EKL6I",
               "name": "Row1",
               "width": "fill_container",
@@ -14330,7 +14606,7 @@
                           "id": "qJ6Bf",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "01/Sep/2026",
+                          "content": "01/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -15935,6 +16211,75 @@
             },
             {
               "type": "frame",
+              "id": "ZqfFu",
+              "name": "Row1",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "G7gKx",
+                  "name": "fechaField",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gHM3g",
+                      "name": "label",
+                      "fill": "$Negro",
+                      "content": "Proveedor ",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RJ5SV",
+                      "name": "field",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$Blanco",
+                      "cornerRadius": 8,
+                      "stroke": "$Gris 2",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "iHTnj",
+                          "name": "icon",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "search",
+                          "library": "feather",
+                          "fill": "$Gris 1"
+                        },
+                        {
+                          "type": "text",
+                          "id": "x8yuu",
+                          "name": "value",
+                          "fill": "$Gris 1",
+                          "content": "Busca proveedor...",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "y85IPA",
               "name": "Row1",
               "width": "fill_container",
@@ -16040,7 +16385,7 @@
                           "id": "ijDly",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "01/Sep/2026",
+                          "content": "01/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -17735,7 +18080,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "LT-2044 · Maíz · 8 ha",
+                          "content": "Maíz · Lote-2044 · 8 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -17983,7 +18328,7 @@
                                   "id": "md6uV",
                                   "name": "value",
                                   "fill": "$Negro",
-                                  "content": "kg",
+                                  "content": "L",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 13,
                                   "fontWeight": "normal"
@@ -18563,7 +18908,7 @@
                       "id": "Hg7kR",
                       "name": "label",
                       "fill": "$Negro",
-                      "content": "Almacén origen",
+                      "content": "Almacén origen *",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "600"
@@ -21009,7 +21354,7 @@
                                   "fill": "$Gris 1",
                                   "textGrowth": "fixed-width",
                                   "width": 140,
-                                  "content": "01/Ago/2026",
+                                  "content": "01/Ago/26",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 14,
                                   "fontWeight": "normal"
@@ -21072,7 +21417,7 @@
                                   "fill": "$Gris 1",
                                   "textGrowth": "fixed-width",
                                   "width": 140,
-                                  "content": "01/Sep/2026",
+                                  "content": "01/Sep/26",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 14,
                                   "fontWeight": "normal"
@@ -21421,7 +21766,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "LT-2044 · Maíz · 12.5 ha",
+                          "content": "Maíz · Lote-2044 · 12.5 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -21446,7 +21791,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 140,
-                          "content": "03/Sep/2026",
+                          "content": "03/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -21458,7 +21803,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 140,
-                          "content": "03/Sep/2026",
+                          "content": "03/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -21580,7 +21925,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": 164,
-                          "content": "LT-2041 · Cultivo· XX ha",
+                          "content": "Cultivo · Lote X · X ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -21605,7 +21950,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 140,
-                          "content": "02/Sep/2026",
+                          "content": "02/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -21739,7 +22084,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": 164,
-                          "content": "LT-2038 · Cultivo· XX ha",
+                          "content": "Cultivo · Lote X · X ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -21764,7 +22109,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 140,
-                          "content": "01/Sep/2026",
+                          "content": "01/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -21776,7 +22121,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 140,
-                          "content": "01/Sep/2026",
+                          "content": "01/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -21788,7 +22133,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 140,
-                          "content": "02/Sep/2026",
+                          "content": "02/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -21898,7 +22243,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": 164,
-                          "content": "LT-2036 · Cultivo· XX ha",
+                          "content": "Cultivo · Lote X · X ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -21923,7 +22268,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 140,
-                          "content": "30/Ago/2026",
+                          "content": "30/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -21935,7 +22280,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 140,
-                          "content": "30/Ago/2026",
+                          "content": "30/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -21947,7 +22292,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 140,
-                          "content": "30/Ago/2026",
+                          "content": "30/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -22057,7 +22402,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": 164,
-                          "content": "LT-2033 · Cultivo· XX ha",
+                          "content": "Cultivo · Lote X · X ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -22082,7 +22427,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 140,
-                          "content": "29/Ago/2026",
+                          "content": "29/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -22094,7 +22439,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 140,
-                          "content": "29/Ago/2026",
+                          "content": "29/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -22216,7 +22561,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": 164,
-                          "content": "LT-2030 · Cultivo· XX ha",
+                          "content": "Cultivo · Lote X · X ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -22241,7 +22586,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 140,
-                          "content": "27/Ago/2026",
+                          "content": "27/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -22917,7 +23262,7 @@
                   "id": "sBPEj",
                   "name": "registroInfo",
                   "fill": "$Negativo",
-                  "content": "Rechazada por Carlos Medina · 03/Sep/2026, 09:10",
+                  "content": "Rechazada por Carlos Medina · 03/Sep/26, 09:10",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -22955,7 +23300,7 @@
                       "id": "Qj7SR",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "LT-2044 · Maíz · 12.5 ha",
+                      "content": "Maíz · Lote-2044 · 12.5 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -22986,7 +23331,7 @@
                       "id": "q54P3k",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "03/Sep/2026, 07:58",
+                      "content": "03/Sep/26, 07:58",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -23775,7 +24120,7 @@
                   "id": "FQEaJ",
                   "name": "registroInfo",
                   "fill": "#92400e",
-                  "content": "Solicitada por Diego Ruiz · 03/Sep/2026, 08:10",
+                  "content": "Solicitada por Diego Ruiz · 03/Sep/26, 08:10",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -23813,7 +24158,7 @@
                       "id": "TDe72",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "LT-2044 · Maíz · 12.5 ha",
+                      "content": "Maíz · Lote-2044 · 12.5 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -23844,7 +24189,7 @@
                       "id": "s6gZ9",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "03/Sep/2026, 07:58",
+                      "content": "03/Sep/26, 07:58",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -24630,7 +24975,7 @@
                   "id": "NI088",
                   "name": "registroInfo",
                   "fill": "$Gris 1",
-                  "content": "Autorizada por Carlos Medina · 03/Sep/2026, 11:15",
+                  "content": "Autorizada por Carlos Medina · 03/Sep/26, 11:15",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -24668,7 +25013,7 @@
                       "id": "ofQiQ",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "LT-2044 · Maíz · 12.5 ha",
+                      "content": "Maíz · Lote-2044 · 12.5 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -24699,7 +25044,7 @@
                       "id": "nWhKd",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "03/Sep/2026, 07:58",
+                      "content": "03/Sep/26, 07:58",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -25657,21 +26002,8 @@
                       "name": "h_Responsable",
                       "fill": "$Gris 1",
                       "textGrowth": "fixed-width",
-                      "width": 120,
+                      "width": 141,
                       "content": "RESPONSABLE",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 10,
-                      "fontWeight": "700",
-                      "letterSpacing": 0.4
-                    },
-                    {
-                      "type": "text",
-                      "id": "iECEf",
-                      "name": "h_Rol",
-                      "fill": "$Gris 1",
-                      "textGrowth": "fixed-width",
-                      "width": 100,
-                      "content": "ROL",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 10,
                       "fontWeight": "700",
@@ -25771,23 +26103,11 @@
                       "name": "c_Responsable",
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
-                      "width": 120,
+                      "width": 141,
                       "content": "Carlos Medina",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 13,
                       "fontWeight": "600"
-                    },
-                    {
-                      "type": "text",
-                      "id": "cjVIq",
-                      "name": "c_Rol",
-                      "fill": "$Gris 1",
-                      "textGrowth": "fixed-width",
-                      "width": 100,
-                      "content": "Solicitante",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -25796,7 +26116,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 122,
-                      "content": "03/Sep/2026, 08:10",
+                      "content": "03/Sep/26, 08:10",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -25881,23 +26201,11 @@
                       "name": "c_Responsable",
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
-                      "width": 120,
+                      "width": 141,
                       "content": "Ramiro Osuna",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 13,
                       "fontWeight": "600"
-                    },
-                    {
-                      "type": "text",
-                      "id": "XNJ8A",
-                      "name": "c_Rol",
-                      "fill": "$Gris 1",
-                      "textGrowth": "fixed-width",
-                      "width": 100,
-                      "content": "Ingeniero",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -25906,7 +26214,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 122,
-                      "content": "03/Sep/2026, 09:45",
+                      "content": "03/Sep/26, 09:45",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -26000,23 +26308,11 @@
                           "name": "c_Responsable",
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
-                          "width": 120,
+                          "width": 141,
                           "content": "Carlos Medina",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
-                          "id": "d74158",
-                          "name": "c_Rol",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": 100,
-                          "content": "Almacenista",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -26025,7 +26321,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "03/Sep/2026, 14:20",
+                          "content": "03/Sep/26, 14:20",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -26134,24 +26430,12 @@
                         },
                         {
                           "type": "text",
-                          "id": "j4QJb",
-                          "name": "c_Rol",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": 100,
-                          "content": "Almacenista",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
                           "id": "mcgyD",
                           "name": "c_Fecha",
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "05/Sep/2026, 10:15",
+                          "content": "05/Sep/26, 10:15",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -26466,7 +26750,7 @@
                   "id": "aMawl",
                   "name": "registroInfo",
                   "fill": "$Gris 1",
-                  "content": "Autorizada por Ramiro Osuna · 03/Sep/2026, 09:45",
+                  "content": "Autorizada por Ramiro Osuna · 03/Sep/26, 09:45",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -26504,7 +26788,7 @@
                       "id": "MbN0D",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "LT-2044 · Maíz · 12.5 ha",
+                      "content": "Maíz · Lote-2044 · 12.5 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -26535,7 +26819,7 @@
                       "id": "R5DCyr",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "03/Sep/2026, 07:58",
+                      "content": "03/Sep/26, 07:58",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -27321,7 +27605,7 @@
                   "id": "P4MwZg",
                   "name": "registroInfo",
                   "fill": "$Gris 1",
-                  "content": "Entregada por Carlos Medina · 03/Sep/2026, 14:20",
+                  "content": "Entregada por Carlos Medina · 03/Sep/26, 14:20",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -27359,7 +27643,7 @@
                       "id": "uQzDb",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "LT-2044 · Maíz · 12.5 ha",
+                      "content": "Maíz · Lote-2044 · 12.5 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -27390,7 +27674,7 @@
                       "id": "oLBYu",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "03/Sep/2026, 07:58",
+                      "content": "03/Sep/26, 07:58",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -28320,7 +28604,7 @@
                       "id": "E6x3sY",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "LT-2044 · Maíz · 12.5 ha",
+                      "content": "Maíz · Lote-2044 · 12.5 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 13,
                       "fontWeight": "600"
@@ -29106,7 +29390,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "EC-00483 · 01/Sep/2026",
+                              "content": "EC-00483 · 01/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -29253,7 +29537,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "EC-00483 · 01/Sep/2026",
+                              "content": "EC-00483 · 01/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -29400,7 +29684,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "EC-00483 · 01/Sep/2026",
+                              "content": "EC-00483 · 01/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -29643,7 +29927,7 @@
                           "id": "xyaXF",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "03/Sep/2026",
+                          "content": "03/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -31425,19 +31709,6 @@
                     },
                     {
                       "type": "text",
-                      "id": "AO47M",
-                      "name": "h_Rol",
-                      "fill": "$Gris 1",
-                      "textGrowth": "fixed-width",
-                      "width": 100,
-                      "content": "ROL",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 10,
-                      "fontWeight": "700",
-                      "letterSpacing": 0.4
-                    },
-                    {
-                      "type": "text",
                       "id": "J6zGZ4",
                       "name": "h_Fecha y hora",
                       "fill": "$Gris 1",
@@ -31542,24 +31813,12 @@
                         },
                         {
                           "type": "text",
-                          "id": "kw4Zj",
-                          "name": "c_Rol",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": 100,
-                          "content": "Almacenista",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
                           "id": "OSWGC",
                           "name": "c_Fecha",
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "01/Sep/2026, 09:42",
+                          "content": "01/Sep/26, 09:42",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -31668,24 +31927,12 @@
                         },
                         {
                           "type": "text",
-                          "id": "ZyX2S",
-                          "name": "c_Rol",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": 100,
-                          "content": "Jefe de Lote",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
                           "id": "CzycO",
                           "name": "c_Fecha",
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "03/Sep/2026, 11:15",
+                          "content": "03/Sep/26, 11:15",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -32015,7 +32262,7 @@
                   "id": "UdIUm",
                   "name": "registroInfo",
                   "fill": "$Gris 1",
-                  "content": "Recibida por Carlos Medina · 01/Sep/2026, 09:42",
+                  "content": "Recibida por Carlos Medina · 01/Sep/26, 09:42",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -32124,7 +32371,7 @@
                       "id": "OTWS8",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "01/Sep/2026, 10:45",
+                      "content": "01/Sep/26, 10:45",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -33119,7 +33366,7 @@
                               "id": "a4S6k",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "01/Sep/2026, 10:45",
+                              "content": "01/Sep/26, 10:45",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -33581,137 +33828,6 @@
                               "fontWeight": "700"
                             }
                           ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "BOYX1",
-              "name": "Row1",
-              "width": "fill_container",
-              "gap": 16,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "LE6Z2",
-                  "name": "autorizadorField",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "qXyjS",
-                      "name": "label",
-                      "fill": "$Negro",
-                      "content": "Autorizador *",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "v6uOtB",
-                      "name": "field",
-                      "width": "fill_container",
-                      "height": 40,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "pzV4h",
-                          "name": "icon",
-                          "width": 15,
-                          "height": 15,
-                          "icon": "search",
-                          "library": "feather",
-                          "fill": "$Gris 1"
-                        },
-                        {
-                          "type": "text",
-                          "id": "yLyVX",
-                          "name": "value",
-                          "fill": "$Negro",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Ramiro Osuna",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "xjWaQ",
-                  "name": "fechaAutorizacionField",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "dFa7P",
-                      "name": "label",
-                      "fill": "$Negro",
-                      "content": "Fecha de autorización *",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "GheWj",
-                      "name": "field",
-                      "width": "fill_container",
-                      "height": 40,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "SBgnr",
-                          "name": "icon",
-                          "width": 15,
-                          "height": 15,
-                          "icon": "calendar",
-                          "library": "feather",
-                          "fill": "$Gris 1"
-                        },
-                        {
-                          "type": "text",
-                          "id": "pCFkf",
-                          "name": "value",
-                          "fill": "$Negro",
-                          "content": "03/Sep/2026",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -34268,19 +34384,6 @@
                     },
                     {
                       "type": "text",
-                      "id": "NFNcF",
-                      "name": "h_Rol",
-                      "fill": "$Gris 1",
-                      "textGrowth": "fixed-width",
-                      "width": 100,
-                      "content": "ROL",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 10,
-                      "fontWeight": "700",
-                      "letterSpacing": 0.4
-                    },
-                    {
-                      "type": "text",
                       "id": "SwBaj",
                       "name": "h_Fecha y hora",
                       "fill": "$Gris 1",
@@ -34381,24 +34484,12 @@
                     },
                     {
                       "type": "text",
-                      "id": "E2ecPb",
-                      "name": "c_Rol",
-                      "fill": "$Gris 1",
-                      "textGrowth": "fixed-width",
-                      "width": 100,
-                      "content": "Solicitante",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
                       "id": "JYSQ6",
                       "name": "c_Fecha",
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 122,
-                      "content": "03/Sep/2026, 08:10",
+                      "content": "03/Sep/26, 08:10",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -34491,24 +34582,12 @@
                     },
                     {
                       "type": "text",
-                      "id": "tC0fH",
-                      "name": "c_Rol",
-                      "fill": "$Gris 1",
-                      "textGrowth": "fixed-width",
-                      "width": 100,
-                      "content": "Jefe de Lote",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
                       "id": "zCMWU",
                       "name": "c_Fecha",
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 122,
-                      "content": "03/Sep/2026, 09:45",
+                      "content": "03/Sep/26, 09:45",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -34610,24 +34689,12 @@
                         },
                         {
                           "type": "text",
-                          "id": "P1ZNZW",
-                          "name": "c_Rol",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": 100,
-                          "content": "Almacenista",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
                           "id": "eosk8",
                           "name": "c_Fecha",
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "03/Sep/2026, 14:20",
+                          "content": "03/Sep/26, 14:20",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -34736,24 +34803,12 @@
                         },
                         {
                           "type": "text",
-                          "id": "LL1Dd",
-                          "name": "c_Rol",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": 100,
-                          "content": "Jefe de lote",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
                           "id": "FyKqr",
                           "name": "c_Fecha",
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "04/Sep/2026, 10:05",
+                          "content": "04/Sep/26, 10:05",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -35101,7 +35156,7 @@
                               "id": "GSo4b",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "03/Sep/2026, 14:30",
+                              "content": "03/Sep/26, 14:30",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -35130,7 +35185,7 @@
                               "id": "Sfuxe",
                               "name": "label",
                               "fill": "$Gris 1",
-                              "content": "LOTE / CULTIVO",
+                              "content": "CULTIVO PRODUCTIVO",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 10,
                               "fontWeight": "700",
@@ -35141,7 +35196,7 @@
                               "id": "jSC8e",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "LT-2044 · Maíz",
+                              "content": "Maíz · Lote-2044 · 12.5 ha",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "700"
@@ -35612,137 +35667,6 @@
             },
             {
               "type": "frame",
-              "id": "A9RjdQ",
-              "name": "Row1",
-              "width": "fill_container",
-              "gap": 16,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "Kx369",
-                  "name": "autorizadorField",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "Oy8Q6",
-                      "name": "label",
-                      "fill": "$Negro",
-                      "content": "Autorizador *",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "wgqer",
-                      "name": "field",
-                      "width": "fill_container",
-                      "height": 40,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "aQR8U",
-                          "name": "icon",
-                          "width": 15,
-                          "height": 15,
-                          "icon": "search",
-                          "library": "feather",
-                          "fill": "$Gris 1"
-                        },
-                        {
-                          "type": "text",
-                          "id": "ClVRr",
-                          "name": "value",
-                          "fill": "$Negro",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Ramiro Osuna",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "K1vFp",
-                  "name": "fechaAutorizacionField",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "T553Z",
-                      "name": "label",
-                      "fill": "$Negro",
-                      "content": "Fecha de autorización *",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "r08w6",
-                      "name": "field",
-                      "width": "fill_container",
-                      "height": 40,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "VChR4",
-                          "name": "icon",
-                          "width": 15,
-                          "height": 15,
-                          "icon": "calendar",
-                          "library": "feather",
-                          "fill": "$Gris 1"
-                        },
-                        {
-                          "type": "text",
-                          "id": "e4CX1",
-                          "name": "value",
-                          "fill": "$Negro",
-                          "content": "03/Sep/2026",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
               "id": "Y3BB1t",
               "name": "motivoField",
               "width": "fill_container",
@@ -36115,7 +36039,7 @@
                   "id": "CYePo",
                   "name": "registroInfo",
                   "fill": "$Gris 1",
-                  "content": "Entregada por Carlos Medina · 03/Sep/2026, 14:20",
+                  "content": "Entregada por Carlos Medina · 03/Sep/26, 14:20",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -36153,7 +36077,7 @@
                       "id": "XK9YY",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "LT-2044 · Maíz · 12.5 ha",
+                      "content": "Maíz · Lote-2044 · 12.5 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -36184,7 +36108,7 @@
                       "id": "f1wHq",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "03/Sep/2026, 07:58",
+                      "content": "03/Sep/26, 07:58",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -38397,7 +38321,7 @@
                   "id": "n1OnkZ",
                   "name": "registroInfo",
                   "fill": "$Gris 1",
-                  "content": "Autorizada por Ramiro Osuna · 05/Sep/2026, 10:00",
+                  "content": "Autorizada por Ramiro Osuna · 05/Sep/26, 10:00",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -38537,7 +38461,7 @@
                       "id": "Q1lEIU",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "05/Sep/2026, 10:00",
+                      "content": "05/Sep/26, 10:00",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -40165,19 +40089,6 @@
                     },
                     {
                       "type": "text",
-                      "id": "a1aDUd",
-                      "name": "h_Rol",
-                      "fill": "$Gris 1",
-                      "textGrowth": "fixed-width",
-                      "width": 100,
-                      "content": "ROL",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 10,
-                      "fontWeight": "700",
-                      "letterSpacing": 0.4
-                    },
-                    {
-                      "type": "text",
                       "id": "r6y4V",
                       "name": "h_Fecha y hora",
                       "fill": "$Gris 1",
@@ -40278,24 +40189,12 @@
                     },
                     {
                       "type": "text",
-                      "id": "lSv2B",
-                      "name": "c_Rol",
-                      "fill": "$Gris 1",
-                      "textGrowth": "fixed-width",
-                      "width": 100,
-                      "content": "Encargado Almacén Principal",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
                       "id": "sekZ4",
                       "name": "c_Fecha",
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 122,
-                      "content": "05/Sep/2026, 10:00",
+                      "content": "05/Sep/26, 10:00",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -40392,24 +40291,12 @@
                         },
                         {
                           "type": "text",
-                          "id": "W11G1",
-                          "name": "c_Rol",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": 100,
-                          "content": "Ingeniero",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
                           "id": "VNPS0",
                           "name": "c_Fecha",
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "06/Sep/2026, 08:30",
+                          "content": "06/Sep/26, 08:30",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -40739,19 +40626,6 @@
                     },
                     {
                       "type": "text",
-                      "id": "U42QXi",
-                      "name": "h_Rol",
-                      "fill": "$Gris 1",
-                      "textGrowth": "fixed-width",
-                      "width": 100,
-                      "content": "ROL",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 10,
-                      "fontWeight": "700",
-                      "letterSpacing": 0.4
-                    },
-                    {
-                      "type": "text",
                       "id": "E5432W",
                       "name": "h_Fecha y hora",
                       "fill": "$Gris 1",
@@ -40852,24 +40726,12 @@
                     },
                     {
                       "type": "text",
-                      "id": "Rc1IL",
-                      "name": "c_Rol",
-                      "fill": "$Gris 1",
-                      "textGrowth": "fixed-width",
-                      "width": 100,
-                      "content": "Encargado Almacén Principal",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
                       "id": "RPUbQ",
                       "name": "c_Fecha",
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 122,
-                      "content": "05/Sep/2026, 10:00",
+                      "content": "05/Sep/26, 10:00",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -40971,24 +40833,12 @@
                         },
                         {
                           "type": "text",
-                          "id": "b0235p",
-                          "name": "c_Rol",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": 100,
-                          "content": "Ingeniero",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
                           "id": "nFMce",
                           "name": "c_Fecha",
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "06/Sep/2026, 08:30",
+                          "content": "06/Sep/26, 08:30",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -41097,24 +40947,12 @@
                         },
                         {
                           "type": "text",
-                          "id": "es9BQ",
-                          "name": "c_Rol",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": 100,
-                          "content": "Jefe de Almacén",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
                           "id": "lrTIs",
                           "name": "c_Fecha",
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "06/Sep/2026, 11:15",
+                          "content": "06/Sep/26, 11:15",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -42285,7 +42123,7 @@
                                   "fill": "$Gris 1",
                                   "textGrowth": "fixed-width",
                                   "width": 140,
-                                  "content": "01/Ago/2026",
+                                  "content": "01/Ago/26",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 14,
                                   "fontWeight": "normal"
@@ -42348,7 +42186,7 @@
                                   "fill": "$Gris 1",
                                   "textGrowth": "fixed-width",
                                   "width": 140,
-                                  "content": "01/Sep/2026",
+                                  "content": "01/Sep/26",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 14,
                                   "fontWeight": "normal"
@@ -42716,7 +42554,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "05/Sep/2026",
+                          "content": "05/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -42728,7 +42566,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "05/Sep/2026",
+                          "content": "05/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -42886,7 +42724,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "04/Sep/2026",
+                          "content": "04/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -42898,7 +42736,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "04/Sep/2026",
+                          "content": "04/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -43056,7 +42894,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "03/Sep/2026",
+                          "content": "03/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -43068,7 +42906,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "03/Sep/2026",
+                          "content": "03/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -43080,7 +42918,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "04/Sep/2026",
+                          "content": "04/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -43226,7 +43064,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "02/Sep/2026",
+                          "content": "02/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -43238,7 +43076,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "02/Sep/2026",
+                          "content": "02/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -43250,7 +43088,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "03/Sep/2026",
+                          "content": "03/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -43396,7 +43234,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "30/Ago/2026",
+                          "content": "30/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -43408,7 +43246,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "30/Ago/2026",
+                          "content": "30/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -43566,7 +43404,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "28/Ago/2026",
+                          "content": "28/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -43578,7 +43416,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "28/Ago/2026",
+                          "content": "28/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -44231,7 +44069,7 @@
                   "id": "oHs2z",
                   "name": "registroInfo",
                   "fill": "$Gris 1",
-                  "content": "Recibida por Iván Torres · 06/Sep/2026, 08:30",
+                  "content": "Recibida por Iván Torres · 06/Sep/26, 08:30",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -44371,7 +44209,7 @@
                       "id": "G1NbXq",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "05/Sep/2026, 10:00",
+                      "content": "05/Sep/26, 10:00",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -45249,7 +45087,7 @@
                   "id": "V0l2zI",
                   "name": "registroInfo",
                   "fill": "$Gris 1",
-                  "content": "Recibida por Iván Torres · 06/Sep/2026, 08:30",
+                  "content": "Recibida por Iván Torres · 06/Sep/26, 08:30",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -45389,7 +45227,7 @@
                       "id": "jES9e",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "05/Sep/2026, 10:00",
+                      "content": "05/Sep/26, 10:00",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -46448,7 +46286,7 @@
                               "id": "z6Dw9T",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "07/Sep/2026, 08:30",
+                              "content": "07/Sep/26, 08:30",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -46789,137 +46627,6 @@
                               "fontWeight": "700"
                             }
                           ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "EqCTw",
-              "name": "Row1",
-              "width": "fill_container",
-              "gap": 16,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "H06g6X",
-                  "name": "autorizadorField",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "dXMZN",
-                      "name": "label",
-                      "fill": "$Negro",
-                      "content": "Autorizador *",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "bozjA",
-                      "name": "field",
-                      "width": "fill_container",
-                      "height": 40,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "N1tnI8",
-                          "name": "icon",
-                          "width": 15,
-                          "height": 15,
-                          "icon": "search",
-                          "library": "feather",
-                          "fill": "$Gris 1"
-                        },
-                        {
-                          "type": "text",
-                          "id": "XP8jf",
-                          "name": "value",
-                          "fill": "$Negro",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Ramiro Osuna",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "Ic6Xk",
-                  "name": "fechaAutorizacionField",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "iGKP2",
-                      "name": "label",
-                      "fill": "$Negro",
-                      "content": "Fecha de autorización *",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "F0sSf",
-                      "name": "field",
-                      "width": "fill_container",
-                      "height": 40,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "h2cgDr",
-                          "name": "icon",
-                          "width": 15,
-                          "height": 15,
-                          "icon": "calendar",
-                          "library": "feather",
-                          "fill": "$Gris 1"
-                        },
-                        {
-                          "type": "text",
-                          "id": "v4oQT",
-                          "name": "value",
-                          "fill": "$Negro",
-                          "content": "06/Sep/2026",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -47790,7 +47497,7 @@
                           "id": "fm3ni",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "02/Sep/2026",
+                          "content": "02/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -48328,7 +48035,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "LT-2044 · Maíz · 12.5 ha",
+                      "content": "Maíz · Lote-2044 · 12.5 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -48661,7 +48368,7 @@
                           "id": "SxfsA",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "02/Sep/2026",
+                          "content": "02/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -49836,7 +49543,7 @@
                                   "fill": "$Gris 1",
                                   "textGrowth": "fixed-width",
                                   "width": 140,
-                                  "content": "01/Ago/2026",
+                                  "content": "01/Ago/26",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 14,
                                   "fontWeight": "normal"
@@ -49899,7 +49606,7 @@
                                   "fill": "$Gris 1",
                                   "textGrowth": "fixed-width",
                                   "width": 140,
-                                  "content": "01/Sep/2026",
+                                  "content": "01/Sep/26",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 14,
                                   "fontWeight": "normal"
@@ -50391,7 +50098,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "05/Sep/2026",
+                          "content": "05/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -50582,7 +50289,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 140,
-                          "content": "LT-2044 · Maíz",
+                          "content": "Maíz · Lote-2044 · 12.5 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -50606,7 +50313,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "04/Sep/2026",
+                          "content": "04/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -50821,7 +50528,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "03/Sep/2026",
+                          "content": "03/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -51012,7 +50719,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 140,
-                          "content": "LT-2038 · Maíz",
+                          "content": "Maíz · Lote X · X ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -51036,7 +50743,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "02/Sep/2026",
+                          "content": "02/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -51251,7 +50958,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "30/Ago/2026",
+                          "content": "30/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -51442,7 +51149,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 140,
-                          "content": "LT-2030 · Maíz",
+                          "content": "Maíz · Lote X · X ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -51466,7 +51173,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "28/Ago/2026",
+                          "content": "28/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -53467,7 +53174,7 @@
                               "id": "koDvz",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "02/Sep/2026, 11:42",
+                              "content": "02/Sep/26, 11:42",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -53767,137 +53474,6 @@
                               "fontWeight": "700"
                             }
                           ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "YjHJF",
-              "name": "Row1",
-              "width": "fill_container",
-              "gap": 16,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "hKy6u",
-                  "name": "autorizadorField",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "BN1U9",
-                      "name": "label",
-                      "fill": "$Negro",
-                      "content": "Autorizador *",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "Vely1",
-                      "name": "field",
-                      "width": "fill_container",
-                      "height": 40,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "DOvn2",
-                          "name": "icon",
-                          "width": 15,
-                          "height": 15,
-                          "icon": "search",
-                          "library": "feather",
-                          "fill": "$Gris 1"
-                        },
-                        {
-                          "type": "text",
-                          "id": "HwaOB",
-                          "name": "value",
-                          "fill": "$Negro",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Ramiro Osuna",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "ojxnm",
-                  "name": "fechaAutorizacionField",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "vMrfG",
-                      "name": "label",
-                      "fill": "$Negro",
-                      "content": "Fecha de autorización *",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "DDPTx",
-                      "name": "field",
-                      "width": "fill_container",
-                      "height": 40,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "uxDWB",
-                          "name": "icon",
-                          "width": 15,
-                          "height": 15,
-                          "icon": "calendar",
-                          "library": "feather",
-                          "fill": "$Gris 1"
-                        },
-                        {
-                          "type": "text",
-                          "id": "kPGvn",
-                          "name": "value",
-                          "fill": "$Negro",
-                          "content": "06/Sep/2026",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -54291,19 +53867,6 @@
                     },
                     {
                       "type": "text",
-                      "id": "u2pNnH",
-                      "name": "h_Rol",
-                      "fill": "$Gris 1",
-                      "textGrowth": "fixed-width",
-                      "width": 100,
-                      "content": "ROL",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 10,
-                      "fontWeight": "700",
-                      "letterSpacing": 0.4
-                    },
-                    {
-                      "type": "text",
                       "id": "Z28649",
                       "name": "h_Fecha y hora",
                       "fill": "$Gris 1",
@@ -54413,24 +53976,12 @@
                         },
                         {
                           "type": "text",
-                          "id": "fiT4D",
-                          "name": "c_Rol",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": 100,
-                          "content": "Almacenista",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
                           "id": "bauKX",
                           "name": "c_Fecha",
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "05/Sep/2026, 11:42",
+                          "content": "05/Sep/26, 11:42",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -54529,24 +54080,12 @@
                         },
                         {
                           "type": "text",
-                          "id": "hfZNP",
-                          "name": "c_Rol",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": 100,
-                          "content": "Jefe de Almacén",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
                           "id": "SwzgH",
                           "name": "c_Fecha",
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "06/Sep/2026, 11:15",
+                          "content": "06/Sep/26, 11:15",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -54894,7 +54433,7 @@
                               "id": "dxfZ5",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "05/Sep/2026, 11:42",
+                              "content": "05/Sep/26, 11:42",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -55196,137 +54735,6 @@
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 16,
                           "fontWeight": "700"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "bKm6Z",
-              "name": "Row1",
-              "width": "fill_container",
-              "gap": 16,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "r93Vr",
-                  "name": "autorizadorField",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "WsDeI",
-                      "name": "label",
-                      "fill": "$Negro",
-                      "content": "Autorizador *",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "wU2S2",
-                      "name": "field",
-                      "width": "fill_container",
-                      "height": 40,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "Cv69X",
-                          "name": "icon",
-                          "width": 15,
-                          "height": 15,
-                          "icon": "search",
-                          "library": "feather",
-                          "fill": "$Gris 1"
-                        },
-                        {
-                          "type": "text",
-                          "id": "iJK0w",
-                          "name": "value",
-                          "fill": "$Negro",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Ramiro Osuna",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "ZjBrw",
-                  "name": "fechaAutorizacionField",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "T18NEb",
-                      "name": "label",
-                      "fill": "$Negro",
-                      "content": "Fecha de autorización *",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "xKuk1",
-                      "name": "field",
-                      "width": "fill_container",
-                      "height": 40,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "h8lvS",
-                          "name": "icon",
-                          "width": 15,
-                          "height": 15,
-                          "icon": "calendar",
-                          "library": "feather",
-                          "fill": "$Gris 1"
-                        },
-                        {
-                          "type": "text",
-                          "id": "PMAUw",
-                          "name": "value",
-                          "fill": "$Negro",
-                          "content": "06/Sep/2026",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -55950,7 +55358,7 @@
                       "id": "UZ25l",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "05/Sep/2026, 11:42",
+                      "content": "05/Sep/26, 11:42",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -57653,7 +57061,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 120,
-                          "content": "05/Sep/2026",
+                          "content": "05/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -57775,7 +57183,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 120,
-                          "content": "04/Sep/2026",
+                          "content": "04/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -57922,7 +57330,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 120,
-                          "content": "03/Sep/2026",
+                          "content": "03/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -58044,7 +57452,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 120,
-                          "content": "05/Sep/2026",
+                          "content": "05/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -58166,7 +57574,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 120,
-                          "content": "30/Ago/2026",
+                          "content": "30/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -58313,7 +57721,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 120,
-                          "content": "28/Ago/2026",
+                          "content": "28/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -61292,7 +60700,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 110,
-                          "content": "20/Ago/2026",
+                          "content": "20/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "normal"
@@ -61418,7 +60826,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 110,
-                          "content": "22/Ago/2026",
+                          "content": "22/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "normal"
@@ -61544,7 +60952,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 110,
-                          "content": "03/Sep/2026",
+                          "content": "03/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "normal"
@@ -61670,7 +61078,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 110,
-                          "content": "02/Sep/2026",
+                          "content": "02/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "normal"
@@ -61796,7 +61204,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 110,
-                          "content": "05/Sep/2026",
+                          "content": "05/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "normal"
@@ -61922,7 +61330,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 110,
-                          "content": "10/Sep/2026",
+                          "content": "10/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "normal"
@@ -62251,27 +61659,31 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "Hf40T",
+                      "id": "Z27WrX",
                       "name": "brandCol",
                       "layout": "vertical",
                       "gap": 1,
                       "children": [
                         {
-                          "type": "text",
-                          "id": "FkxSp",
-                          "name": "brandName",
-                          "fill": "$Color Primario",
-                          "content": "SACSA",
-                          "fontFamily": "$Font Primaria",
-                          "fontSize": 22,
-                          "fontWeight": "700"
+                          "type": "rectangle",
+                          "cornerRadius": 5,
+                          "id": "RWgob",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
+                            "mode": "fill",
+                            "blendMode": "luminosity"
+                          },
+                          "width": 77,
+                          "height": 52
                         },
                         {
                           "type": "text",
-                          "id": "VUdCe",
+                          "id": "J0WWBG",
                           "name": "brandTag",
                           "fill": "$Gris 1",
-                          "content": "Grupo Agrícola SACSA · Almacén",
+                          "content": "La Colonia Granos · Almacén",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 10,
                           "fontWeight": "normal"
@@ -62301,7 +61713,7 @@
                           "id": "tfuq5",
                           "name": "genValue",
                           "fill": "$Negro",
-                          "content": "03/Sep/2026, 14:32",
+                          "content": "03/Sep/26, 14:32",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "500"
@@ -62484,7 +61896,7 @@
                           "id": "rPbvT",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "Ramiro Osuna — Jefe de Lote",
+                          "content": "Ramiro Osuna",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "600"
@@ -63201,7 +62613,7 @@
                   "id": "eQVIz",
                   "name": "footerLeft",
                   "fill": "$Gris 1",
-                  "content": "SACSA · Sistema de Gestión de Almacén Agrícola",
+                  "content": "La Colonia Granos · Sistema de Gestión de Almacén Agrícola",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 9,
                   "fontWeight": "normal"
@@ -63265,27 +62677,31 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "b0vGh",
+                      "id": "S447u",
                       "name": "brandCol",
                       "layout": "vertical",
                       "gap": 1,
                       "children": [
                         {
-                          "type": "text",
-                          "id": "N9CEhU",
-                          "name": "brandName",
-                          "fill": "$Color Primario",
-                          "content": "SACSA",
-                          "fontFamily": "$Font Primaria",
-                          "fontSize": 22,
-                          "fontWeight": "700"
+                          "type": "rectangle",
+                          "cornerRadius": 5,
+                          "id": "EOkq4",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
+                            "mode": "fill",
+                            "blendMode": "luminosity"
+                          },
+                          "width": 77,
+                          "height": 52
                         },
                         {
                           "type": "text",
-                          "id": "uHn3h",
+                          "id": "n3fugO",
                           "name": "brandTag",
                           "fill": "$Gris 1",
-                          "content": "Grupo Agrícola SACSA · Almacén",
+                          "content": "La Colonia Granos · Almacén",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 10,
                           "fontWeight": "normal"
@@ -63315,7 +62731,7 @@
                           "id": "xavPI",
                           "name": "genValue",
                           "fill": "$Negro",
-                          "content": "03/Sep/2026, 14:32",
+                          "content": "03/Sep/26, 14:32",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "500"
@@ -63498,7 +62914,7 @@
                           "id": "aCF7y",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "Ramiro Osuna — Jefe de Lote",
+                          "content": "Ramiro Osuna ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "600"
@@ -64215,7 +63631,7 @@
                   "id": "bdNVa",
                   "name": "footerLeft",
                   "fill": "$Gris 1",
-                  "content": "SACSA · Sistema de Gestión de Almacén Agrícola",
+                  "content": "La Colonia Granos · Sistema de Gestión de Almacén Agrícola",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 9,
                   "fontWeight": "normal"
@@ -64279,27 +63695,31 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "XPvEs",
+                      "id": "wv9Q4",
                       "name": "brandCol",
                       "layout": "vertical",
                       "gap": 1,
                       "children": [
                         {
-                          "type": "text",
-                          "id": "IYhQN",
-                          "name": "brandName",
-                          "fill": "$Color Primario",
-                          "content": "SACSA",
-                          "fontFamily": "$Font Primaria",
-                          "fontSize": 22,
-                          "fontWeight": "700"
+                          "type": "rectangle",
+                          "cornerRadius": 5,
+                          "id": "TnWQB",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
+                            "mode": "fill",
+                            "blendMode": "luminosity"
+                          },
+                          "width": 77,
+                          "height": 52
                         },
                         {
                           "type": "text",
-                          "id": "b6Xihk",
+                          "id": "F2rvA",
                           "name": "brandTag",
                           "fill": "$Gris 1",
-                          "content": "Grupo Agrícola SACSA · Almacén",
+                          "content": "La Colonia Granos · Almacén",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 10,
                           "fontWeight": "normal"
@@ -64329,7 +63749,7 @@
                           "id": "YhmF5",
                           "name": "genValue",
                           "fill": "$Negro",
-                          "content": "03/Sep/2026, 14:32",
+                          "content": "03/Sep/26, 14:32",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "500"
@@ -65181,7 +64601,7 @@
                   "id": "oeed7",
                   "name": "footerLeft",
                   "fill": "$Gris 1",
-                  "content": "SACSA · Sistema de Gestión de Almacén Agrícola",
+                  "content": "La Colonia Granos · Sistema de Gestión de Almacén Agrícola",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 9,
                   "fontWeight": "normal"
@@ -67117,7 +66537,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 120,
-                          "content": "05/Sep/2026",
+                          "content": "05/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -67239,7 +66659,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 120,
-                          "content": "04/Sep/2026",
+                          "content": "04/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -67386,7 +66806,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 120,
-                          "content": "03/Sep/2026",
+                          "content": "03/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -67508,7 +66928,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 120,
-                          "content": "05/Sep/2026",
+                          "content": "05/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -67630,7 +67050,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 120,
-                          "content": "30/Ago/2026",
+                          "content": "30/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -67777,7 +67197,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 120,
-                          "content": "28/Ago/2026",
+                          "content": "28/Ago/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -68310,21 +67730,25 @@
                       "gap": 1,
                       "children": [
                         {
-                          "type": "text",
-                          "id": "XDf2u",
-                          "name": "brandName",
-                          "fill": "$Color Primario",
-                          "content": "SACSA",
-                          "fontFamily": "$Font Primaria",
-                          "fontSize": 22,
-                          "fontWeight": "700"
+                          "type": "rectangle",
+                          "cornerRadius": 5,
+                          "id": "bjIEg",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
+                            "mode": "fill",
+                            "blendMode": "luminosity"
+                          },
+                          "width": 77,
+                          "height": 52
                         },
                         {
                           "type": "text",
                           "id": "uNNVu",
                           "name": "brandTag",
                           "fill": "$Gris 1",
-                          "content": "Grupo Agrícola SACSA · Almacén",
+                          "content": "La Colonia Granos · Almacén",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 10,
                           "fontWeight": "normal"
@@ -68354,7 +67778,7 @@
                           "id": "kLBl0",
                           "name": "genValue",
                           "fill": "$Negro",
-                          "content": "01/Sep/2026, 09:42",
+                          "content": "01/Sep/26, 09:42",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "500"
@@ -68535,7 +67959,7 @@
                           "id": "RLqWY",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "01/Sep/2026",
+                          "content": "01/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "600"
@@ -69223,7 +68647,7 @@
                   "id": "XSa1P",
                   "name": "footerLeft",
                   "fill": "$Gris 1",
-                  "content": "SACSA · Sistema de Gestión de Almacén Agrícola",
+                  "content": "La Colonia Granos · Sistema de Gestión de Almacén Agrícola",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 9,
                   "fontWeight": "normal"
@@ -69472,7 +68896,7 @@
                   "id": "gw8bB",
                   "name": "registroInfo",
                   "fill": "$Gris 1",
-                  "content": "Entregada por Carlos Medina · 03/Sep/2026, 14:20",
+                  "content": "Entregada por Carlos Medina · 03/Sep/26, 14:20",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -69510,7 +68934,7 @@
                       "id": "DZhKD",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "LT-2044 · Maíz · 12.5 ha",
+                      "content": "Maíz · Lote-2044 · 12.5 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -69541,7 +68965,7 @@
                       "id": "u64Zd",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "03/Sep/2026, 07:58",
+                      "content": "03/Sep/26, 07:58",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -70589,7 +70013,7 @@
                               "id": "ZpLzq",
                               "name": "label",
                               "fill": "$Gris 1",
-                              "content": "LOTE / CULTIVO DESTINO",
+                              "content": "CULTIVO PRODUCTIVO",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 10,
                               "fontWeight": "700",
@@ -70600,7 +70024,7 @@
                               "id": "pwa9F",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "LT-2044 · Maíz",
+                              "content": "Maíz · Lote-2044 · 12.5 ha",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "700"
@@ -70631,7 +70055,7 @@
                               "id": "isfh5",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "03/Sep/2026, 14:30",
+                              "content": "03/Sep/26, 14:30",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -72505,6 +71929,75 @@
             },
             {
               "type": "frame",
+              "id": "g1HpFG",
+              "name": "Row1",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Bd4d8",
+                  "name": "fechaField",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "CgMUS",
+                      "name": "label",
+                      "fill": "$Negro",
+                      "content": "Proveedor ",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "O6LVr",
+                      "name": "field",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$Blanco",
+                      "cornerRadius": 8,
+                      "stroke": "$Gris 2",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "oUFZo",
+                          "name": "icon",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "search",
+                          "library": "feather",
+                          "fill": "$Gris 1"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vNBm5",
+                          "name": "value",
+                          "fill": "$Gris 1",
+                          "content": "Busca proveedor...",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "QgtKL",
               "name": "Row1",
               "width": "fill_container",
@@ -72610,7 +72103,7 @@
                           "id": "E6iEWh",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "01/Sep/2026",
+                          "content": "01/Sep/26",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -74089,6 +73582,17 @@
       "width": 250,
       "height": 219,
       "content": "Pendiente de confirmar depende del módulo de Compras"
+    },
+    {
+      "type": "text",
+      "id": "R6xNW",
+      "x": 12888,
+      "y": 25740,
+      "fill": "#000000",
+      "content": "Maíz · Lote-2044 · 12.5 ha",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal"
     }
   ],
   "variables": {
