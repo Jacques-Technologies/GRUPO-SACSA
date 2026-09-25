@@ -20224,7 +20224,7 @@
                       "id": "HGwjz",
                       "name": "label",
                       "fill": "$Negro",
-                      "content": "Nombre/modelo",
+                      "content": "Nombre",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "600"
@@ -22760,7 +22760,7 @@
                       "id": "X7ma98",
                       "name": "label",
                       "fill": "$Negro",
-                      "content": "Nombre/modelo",
+                      "content": "Nombre",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "600"

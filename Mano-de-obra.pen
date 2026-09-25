@@ -686,7 +686,7 @@
                   "id": "nyppE",
                   "name": "instruction",
                   "fill": "$Negro",
-                  "content": "Usa tu número de trabajador o escanea el código de tu tarjeta",
+                  "content": "Usa tu número de trabajador ",
                   "fontFamily": "$Font Primaria",
                   "fontSize": 18,
                   "fontWeight": "600"
@@ -7059,7 +7059,7 @@
                   "id": "D0apR",
                   "name": "instruction",
                   "fill": "$Negro",
-                  "content": "Usa tu número de trabajador o escanea el código de tu tarjeta",
+                  "content": "Usa tu número de trabajador",
                   "fontFamily": "$Font Primaria",
                   "fontSize": 18,
                   "fontWeight": "600"
