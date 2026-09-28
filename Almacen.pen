@@ -18098,6 +18098,81 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "frame",
+                  "id": "D9Knb",
+                  "name": "fechaAplicacionField",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tcIJt",
+                      "name": "label",
+                      "fill": "$Negro",
+                      "content": "Fecha y hora de aplicación solicitada",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "v8ErOs",
+                      "name": "field",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$Blanco",
+                      "cornerRadius": 8,
+                      "stroke": "$Gris 2",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "CWvSA",
+                          "name": "icon",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "calendar",
+                          "library": "feather",
+                          "fill": "$Gris 1"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Rwxfa",
+                          "name": "value",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Selecciona fecha y hora",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "yF7Do",
+                          "x": 258,
+                          "y": 12,
+                          "name": "chevron",
+                          "enabled": false,
+                          "width": 16,
+                          "height": 16,
+                          "icon": "chevron-down",
+                          "library": "feather",
+                          "fill": "$Gris 1"
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -18181,20 +18256,6 @@
                           "textGrowth": "fixed-width",
                           "width": 135,
                           "content": "CANT.",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 10,
-                          "fontWeight": "700",
-                          "letterSpacing": 0.3
-                        },
-                        {
-                          "type": "text",
-                          "id": "I9aXUt",
-                          "name": "h_Importe",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": 95,
-                          "content": "IMPORTE",
-                          "textAlign": "right",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 10,
                           "fontWeight": "700",
@@ -18334,19 +18395,6 @@
                                   "fontWeight": "normal"
                                 }
                               ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "kXzVE",
-                              "name": "c_Importe",
-                              "fill": "$Negro",
-                              "textGrowth": "fixed-width",
-                              "width": 95,
-                              "content": "$19,375.00",
-                              "textAlign": "right",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 13,
-                              "fontWeight": "700"
                             },
                             {
                               "type": "frame",
@@ -18553,19 +18601,6 @@
                               ]
                             },
                             {
-                              "type": "text",
-                              "id": "WyaDI",
-                              "name": "c_Importe",
-                              "fill": "$Negro",
-                              "textGrowth": "fixed-width",
-                              "width": 95,
-                              "content": "$9,000.00",
-                              "textAlign": "right",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 13,
-                              "fontWeight": "700"
-                            },
-                            {
                               "type": "frame",
                               "id": "hYY3a",
                               "name": "c_delBtn",
@@ -18758,19 +18793,6 @@
                               "fontWeight": "normal"
                             }
                           ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "z17tjD",
-                          "name": "c_Importe",
-                          "fill": "$Negro",
-                          "textGrowth": "fixed-width",
-                          "width": 95,
-                          "content": "$21,000.00",
-                          "textAlign": "right",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 13,
-                          "fontWeight": "700"
                         },
                         {
                           "type": "frame",
@@ -29804,6 +29826,19 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "text",
+                  "id": "WC1Zi",
+                  "name": "pepsNote",
+                  "fill": "$Hover 1",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Las salidas descuentan siempre por PEPS (primero lo que entró primero), aunque una entrada posterior caduque antes.",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
                 }
               ]
             },
@@ -38098,7 +38133,7 @@
       "id": "DTWLb",
       "x": 16143,
       "y": 21239,
-      "name": "Detalle de Traslado (Autorizada automáticamente (solicitante con permiso de autorización))",
+      "name": "Detalle de Traslado (Solicitado)",
       "clip": true,
       "width": 640,
       "fill": "$Blanco",
@@ -38309,7 +38344,7 @@
                       "id": "Ny25l",
                       "name": "statusLabel",
                       "fill": "$Hover 1",
-                      "content": "Autorizada",
+                      "content": "Solicitado",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 13,
                       "fontWeight": "700"
@@ -38321,7 +38356,7 @@
                   "id": "n1OnkZ",
                   "name": "registroInfo",
                   "fill": "$Gris 1",
-                  "content": "Autorizada por Ramiro Osuna · 05/Sep/26, 10:00",
+                  "content": "Solicitado por Ramiro Osuna · 05/Sep/26, 10:00",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -38555,7 +38590,7 @@
                           "id": "JLvGN",
                           "name": "text",
                           "fill": "$Color Primario",
-                          "content": "Autorizada",
+                          "content": "Solicitado",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "700"
@@ -40166,7 +40201,7 @@
                               "id": "j4ouY",
                               "name": "text",
                               "fill": "$Color Primario",
-                              "content": "Autorizado",
+                              "content": "Solicitado",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "700"
@@ -40703,7 +40738,7 @@
                               "id": "Arpk5",
                               "name": "text",
                               "fill": "$Color Primario",
-                              "content": "Autorizado",
+                              "content": "Solicitado",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "700"
@@ -40924,7 +40959,7 @@
                                   "id": "RUUMn",
                                   "name": "text",
                                   "fill": "$Negativo",
-                                  "content": "Cancelada",
+                                  "content": "Cancelado",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 11,
                                   "fontWeight": "700"
@@ -42422,19 +42457,6 @@
                         },
                         {
                           "type": "text",
-                          "id": "Be2Bt",
-                          "name": "h_Fecha",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": 100,
-                          "content": "FECHA AUTORIZACIÓN",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 11,
-                          "fontWeight": "700",
-                          "letterSpacing": 0.5
-                        },
-                        {
-                          "type": "text",
                           "id": "R1RRw",
                           "name": "h_Fecha",
                           "fill": "$Gris 1",
@@ -42561,18 +42583,6 @@
                         },
                         {
                           "type": "text",
-                          "id": "Ld0TZ",
-                          "name": "c_Fecha",
-                          "fill": "$Negro",
-                          "textGrowth": "fixed-width",
-                          "width": 100,
-                          "content": "05/Sep/26",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
                           "id": "tQf99",
                           "name": "c_Fecha",
                           "fill": "$Negro",
@@ -42630,7 +42640,7 @@
                                   "id": "i3QLO",
                                   "name": "badgeText",
                                   "fill": "$Color Primario",
-                                  "content": "Autorizado",
+                                  "content": "Solicitado",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 12,
                                   "fontWeight": "600"
@@ -42731,18 +42741,6 @@
                         },
                         {
                           "type": "text",
-                          "id": "wppbz",
-                          "name": "c_Fecha",
-                          "fill": "$Negro",
-                          "textGrowth": "fixed-width",
-                          "width": 100,
-                          "content": "04/Sep/26",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
                           "id": "iwkyH",
                           "name": "c_Fecha",
                           "fill": "$Negro",
@@ -42800,7 +42798,7 @@
                                   "id": "uZxfw",
                                   "name": "badgeText",
                                   "fill": "$Color Primario",
-                                  "content": "Autorizado",
+                                  "content": "Solicitado",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 12,
                                   "fontWeight": "600"
@@ -42890,18 +42888,6 @@
                         {
                           "type": "text",
                           "id": "r9JSD",
-                          "name": "c_Fecha",
-                          "fill": "$Negro",
-                          "textGrowth": "fixed-width",
-                          "width": 100,
-                          "content": "03/Sep/26",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "D9izX",
                           "name": "c_Fecha",
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
@@ -43071,18 +43057,6 @@
                         },
                         {
                           "type": "text",
-                          "id": "lv06t",
-                          "name": "c_Fecha",
-                          "fill": "$Negro",
-                          "textGrowth": "fixed-width",
-                          "width": 100,
-                          "content": "02/Sep/26",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
                           "id": "CP9iS",
                           "name": "c_Fecha",
                           "fill": "$Negro",
@@ -43241,18 +43215,6 @@
                         },
                         {
                           "type": "text",
-                          "id": "YZbub",
-                          "name": "c_Fecha",
-                          "fill": "$Negro",
-                          "textGrowth": "fixed-width",
-                          "width": 100,
-                          "content": "30/Ago/26",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
                           "id": "LhqFD",
                           "name": "c_Fecha",
                           "fill": "$Negro",
@@ -43310,7 +43272,7 @@
                                   "id": "p2sy9Y",
                                   "name": "badgeText",
                                   "fill": "$Color Primario",
-                                  "content": "Autorizado",
+                                  "content": "Solicitado",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 12,
                                   "fontWeight": "600"
@@ -43411,18 +43373,6 @@
                         },
                         {
                           "type": "text",
-                          "id": "RpiGH",
-                          "name": "c_Fecha",
-                          "fill": "$Negro",
-                          "textGrowth": "fixed-width",
-                          "width": 100,
-                          "content": "28/Ago/26",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
                           "id": "l8tEgJ",
                           "name": "c_Fecha",
                           "fill": "$Negro",
@@ -43480,7 +43430,7 @@
                                   "id": "lY5BP",
                                   "name": "badgeText",
                                   "fill": "$Color Primario",
-                                  "content": "Autorizado",
+                                  "content": "Solicitado",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 12,
                                   "fontWeight": "600"
@@ -44057,7 +44007,7 @@
                       "id": "Y8sjWL",
                       "name": "statusLabel",
                       "fill": "$Hover 1",
-                      "content": "Entregada",
+                      "content": "Entregado",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 13,
                       "fontWeight": "700"
@@ -44069,7 +44019,7 @@
                   "id": "oHs2z",
                   "name": "registroInfo",
                   "fill": "$Gris 1",
-                  "content": "Recibida por Iván Torres · 06/Sep/26, 08:30",
+                  "content": "Entregado por Iván Torres · 06/Sep/26, 08:30",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -44303,7 +44253,7 @@
                           "id": "MPWTx",
                           "name": "badgeText",
                           "fill": "$Blanco",
-                          "content": "Entregada",
+                          "content": "Entregado",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "700"
@@ -56517,6 +56467,7 @@
                   "width": "fill_container",
                   "gap": 28,
                   "justifyContent": "space_between",
+                  "alignItems": "center",
                   "children": [
                     {
                       "type": "frame",
@@ -56583,38 +56534,86 @@
                     },
                     {
                       "type": "frame",
-                      "id": "K5bDpL",
-                      "name": "btnCrearAlmacen",
-                      "height": "fill_container",
-                      "fill": "$Color Primario",
-                      "cornerRadius": 8,
-                      "gap": 8,
-                      "padding": [
-                        14,
-                        20
-                      ],
-                      "justifyContent": "center",
-                      "alignItems": "center",
+                      "id": "Jnifr",
+                      "name": "Frame 37",
+                      "gap": 20,
                       "children": [
                         {
-                          "type": "icon",
-                          "id": "uNdWp",
-                          "name": "btnIconPrimaryIcon",
-                          "width": 20,
-                          "height": 20,
-                          "icon": "plus",
-                          "library": "feather",
-                          "fill": "$Blanco"
+                          "type": "frame",
+                          "id": "TSKnu",
+                          "name": "btnReporteCaducidades",
+                          "height": 42,
+                          "fill": "$Blanco",
+                          "cornerRadius": 8,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "Cog2O",
+                              "name": "icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Negro"
+                            },
+                            {
+                              "type": "text",
+                              "id": "u5isB",
+                              "name": "t",
+                              "fill": "$Negro",
+                              "content": "Reporte de caducidades",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
                         },
                         {
-                          "type": "text",
-                          "id": "FCCnR",
-                          "name": "btnIconPrimaryText",
-                          "fill": "$Blanco",
-                          "content": "Crear almacén",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "600"
+                          "type": "frame",
+                          "id": "K5bDpL",
+                          "name": "btnCrearAlmacen",
+                          "height": "fill_container",
+                          "fill": "$Color Primario",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "padding": [
+                            14,
+                            20
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "uNdWp",
+                              "name": "btnIconPrimaryIcon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "plus",
+                              "library": "feather",
+                              "fill": "$Blanco"
+                            },
+                            {
+                              "type": "text",
+                              "id": "FCCnR",
+                              "name": "btnIconPrimaryText",
+                              "fill": "$Blanco",
+                              "content": "Crear almacén",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -57074,14 +57073,39 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "j9hKmS",
-                              "name": "c_alertNone",
-                              "fill": "$Gris 2",
-                              "content": "—",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
+                              "type": "frame",
+                              "id": "Lg4tj",
+                              "name": "badge_porCaducar",
+                              "fill": "#fef3c7",
+                              "cornerRadius": 20,
+                              "gap": 5,
+                              "padding": [
+                                4,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "k9EIPP",
+                                  "name": "icon",
+                                  "width": 11,
+                                  "height": 11,
+                                  "icon": "clock",
+                                  "library": "feather",
+                                  "fill": "#b45309"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "fDl1V",
+                                  "name": "text",
+                                  "fill": "#b45309",
+                                  "content": "Por caducar",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 11,
+                                  "fontWeight": "700"
+                                }
+                              ]
                             }
                           ]
                         },
@@ -57734,14 +57758,39 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "H0YYT",
-                              "name": "c_alertNone",
-                              "fill": "$Gris 2",
-                              "content": "—",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
+                              "type": "frame",
+                              "id": "V5dbF7",
+                              "name": "badge_caducado",
+                              "fill": "$Hover negativo",
+                              "cornerRadius": 20,
+                              "gap": 5,
+                              "padding": [
+                                4,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "JObVU",
+                                  "name": "icon",
+                                  "width": 11,
+                                  "height": 11,
+                                  "icon": "alert-triangle",
+                                  "library": "feather",
+                                  "fill": "$Negativo"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Q44AB",
+                                  "name": "text",
+                                  "fill": "$Negativo",
+                                  "content": "Caducado",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 11,
+                                  "fontWeight": "700"
+                                }
+                              ]
                             }
                           ]
                         },
@@ -58837,38 +58886,86 @@
                     },
                     {
                       "type": "frame",
-                      "id": "UcFuA",
-                      "name": "btnCrearAlmacen",
-                      "height": "fill_container",
-                      "fill": "$Color Primario",
-                      "cornerRadius": 8,
-                      "gap": 8,
-                      "padding": [
-                        14,
-                        20
-                      ],
-                      "justifyContent": "center",
-                      "alignItems": "center",
+                      "id": "c1jO1",
+                      "name": "Frame 37",
+                      "gap": 20,
                       "children": [
                         {
-                          "type": "icon",
-                          "id": "L1Fr8",
-                          "name": "btnIconPrimaryIcon",
-                          "width": 20,
-                          "height": 20,
-                          "icon": "plus",
-                          "library": "feather",
-                          "fill": "$Blanco"
+                          "type": "frame",
+                          "id": "fhUSM",
+                          "name": "btnReporteCaducidades",
+                          "height": 42,
+                          "fill": "$Blanco",
+                          "cornerRadius": 8,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "QY0yL",
+                              "name": "icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Negro"
+                            },
+                            {
+                              "type": "text",
+                              "id": "FkRDh",
+                              "name": "t",
+                              "fill": "$Negro",
+                              "content": "Reporte de caducidades",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
                         },
                         {
-                          "type": "text",
-                          "id": "RcWko",
-                          "name": "btnIconPrimaryText",
-                          "fill": "$Blanco",
-                          "content": "Crear almacén",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "600"
+                          "type": "frame",
+                          "id": "vlLaK",
+                          "name": "btnCrearAlmacen",
+                          "height": "fill_container",
+                          "fill": "$Color Primario",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "padding": [
+                            14,
+                            20
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "FA4aQ",
+                              "name": "btnIconPrimaryIcon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "plus",
+                              "library": "feather",
+                              "fill": "$Blanco"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ZXqsE",
+                              "name": "btnIconPrimaryText",
+                              "fill": "$Blanco",
+                              "content": "Crear almacén",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -58963,7 +59060,7 @@
       "name": "Detalle de Producto",
       "clip": true,
       "width": 1440,
-      "height": 1150,
+      "height": 1330,
       "fill": "$Blanco",
       "children": [
         {
@@ -60117,6 +60214,16 @@
                                   "fontWeight": "600"
                                 }
                               ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "SAulv",
+                              "name": "minCaption",
+                              "fill": "$Gris 1",
+                              "content": "por almacén",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -60175,6 +60282,16 @@
                                   "fontWeight": "600"
                                 }
                               ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "bqCmb",
+                              "name": "maxCaption",
+                              "fill": "$Gris 1",
+                              "content": "por almacén",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -60216,6 +60333,272 @@
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "zrldk",
+                  "name": "sectionTitle",
+                  "fill": "$Negro",
+                  "content": "Caducidades por entrada",
+                  "fontFamily": "$Font Primaria",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "MTkXh",
+                  "name": "TableWrapper",
+                  "width": "fill_container",
+                  "fill": "$Blanco",
+                  "cornerRadius": 8,
+                  "stroke": "$Gris 3",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "UmpCf",
+                      "name": "TableHeaderRow",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$Gris 3",
+                      "stroke": "$Gris 2",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "gap": 14,
+                      "padding": [
+                        0,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "a6mFyy",
+                          "name": "h_Producto",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "PRODUCTO",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "mmiVh",
+                          "name": "h_Entrada",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": 90,
+                          "content": "ENTRADA",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "tsMZO",
+                          "name": "h_Almacen",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": 170,
+                          "content": "ALMACÉN",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "tvsC9",
+                          "name": "h_CantEntro",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": 110,
+                          "content": "CANT. QUE ENTRÓ",
+                          "textAlign": "right",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "A7fxZ",
+                          "name": "h_Disponible",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": 100,
+                          "content": "DISPONIBLE",
+                          "textAlign": "right",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "Ht0mJ",
+                          "name": "h_Unidad",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": 70,
+                          "content": "UNIDAD",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "YKU3a",
+                          "name": "h_FechaCad",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": 140,
+                          "content": "FECHA DE CADUCIDAD",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "PB9Ox",
+                          "name": "h_DiasRestantes",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": 120,
+                          "content": "DÍAS RESTANTES",
+                          "textAlign": "right",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KMbZe",
+                      "name": "row_sin_entrada",
+                      "width": "fill_container",
+                      "height": 50,
+                      "gap": 14,
+                      "padding": [
+                        0,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "CeO8p",
+                          "name": "c_Producto",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Fungicida Mancozeb",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "io3Gw",
+                          "name": "c_Entrada",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": 90,
+                          "content": "Sin folio registrado",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tui02",
+                          "name": "c_Almacen",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": 170,
+                          "content": "—",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OkBcA",
+                          "name": "c_CantEntro",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": 110,
+                          "content": "—",
+                          "textAlign": "right",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OtOuz",
+                          "name": "c_Disponible",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": 100,
+                          "content": "124",
+                          "textAlign": "right",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "AOH68",
+                          "name": "c_Unidad",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": 70,
+                          "content": "kg",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LFdGo",
+                          "name": "c_FechaCad",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": 140,
+                          "content": "dd/mmm/aa",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LMbH2",
+                          "name": "c_DiasRestantes",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": 120,
+                          "content": "—",
+                          "textAlign": "right",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -61612,6 +61995,20 @@
       "width": 7260,
       "height": 350,
       "content": "16 - REGISTRAR ENTRADA POR DEVOLUCIÓN",
+      "fontFamily": "Inter",
+      "fontSize": 300,
+      "fontWeight": "normal"
+    },
+    {
+      "type": "text",
+      "id": "AQwT8",
+      "x": 12836,
+      "y": 45637,
+      "fill": "$Color Primario",
+      "textGrowth": "fixed-width-height",
+      "width": 7260,
+      "height": 350,
+      "content": "17 - REPORTE DE CADUCIDADES",
       "fontFamily": "Inter",
       "fontSize": 300,
       "fontWeight": "normal"
@@ -63657,7 +64054,7 @@
       "id": "Qt2bm",
       "x": 16097,
       "y": 40886,
-      "name": "Autorización de Traslado (Imprimible)",
+      "name": "Comprobante de Traslado (Imprimible)",
       "clip": true,
       "width": 816,
       "height": 1160,
@@ -64769,6 +65166,115 @@
             },
             {
               "type": "frame",
+              "id": "e528Mf",
+              "name": "RowTipo",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "cuSl1",
+                  "name": "tipoField",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MKAsj",
+                      "name": "label",
+                      "fill": "$Negro",
+                      "content": "Tipo *",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xa3Mt",
+                      "name": "field",
+                      "width": "fill_container",
+                      "fill": "$Gris 3",
+                      "cornerRadius": 20,
+                      "gap": 8,
+                      "padding": 6,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "kV0DP",
+                          "name": "optAlmacen",
+                          "width": "fill_container",
+                          "height": 36,
+                          "fill": "$Color Primario",
+                          "cornerRadius": 16,
+                          "gap": 6,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "hiZ6s",
+                              "name": "icon",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "package",
+                              "library": "feather",
+                              "fill": "$Blanco"
+                            },
+                            {
+                              "type": "text",
+                              "id": "x8JXNh",
+                              "name": "label",
+                              "fill": "$Blanco",
+                              "content": "Almacén",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DpN4i",
+                          "name": "optSubalmacen",
+                          "width": "fill_container",
+                          "height": 36,
+                          "fill": "#00000000",
+                          "cornerRadius": 16,
+                          "gap": 6,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "n91Sd",
+                              "name": "icon",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "layers",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "qvCph",
+                              "name": "label",
+                              "fill": "$Gris 1",
+                              "content": "Subalmacén",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "EUZpp",
               "name": "HintNote",
               "width": "fill_container",
@@ -65031,6 +65537,115 @@
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "C6uis",
+              "name": "RowTipo",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Wst9d",
+                  "name": "tipoField",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "CK63U",
+                      "name": "label",
+                      "fill": "$Negro",
+                      "content": "Tipo *",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NQPU1",
+                      "name": "field",
+                      "width": "fill_container",
+                      "fill": "$Gris 3",
+                      "cornerRadius": 20,
+                      "gap": 8,
+                      "padding": 6,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "SxQPR",
+                          "name": "optAlmacen",
+                          "width": "fill_container",
+                          "height": 36,
+                          "fill": "$Color Primario",
+                          "cornerRadius": 16,
+                          "gap": 6,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "Q4x37",
+                              "name": "icon",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "package",
+                              "library": "feather",
+                              "fill": "$Blanco"
+                            },
+                            {
+                              "type": "text",
+                              "id": "TYeQ9",
+                              "name": "label",
+                              "fill": "$Blanco",
+                              "content": "Almacén",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "K12v7E",
+                          "name": "optSubalmacen",
+                          "width": "fill_container",
+                          "height": 36,
+                          "fill": "#00000000",
+                          "cornerRadius": 16,
+                          "gap": 6,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "S2SoIU",
+                              "name": "icon",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "layers",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "cTy9Z",
+                              "name": "label",
+                              "fill": "$Gris 1",
+                              "content": "Subalmacén",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -66059,38 +66674,86 @@
                     },
                     {
                       "type": "frame",
-                      "id": "gmvSO",
-                      "name": "btnCrearAlmacen",
-                      "height": "fill_container",
-                      "fill": "$Color Primario",
-                      "cornerRadius": 8,
-                      "gap": 8,
-                      "padding": [
-                        14,
-                        20
-                      ],
-                      "justifyContent": "center",
-                      "alignItems": "center",
+                      "id": "HrQ6e",
+                      "name": "Frame 37",
+                      "gap": 20,
                       "children": [
                         {
-                          "type": "icon",
-                          "id": "ZltWw",
-                          "name": "btnIconPrimaryIcon",
-                          "width": 20,
-                          "height": 20,
-                          "icon": "plus",
-                          "library": "feather",
-                          "fill": "$Blanco"
+                          "type": "frame",
+                          "id": "f3MHNd",
+                          "name": "btnReporteCaducidades",
+                          "height": 42,
+                          "fill": "$Blanco",
+                          "cornerRadius": 8,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "zqgDu",
+                              "name": "icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Negro"
+                            },
+                            {
+                              "type": "text",
+                              "id": "c17NV4",
+                              "name": "t",
+                              "fill": "$Negro",
+                              "content": "Reporte de caducidades",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
                         },
                         {
-                          "type": "text",
-                          "id": "cLnIV",
-                          "name": "btnIconPrimaryText",
-                          "fill": "$Blanco",
-                          "content": "Crear almacén",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "600"
+                          "type": "frame",
+                          "id": "FSeBQ",
+                          "name": "btnCrearAlmacen",
+                          "height": "fill_container",
+                          "fill": "$Color Primario",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "padding": [
+                            14,
+                            20
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "o0QyRk",
+                              "name": "btnIconPrimaryIcon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "plus",
+                              "library": "feather",
+                              "fill": "$Blanco"
+                            },
+                            {
+                              "type": "text",
+                              "id": "NTOWE",
+                              "name": "btnIconPrimaryText",
+                              "fill": "$Blanco",
+                              "content": "Crear almacén",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -66550,14 +67213,39 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "rMflE",
-                              "name": "c_alertNone",
-                              "fill": "$Gris 2",
-                              "content": "—",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
+                              "type": "frame",
+                              "id": "DKDTR",
+                              "name": "badge_porCaducar",
+                              "fill": "#fef3c7",
+                              "cornerRadius": 20,
+                              "gap": 5,
+                              "padding": [
+                                4,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "mzhBI",
+                                  "name": "icon",
+                                  "width": 11,
+                                  "height": 11,
+                                  "icon": "clock",
+                                  "library": "feather",
+                                  "fill": "#b45309"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "jPyur",
+                                  "name": "text",
+                                  "fill": "#b45309",
+                                  "content": "Por caducar",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 11,
+                                  "fontWeight": "700"
+                                }
+                              ]
                             }
                           ]
                         },
@@ -67210,14 +67898,39 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "NKraJ",
-                              "name": "c_alertNone",
-                              "fill": "$Gris 2",
-                              "content": "—",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
+                              "type": "frame",
+                              "id": "OVJx5",
+                              "name": "badge_caducado",
+                              "fill": "$Hover negativo",
+                              "cornerRadius": 20,
+                              "gap": 5,
+                              "padding": [
+                                4,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "pS6cu",
+                                  "name": "icon",
+                                  "width": 11,
+                                  "height": 11,
+                                  "icon": "alert-triangle",
+                                  "library": "feather",
+                                  "fill": "$Negativo"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ttTHG",
+                                  "name": "text",
+                                  "fill": "$Negativo",
+                                  "content": "Caducado",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 11,
+                                  "fontWeight": "700"
+                                }
+                              ]
                             }
                           ]
                         },
@@ -70549,6 +71262,44 @@
             },
             {
               "type": "frame",
+              "id": "Mhaua",
+              "name": "ImpactoCultivoSection",
+              "width": "fill_container",
+              "fill": "$Hover 3",
+              "cornerRadius": 8,
+              "gap": 10,
+              "padding": [
+                12,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "FNMRs",
+                  "name": "icon",
+                  "width": 17,
+                  "height": 17,
+                  "icon": "rotate-ccw",
+                  "library": "feather",
+                  "fill": "$Color Primario"
+                },
+                {
+                  "type": "text",
+                  "id": "O7JFZ",
+                  "name": "text",
+                  "fill": "$Hover 1",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Se revierte del cultivo productivo Maíz · Lote-2044 · 12.5 ha el costo de lo devuelto, al mismo costo PEPS de la salida original: [monto]",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "lk4ak",
               "name": "Row1",
               "width": "fill_container",
@@ -70556,7 +71307,7 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "qQEC0",
+                  "id": "YZGRD",
                   "name": "operadorField",
                   "width": "fill_container",
                   "layout": "vertical",
@@ -70564,7 +71315,7 @@
                   "children": [
                     {
                       "type": "text",
-                      "id": "F4I9FL",
+                      "id": "guYyE",
                       "name": "label",
                       "fill": "$Negro",
                       "content": "Operador que devuelve *",
@@ -70574,11 +71325,11 @@
                     },
                     {
                       "type": "frame",
-                      "id": "KdTdL",
+                      "id": "rKs9P",
                       "name": "field",
                       "width": "fill_container",
                       "height": 40,
-                      "fill": "$Blanco",
+                      "fill": "$Gris 3",
                       "cornerRadius": 8,
                       "stroke": "$Gris 2",
                       "strokeWidth": 1,
@@ -70592,22 +71343,20 @@
                       "children": [
                         {
                           "type": "icon",
-                          "id": "FzPb0",
-                          "name": "icon",
-                          "width": 15,
-                          "height": 15,
-                          "icon": "search",
+                          "id": "SmWwk",
+                          "name": "lockIcon",
+                          "width": 13,
+                          "height": 13,
+                          "icon": "lock",
                           "library": "feather",
                           "fill": "$Gris 1"
                         },
                         {
                           "type": "text",
-                          "id": "XqD3q",
+                          "id": "HliQo",
                           "name": "value",
                           "fill": "$Negro",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Selecciona un operador",
+                          "content": "Carlos Medina",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -71031,6 +71780,19 @@
           "textGrowth": "fixed-width",
           "width": "fill_container",
           "content": "Se registraron 45 L de Fertilizante Foliar X-20 y 120 kg de Urea 46% como entrada al inventario de Almacén Sur.",
+          "textAlign": "center",
+          "fontFamily": "$Font Secundaria",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "yEKQ6",
+          "name": "impactNote",
+          "fill": "$Gris 1",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Se revierte del cultivo productivo Maíz · Lote-2044 · 12.5 ha el costo de lo devuelto, al mismo costo PEPS de la salida original: [monto]",
           "textAlign": "center",
           "fontFamily": "$Font Secundaria",
           "fontSize": 13,
@@ -71475,6 +72237,44 @@
                       ]
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GZone",
+              "name": "HintNotePorAlmacen",
+              "width": "fill_container",
+              "fill": "$Hover 3",
+              "cornerRadius": 8,
+              "gap": 10,
+              "padding": [
+                12,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "W1Pea",
+                  "name": "hintIcon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "info",
+                  "library": "feather",
+                  "fill": "$Color Primario"
+                },
+                {
+                  "type": "text",
+                  "id": "pDvHY",
+                  "name": "hintText",
+                  "fill": "$Hover 1",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Este rango aplica a cada almacén por separado. Ej.: mínimo 10 y máximo 100 significa que cada almacén debe tener entre 10 y 100.",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -73593,6 +74393,1813 @@
       "fontFamily": "Inter",
       "fontSize": 12,
       "fontWeight": "normal"
+    },
+    {
+      "type": "frame",
+      "id": "KUpYa",
+      "x": 17536.378814315147,
+      "y": 36663,
+      "name": "Editar Almacén - Modal",
+      "clip": true,
+      "width": 640,
+      "fill": "$Blanco",
+      "cornerRadius": 12,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#00000040",
+        "offset": {
+          "x": 0,
+          "y": 12
+        },
+        "blur": 32
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "uiv78",
+          "name": "ModalHeader",
+          "width": "fill_container",
+          "stroke": "$Gris 3",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "strokeAlignment": "inner",
+          "padding": [
+            20,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "pFlTY",
+              "name": "modalTitle",
+              "fill": "$Negro",
+              "content": "Editar almacén",
+              "fontFamily": "$Font Primaria",
+              "fontSize": 19,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "OLpsG",
+              "name": "closeBtn",
+              "width": 32,
+              "height": 32,
+              "cornerRadius": 8,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "ClfU0",
+                  "name": "closeIcon",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "x",
+                  "library": "feather",
+                  "fill": "$Gris 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "qbWMx",
+          "name": "ModalBody",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            20,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "C8esW8",
+              "name": "RowNombre",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "nQqSX",
+                  "name": "nombreAlmacenField",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ryKaT",
+                      "name": "label",
+                      "fill": "$Negro",
+                      "content": "Nombre del almacén *",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "a0n8u",
+                      "name": "field",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$Blanco",
+                      "cornerRadius": 8,
+                      "stroke": "$Gris 2",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "q5vEe0",
+                          "name": "value",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Almacén Sur",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "U5Qf2v",
+              "name": "RowTipo",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ZYwtX",
+                  "name": "tipoField",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bDCN9",
+                      "name": "label",
+                      "fill": "$Negro",
+                      "content": "Tipo *",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eRtTi",
+                      "name": "field",
+                      "width": "fill_container",
+                      "fill": "$Gris 3",
+                      "cornerRadius": 20,
+                      "gap": 8,
+                      "padding": 6,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "p8FEi",
+                          "name": "optAlmacen",
+                          "width": "fill_container",
+                          "height": 36,
+                          "fill": "$Color Primario",
+                          "cornerRadius": 16,
+                          "gap": 6,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "tXftV",
+                              "name": "icon",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "package",
+                              "library": "feather",
+                              "fill": "$Blanco"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ogT0Y",
+                              "name": "label",
+                              "fill": "$Blanco",
+                              "content": "Almacén",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "c51Ze3",
+                          "name": "optSubalmacen",
+                          "width": "fill_container",
+                          "height": 36,
+                          "fill": "#00000000",
+                          "cornerRadius": 16,
+                          "gap": 6,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "tRUHl",
+                              "name": "icon",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "layers",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "v7WZxS",
+                              "name": "label",
+                              "fill": "$Gris 1",
+                              "content": "Subalmacén",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bJeTF",
+              "name": "RowEstatus",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "YMmw5",
+                  "name": "estatusField",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aIzSk",
+                      "name": "label",
+                      "fill": "$Negro",
+                      "content": "Estatus *",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "g7Zlr",
+                      "name": "field",
+                      "width": "fill_container",
+                      "fill": "$Gris 3",
+                      "cornerRadius": 20,
+                      "gap": 8,
+                      "padding": 6,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "iE8BV",
+                          "name": "optActivo",
+                          "width": "fill_container",
+                          "height": 36,
+                          "fill": "$Color Primario",
+                          "cornerRadius": 16,
+                          "gap": 6,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "fFs12",
+                              "name": "icon",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "check-circle",
+                              "library": "feather",
+                              "fill": "$Blanco"
+                            },
+                            {
+                              "type": "text",
+                              "id": "vDU0t",
+                              "name": "label",
+                              "fill": "$Blanco",
+                              "content": "Activo",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "QxFFm",
+                          "name": "optInactivo",
+                          "width": "fill_container",
+                          "height": 36,
+                          "fill": "#00000000",
+                          "cornerRadius": 16,
+                          "gap": 6,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "PBbXd",
+                              "name": "icon",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "x-circle",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "hgzIf",
+                              "name": "label",
+                              "fill": "$Gris 1",
+                              "content": "Inactivo",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Vnc6T",
+          "name": "ModalFooter",
+          "width": "fill_container",
+          "fill": "$Blanco",
+          "stroke": "$Gris 3",
+          "strokeWidth": {
+            "top": 1
+          },
+          "strokeAlignment": "inner",
+          "gap": 12,
+          "padding": [
+            16,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "JorvK",
+              "name": "btnCerrar",
+              "width": 170,
+              "fill": "$Blanco",
+              "cornerRadius": 8,
+              "stroke": "$Gris 2",
+              "strokeWidth": 1.5,
+              "strokeAlignment": "inner",
+              "gap": 8,
+              "padding": [
+                14,
+                20
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "iYPyI",
+                  "name": "btnSecondaryText",
+                  "fill": "$Negro",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Cancelar",
+                  "textAlign": "center",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "g3KNw",
+              "name": "btnCrearAlmacen",
+              "width": 180,
+              "fill": "$Color Primario",
+              "cornerRadius": 8,
+              "gap": 8,
+              "padding": [
+                14,
+                20
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Xt4L6",
+                  "name": "btnPrimaryText",
+                  "fill": "$Blanco",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Guardar",
+                  "textAlign": "center",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "T33Ie",
+      "x": 18256.378814315147,
+      "y": 36663,
+      "name": "Desactivar Almacén - Confirmation Modal",
+      "clip": true,
+      "width": 420,
+      "fill": "$Blanco",
+      "cornerRadius": 12,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#00000040",
+        "offset": {
+          "x": 0,
+          "y": 12
+        },
+        "blur": 32
+      },
+      "layout": "vertical",
+      "gap": 16,
+      "padding": [
+        32,
+        28
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "umeBf",
+          "name": "iconCircle",
+          "width": 56,
+          "height": 56,
+          "fill": "$Hover negativo",
+          "cornerRadius": 28,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "vXfy1",
+              "name": "icon",
+              "width": 28,
+              "height": 28,
+              "icon": "alert-triangle",
+              "library": "feather",
+              "fill": "$Negativo"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "X186N",
+          "name": "title",
+          "fill": "$Negro",
+          "content": "¿Desactivar Almacén Sur?",
+          "textAlign": "center",
+          "fontFamily": "$Font Primaria",
+          "fontSize": 17,
+          "fontWeight": "700"
+        },
+        {
+          "type": "text",
+          "id": "NPEzs",
+          "name": "description",
+          "fill": "$Gris 1",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "El almacén dejará de aparecer en selectores. Su historial de movimientos se conserva.",
+          "textAlign": "center",
+          "fontFamily": "$Font Secundaria",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "vASSB",
+          "name": "buttonsRow",
+          "width": "fill_container",
+          "gap": 12,
+          "children": [
+            {
+              "type": "frame",
+              "id": "RLsnZ",
+              "name": "btnCerrar",
+              "width": 170,
+              "fill": "$Blanco",
+              "cornerRadius": 8,
+              "stroke": "$Gris 2",
+              "strokeWidth": 1.5,
+              "strokeAlignment": "inner",
+              "gap": 8,
+              "padding": [
+                14,
+                20
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xoIIo",
+                  "name": "btnSecondaryText",
+                  "fill": "$Negro",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Cancelar",
+                  "textAlign": "center",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "q1hul",
+              "name": "btnConfirmar",
+              "width": "fill_container",
+              "fill": "$Negativo",
+              "cornerRadius": 8,
+              "gap": 8,
+              "padding": [
+                14,
+                20
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ekDSg",
+                  "name": "btnPrimaryText",
+                  "fill": "$Blanco",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Desactivar",
+                  "textAlign": "center",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Qu9dZ",
+      "x": 18756.378814315147,
+      "y": 36663,
+      "name": "Desactivar Almacén - Confirmation Modal (Con inventario)",
+      "clip": true,
+      "width": 420,
+      "fill": "$Blanco",
+      "cornerRadius": 12,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#00000040",
+        "offset": {
+          "x": 0,
+          "y": 12
+        },
+        "blur": 32
+      },
+      "layout": "vertical",
+      "gap": 16,
+      "padding": [
+        32,
+        28
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "pwYcH",
+          "name": "iconCircle",
+          "width": 56,
+          "height": 56,
+          "fill": "$Hover negativo",
+          "cornerRadius": 28,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "pXXMS",
+              "name": "icon",
+              "width": 28,
+              "height": 28,
+              "icon": "slash",
+              "library": "feather",
+              "fill": "$Negativo"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "OCKQB",
+          "name": "title",
+          "fill": "$Negro",
+          "content": "No se puede desactivar el almacén",
+          "textAlign": "center",
+          "fontFamily": "$Font Primaria",
+          "fontSize": 17,
+          "fontWeight": "700"
+        },
+        {
+          "type": "text",
+          "id": "w1t3r3",
+          "name": "description",
+          "fill": "$Gris 1",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "No se puede desactivar un almacén con inventario disponible.",
+          "textAlign": "center",
+          "fontFamily": "$Font Secundaria",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "OlhCQ",
+          "name": "buttonsRow",
+          "width": "fill_container",
+          "gap": 12,
+          "children": [
+            {
+              "type": "frame",
+              "id": "CJi5j",
+              "name": "btnEntendido",
+              "width": "fill_container",
+              "fill": "$Color Primario",
+              "cornerRadius": 8,
+              "gap": 8,
+              "padding": [
+                14,
+                20
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WG89K",
+                  "name": "btnPrimaryText",
+                  "fill": "$Blanco",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Entendido",
+                  "textAlign": "center",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "id": "MbdEV",
+      "x": 13722,
+      "y": 34198,
+      "name": "Nota - Crear almacén (kNdQY)",
+      "width": 300,
+      "height": 0,
+      "content": "Abre el modal origen en ListasyParametros.pen › Almacenes (w0DAu)"
+    },
+    {
+      "type": "note",
+      "id": "fKzYd",
+      "x": 15516,
+      "y": 34198,
+      "name": "Nota - Crear almacén (v2kFD)",
+      "width": 300,
+      "height": 0,
+      "content": "Abre el modal origen en ListasyParametros.pen › Almacenes (w0DAu)"
+    },
+    {
+      "type": "note",
+      "id": "wHck6",
+      "x": 14305,
+      "y": 36492,
+      "name": "Nota - Crear almacén (iMnAI)",
+      "width": 300,
+      "height": 0,
+      "content": "Abre el modal origen en ListasyParametros.pen › Almacenes (w0DAu)"
+    },
+    {
+      "type": "frame",
+      "id": "exHPn",
+      "x": 12836,
+      "y": 46305,
+      "name": "Modal Reporte de Caducidades",
+      "width": 1200,
+      "fill": "$Blanco",
+      "cornerRadius": 12,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "YRw87",
+          "name": "ModalHeader",
+          "width": "fill_container",
+          "stroke": "$Gris 3",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "strokeAlignment": "inner",
+          "padding": [
+            20,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "rmuWE",
+              "name": "TitleCol",
+              "layout": "vertical",
+              "gap": 2,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rwdd1",
+                  "name": "pageTitle",
+                  "fill": "$Negro",
+                  "content": "Reporte de caducidades",
+                  "fontFamily": "$Font Primaria",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "ORg0y",
+                  "name": "pageSubtitle",
+                  "fill": "$Gris 1",
+                  "content": "Entradas con fecha de caducidad próxima o vencida, por almacén y producto",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UAm6q",
+              "name": "closeBtn",
+              "width": 32,
+              "height": 32,
+              "cornerRadius": 8,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "v2Culm",
+                  "name": "closeIcon",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "x",
+                  "library": "feather",
+                  "fill": "$Gris 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "AvEUG",
+          "name": "Main Content",
+          "width": "fill_container",
+          "fill": "$Fondo-2",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": 40,
+          "children": [
+            {
+              "type": "frame",
+              "id": "XHew4",
+              "name": "FilterBar",
+              "width": "fill_container",
+              "fill": "$Blanco",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pDCuk",
+                  "name": "filtersLabel",
+                  "fill": "$Gris 1",
+                  "textGrowth": "fixed-width",
+                  "width": 120,
+                  "content": "Filtros",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "frame",
+                  "id": "x1ZenO",
+                  "name": "FiltersRow",
+                  "height": 60,
+                  "gap": 20,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "E2OhPO",
+                      "name": "Fecha caducidad desde",
+                      "width": 200,
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "gap": 5,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "PWZOV",
+                          "name": "dropdownCategoryLabel",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Fecha caducidad desde",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZjPVW",
+                          "name": "dropdownCategoryField",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "$Blanco",
+                          "cornerRadius": 8,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 16,
+                          "padding": 15,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "h5Tiy3",
+                              "name": "dropdownCategoryIcon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "xwMEx",
+                              "name": "dropdownCategoryText",
+                              "fill": "$Gris 1",
+                              "textGrowth": "fixed-width",
+                              "width": 140,
+                              "content": "01/Sep/26",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fxgGi",
+                      "name": "Fecha caducidad hasta",
+                      "width": 200,
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "gap": 5,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "WYZot",
+                          "name": "dropdownCategoryLabel",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Fecha caducidad hasta",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "kUIv3",
+                          "name": "dropdownCategoryField",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "$Blanco",
+                          "cornerRadius": 8,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 16,
+                          "padding": 15,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "WJq42",
+                              "name": "dropdownCategoryIcon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "calendar",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Wdj4T",
+                              "name": "dropdownCategoryText",
+                              "fill": "$Gris 1",
+                              "textGrowth": "fixed-width",
+                              "width": 140,
+                              "content": "30/Sep/26",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "q4NmO",
+                      "name": "Dropdown Default",
+                      "width": 200,
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "gap": 5,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "UfHXF",
+                          "name": "dropdownCategoryLabel",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Almacén",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "H3m1r",
+                          "name": "dropdownCategoryField",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "$Blanco",
+                          "cornerRadius": 8,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 16,
+                          "padding": 15,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "R7y1oC",
+                              "name": "dropdownCategoryText",
+                              "fill": "$Gris 1",
+                              "textGrowth": "fixed-width",
+                              "width": 140,
+                              "content": "Todos",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "iQgyL",
+                              "name": "dropdownCategoryIcon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "chevron-down",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Eg1uR",
+                      "name": "Searchbox vertical Default",
+                      "width": 200,
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "gap": 5,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ddEBG",
+                          "name": "dropdownCategoryLabel",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Producto",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "t0Buwv",
+                          "name": "dropdownCategoryField",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "$Blanco",
+                          "cornerRadius": 8,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 16,
+                          "padding": 15,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "FMf99",
+                              "name": "dropdownCategoryIcon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "search",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "sYYU9",
+                              "name": "dropdownCategoryText",
+                              "fill": "$Gris 1",
+                              "textGrowth": "fixed-width",
+                              "width": 140,
+                              "content": "Buscar...",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lH88t",
+              "name": "TableWrapper",
+              "width": "fill_container",
+              "fill": "$Blanco",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "oTkyB",
+                  "name": "TableHeaderRow",
+                  "width": "fill_container",
+                  "height": 40,
+                  "fill": "$Gris 3",
+                  "stroke": "$Gris 2",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 14,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "n9TeXH",
+                      "name": "h_Producto",
+                      "fill": "$Gris 1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "PRODUCTO",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "LN6W6",
+                      "name": "h_Entrada",
+                      "fill": "$Gris 1",
+                      "textGrowth": "fixed-width",
+                      "width": 90,
+                      "content": "ENTRADA",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "jI6xr",
+                      "name": "h_Almacen",
+                      "fill": "$Gris 1",
+                      "textGrowth": "fixed-width",
+                      "width": 170,
+                      "content": "ALMACÉN",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "RMhvJ",
+                      "name": "h_CantEntro",
+                      "fill": "$Gris 1",
+                      "textGrowth": "fixed-width",
+                      "width": 110,
+                      "content": "CANT. QUE ENTRÓ",
+                      "textAlign": "right",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "KU18x",
+                      "name": "h_Disponible",
+                      "fill": "$Gris 1",
+                      "textGrowth": "fixed-width",
+                      "width": 100,
+                      "content": "DISPONIBLE",
+                      "textAlign": "right",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "zPdCb",
+                      "name": "h_Unidad",
+                      "fill": "$Gris 1",
+                      "textGrowth": "fixed-width",
+                      "width": 70,
+                      "content": "UNIDAD",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "btPxn",
+                      "name": "h_FechaCad",
+                      "fill": "$Gris 1",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "FECHA DE CADUCIDAD",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "PIunB",
+                      "name": "h_DiasRestantes",
+                      "fill": "$Gris 1",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "DÍAS RESTANTES",
+                      "textAlign": "right",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ySU8h",
+                  "name": "row_Fertilizante Foliar X-20",
+                  "width": "fill_container",
+                  "height": 50,
+                  "stroke": "$Gris 3",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 14,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pLbrY",
+                      "name": "c_Producto",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Fertilizante Foliar X-20",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lVhHh",
+                      "name": "c_Entrada",
+                      "fill": "$Hover 1",
+                      "textGrowth": "fixed-width",
+                      "width": 90,
+                      "content": "EC-01048",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "A8hMa",
+                      "name": "c_Almacen",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": 170,
+                      "content": "Almacén Principal",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vUMx7",
+                      "name": "c_CantEntro",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": 110,
+                      "content": "200",
+                      "textAlign": "right",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FU82q",
+                      "name": "c_Disponible",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": 100,
+                      "content": "45",
+                      "textAlign": "right",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "l0zMd",
+                      "name": "c_Unidad",
+                      "fill": "$Gris 1",
+                      "textGrowth": "fixed-width",
+                      "width": 70,
+                      "content": "L",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WraHf",
+                      "name": "c_FechaCad",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "03/Sep/26",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lPD1H",
+                      "name": "c_DiasRestantes",
+                      "fill": "$Negativo",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "Venció hace 2 días",
+                      "textAlign": "right",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sDLwd",
+                  "name": "row_Urea 46%",
+                  "width": "fill_container",
+                  "height": 50,
+                  "stroke": "$Gris 3",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 14,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yyFS5",
+                      "name": "c_Producto",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Urea 46%",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "g072M",
+                      "name": "c_Entrada",
+                      "fill": "$Hover 1",
+                      "textGrowth": "fixed-width",
+                      "width": 90,
+                      "content": "EC-01048",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "IImfd",
+                      "name": "c_Almacen",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": 170,
+                      "content": "Almacén Principal",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "T1oOqk",
+                      "name": "c_CantEntro",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": 110,
+                      "content": "500",
+                      "textAlign": "right",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kV9ZP",
+                      "name": "c_Disponible",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": 100,
+                      "content": "120",
+                      "textAlign": "right",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "POSdt",
+                      "name": "c_Unidad",
+                      "fill": "$Gris 1",
+                      "textGrowth": "fixed-width",
+                      "width": 70,
+                      "content": "kg",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YcEfX",
+                      "name": "c_FechaCad",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "10/Sep/26",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BVzel",
+                      "name": "c_DiasRestantes",
+                      "fill": "#b45309",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "5 días",
+                      "textAlign": "right",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hjk6z",
+                  "name": "row_Sulfato de Amonio Granulado",
+                  "width": "fill_container",
+                  "height": 50,
+                  "stroke": "$Gris 3",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 14,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bDXFg",
+                      "name": "c_Producto",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Sulfato de Amonio Granulado",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZaL9u",
+                      "name": "c_Entrada",
+                      "fill": "$Hover 1",
+                      "textGrowth": "fixed-width",
+                      "width": 90,
+                      "content": "EC-01048",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LP6G7",
+                      "name": "c_Almacen",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": 170,
+                      "content": "Almacén Principal",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OKKuH",
+                      "name": "c_CantEntro",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": 110,
+                      "content": "100",
+                      "textAlign": "right",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Bf2mG",
+                      "name": "c_Disponible",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": 100,
+                      "content": "100",
+                      "textAlign": "right",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "y60NHB",
+                      "name": "c_Unidad",
+                      "fill": "$Gris 1",
+                      "textGrowth": "fixed-width",
+                      "width": 70,
+                      "content": "Sacos",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "l4I9x",
+                      "name": "c_FechaCad",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "15/Dic/26",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gQ6UV",
+                      "name": "c_DiasRestantes",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "101 días",
+                      "textAlign": "right",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cfLwu",
+              "name": "footerRow",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "CLuT6",
+                  "name": "footerText",
+                  "fill": "$Gris 1",
+                  "content": "Mostrando 3 de 3",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "y8Vd7",
+                  "name": "pagination",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "q7IMC",
+                      "name": "pageBtn_chevron-left",
+                      "width": 34,
+                      "height": 34,
+                      "fill": "$Blanco",
+                      "cornerRadius": 8,
+                      "stroke": "$Gris 2",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "bfaLb",
+                          "name": "icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "chevron-left",
+                          "library": "feather",
+                          "fill": "$Negro"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "j2ynZz",
+                      "name": "pg_1",
+                      "width": 34,
+                      "height": "fill_container",
+                      "fill": "$Color Primario",
+                      "cornerRadius": 6,
+                      "stroke": "#00000000",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "lEqYE",
+                          "name": "label",
+                          "fill": "$Blanco",
+                          "content": "1",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "W23p3J",
+                      "name": "pageBtn_chevron-right",
+                      "width": 34,
+                      "height": 34,
+                      "fill": "$Blanco",
+                      "cornerRadius": 8,
+                      "stroke": "$Gris 2",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "j9E9u",
+                          "name": "icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "chevron-right",
+                          "library": "feather",
+                          "fill": "$Negro"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "bbrZ8",
+          "name": "FooterBar",
+          "width": "fill_container",
+          "height": 76,
+          "cornerRadius": [
+            0,
+            0,
+            12,
+            12
+          ],
+          "stroke": "$Gris 3",
+          "strokeWidth": {
+            "top": 1
+          },
+          "strokeAlignment": "inner",
+          "padding": [
+            0,
+            40
+          ],
+          "justifyContent": "end",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Q48F0",
+              "name": "actions",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Qnt38",
+                  "name": "btn_Exportar Excel",
+                  "height": 42,
+                  "fill": "$Blanco",
+                  "cornerRadius": 8,
+                  "stroke": "$Gris 2",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    16
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "FXfZq",
+                      "name": "icon",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "download",
+                      "library": "feather",
+                      "fill": "$Negro"
+                    },
+                    {
+                      "type": "text",
+                      "id": "irr6z",
+                      "name": "t",
+                      "fill": "$Negro",
+                      "content": "Descargar Excel",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "variables": {

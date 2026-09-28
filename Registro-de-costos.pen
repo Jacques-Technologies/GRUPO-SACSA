@@ -26183,7 +26183,7 @@
                           "id": "e61Vq",
                           "name": "pageSubtitle",
                           "fill": "$Gris 1",
-                          "content": "Facturas de agua y permisos de siembra prorrateados por hectárea",
+                          "content": "Facturas de agua y permisos de siembra no prorrateados por hectárea",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "normal"

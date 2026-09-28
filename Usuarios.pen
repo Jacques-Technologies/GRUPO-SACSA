@@ -8621,7 +8621,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Alta de rostros y claves",
+                      "content": "Registro de biométricos",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12.5,
                       "fontWeight": "500"
@@ -13095,7 +13095,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Alta de rostros y claves",
+                      "content": "Registro de biométricos",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12.5,
                       "fontWeight": "500"
