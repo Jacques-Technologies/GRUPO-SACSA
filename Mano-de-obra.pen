@@ -16,7 +16,7 @@
       "type": "text",
       "id": "sJYkD",
       "x": 1431,
-      "y": 17897,
+      "y": 17737,
       "fill": "$Color Secundario",
       "content": "06 - LIBERACIÓN DE COSTO DE MANO DE OBRA ",
       "fontFamily": "Inter",
@@ -9839,25 +9839,25 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "tnVTb",
-                          "name": "sel_Fecha",
-                          "width": "fill_container",
+                          "id": "vfN0R",
+                          "name": "sel_SemanaNomina",
+                          "width": 364,
                           "layout": "vertical",
                           "gap": 5,
                           "children": [
                             {
                               "type": "text",
-                              "id": "c3tXOF",
+                              "id": "l1FygR",
                               "name": "label",
                               "fill": "$Negro",
-                              "content": "Fecha desde",
+                              "content": "Semana de nómina",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "600"
                             },
                             {
                               "type": "frame",
-                              "id": "JoB7m",
+                              "id": "hWCsr",
                               "name": "field",
                               "width": "fill_container",
                               "height": 40,
@@ -9869,21 +9869,46 @@
                               "gap": 8,
                               "padding": [
                                 0,
-                                14
+                                6
                               ],
                               "justifyContent": "space_between",
                               "alignItems": "center",
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "JLp5u",
-                                  "name": "left",
-                                  "gap": 8,
+                                  "id": "njfFv",
+                                  "name": "btnPrev",
+                                  "width": 26,
+                                  "height": 26,
+                                  "fill": "$Gris 3",
+                                  "cornerRadius": 8,
+                                  "justifyContent": "center",
                                   "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "icon",
-                                      "id": "aCZye",
+                                      "id": "EfgN0",
+                                      "name": "icon",
+                                      "width": 15,
+                                      "height": 15,
+                                      "icon": "chevron-left",
+                                      "library": "feather",
+                                      "fill": "$Negro"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "PD6oD",
+                                  "name": "weekTextWrap",
+                                  "width": "fill_container",
+                                  "gap": 4,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "y1TzN",
                                       "name": "icon",
                                       "width": 14,
                                       "height": 14,
@@ -9893,105 +9918,68 @@
                                     },
                                     {
                                       "type": "text",
-                                      "id": "F2Pvk2",
+                                      "id": "g6xdi",
                                       "name": "value",
                                       "fill": "$Negro",
-                                      "content": "01/Sep/26",
+                                      "content": "Semana 11 · Mié 23/Sep – Mar 29/Sep/26",
                                       "fontFamily": "$Font Secundaria",
-                                      "fontSize": 13,
-                                      "fontWeight": "500"
+                                      "fontSize": 12,
+                                      "fontWeight": "600"
                                     }
                                   ]
                                 },
                                 {
-                                  "type": "icon",
-                                  "id": "akqz3",
-                                  "name": "chevron",
-                                  "width": 15,
-                                  "height": 15,
-                                  "icon": "chevron-down",
-                                  "library": "feather",
-                                  "fill": "$Gris 1"
+                                  "type": "frame",
+                                  "id": "nSUKR",
+                                  "name": "btnNext",
+                                  "width": 26,
+                                  "height": 26,
+                                  "fill": "$Gris 3",
+                                  "cornerRadius": 8,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "ioNEz",
+                                      "name": "icon",
+                                      "width": 15,
+                                      "height": 15,
+                                      "icon": "chevron-right",
+                                      "library": "feather",
+                                      "fill": "$Negro"
+                                    }
+                                  ]
                                 }
                               ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "LEr5e",
-                          "name": "sel_FechaHasta",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 5,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "b7gwJ",
-                              "name": "label",
-                              "fill": "$Negro",
-                              "content": "Fecha hasta",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 12,
-                              "fontWeight": "600"
                             },
                             {
                               "type": "frame",
-                              "id": "q4IXGG",
-                              "name": "field",
+                              "id": "bxKZm",
+                              "name": "hint",
                               "width": "fill_container",
-                              "height": 40,
-                              "fill": "$Blanco",
-                              "cornerRadius": 8,
-                              "stroke": "$Gris 2",
-                              "strokeWidth": 1,
-                              "strokeAlignment": "inner",
-                              "gap": 8,
-                              "padding": [
-                                0,
-                                14
-                              ],
-                              "justifyContent": "space_between",
+                              "gap": 6,
                               "alignItems": "center",
                               "children": [
                                 {
-                                  "type": "frame",
-                                  "id": "Bk6ZK",
-                                  "name": "left",
-                                  "gap": 8,
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "bBG8c",
-                                      "name": "icon",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "calendar",
-                                      "library": "feather",
-                                      "fill": "$Gris 1"
-                                    },
-                                    {
-                                      "type": "text",
-                                      "id": "o80qtS",
-                                      "name": "value",
-                                      "fill": "$Negro",
-                                      "content": "08/Sep/26",
-                                      "fontFamily": "$Font Secundaria",
-                                      "fontSize": 13,
-                                      "fontWeight": "500"
-                                    }
-                                  ]
-                                },
-                                {
                                   "type": "icon",
-                                  "id": "Y6TK2S",
-                                  "name": "chevron",
-                                  "width": 15,
-                                  "height": 15,
-                                  "icon": "chevron-down",
+                                  "id": "g8kYu",
+                                  "name": "icon",
+                                  "width": 13,
+                                  "height": 13,
+                                  "icon": "info",
                                   "library": "feather",
                                   "fill": "$Gris 1"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "py3Io",
+                                  "name": "hintText",
+                                  "fill": "$Gris 1",
+                                  "content": "Semana de nómina SACSA (miércoles a martes)",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -11897,11 +11885,11 @@
       "type": "frame",
       "id": "JCuOw",
       "x": 2951,
-      "y": 18546,
+      "y": 18337,
       "name": "Liberación de costos",
       "clip": true,
       "width": 1440,
-      "height": 1010,
+      "height": 1055,
       "fill": "$Blanco",
       "children": [
         {
@@ -12872,6 +12860,80 @@
                     },
                     {
                       "type": "frame",
+                      "id": "sd4gg",
+                      "name": "ModeRow",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Nguyt",
+                          "name": "seg_Modo",
+                          "fill": "$Gris 3",
+                          "cornerRadius": 8,
+                          "gap": 2,
+                          "padding": 3,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "kIfHq",
+                              "name": "seg_Semana de nómina",
+                              "height": 30,
+                              "fill": "$Blanco",
+                              "cornerRadius": 6,
+                              "padding": [
+                                0,
+                                14
+                              ],
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Bamal",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "content": "Semana de nómina",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "TO3yS",
+                              "name": "seg_Rango personalizado",
+                              "height": 30,
+                              "fill": "#00000000",
+                              "cornerRadius": 6,
+                              "padding": [
+                                0,
+                                14
+                              ],
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "i43kgY",
+                                  "name": "label",
+                                  "fill": "$Gris 1",
+                                  "content": "Rango personalizado",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "NxwCh",
                       "name": "SelectorBar",
                       "width": "fill_container",
@@ -12880,25 +12942,25 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "g8RzJ",
-                          "name": "sel_Fecha",
-                          "width": "fill_container",
+                          "id": "RVSM2",
+                          "name": "sel_SemanaNomina",
+                          "width": 364,
                           "layout": "vertical",
                           "gap": 5,
                           "children": [
                             {
                               "type": "text",
-                              "id": "IyylQ",
+                              "id": "Jqpfw",
                               "name": "label",
                               "fill": "$Negro",
-                              "content": "Fecha inicio",
+                              "content": "Semana de nómina",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "600"
                             },
                             {
                               "type": "frame",
-                              "id": "fTG0Q",
+                              "id": "dBH9P",
                               "name": "field",
                               "width": "fill_container",
                               "height": 40,
@@ -12910,21 +12972,46 @@
                               "gap": 8,
                               "padding": [
                                 0,
-                                14
+                                6
                               ],
                               "justifyContent": "space_between",
                               "alignItems": "center",
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "zs31k",
-                                  "name": "left",
-                                  "gap": 8,
+                                  "id": "XVcN7",
+                                  "name": "btnPrev",
+                                  "width": 26,
+                                  "height": 26,
+                                  "fill": "$Gris 3",
+                                  "cornerRadius": 8,
+                                  "justifyContent": "center",
                                   "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "icon",
-                                      "id": "U0UXS9",
+                                      "id": "zT3Ri",
+                                      "name": "icon",
+                                      "width": 15,
+                                      "height": 15,
+                                      "icon": "chevron-left",
+                                      "library": "feather",
+                                      "fill": "$Negro"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "w241M",
+                                  "name": "weekTextWrap",
+                                  "width": "fill_container",
+                                  "gap": 4,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "wVZ0P",
                                       "name": "icon",
                                       "width": 14,
                                       "height": 14,
@@ -12934,105 +13021,68 @@
                                     },
                                     {
                                       "type": "text",
-                                      "id": "pCElH",
+                                      "id": "E1Hdk",
                                       "name": "value",
                                       "fill": "$Negro",
-                                      "content": "01/Sep/26",
+                                      "content": "Semana 11 · Mié 23/Sep – Mar 29/Sep/26",
                                       "fontFamily": "$Font Secundaria",
-                                      "fontSize": 13,
-                                      "fontWeight": "500"
+                                      "fontSize": 12,
+                                      "fontWeight": "600"
                                     }
                                   ]
                                 },
                                 {
-                                  "type": "icon",
-                                  "id": "C2lRf",
-                                  "name": "chevron",
-                                  "width": 15,
-                                  "height": 15,
-                                  "icon": "chevron-down",
-                                  "library": "feather",
-                                  "fill": "$Gris 1"
+                                  "type": "frame",
+                                  "id": "UKSN1",
+                                  "name": "btnNext",
+                                  "width": 26,
+                                  "height": 26,
+                                  "fill": "$Gris 3",
+                                  "cornerRadius": 8,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "luAyB",
+                                      "name": "icon",
+                                      "width": 15,
+                                      "height": 15,
+                                      "icon": "chevron-right",
+                                      "library": "feather",
+                                      "fill": "$Negro"
+                                    }
+                                  ]
                                 }
                               ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "xfrEt",
-                          "name": "sel_FechaHasta",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 5,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "lK9TX",
-                              "name": "label",
-                              "fill": "$Negro",
-                              "content": "Fecha fin",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 12,
-                              "fontWeight": "600"
                             },
                             {
                               "type": "frame",
-                              "id": "NbXxO",
-                              "name": "field",
+                              "id": "yWvc5",
+                              "name": "hint",
                               "width": "fill_container",
-                              "height": 40,
-                              "fill": "$Blanco",
-                              "cornerRadius": 8,
-                              "stroke": "$Gris 2",
-                              "strokeWidth": 1,
-                              "strokeAlignment": "inner",
-                              "gap": 8,
-                              "padding": [
-                                0,
-                                14
-                              ],
-                              "justifyContent": "space_between",
+                              "gap": 6,
                               "alignItems": "center",
                               "children": [
                                 {
-                                  "type": "frame",
-                                  "id": "OotVf",
-                                  "name": "left",
-                                  "gap": 8,
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "i8ZBx3",
-                                      "name": "icon",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "calendar",
-                                      "library": "feather",
-                                      "fill": "$Gris 1"
-                                    },
-                                    {
-                                      "type": "text",
-                                      "id": "dd2Lp",
-                                      "name": "value",
-                                      "fill": "$Negro",
-                                      "content": "08/Sep/26",
-                                      "fontFamily": "$Font Secundaria",
-                                      "fontSize": 13,
-                                      "fontWeight": "500"
-                                    }
-                                  ]
-                                },
-                                {
                                   "type": "icon",
-                                  "id": "fJXau",
-                                  "name": "chevron",
-                                  "width": 15,
-                                  "height": 15,
-                                  "icon": "chevron-down",
+                                  "id": "P8iPpm",
+                                  "name": "icon",
+                                  "width": 13,
+                                  "height": 13,
+                                  "icon": "info",
                                   "library": "feather",
                                   "fill": "$Gris 1"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "UDtrx",
+                                  "name": "hintText",
+                                  "fill": "$Gris 1",
+                                  "content": "Semana de nómina SACSA (miércoles a martes)",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -13366,7 +13416,7 @@
                               "id": "ebYIp",
                               "name": "label",
                               "fill": "$Gris 1",
-                              "content": "7 registros pendientes de liberar · 01/Sep – 08/Sep/26",
+                              "content": "7 registros pendientes de liberar · Semana 11 · Mié 23/Sep – Mar 29/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -13958,7 +14008,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 130,
-                          "content": "$248.00",
+                          "content": "4 personas × $62.00",
                           "textAlign": "right",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
@@ -15925,7 +15975,7 @@
       "type": "frame",
       "id": "ns8is",
       "x": 5951,
-      "y": 18546,
+      "y": 18337,
       "name": "Liberación de costos · Liberados",
       "clip": true,
       "width": 1440,
@@ -16900,6 +16950,80 @@
                     },
                     {
                       "type": "frame",
+                      "id": "jUrXa",
+                      "name": "ModeRow",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "lnqNS",
+                          "name": "seg_Modo",
+                          "fill": "$Gris 3",
+                          "cornerRadius": 8,
+                          "gap": 2,
+                          "padding": 3,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "UNCi7",
+                              "name": "seg_Semana de nómina",
+                              "height": 30,
+                              "fill": "$Blanco",
+                              "cornerRadius": 6,
+                              "padding": [
+                                0,
+                                14
+                              ],
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "zKXsD",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "content": "Semana de nómina",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "yQ6q7",
+                              "name": "seg_Rango personalizado",
+                              "height": 30,
+                              "fill": "#00000000",
+                              "cornerRadius": 6,
+                              "padding": [
+                                0,
+                                14
+                              ],
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "k3M0wG",
+                                  "name": "label",
+                                  "fill": "$Gris 1",
+                                  "content": "Rango personalizado",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "kZ6XU",
                       "name": "SelectorBar",
                       "width": "fill_container",
@@ -16908,25 +17032,25 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "ZtI0z",
-                          "name": "sel_Fecha",
-                          "width": "fill_container",
+                          "id": "ZD5vB",
+                          "name": "sel_SemanaNomina",
+                          "width": 364,
                           "layout": "vertical",
                           "gap": 5,
                           "children": [
                             {
                               "type": "text",
-                              "id": "WcQ4v",
+                              "id": "kncP5",
                               "name": "label",
                               "fill": "$Negro",
-                              "content": "Fecha inicio",
+                              "content": "Semana de nómina",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "600"
                             },
                             {
                               "type": "frame",
-                              "id": "ycyrL",
+                              "id": "jmVTV",
                               "name": "field",
                               "width": "fill_container",
                               "height": 40,
@@ -16938,21 +17062,46 @@
                               "gap": 8,
                               "padding": [
                                 0,
-                                14
+                                6
                               ],
                               "justifyContent": "space_between",
                               "alignItems": "center",
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "CYTTz",
-                                  "name": "left",
-                                  "gap": 8,
+                                  "id": "VDUhf",
+                                  "name": "btnPrev",
+                                  "width": 26,
+                                  "height": 26,
+                                  "fill": "$Gris 3",
+                                  "cornerRadius": 8,
+                                  "justifyContent": "center",
                                   "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "icon",
-                                      "id": "fgIAJ",
+                                      "id": "FUkkT",
+                                      "name": "icon",
+                                      "width": 15,
+                                      "height": 15,
+                                      "icon": "chevron-left",
+                                      "library": "feather",
+                                      "fill": "$Negro"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "nb0Gz",
+                                  "name": "weekTextWrap",
+                                  "width": "fill_container",
+                                  "gap": 4,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "irR90",
                                       "name": "icon",
                                       "width": 14,
                                       "height": 14,
@@ -16962,105 +17111,68 @@
                                     },
                                     {
                                       "type": "text",
-                                      "id": "Rnmu9",
+                                      "id": "ullpF",
                                       "name": "value",
                                       "fill": "$Negro",
-                                      "content": "01/Sep/26",
+                                      "content": "Semana 11 · Mié 23/Sep – Mar 29/Sep/26",
                                       "fontFamily": "$Font Secundaria",
-                                      "fontSize": 13,
-                                      "fontWeight": "500"
+                                      "fontSize": 12,
+                                      "fontWeight": "600"
                                     }
                                   ]
                                 },
                                 {
-                                  "type": "icon",
-                                  "id": "u0X8yM",
-                                  "name": "chevron",
-                                  "width": 15,
-                                  "height": 15,
-                                  "icon": "chevron-down",
-                                  "library": "feather",
-                                  "fill": "$Gris 1"
+                                  "type": "frame",
+                                  "id": "OSrCg",
+                                  "name": "btnNext",
+                                  "width": 26,
+                                  "height": 26,
+                                  "fill": "$Gris 3",
+                                  "cornerRadius": 8,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "qOPu2",
+                                      "name": "icon",
+                                      "width": 15,
+                                      "height": 15,
+                                      "icon": "chevron-right",
+                                      "library": "feather",
+                                      "fill": "$Negro"
+                                    }
+                                  ]
                                 }
                               ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "DxQMH",
-                          "name": "sel_FechaHasta",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 5,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "cBhNl",
-                              "name": "label",
-                              "fill": "$Negro",
-                              "content": "Fecha fin",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 12,
-                              "fontWeight": "600"
                             },
                             {
                               "type": "frame",
-                              "id": "W9E2ra",
-                              "name": "field",
+                              "id": "XgN5H",
+                              "name": "hint",
                               "width": "fill_container",
-                              "height": 40,
-                              "fill": "$Blanco",
-                              "cornerRadius": 8,
-                              "stroke": "$Gris 2",
-                              "strokeWidth": 1,
-                              "strokeAlignment": "inner",
-                              "gap": 8,
-                              "padding": [
-                                0,
-                                14
-                              ],
-                              "justifyContent": "space_between",
+                              "gap": 6,
                               "alignItems": "center",
                               "children": [
                                 {
-                                  "type": "frame",
-                                  "id": "EgDkS",
-                                  "name": "left",
-                                  "gap": 8,
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "OOggL",
-                                      "name": "icon",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "calendar",
-                                      "library": "feather",
-                                      "fill": "$Gris 1"
-                                    },
-                                    {
-                                      "type": "text",
-                                      "id": "TMzBp",
-                                      "name": "value",
-                                      "fill": "$Negro",
-                                      "content": "08/Sep/26",
-                                      "fontFamily": "$Font Secundaria",
-                                      "fontSize": 13,
-                                      "fontWeight": "500"
-                                    }
-                                  ]
-                                },
-                                {
                                   "type": "icon",
-                                  "id": "dRNN0",
-                                  "name": "chevron",
-                                  "width": 15,
-                                  "height": 15,
-                                  "icon": "chevron-down",
+                                  "id": "EHRV0",
+                                  "name": "icon",
+                                  "width": 13,
+                                  "height": 13,
+                                  "icon": "info",
                                   "library": "feather",
                                   "fill": "$Gris 1"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Bgs21",
+                                  "name": "hintText",
+                                  "fill": "$Gris 1",
+                                  "content": "Semana de nómina SACSA (miércoles a martes)",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -17394,7 +17506,7 @@
                               "id": "p3OJr",
                               "name": "label",
                               "fill": "$Gris 1",
-                              "content": "3 registros liberados · 01/Sep – 08/Sep/26",
+                              "content": "3 registros liberados · Semana 11 · Mié 23/Sep – Mar 29/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -18173,7 +18285,7 @@
       "type": "frame",
       "id": "uDkqr",
       "x": 1431,
-      "y": 18546,
+      "y": 18337,
       "name": "Liberación de costos · Selección de periodo",
       "clip": true,
       "width": 1440,
@@ -19148,6 +19260,80 @@
                     },
                     {
                       "type": "frame",
+                      "id": "RIG1S",
+                      "name": "ModeRow",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "di0Uk",
+                          "name": "seg_Modo",
+                          "fill": "$Gris 3",
+                          "cornerRadius": 8,
+                          "gap": 2,
+                          "padding": 3,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "FJuSD",
+                              "name": "seg_Semana de nómina",
+                              "height": 30,
+                              "fill": "$Blanco",
+                              "cornerRadius": 6,
+                              "padding": [
+                                0,
+                                14
+                              ],
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "k24w1",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "content": "Semana de nómina",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "n7CNLB",
+                              "name": "seg_Rango personalizado",
+                              "height": 30,
+                              "fill": "#00000000",
+                              "cornerRadius": 6,
+                              "padding": [
+                                0,
+                                14
+                              ],
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "DZ44Y",
+                                  "name": "label",
+                                  "fill": "$Gris 1",
+                                  "content": "Rango personalizado",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
                       "id": "Q2myU",
                       "name": "SelectorBar",
                       "width": "fill_container",
@@ -19156,25 +19342,25 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "si5wD",
-                          "name": "sel_Fecha",
-                          "width": "fill_container",
+                          "id": "KkZv9",
+                          "name": "sel_SemanaNomina",
+                          "width": 364,
                           "layout": "vertical",
                           "gap": 5,
                           "children": [
                             {
                               "type": "text",
-                              "id": "RSATZ",
+                              "id": "e4G2SU",
                               "name": "label",
                               "fill": "$Negro",
-                              "content": "Fecha inicio",
+                              "content": "Semana de nómina",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "600"
                             },
                             {
                               "type": "frame",
-                              "id": "WhvqX",
+                              "id": "Q9AAKw",
                               "name": "field",
                               "width": "fill_container",
                               "height": 40,
@@ -19186,21 +19372,46 @@
                               "gap": 8,
                               "padding": [
                                 0,
-                                14
+                                6
                               ],
                               "justifyContent": "space_between",
                               "alignItems": "center",
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "wKSyg",
-                                  "name": "left",
-                                  "gap": 8,
+                                  "id": "Kidky",
+                                  "name": "btnPrev",
+                                  "width": 26,
+                                  "height": 26,
+                                  "fill": "$Gris 3",
+                                  "cornerRadius": 8,
+                                  "justifyContent": "center",
                                   "alignItems": "center",
                                   "children": [
                                     {
                                       "type": "icon",
-                                      "id": "b8zqg",
+                                      "id": "gahl1",
+                                      "name": "icon",
+                                      "width": 15,
+                                      "height": 15,
+                                      "icon": "chevron-left",
+                                      "library": "feather",
+                                      "fill": "$Negro"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "vRBnw",
+                                  "name": "weekTextWrap",
+                                  "width": "fill_container",
+                                  "gap": 4,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "CGW0z",
                                       "name": "icon",
                                       "width": 14,
                                       "height": 14,
@@ -19210,105 +19421,68 @@
                                     },
                                     {
                                       "type": "text",
-                                      "id": "o32YAk",
+                                      "id": "gIh4g",
                                       "name": "value",
-                                      "fill": "$Gris 1",
-                                      "content": "dd/mmm/aa",
+                                      "fill": "$Negro",
+                                      "content": "Semana 11 · Mié 23/Sep – Mar 29/Sep/26",
                                       "fontFamily": "$Font Secundaria",
-                                      "fontSize": 13,
-                                      "fontWeight": "500"
+                                      "fontSize": 12,
+                                      "fontWeight": "600"
                                     }
                                   ]
                                 },
                                 {
-                                  "type": "icon",
-                                  "id": "dYOgM",
-                                  "name": "chevron",
-                                  "width": 15,
-                                  "height": 15,
-                                  "icon": "chevron-down",
-                                  "library": "feather",
-                                  "fill": "$Gris 1"
+                                  "type": "frame",
+                                  "id": "lnpdM",
+                                  "name": "btnNext",
+                                  "width": 26,
+                                  "height": 26,
+                                  "fill": "$Gris 3",
+                                  "cornerRadius": 8,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "TVMzG",
+                                      "name": "icon",
+                                      "width": 15,
+                                      "height": 15,
+                                      "icon": "chevron-right",
+                                      "library": "feather",
+                                      "fill": "$Negro"
+                                    }
+                                  ]
                                 }
                               ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "Whoje",
-                          "name": "sel_FechaHasta",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 5,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "FCINT",
-                              "name": "label",
-                              "fill": "$Negro",
-                              "content": "Fecha fin",
-                              "fontFamily": "$Font Secundaria",
-                              "fontSize": 12,
-                              "fontWeight": "600"
                             },
                             {
                               "type": "frame",
-                              "id": "NoqpY",
-                              "name": "field",
+                              "id": "B5M2nP",
+                              "name": "hint",
                               "width": "fill_container",
-                              "height": 40,
-                              "fill": "$Blanco",
-                              "cornerRadius": 8,
-                              "stroke": "$Gris 2",
-                              "strokeWidth": 1,
-                              "strokeAlignment": "inner",
-                              "gap": 8,
-                              "padding": [
-                                0,
-                                14
-                              ],
-                              "justifyContent": "space_between",
+                              "gap": 6,
                               "alignItems": "center",
                               "children": [
                                 {
-                                  "type": "frame",
-                                  "id": "V618Y",
-                                  "name": "left",
-                                  "gap": 8,
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "O7pyp",
-                                      "name": "icon",
-                                      "width": 14,
-                                      "height": 14,
-                                      "icon": "calendar",
-                                      "library": "feather",
-                                      "fill": "$Gris 1"
-                                    },
-                                    {
-                                      "type": "text",
-                                      "id": "g3YKDW",
-                                      "name": "value",
-                                      "fill": "$Gris 1",
-                                      "content": "dd/mmm/aa",
-                                      "fontFamily": "$Font Secundaria",
-                                      "fontSize": 13,
-                                      "fontWeight": "500"
-                                    }
-                                  ]
-                                },
-                                {
                                   "type": "icon",
-                                  "id": "mdfvG",
-                                  "name": "chevron",
-                                  "width": 15,
-                                  "height": 15,
-                                  "icon": "chevron-down",
+                                  "id": "nfwTf",
+                                  "name": "icon",
+                                  "width": 13,
+                                  "height": 13,
+                                  "icon": "info",
                                   "library": "feather",
                                   "fill": "$Gris 1"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "VCw9S",
+                                  "name": "hintText",
+                                  "fill": "$Gris 1",
+                                  "content": "Semana de nómina SACSA (miércoles a martes)",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -19703,7 +19877,7 @@
                           "fill": "$Gris 1",
                           "textGrowth": "fixed-width",
                           "width": 420,
-                          "content": "Elige la fecha de inicio y la fecha de fin y presiona Consultar para ver los registros pendientes de liberar.",
+                          "content": "Elige la semana de nómina y presiona Consultar para ver los registros pendientes de liberar.",
                           "lineHeight": 1.5,
                           "textAlign": "center",
                           "fontFamily": "$Font Secundaria",
@@ -22301,39 +22475,6 @@
                                           "fontWeight": "600"
                                         }
                                       ]
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "OMjqK",
-                                      "name": "field_Sueldo",
-                                      "width": "fill_container",
-                                      "layout": "vertical",
-                                      "gap": 4,
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "id": "SLXZX",
-                                          "name": "label",
-                                          "fill": "$Gris 1",
-                                          "content": "SUELDO",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 11,
-                                          "fontWeight": "700",
-                                          "letterSpacing": 0.5
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "uV0VM",
-                                          "name": "value",
-                                          "fill": "$Negro",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "$3,500.00 / semana",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 14,
-                                          "fontWeight": "600"
-                                        }
-                                      ]
                                     }
                                   ]
                                 },
@@ -22478,7 +22619,7 @@
                                           "fill": "$Negro",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
-                                          "content": "Planta",
+                                          "content": "Estándar",
                                           "fontFamily": "$Font Secundaria",
                                           "fontSize": 14,
                                           "fontWeight": "600"
@@ -22709,72 +22850,6 @@
                                           "fontWeight": "600"
                                         }
                                       ]
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "HgeM6",
-                                      "name": "f_DTA",
-                                      "width": "fill_container",
-                                      "layout": "vertical",
-                                      "gap": 4,
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "id": "zhIR6",
-                                          "name": "label",
-                                          "fill": "$Gris 1",
-                                          "content": "DTA",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 11,
-                                          "fontWeight": "700",
-                                          "letterSpacing": 0.5
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "bCv7M",
-                                          "name": "value",
-                                          "fill": "$Negro",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "—",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 14,
-                                          "fontWeight": "600"
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "hyAdM",
-                                      "name": "f_DTAGUI",
-                                      "width": "fill_container",
-                                      "layout": "vertical",
-                                      "gap": 4,
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "id": "LEtyR",
-                                          "name": "label",
-                                          "fill": "$Gris 1",
-                                          "content": "DTAGUI",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 11,
-                                          "fontWeight": "700",
-                                          "letterSpacing": 0.5
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "qZNb1",
-                                          "name": "value",
-                                          "fill": "$Negro",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "—",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 14,
-                                          "fontWeight": "600"
-                                        }
-                                      ]
                                     }
                                   ]
                                 },
@@ -22817,39 +22892,6 @@
                                           "fontWeight": "600"
                                         }
                                       ]
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "Jp8Db",
-                                      "name": "field_Sueldo IMSS",
-                                      "width": "fill_container",
-                                      "layout": "vertical",
-                                      "gap": 4,
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "id": "U1FoJ",
-                                          "name": "label",
-                                          "fill": "$Gris 1",
-                                          "content": "SUELDO IMSS",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 11,
-                                          "fontWeight": "700",
-                                          "letterSpacing": 0.5
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "kh0eh",
-                                          "name": "value",
-                                          "fill": "$Negro",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "$2,800.00 / semana",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 14,
-                                          "fontWeight": "600"
-                                        }
-                                      ]
                                     }
                                   ]
                                 },
@@ -22887,39 +22929,6 @@
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
                                           "content": "Campo San Isidro",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 14,
-                                          "fontWeight": "600"
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "Mu8X6",
-                                      "name": "field_Sueldo fiscal",
-                                      "width": "fill_container",
-                                      "layout": "vertical",
-                                      "gap": 4,
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "id": "tEido",
-                                          "name": "label",
-                                          "fill": "$Gris 1",
-                                          "content": "SUELDO FISCAL",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 11,
-                                          "fontWeight": "700",
-                                          "letterSpacing": 0.5
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "nnnlG",
-                                          "name": "value",
-                                          "fill": "$Negro",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "$3,200.00 / semana",
                                           "fontFamily": "$Font Secundaria",
                                           "fontSize": 14,
                                           "fontWeight": "600"
@@ -23077,7 +23086,7 @@
                                           "id": "wmRlq",
                                           "name": "label",
                                           "fill": "$Gris 1",
-                                          "content": "OBSERVACIONES / COMENTARIOS",
+                                          "content": "OBSERVACIONES",
                                           "fontFamily": "$Font Secundaria",
                                           "fontSize": 11,
                                           "fontWeight": "700",
@@ -27802,7 +27811,7 @@
                                     {
                                       "type": "frame",
                                       "id": "UFlKC",
-                                      "name": "field_Código de credencial",
+                                      "name": "field_Código de trabajador",
                                       "width": "fill_container",
                                       "layout": "vertical",
                                       "gap": 4,
@@ -27812,7 +27821,7 @@
                                           "id": "nQsAq",
                                           "name": "label",
                                           "fill": "$Gris 1",
-                                          "content": "CÓDIGO DE CREDENCIAL",
+                                          "content": "CÓDIGO DE TRABAJADOR",
                                           "fontFamily": "$Font Secundaria",
                                           "fontSize": 11,
                                           "fontWeight": "700",
@@ -27825,7 +27834,7 @@
                                           "fill": "$Negro",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
-                                          "content": "CR-01234",
+                                          "content": "012345-6",
                                           "fontFamily": "$Font Secundaria",
                                           "fontSize": 14,
                                           "fontWeight": "600"
@@ -27868,46 +27877,16 @@
                                   ]
                                 },
                                 {
-                                  "type": "frame",
-                                  "id": "bHGPP",
-                                  "name": "fieldRow",
+                                  "type": "text",
+                                  "id": "BnXl5",
+                                  "name": "note",
+                                  "fill": "$Gris 1",
+                                  "textGrowth": "fixed-width",
                                   "width": "fill_container",
-                                  "gap": 24,
-                                  "children": [
-                                    {
-                                      "type": "frame",
-                                      "id": "mB2fe",
-                                      "name": "field_Código anterior",
-                                      "width": "fill_container",
-                                      "layout": "vertical",
-                                      "gap": 4,
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "id": "k7HK49",
-                                          "name": "label",
-                                          "fill": "$Gris 1",
-                                          "content": "CÓDIGO ANTERIOR",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 11,
-                                          "fontWeight": "700",
-                                          "letterSpacing": 0.5
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "m3erNz",
-                                          "name": "value",
-                                          "fill": "$Negro",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "CR-00987",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 14,
-                                          "fontWeight": "600"
-                                        }
-                                      ]
-                                    }
-                                  ]
+                                  "content": "Es el código que imprime la credencial",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -37831,37 +37810,6 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "YIBdg",
-                      "name": "f_Sueldo",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 2,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "Rh4ZA",
-                          "name": "label",
-                          "fill": "$Gris 1",
-                          "content": "SUELDO",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 9.5,
-                          "fontWeight": "700",
-                          "letterSpacing": 0.3
-                        },
-                        {
-                          "type": "text",
-                          "id": "FPKA9",
-                          "name": "value",
-                          "fill": "$Gris 1",
-                          "content": "No capturado",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
                       "id": "XT3wo",
                       "name": "f_Puesto",
                       "width": "fill_container",
@@ -37961,68 +37909,6 @@
                           "fontWeight": "normal"
                         }
                       ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "NjOn1",
-                      "name": "f_DTA",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 2,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "JYMdL",
-                          "name": "label",
-                          "fill": "$Gris 1",
-                          "content": "DTA",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 9.5,
-                          "fontWeight": "700",
-                          "letterSpacing": 0.3
-                        },
-                        {
-                          "type": "text",
-                          "id": "yBHyJ",
-                          "name": "value",
-                          "fill": "$Gris 1",
-                          "content": "No capturado",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "K1pSpd",
-                      "name": "f_DTAGUI",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 2,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "nOcjo",
-                          "name": "label",
-                          "fill": "$Gris 1",
-                          "content": "DTAGUI",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 9.5,
-                          "fontWeight": "700",
-                          "letterSpacing": 0.3
-                        },
-                        {
-                          "type": "text",
-                          "id": "Ik59L",
-                          "name": "value",
-                          "fill": "$Gris 1",
-                          "content": "No capturado",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
                     }
                   ]
                 },
@@ -38055,37 +37941,6 @@
                         {
                           "type": "text",
                           "id": "kmq84",
-                          "name": "value",
-                          "fill": "$Gris 1",
-                          "content": "No capturado",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "H2nsf",
-                      "name": "f_Comentario",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 2,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "BKblS",
-                          "name": "label",
-                          "fill": "$Gris 1",
-                          "content": "COMENTARIO",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 9.5,
-                          "fontWeight": "700",
-                          "letterSpacing": 0.3
-                        },
-                        {
-                          "type": "text",
-                          "id": "DLeqh",
                           "name": "value",
                           "fill": "$Gris 1",
                           "content": "No capturado",
@@ -38841,37 +38696,6 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "Iq2Nu",
-                      "name": "f_Código de credencial",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "gap": 2,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "kPtnH",
-                          "name": "label",
-                          "fill": "$Gris 1",
-                          "content": "CÓDIGO DE CREDENCIAL",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 9.5,
-                          "fontWeight": "700",
-                          "letterSpacing": 0.3
-                        },
-                        {
-                          "type": "text",
-                          "id": "uNHhS",
-                          "name": "value",
-                          "fill": "$Gris 1",
-                          "content": "No capturado",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
                       "id": "ScvU1",
                       "name": "f_Vigente",
                       "width": "fill_container",
@@ -39048,7 +38872,6 @@
                       "type": "frame",
                       "id": "kCCrD",
                       "name": "f_Nombre (CFDI)",
-                      "clip": true,
                       "width": "fill_container",
                       "layout": "vertical",
                       "gap": 2,
@@ -39069,6 +38892,8 @@
                           "id": "NEskV",
                           "name": "value",
                           "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
                           "content": "Se usará el nombre de Datos personales",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
@@ -40048,400 +39873,11 @@
             },
             {
               "type": "frame",
-              "id": "TN7eO",
-              "name": "inputRow",
-              "width": "fill_container",
-              "gap": 14,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "TIJ9s",
-                  "name": "input_Sueldo",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "wZmr3",
-                      "name": "labelRow",
-                      "gap": 4,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "F56tqV",
-                          "name": "label",
-                          "fill": "$Negro",
-                          "content": "Sueldo",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "HKPu4",
-                      "name": "field",
-                      "width": "fill_container",
-                      "height": 40,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "justifyContent": "space_between",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "aN2wQ",
-                          "name": "placeholder",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Ej. $3,500.00 / semana",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "HTMMA",
-                  "name": "input_Sueldo IMSS",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "KH8Cg",
-                      "name": "labelRow",
-                      "gap": 4,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "gWgOL",
-                          "name": "label",
-                          "fill": "$Negro",
-                          "content": "Sueldo IMSS",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "i4aQnB",
-                      "name": "field",
-                      "width": "fill_container",
-                      "height": 40,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "justifyContent": "space_between",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "O3sis",
-                          "name": "placeholder",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Ej. $2,800.00 / semana",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "YyZN7",
-              "name": "inputRow",
-              "width": "fill_container",
-              "gap": 14,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "fmAaR",
-                  "name": "input_DTA",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "eDdHB",
-                      "name": "labelRow",
-                      "gap": 4,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "NqQJj",
-                          "name": "label",
-                          "fill": "$Negro",
-                          "content": "DTA",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "X6ccd3",
-                      "name": "field",
-                      "width": "fill_container",
-                      "height": 40,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "justifyContent": "space_between",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "GVpnN",
-                          "name": "placeholder",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Ej. 0",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "icon",
-                          "id": "J3NVIp",
-                          "name": "icon",
-                          "width": 15,
-                          "height": 15,
-                          "icon": "hash",
-                          "library": "feather",
-                          "fill": "$Gris 1"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "g3syb",
-                  "name": "input_DTAgui",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "aFacI",
-                      "name": "labelRow",
-                      "gap": 4,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "tKLcS",
-                          "name": "label",
-                          "fill": "$Negro",
-                          "content": "DTAgui",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "PzOD3",
-                      "name": "field",
-                      "width": "fill_container",
-                      "height": 40,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "justifyContent": "space_between",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "ZbDHQ",
-                          "name": "placeholder",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Ej. 0",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "icon",
-                          "id": "spOVv",
-                          "name": "icon",
-                          "width": 15,
-                          "height": 15,
-                          "icon": "hash",
-                          "library": "feather",
-                          "fill": "$Gris 1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "w9TLV",
-              "name": "DTAPendingNote",
-              "width": "fill_container",
-              "fill": "#fffbeb",
-              "cornerRadius": 8,
-              "stroke": "#fde68a",
-              "strokeWidth": 1,
-              "strokeAlignment": "inner",
-              "gap": 10,
-              "padding": [
-                12,
-                14
-              ],
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "icon",
-                  "id": "N8XK5",
-                  "name": "icon",
-                  "width": 16,
-                  "height": 16,
-                  "icon": "help-circle",
-                  "library": "feather",
-                  "fill": "#b45309"
-                },
-                {
-                  "type": "text",
-                  "id": "UXAtv",
-                  "name": "text",
-                  "fill": "#78350f",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "El significado exacto de \"DTA\" y \"DTAgui\" no está confirmado (posibles candidatos: \"Días Trabajados Anuales\" / \"Descuento Trabajador Aguinaldo\"). Etiquetas provisionales hasta validar con el cliente en la próxima sesión.",
-                  "fontFamily": "$Font Secundaria",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                }
-              ]
-            },
-            {
-              "type": "frame",
               "id": "nbS7S",
               "name": "inputRow",
               "width": "fill_container",
               "gap": 14,
               "children": [
-                {
-                  "type": "frame",
-                  "id": "X0Due",
-                  "name": "input_Sueldo fiscal",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "viuKI",
-                      "name": "labelRow",
-                      "gap": 4,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "o2oYqW",
-                          "name": "label",
-                          "fill": "$Negro",
-                          "content": "Sueldo fiscal",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "xbv5o",
-                      "name": "field",
-                      "width": "fill_container",
-                      "height": 40,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "justifyContent": "space_between",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "T5WbKo",
-                          "name": "placeholder",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Ej. $3,200.00 / semana",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                },
                 {
                   "type": "frame",
                   "id": "IWMba",
@@ -40975,20 +40411,10 @@
                           "fill": "$Gris 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Seleccionar...",
+                          "content": "Ej. Tractorista",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
-                        },
-                        {
-                          "type": "icon",
-                          "id": "vsLop",
-                          "name": "icon",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "chevron-down",
-                          "library": "feather",
-                          "fill": "$Gris 1"
                         }
                       ]
                     }
@@ -41129,196 +40555,6 @@
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "Ut0xc",
-              "name": "inputRow",
-              "width": "fill_container",
-              "gap": 14,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "m0dL6",
-                  "name": "input_Comentario",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "lwa3H",
-                      "name": "labelRow",
-                      "gap": 4,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "Kgo9K",
-                          "name": "label",
-                          "fill": "$Negro",
-                          "content": "Comentario",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "yiH09",
-                      "name": "textarea",
-                      "width": "fill_container",
-                      "height": 64,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "padding": [
-                        12,
-                        14
-                      ],
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "KUvsp",
-                          "name": "placeholder",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Comentario adicional, independiente de observaciones...",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "KFpH5",
-              "name": "TeamConfirmNote",
-              "width": "fill_container",
-              "fill": "#fffbeb",
-              "cornerRadius": 8,
-              "stroke": "#fde68a",
-              "strokeWidth": 1,
-              "strokeAlignment": "inner",
-              "gap": 10,
-              "padding": [
-                12,
-                14
-              ],
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "icon",
-                  "id": "xdnWK",
-                  "name": "icon",
-                  "width": 16,
-                  "height": 16,
-                  "icon": "help-circle",
-                  "library": "feather",
-                  "fill": "#b45309"
-                },
-                {
-                  "type": "text",
-                  "id": "bkcJh",
-                  "name": "text",
-                  "fill": "#78350f",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Nota para el equipo: confirmar con el cliente el catálogo de \"Especialidad\" (campo \"Esp\" del sistema anterior) y si \"Observaciones\" y \"Comentario\" deben ser dos campos separados o fusionarse en uno, como aparece en la ficha del trabajador.",
-                  "fontFamily": "$Font Secundaria",
-                  "fontSize": 12,
-                  "fontWeight": "normal"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "pLYBZ",
-              "name": "inputRow",
-              "width": "fill_container",
-              "gap": 14,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "owuT1",
-                  "name": "input_Tipo de empleado",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "Ug91s",
-                      "name": "labelRow",
-                      "gap": 4,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "eAoZx",
-                          "name": "label",
-                          "fill": "$Negro",
-                          "content": "Tipo de empleado",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "s4hIkb",
-                      "name": "field",
-                      "width": "fill_container",
-                      "height": 40,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "justifyContent": "space_between",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "qFLlO",
-                          "name": "placeholder",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Seleccionar...",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "icon",
-                          "id": "X50WMd",
-                          "name": "icon",
-                          "width": 16,
-                          "height": 16,
-                          "icon": "chevron-down",
-                          "library": "feather",
-                          "fill": "$Gris 1"
                         }
                       ]
                     }
@@ -45080,68 +44316,6 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "g31t2",
-                  "name": "input_Código de credencial",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "I9MSww",
-                      "name": "labelRow",
-                      "gap": 4,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "HmBuw",
-                          "name": "label",
-                          "fill": "$Negro",
-                          "content": "Código de credencial",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "f8uc2",
-                      "name": "field",
-                      "width": "fill_container",
-                      "height": 40,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "justifyContent": "space_between",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "qX2ac",
-                          "name": "placeholder",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Ej. CRD-00123",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
                   "id": "Y5mbe8",
                   "name": "input_Vigente",
                   "width": "fill_container",
@@ -45216,77 +44390,6 @@
             },
             {
               "type": "frame",
-              "id": "K7Ol90",
-              "name": "inputRow",
-              "width": "fill_container",
-              "gap": 14,
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "i66sB",
-                  "name": "input_Código anterior",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 5,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "u4toD",
-                      "name": "labelRow",
-                      "gap": 4,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "Z9HlfV",
-                          "name": "label",
-                          "fill": "$Negro",
-                          "content": "Código anterior",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 12,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "zf2jx",
-                      "name": "field",
-                      "width": "fill_container",
-                      "height": 40,
-                      "fill": "$Blanco",
-                      "cornerRadius": 8,
-                      "stroke": "$Gris 2",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 8,
-                      "padding": [
-                        0,
-                        14
-                      ],
-                      "justifyContent": "space_between",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "o4eJjZ",
-                          "name": "placeholder",
-                          "fill": "$Gris 1",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "Ej. CRD-00089",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
               "id": "GPDno",
               "name": "DistinctNote",
               "width": "fill_container",
@@ -45316,7 +44419,7 @@
                   "fill": "$Gris 1",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Este código es distinto del código de trabajador que el sistema generará automáticamente al guardar el alta.",
+                  "content": "La credencial imprime el código de trabajador que genera el sistema.",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -47831,39 +46934,6 @@
                                           "fontWeight": "normal"
                                         }
                                       ]
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "Im0iC",
-                                      "name": "field_Sueldo",
-                                      "width": "fill_container",
-                                      "layout": "vertical",
-                                      "gap": 4,
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "id": "s2kruU",
-                                          "name": "label",
-                                          "fill": "$Gris 1",
-                                          "content": "SUELDO",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 11,
-                                          "fontWeight": "700",
-                                          "letterSpacing": 0.5
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "suVhl",
-                                          "name": "value",
-                                          "fill": "$Gris 1",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "No capturado",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 14,
-                                          "fontWeight": "normal"
-                                        }
-                                      ]
                                     }
                                   ]
                                 },
@@ -48239,72 +47309,6 @@
                                           "fontWeight": "normal"
                                         }
                                       ]
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "J8Gegf",
-                                      "name": "f_DTA",
-                                      "width": "fill_container",
-                                      "layout": "vertical",
-                                      "gap": 4,
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "id": "YrFVA",
-                                          "name": "label",
-                                          "fill": "$Gris 1",
-                                          "content": "DTA",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 11,
-                                          "fontWeight": "700",
-                                          "letterSpacing": 0.5
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "JGilt",
-                                          "name": "value",
-                                          "fill": "$Gris 1",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "No capturado",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 14,
-                                          "fontWeight": "normal"
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "QC6ru",
-                                      "name": "f_DTAGUI",
-                                      "width": "fill_container",
-                                      "layout": "vertical",
-                                      "gap": 4,
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "id": "jcEwX",
-                                          "name": "label",
-                                          "fill": "$Gris 1",
-                                          "content": "DTAGUI",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 11,
-                                          "fontWeight": "700",
-                                          "letterSpacing": 0.5
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "btg3j",
-                                          "name": "value",
-                                          "fill": "$Gris 1",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "No capturado",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 14,
-                                          "fontWeight": "normal"
-                                        }
-                                      ]
                                     }
                                   ]
                                 },
@@ -48347,39 +47351,6 @@
                                           "fontWeight": "normal"
                                         }
                                       ]
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "k9DTix",
-                                      "name": "field_Sueldo IMSS",
-                                      "width": "fill_container",
-                                      "layout": "vertical",
-                                      "gap": 4,
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "id": "FcR9u",
-                                          "name": "label",
-                                          "fill": "$Gris 1",
-                                          "content": "SUELDO IMSS",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 11,
-                                          "fontWeight": "700",
-                                          "letterSpacing": 0.5
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "TfGiI",
-                                          "name": "value",
-                                          "fill": "$Gris 1",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "No capturado",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 14,
-                                          "fontWeight": "normal"
-                                        }
-                                      ]
                                     }
                                   ]
                                 },
@@ -48412,39 +47383,6 @@
                                         {
                                           "type": "text",
                                           "id": "ujF0E",
-                                          "name": "value",
-                                          "fill": "$Gris 1",
-                                          "textGrowth": "fixed-width",
-                                          "width": "fill_container",
-                                          "content": "No capturado",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 14,
-                                          "fontWeight": "normal"
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "RRlim",
-                                      "name": "field_Sueldo fiscal",
-                                      "width": "fill_container",
-                                      "layout": "vertical",
-                                      "gap": 4,
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "id": "L2tNY",
-                                          "name": "label",
-                                          "fill": "$Gris 1",
-                                          "content": "SUELDO FISCAL",
-                                          "fontFamily": "$Font Secundaria",
-                                          "fontSize": 11,
-                                          "fontWeight": "700",
-                                          "letterSpacing": 0.5
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "vDxko",
                                           "name": "value",
                                           "fill": "$Gris 1",
                                           "textGrowth": "fixed-width",
@@ -48607,7 +47545,7 @@
                                           "id": "Fcuu0",
                                           "name": "label",
                                           "fill": "$Gris 1",
-                                          "content": "OBSERVACIONES / COMENTARIOS",
+                                          "content": "OBSERVACIONES",
                                           "fontFamily": "$Font Secundaria",
                                           "fontSize": 11,
                                           "fontWeight": "700",
@@ -49590,116 +48528,718 @@
     },
     {
       "type": "frame",
-      "id": "TsbfI",
-      "x": 1701,
-      "y": 4064,
-      "name": "SelectionActionBar",
-      "width": "fill_container(1120)",
-      "fill": "$Hover 3",
-      "cornerRadius": 8,
-      "stroke": "$Color Primario",
-      "strokeWidth": 1,
-      "strokeAlignment": "inner",
-      "padding": [
-        12,
-        16
-      ],
-      "justifyContent": "space_between",
-      "alignItems": "center",
+      "id": "yZZik",
+      "x": 1431,
+      "y": 5801,
+      "name": "Popover · Filtro Tipo (abierto)",
+      "width": 150,
+      "layout": "vertical",
+      "gap": 8,
       "children": [
         {
           "type": "frame",
-          "id": "OjqfY",
-          "name": "left",
-          "gap": 14,
+          "id": "WDccA",
+          "name": "field",
+          "width": "fill_container",
+          "height": 40,
+          "fill": "$Blanco",
+          "cornerRadius": 8,
+          "stroke": "$Color Primario",
+          "strokeWidth": 1.5,
+          "strokeAlignment": "inner",
+          "gap": 8,
+          "padding": [
+            0,
+            14
+          ],
+          "justifyContent": "space_between",
           "alignItems": "center",
           "children": [
             {
               "type": "text",
-              "id": "sAV1c",
-              "name": "countText",
-              "fill": "$Hover 1",
-              "content": "2 trabajadores seleccionados",
+              "id": "VhlC7",
+              "name": "value",
+              "fill": "$Negro",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Todos",
               "fontFamily": "$Font Secundaria",
-              "fontSize": 13.5,
-              "fontWeight": "700"
-            },
-            {
-              "type": "text",
-              "id": "m6oAMW",
-              "name": "sep",
-              "fill": "$Gris 2",
-              "content": "·",
-              "fontFamily": "$Font Secundaria",
-              "fontSize": 13.5,
+              "fontSize": 14,
               "fontWeight": "normal"
             },
             {
-              "type": "text",
-              "id": "xKJtd",
-              "name": "linkSelectAll",
-              "fill": "$Hover 1",
-              "content": "Seleccionar todos los 124 filtrados",
-              "fontFamily": "$Font Secundaria",
-              "fontSize": 13.5,
-              "fontWeight": "600"
-            },
-            {
-              "type": "text",
-              "id": "kw88q",
-              "name": "sep2",
-              "fill": "$Gris 2",
-              "content": "·",
-              "fontFamily": "$Font Secundaria",
-              "fontSize": 13.5,
-              "fontWeight": "normal"
-            },
-            {
-              "type": "text",
-              "id": "wyAlD",
-              "name": "linkClear",
-              "fill": "$Gris 1",
-              "content": "Cancelar selección",
-              "fontFamily": "$Font Secundaria",
-              "fontSize": 13.5,
-              "fontWeight": "600"
+              "type": "icon",
+              "id": "w1jcd3",
+              "name": "chevron",
+              "width": 16,
+              "height": 16,
+              "icon": "chevron-up",
+              "library": "feather",
+              "fill": "$Gris 1"
             }
           ]
         },
         {
           "type": "frame",
-          "id": "HRJfY",
-          "name": "btnExportarSeleccionados",
-          "height": 40,
-          "fill": "$Color Primario",
+          "id": "B7fCw",
+          "name": "optionsPanel",
+          "width": "fill_container",
+          "fill": "$Blanco",
           "cornerRadius": 8,
-          "gap": 8,
+          "stroke": "$Gris 2",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#00000026",
+            "offset": {
+              "x": 0,
+              "y": 6
+            },
+            "blur": 16
+          },
+          "layout": "vertical",
+          "gap": 2,
+          "padding": 4,
+          "children": [
+            {
+              "type": "frame",
+              "id": "T3ugtQ",
+              "name": "opt_Estándar",
+              "width": "fill_container",
+              "height": 36,
+              "fill": "$Hover 3",
+              "cornerRadius": 6,
+              "padding": [
+                0,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "w4wdVP",
+                  "name": "label",
+                  "fill": "$Hover 1",
+                  "content": "Estándar",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "sTI7K",
+              "name": "opt_Eventual",
+              "width": "fill_container",
+              "height": 36,
+              "fill": "$Blanco",
+              "cornerRadius": 6,
+              "padding": [
+                0,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QYjQD",
+                  "name": "label",
+                  "fill": "$Negro",
+                  "content": "Eventual",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "id": "RkoUd",
+      "x": 2951,
+      "y": 19438,
+      "name": "Nota dev · Semana de nómina",
+      "width": 260,
+      "height": 230,
+      "content": "SEMANA DE NÓMINA (dev):\n- Selector reemplaza el rango de fechas libre. Formato: \"Semana ## · Mié DD/Mes – Mar DD/Mes/AA\" (semana de nómina, va de miércoles a martes).\n- Por defecto siempre carga la semana en curso (la que contiene la fecha de hoy).\n- Flechas ‹ › cambian a la semana anterior/siguiente (misma regla miér-mar).\n- Numeración de semana CONFIRMADA por negocio: sigue el calendario de nómina SACSA, no la semana ISO. Referencia fija: Semana 06 = Mié 19/Ago – Mar 25/Ago/26. Todas las demás semanas se cuentan a partir de esa referencia (+/- 7 días por semana).\n- Toggle \"Semana de nómina / Rango personalizado\": por defecto queda en \"Semana de nómina\". Al activar \"Rango personalizado\" se debe mostrar el picker de fecha inicio/fin libre (no maquetado aquí) para consultas fuera de una semana."
+    },
+    {
+      "type": "note",
+      "id": "BPusD",
+      "x": 5951,
+      "y": 19438,
+      "name": "Nota dev · Semana de nómina",
+      "width": 260,
+      "height": 230,
+      "content": "SEMANA DE NÓMINA (dev):\n- Selector reemplaza el rango de fechas libre. Formato: \"Semana ## · Mié DD/Mes – Mar DD/Mes/AA\" (semana de nómina, va de miércoles a martes).\n- Por defecto siempre carga la semana en curso (la que contiene la fecha de hoy).\n- Flechas ‹ › cambian a la semana anterior/siguiente (misma regla miér-mar).\n- Numeración de semana CONFIRMADA por negocio: sigue el calendario de nómina SACSA, no la semana ISO. Referencia fija: Semana 06 = Mié 19/Ago – Mar 25/Ago/26. Todas las demás semanas se cuentan a partir de esa referencia (+/- 7 días por semana).\n- Toggle \"Semana de nómina / Rango personalizado\": por defecto queda en \"Semana de nómina\". Al activar \"Rango personalizado\" se debe mostrar el picker de fecha inicio/fin libre (no maquetado aquí) para consultas fuera de una semana."
+    },
+    {
+      "type": "note",
+      "id": "YG7Ih",
+      "x": 1431,
+      "y": 19438,
+      "name": "Nota dev · Semana de nómina",
+      "width": 260,
+      "height": 230,
+      "content": "SEMANA DE NÓMINA (dev):\n- Selector reemplaza el rango de fechas libre. Formato: \"Semana ## · Mié DD/Mes – Mar DD/Mes/AA\" (semana de nómina, va de miércoles a martes).\n- Por defecto siempre carga la semana en curso (la que contiene la fecha de hoy).\n- Flechas ‹ › cambian a la semana anterior/siguiente (misma regla miér-mar).\n- Numeración de semana CONFIRMADA por negocio: sigue el calendario de nómina SACSA, no la semana ISO. Referencia fija: Semana 06 = Mié 19/Ago – Mar 25/Ago/26. Todas las demás semanas se cuentan a partir de esa referencia (+/- 7 días por semana).\n- Toggle \"Semana de nómina / Rango personalizado\": por defecto queda en \"Semana de nómina\". Al activar \"Rango personalizado\" se debe mostrar el picker de fecha inicio/fin libre (no maquetado aquí) para consultas fuera de una semana."
+    },
+    {
+      "type": "frame",
+      "id": "iDHu9",
+      "x": 2951,
+      "y": 10549,
+      "name": "Registro Clave · Salida detectada · Por persona",
+      "clip": true,
+      "width": 640,
+      "fill": "$Blanco",
+      "cornerRadius": 12,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#00000040",
+        "offset": {
+          "x": 0,
+          "y": 12
+        },
+        "blur": 32
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "ZkOe2",
+          "name": "ModalHeader",
+          "width": "fill_container",
+          "stroke": "$Gris 3",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "strokeAlignment": "inner",
           "padding": [
-            0,
-            16
+            20,
+            24
           ],
-          "justifyContent": "center",
+          "justifyContent": "space_between",
           "alignItems": "center",
           "children": [
             {
-              "type": "icon",
-              "id": "NB4bd",
-              "name": "icon",
-              "width": 16,
-              "height": 16,
-              "icon": "archive",
-              "library": "feather",
-              "fill": "$Blanco"
+              "type": "frame",
+              "id": "pDipB",
+              "name": "titleCol",
+              "layout": "vertical",
+              "gap": 2,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nhFLx",
+                  "name": "modalTitle",
+                  "fill": "$Negro",
+                  "content": "Registro de asistencia",
+                  "fontFamily": "$Font Primaria",
+                  "fontSize": 19,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "bHcwI",
+                  "name": "folioSub",
+                  "fill": "$Gris 1",
+                  "content": "Salida detectada",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
             },
             {
-              "type": "text",
-              "id": "kiHBm",
-              "name": "t",
-              "fill": "$Blanco",
-              "content": "Exportar expedientes seleccionados",
-              "fontFamily": "$Font Secundaria",
-              "fontSize": 14,
-              "fontWeight": "600"
+              "type": "frame",
+              "id": "mj8iT",
+              "name": "closeBtn",
+              "width": 32,
+              "height": 32,
+              "cornerRadius": 8,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "wTmex",
+                  "name": "closeIcon",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "x",
+                  "library": "feather",
+                  "fill": "$Gris 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zxhL4",
+          "name": "ModalBody",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            20,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ff66l",
+              "name": "DetectNote",
+              "width": "fill_container",
+              "fill": "#fef3c7",
+              "cornerRadius": 8,
+              "gap": 10,
+              "padding": [
+                12,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "cwkT2",
+                  "name": "noteIcon",
+                  "width": 17,
+                  "height": 17,
+                  "icon": "alert-circle",
+                  "library": "feather",
+                  "fill": "#b45309"
+                },
+                {
+                  "type": "text",
+                  "id": "voM7S",
+                  "name": "noteText",
+                  "fill": "#78350f",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Este trabajador ya tiene una entrada abierta. El siguiente registro se guardará como salida.",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ELVnX",
+              "name": "WorkerCard",
+              "width": "fill_container",
+              "fill": "$Hover 3",
+              "cornerRadius": 10,
+              "gap": 14,
+              "padding": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OFMEX",
+                  "name": "avatar",
+                  "width": 48,
+                  "height": 48,
+                  "fill": "$Blanco",
+                  "cornerRadius": 24,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "YFdr9",
+                      "name": "initial",
+                      "fill": "$Hover 1",
+                      "content": "J",
+                      "fontFamily": "$Font Primaria",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "u2zQz",
+                  "name": "workerCol",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 3,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZwfAb",
+                      "name": "workerName",
+                      "fill": "$Negro",
+                      "content": "Juan Pérez",
+                      "fontFamily": "$Font Primaria",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lSQkd",
+                      "name": "workerRole",
+                      "fill": "$Gris 1",
+                      "content": "Código 012345-6",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "y8gsq",
+                  "name": "statusPill",
+                  "fill": "$Color Primario",
+                  "cornerRadius": 20,
+                  "gap": 6,
+                  "padding": [
+                    7,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Q26Wp",
+                      "name": "pillIcon",
+                      "width": 14,
+                      "height": 14,
+                      "icon": "clock",
+                      "library": "feather",
+                      "fill": "$Blanco"
+                    },
+                    {
+                      "type": "text",
+                      "id": "B1gprk",
+                      "name": "pillText",
+                      "fill": "$Blanco",
+                      "content": "Jornada activa",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "I3u0VL",
+              "name": "EntradaCard",
+              "width": "fill_container",
+              "fill": "$Gris 3",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "padding": [
+                4,
+                14
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "H6tyg",
+                  "name": "row Fecha de entrada",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "padding": [
+                    11,
+                    0
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "H5ugLG",
+                      "name": "label",
+                      "fill": "$Gris 1",
+                      "content": "Fecha de entrada",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VszNf",
+                      "name": "value",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "mié 08/Sep/26",
+                      "textAlign": "right",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "xjt1x",
+                  "name": "divider",
+                  "fill": "$Gris 2",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "LQQ8d",
+                  "name": "row Hora de entrada",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "padding": [
+                    11,
+                    0
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "clz0E",
+                      "name": "label",
+                      "fill": "$Gris 1",
+                      "content": "Hora de entrada",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ISPEI",
+                      "name": "value",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "6:58 a.m.",
+                      "textAlign": "right",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "EF58p",
+                  "name": "divider",
+                  "fill": "$Gris 2",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "HrOMm",
+                  "name": "row Cultivo productivo",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "padding": [
+                    11,
+                    0
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "McShv",
+                      "name": "label",
+                      "fill": "$Gris 1",
+                      "content": "Cultivo productivo",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LHLyY",
+                      "name": "value",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lote-14 · Naranja Valencia",
+                      "textAlign": "right",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "u4gM4",
+                  "name": "divider",
+                  "fill": "$Gris 2",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "eIz0E",
+                  "name": "row Actividad",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "padding": [
+                    11,
+                    0
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "t82TYd",
+                      "name": "label",
+                      "fill": "$Gris 1",
+                      "content": "Actividad",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JGMx7",
+                      "name": "value",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Traslado de personal",
+                      "textAlign": "right",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RdEuE",
+              "name": "personasField",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 5,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "otEdH",
+                  "name": "label",
+                  "fill": "$Negro",
+                  "content": "Personas transportadas *",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "uJjMB",
+                  "name": "field",
+                  "width": "fill_container",
+                  "height": 40,
+                  "fill": "$Blanco",
+                  "cornerRadius": 8,
+                  "stroke": "$Gris 2",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "dF1mq",
+                      "name": "icon",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "users",
+                      "library": "feather",
+                      "fill": "$Gris 1"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ymC6B",
+                      "name": "placeholder",
+                      "fill": "$Gris 1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Ej. 4",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "qkP5L",
+          "name": "ModalFooter",
+          "width": "fill_container",
+          "fill": "$Blanco",
+          "stroke": "$Gris 3",
+          "strokeWidth": {
+            "top": 1
+          },
+          "strokeAlignment": "inner",
+          "padding": [
+            16,
+            24
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "vIlhs",
+              "name": "btnRegistrarSalida",
+              "width": "fill_container",
+              "fill": "$Color Primario",
+              "cornerRadius": 8,
+              "gap": 8,
+              "padding": [
+                14,
+                20
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "wIRFb",
+                  "name": "btnIcon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "log-out",
+                  "library": "feather",
+                  "fill": "$Blanco"
+                },
+                {
+                  "type": "text",
+                  "id": "gDZaa",
+                  "name": "btnPrimaryText",
+                  "fill": "$Blanco",
+                  "content": "Registrar salida",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
             }
           ]
         }
@@ -49707,40 +49247,1231 @@
     },
     {
       "type": "frame",
-      "id": "vA3X0",
-      "x": 1661,
-      "y": 4064,
-      "name": "checkbox_selectAll",
-      "width": 18,
-      "height": 18,
+      "id": "q9hiWD",
+      "x": 2880,
+      "y": 7882,
+      "name": "Registro Manual · Por persona",
+      "clip": true,
+      "width": 640,
       "fill": "$Blanco",
-      "cornerRadius": 4,
-      "stroke": "$Gris 2",
-      "strokeWidth": 1.5,
-      "strokeAlignment": "inner"
+      "cornerRadius": 12,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#00000040",
+        "offset": {
+          "x": 0,
+          "y": 12
+        },
+        "blur": 32
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "x1Yak",
+          "name": "ModalHeader",
+          "width": "fill_container",
+          "stroke": "$Gris 3",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "strokeAlignment": "inner",
+          "padding": [
+            20,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Da2Fg",
+              "name": "titleCol",
+              "width": 490,
+              "layout": "vertical",
+              "gap": 2,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Z9w8w",
+                  "name": "modalTitle",
+                  "fill": "$Negro",
+                  "content": "Registro de asistencia",
+                  "fontFamily": "$Font Primaria",
+                  "fontSize": 19,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "JefRT",
+                  "name": "folioSub",
+                  "fill": "$Gris 1",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Paso 1 de 2 · Registra la asistencia de un trabajador cuando no fue posible utilizar biométrico o clave.",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "H4qvP9",
+              "name": "closeBtn",
+              "width": 32,
+              "height": 32,
+              "cornerRadius": 8,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "a47fgr",
+                  "name": "closeIcon",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "x",
+                  "library": "feather",
+                  "fill": "$Gris 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "yDMe5",
+          "name": "ModalBody",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            20,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "thVOf",
+              "name": "titleCol",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 2,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "v6O9o",
+                  "name": "modalTitle",
+                  "fill": "$Negro",
+                  "content": "¿Cómo quieres registrar la asistencia?",
+                  "fontFamily": "$Font Primaria",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xbJBI",
+              "name": "TabsBar",
+              "width": "fill_container",
+              "gap": 14,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "tKUUn",
+                  "name": "tab_Biométrico",
+                  "height": 56,
+                  "fill": "$Blanco",
+                  "cornerRadius": 10,
+                  "gap": 10,
+                  "padding": [
+                    0,
+                    28
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "bJWLM",
+                      "name": "icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "aperture",
+                      "library": "feather",
+                      "fill": "$Gris 1"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iUURV",
+                      "name": "label",
+                      "fill": "$Gris 1",
+                      "content": "Biométrico",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ID2e5",
+                  "name": "tab_Clave",
+                  "height": 56,
+                  "fill": "$Blanco",
+                  "cornerRadius": 10,
+                  "gap": 10,
+                  "padding": [
+                    0,
+                    28
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "TB54X",
+                      "name": "icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "hash",
+                      "library": "feather",
+                      "fill": "$Gris 1"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BkPgI",
+                      "name": "label",
+                      "fill": "$Gris 1",
+                      "content": "Clave",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "f7tA70",
+                  "name": "tab_Manual",
+                  "height": 56,
+                  "fill": "$Color Primario",
+                  "cornerRadius": 10,
+                  "gap": 10,
+                  "padding": [
+                    0,
+                    28
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "PFFZl",
+                      "name": "icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "edit-3",
+                      "library": "feather",
+                      "fill": "$Blanco"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AbhfL",
+                      "name": "label",
+                      "fill": "$Blanco",
+                      "content": "Manual",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "r9o0kH",
+              "name": "ManualForm",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ePOUv",
+                  "name": "productoField",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "q3XKZ",
+                      "name": "label",
+                      "fill": "$Negro",
+                      "content": "Trabajador (nombre o código) *",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CmH6W",
+                      "name": "field",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$Blanco",
+                      "cornerRadius": 8,
+                      "stroke": "$Gris 2",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "UJcsQ",
+                          "name": "icon",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "search",
+                          "library": "feather",
+                          "fill": "$Gris 1"
+                        },
+                        {
+                          "type": "text",
+                          "id": "PCy0P",
+                          "name": "value",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Buscar trabajador...",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "E5Bii",
+                  "name": "selectedWorker",
+                  "width": "fill_container",
+                  "fill": "$Hover 3",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "G99XN",
+                      "name": "Frame 34",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "M8YM6",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "check",
+                          "library": "lucide",
+                          "fill": "$Hover 1"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qO3az",
+                          "name": "noteText",
+                          "fill": "$Hover 1",
+                          "textGrowth": "fixed-width",
+                          "width": 150,
+                          "content": "Trabajador identificado",
+                          "textAlign": "center",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gfEMp",
+                      "name": "Frame 33",
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "a5MtTD",
+                          "name": "avatar",
+                          "width": 44,
+                          "height": 44,
+                          "fill": "$Blanco",
+                          "cornerRadius": 22,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "eQWdZ",
+                              "name": "initial",
+                              "fill": "$Hover 1",
+                              "content": "R",
+                              "fontFamily": "$Font Primaria",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "GeOAm",
+                          "name": "name",
+                          "fill": "$Negro",
+                          "content": "Rosa Delgado — Código 018842-1",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oyja2",
+                  "name": "fechaField",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "VEQDO",
+                      "name": "label",
+                      "fill": "$Negro",
+                      "content": "Fecha del registro *",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ip423",
+                      "name": "field",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$Blanco",
+                      "cornerRadius": 8,
+                      "stroke": "$Gris 2",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Cknj9",
+                          "name": "icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "calendar",
+                          "library": "feather",
+                          "fill": "$Gris 1"
+                        },
+                        {
+                          "type": "text",
+                          "id": "H6rmf",
+                          "name": "value",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Mar 08/Sep/26 · Hoy",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "TOiaS",
+                          "name": "chevron",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "chevron-down",
+                          "library": "feather",
+                          "fill": "$Gris 1"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "W65WyE",
+                      "name": "hint",
+                      "width": "fill_container",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "F29dUf",
+                          "name": "icon",
+                          "width": 13,
+                          "height": 13,
+                          "icon": "info",
+                          "library": "feather",
+                          "fill": "$Gris 1"
+                        },
+                        {
+                          "type": "text",
+                          "id": "bFRsK",
+                          "name": "hintText",
+                          "fill": "$Gris 1",
+                          "content": "Solo puedes seleccionar hoy o una fecha anterior",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mqEi6",
+                  "name": "TimeRow",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "M1sFp",
+                      "name": "precioField",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 5,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "u5Vu9",
+                          "name": "label",
+                          "fill": "$Negro",
+                          "content": "Hora de entrada *",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "s8YFJc",
+                          "name": "field",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "$Blanco",
+                          "cornerRadius": 8,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            0,
+                            14
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "A0G0Be",
+                              "name": "icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "clock",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "zwwCS",
+                              "name": "currency",
+                              "fill": "$Gris 1",
+                              "content": "7:00",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "iTtyL",
+                      "name": "precioField",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 5,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Nfva8",
+                          "name": "label",
+                          "fill": "$Negro",
+                          "content": "Hora de salida *",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "BWsxb",
+                          "name": "field",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "$Blanco",
+                          "cornerRadius": 8,
+                          "stroke": "$Gris 2",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            0,
+                            14
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "hnmN3",
+                              "name": "icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "clock",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ci2CW",
+                              "name": "currency",
+                              "fill": "$Gris 1",
+                              "content": "9:30",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "aBn7q",
+                  "name": "personasField",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KCj9l",
+                      "name": "label",
+                      "fill": "$Negro",
+                      "content": "Personas transportadas *",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RMN1i",
+                      "name": "field",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$Blanco",
+                      "cornerRadius": 8,
+                      "stroke": "$Gris 2",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "rQZAW",
+                          "name": "icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "users",
+                          "library": "feather",
+                          "fill": "$Gris 1"
+                        },
+                        {
+                          "type": "text",
+                          "id": "EfLBF",
+                          "name": "placeholder",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Ej. 4",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PQXLq",
+          "name": "ModalFooter",
+          "width": "fill_container",
+          "fill": "$Blanco",
+          "stroke": "$Gris 3",
+          "strokeWidth": {
+            "top": 1
+          },
+          "strokeAlignment": "inner",
+          "gap": 12,
+          "padding": [
+            16,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "q8tdJs",
+              "name": "btnCancelar",
+              "height": 46,
+              "fill": "$Blanco",
+              "cornerRadius": 8,
+              "stroke": "$Gris 2",
+              "strokeWidth": 1.5,
+              "strokeAlignment": "inner",
+              "padding": [
+                0,
+                22
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xKDVE",
+                  "name": "label",
+                  "fill": "$Negro",
+                  "content": "Cerrar",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "t68CB",
+              "name": "btnGuardarEntrada",
+              "width": 170,
+              "fill": "$Color Primario",
+              "cornerRadius": 8,
+              "gap": 8,
+              "padding": [
+                14,
+                20
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Dmos2",
+                  "name": "btnPrimaryText",
+                  "fill": "$Blanco",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Registrar",
+                  "textAlign": "center",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "type": "frame",
-      "id": "ETXtu",
-      "x": 1661,
-      "y": 4110,
-      "name": "checkbox_checked",
-      "width": 18,
-      "height": 18,
-      "fill": "$Color Primario",
-      "cornerRadius": 4,
-      "justifyContent": "center",
+      "id": "pyITp",
+      "x": 3722,
+      "y": 10510,
+      "name": "Success Modal · Salida · Por persona",
+      "clip": true,
+      "width": 420,
+      "fill": "$Blanco",
+      "cornerRadius": 12,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#00000040",
+        "offset": {
+          "x": 0,
+          "y": 12
+        },
+        "blur": 32
+      },
+      "layout": "vertical",
+      "gap": 16,
+      "padding": [
+        32,
+        28
+      ],
       "alignItems": "center",
       "children": [
         {
-          "type": "icon",
-          "id": "Cfw2t",
-          "name": "icon",
-          "width": 13,
-          "height": 13,
-          "icon": "check",
-          "library": "feather",
-          "fill": "$Blanco"
+          "type": "frame",
+          "id": "CyWE8",
+          "name": "iconCircle",
+          "width": 56,
+          "height": 56,
+          "fill": "$Hover 3",
+          "cornerRadius": 28,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "nseE5",
+              "name": "icon",
+              "width": 28,
+              "height": 28,
+              "icon": "log-out",
+              "library": "feather",
+              "fill": "$Color Primario"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "py7R9",
+          "name": "title",
+          "fill": "$Negro",
+          "content": "¡Salida registrada!",
+          "textAlign": "center",
+          "fontFamily": "$Font Primaria",
+          "fontSize": 17,
+          "fontWeight": "700"
+        },
+        {
+          "type": "text",
+          "id": "y5xp0",
+          "name": "description",
+          "fill": "$Gris 1",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Se cerró la jornada de Juan Pérez 012345-6.",
+          "textAlign": "center",
+          "fontFamily": "$Font Secundaria",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "gBVQf",
+          "name": "detailCard",
+          "width": "fill_container",
+          "fill": "$Gris 3",
+          "cornerRadius": 8,
+          "layout": "vertical",
+          "padding": [
+            4,
+            14
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "UoVWc",
+              "name": "row Fecha",
+              "width": "fill_container",
+              "gap": 12,
+              "padding": [
+                10,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "g1fNk2",
+                  "name": "label",
+                  "fill": "$Gris 1",
+                  "content": "Fecha",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "N3SFr",
+                  "name": "value",
+                  "fill": "$Negro",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "mié 08/Sep/26",
+                  "textAlign": "right",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "GNoFD",
+              "name": "divider",
+              "fill": "$Gris 2",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "A5UvGl",
+              "name": "row Última entrada",
+              "width": "fill_container",
+              "gap": 12,
+              "padding": [
+                10,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Kpvkx",
+                  "name": "label",
+                  "fill": "$Gris 1",
+                  "content": "Última entrada",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "U0WIV6",
+                  "name": "value",
+                  "fill": "$Negro",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "6:58 a.m.",
+                  "textAlign": "right",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "Nu94g",
+              "name": "divider",
+              "fill": "$Gris 2",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "IojvR",
+              "name": "row Hora salida",
+              "width": "fill_container",
+              "gap": 12,
+              "padding": [
+                10,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hcmBq",
+                  "name": "label",
+                  "fill": "$Gris 1",
+                  "content": "Hora salida",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "y9f6Jz",
+                  "name": "value",
+                  "fill": "$Negro",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "4:32 p.m.",
+                  "textAlign": "right",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "tCxNF",
+              "name": "divider",
+              "fill": "$Gris 2",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "VXFqk",
+              "name": "row Horas trabajadas",
+              "width": "fill_container",
+              "gap": 12,
+              "padding": [
+                10,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F2PY9W",
+                  "name": "label",
+                  "fill": "$Gris 1",
+                  "content": "Horas trabajadas",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "A63Zu",
+                  "name": "value",
+                  "fill": "$Color Primario",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "9h 34m",
+                  "textAlign": "right",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "VAMbz",
+              "name": "divider",
+              "fill": "$Gris 2",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "M1Ruq9",
+              "name": "row Lote",
+              "width": "fill_container",
+              "gap": 12,
+              "padding": [
+                10,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xJoO2",
+                  "name": "label",
+                  "fill": "$Gris 1",
+                  "content": "Lote",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "UPCzz",
+                  "name": "value",
+                  "fill": "$Negro",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Lote-14 · Naranja Valencia",
+                  "textAlign": "right",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "EfmEr",
+              "name": "divider",
+              "fill": "$Gris 2",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "vjGrD",
+              "name": "row Actividad",
+              "width": "fill_container",
+              "gap": 12,
+              "padding": [
+                10,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PolLY",
+                  "name": "label",
+                  "fill": "$Gris 1",
+                  "content": "Actividad",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "vyG0O",
+                  "name": "value",
+                  "fill": "$Negro",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Traslado de personal",
+                  "textAlign": "right",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "rgiDS",
+              "name": "divider",
+              "fill": "$Gris 2",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "MNqzx",
+              "name": "row Personas transportadas",
+              "width": "fill_container",
+              "gap": 12,
+              "padding": [
+                10,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "e6ojTV",
+                  "name": "label",
+                  "fill": "$Gris 1",
+                  "content": "Personas transportadas",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "g7wvf",
+                  "name": "value",
+                  "fill": "$Negro",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "4",
+                  "textAlign": "right",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "EoO8p",
+          "name": "buttonsRow",
+          "width": "fill_container",
+          "gap": 12,
+          "children": [
+            {
+              "type": "frame",
+              "id": "KKPMF",
+              "name": "btnAceptar",
+              "width": "fill_container",
+              "fill": "$Color Primario",
+              "cornerRadius": 8,
+              "gap": 8,
+              "padding": [
+                14,
+                20
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ybp7f",
+                  "name": "btnPrimaryText",
+                  "fill": "$Blanco",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Ver detalle",
+                  "textAlign": "center",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
