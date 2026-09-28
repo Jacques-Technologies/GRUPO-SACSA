@@ -3678,7 +3678,7 @@
                       "id": "r6pCK",
                       "name": "hint",
                       "fill": "$Gris 1",
-                      "content": "Monto total a prorratear entre los cultivos activos.",
+                      "content": "Monto total a prorratear entre los cultivos productivos activos.",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 11,
                       "fontWeight": "normal"
@@ -3898,7 +3898,7 @@
                           "id": "OklxX",
                           "name": "label",
                           "fill": "$Negro",
-                          "content": "Referencia / folio",
+                          "content": "Número de factura / referencia externa",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "600"
@@ -10574,7 +10574,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "TR-04 · Tractor · 118 HP · Activo",
+                              "content": "TR-04 · Tractor · Operando",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "normal"
@@ -10649,7 +10649,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "TR-09 · Tractor · 90 HP · Activo",
+                              "content": "TR-09 · Tractor · Operando",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "normal"
@@ -10709,7 +10709,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "TR-12 · Tractor · 155 HP · En taller",
+                              "content": "TR-12 · Tractor · En taller",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "normal"
@@ -10945,7 +10945,7 @@
                       "id": "TvcTH",
                       "name": "hint",
                       "fill": "$Gris 1",
-                      "content": "Monto total a prorratear entre los cultivos activos.",
+                      "content": "Monto total a prorratear entre los cultivos productivos activos.",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 11,
                       "fontWeight": "normal"
@@ -11165,7 +11165,7 @@
                           "id": "qMndJ",
                           "name": "label",
                           "fill": "$Negro",
-                          "content": "Referencia / folio",
+                          "content": "Número de factura / referencia externa",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "600"
@@ -21196,7 +21196,7 @@
                       "id": "Kv9Mu",
                       "name": "value",
                       "fill": "$Hover 1",
-                      "content": "Prorrateable · cultivos activos",
+                      "content": "Prorrateable · cultivos productivos activos",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "700"
@@ -23015,7 +23015,7 @@
                       "id": "GVqFS",
                       "name": "value",
                       "fill": "$Hover 1",
-                      "content": "Prorrateable · cultivos activos",
+                      "content": "Prorrateable · cultivos productivos activos",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "700"
