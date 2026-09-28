@@ -9983,36 +9983,66 @@
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "RDgC1",
-                                  "name": "badgeEstatus",
-                                  "height": 24,
-                                  "fill": "#dcfce7",
-                                  "cornerRadius": 12,
-                                  "gap": 6,
-                                  "padding": [
-                                    0,
-                                    10
-                                  ],
-                                  "justifyContent": "center",
+                                  "id": "xkc7z",
+                                  "name": "toggleEstatus",
+                                  "height": 32,
+                                  "fill": "$Gris 3",
+                                  "cornerRadius": 16,
+                                  "gap": 3,
+                                  "padding": 3,
                                   "alignItems": "center",
                                   "children": [
                                     {
-                                      "type": "ellipse",
-                                      "id": "cOIWn",
-                                      "name": "dot",
+                                      "type": "frame",
+                                      "id": "m6yzXe",
+                                      "name": "optActivo",
+                                      "height": 26,
                                       "fill": "$Color Primario",
-                                      "width": 6,
-                                      "height": 6
+                                      "cornerRadius": 13,
+                                      "padding": [
+                                        0,
+                                        14
+                                      ],
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "vDktV",
+                                          "name": "t",
+                                          "fill": "$Blanco",
+                                          "content": "Activo",
+                                          "fontFamily": "$Font Secundaria",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
                                     },
                                     {
-                                      "type": "text",
-                                      "id": "P8z8kP",
-                                      "name": "t",
-                                      "fill": "$Hover 1",
-                                      "content": "En producción",
-                                      "fontFamily": "$Font Secundaria",
-                                      "fontSize": 11,
-                                      "fontWeight": "600"
+                                      "type": "frame",
+                                      "id": "Zr5RT",
+                                      "name": "optFinalizado",
+                                      "height": 26,
+                                      "fill": "#00000000",
+                                      "cornerRadius": 13,
+                                      "padding": [
+                                        0,
+                                        14
+                                      ],
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "sXdV2",
+                                          "name": "t",
+                                          "fill": "$Gris 1",
+                                          "content": "Finalizado",
+                                          "fontFamily": "$Font Secundaria",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
                                     }
                                   ]
                                 }
@@ -32624,6 +32654,235 @@
                       ]
                     }
                   ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "RnjFr",
+      "x": 16,
+      "y": 5246,
+      "name": "Modal · Finalizar cultivo productivo",
+      "clip": true,
+      "width": 480,
+      "fill": "$Blanco",
+      "cornerRadius": 12,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#00000040",
+        "offset": {
+          "x": 0,
+          "y": 12
+        },
+        "blur": 32
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "U7GLu",
+          "name": "ModalHeader",
+          "width": "fill_container",
+          "stroke": "$Gris 3",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "strokeAlignment": "inner",
+          "padding": [
+            20,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "M5L8zz",
+              "name": "titleCol",
+              "layout": "vertical",
+              "gap": 2,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XVxss",
+                  "name": "modalTitle",
+                  "fill": "$Negro",
+                  "content": "Finalizar cultivo productivo",
+                  "fontFamily": "$Font Primaria",
+                  "fontSize": 19,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "WJpSD",
+                  "name": "folioSub",
+                  "fill": "$Gris 1",
+                  "content": "CP-0142 · Tomate Saladette · Lote 01",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ItDMF",
+              "name": "closeBtn",
+              "width": 32,
+              "height": 32,
+              "cornerRadius": 8,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "DancE",
+                  "name": "closeIcon",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "x",
+                  "library": "feather",
+                  "fill": "$Gris 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BT903",
+          "name": "ModalBody",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            20,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "SopxU",
+              "name": "WarnNote",
+              "width": "fill_container",
+              "fill": "$Gris 3",
+              "cornerRadius": 8,
+              "gap": 10,
+              "padding": 14,
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "B3E9C",
+                  "name": "icon",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "alert-triangle",
+                  "library": "feather",
+                  "fill": "$Gris 1"
+                },
+                {
+                  "type": "text",
+                  "id": "qhQFV",
+                  "name": "text",
+                  "fill": "$Negro",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "El cultivo productivo dejará de aparecer en listados y selectores de salidas, mano de obra, diésel y costos. Su historial y costos se conservan. Puedes reactivarlo después.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PV2Fl",
+          "name": "ModalFooter",
+          "width": "fill_container",
+          "fill": "$Blanco",
+          "stroke": "$Gris 3",
+          "strokeWidth": {
+            "top": 1
+          },
+          "strokeAlignment": "inner",
+          "gap": 12,
+          "padding": [
+            16,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "XZuFc",
+              "name": "btnCancelar",
+              "fill": "$Blanco",
+              "cornerRadius": 8,
+              "stroke": "$Gris 2",
+              "strokeWidth": 1.5,
+              "strokeAlignment": "inner",
+              "padding": [
+                14,
+                20
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "SDWlW",
+                  "name": "t",
+                  "fill": "$Negro",
+                  "content": "Cancelar",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "JfTUL",
+              "name": "btnFinalizar",
+              "width": 180,
+              "fill": "$Color Primario",
+              "cornerRadius": 8,
+              "gap": 8,
+              "padding": [
+                14,
+                20
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "fZwZ9",
+                  "name": "icon",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "check",
+                  "library": "feather",
+                  "fill": "$Blanco"
+                },
+                {
+                  "type": "text",
+                  "id": "Nf2eC",
+                  "name": "btnPrimaryText",
+                  "fill": "$Blanco",
+                  "content": "Finalizar",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 14,
+                  "fontWeight": "600"
                 }
               ]
             }
