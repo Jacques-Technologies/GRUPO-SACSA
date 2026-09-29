@@ -13013,6 +13013,30 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Dp8ah",
+                      "name": "tableFooterNote",
+                      "width": "fill_container",
+                      "padding": [
+                        10,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "shQlI",
+                          "name": "note",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Si una actividad no tiene rango para esta máquina, la captura de utilización avisa pero no bloquea.",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -24956,7 +24980,6 @@
       "name": "Modal · Editar rangos de rendimiento",
       "clip": true,
       "width": 900,
-      "height": 899,
       "fill": "$Blanco",
       "cornerRadius": 12,
       "effect": {
@@ -26946,6 +26969,19 @@
               "textGrowth": "fixed-width",
               "width": "fill_container",
               "content": "Solo se muestran actividades con Unidad de registro: Maquinaria. El mínimo debe ser menor que el máximo y no puede repetirse la combinación Actividad + Pasada.",
+              "lineHeight": 1.45,
+              "fontFamily": "$Font Secundaria",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "ofxTj",
+              "name": "hintNoBloquea",
+              "fill": "$Gris 1",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Si una actividad no tiene rango para esta máquina, la captura de utilización avisa pero no bloquea.",
               "lineHeight": 1.45,
               "fontFamily": "$Font Secundaria",
               "fontSize": 11,

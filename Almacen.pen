@@ -61975,7 +61975,7 @@
       "type": "text",
       "id": "whZjz",
       "x": 12836,
-      "y": 40171,
+      "y": 40578,
       "fill": "$Color Primario",
       "textGrowth": "fixed-width-height",
       "width": 7260,
@@ -62017,7 +62017,7 @@
       "type": "frame",
       "id": "OWaYQ",
       "x": 13941,
-      "y": 40886,
+      "y": 41293,
       "name": "Comprobante de Salida (Imprimible)",
       "clip": true,
       "width": 816,
@@ -63035,7 +63035,7 @@
       "type": "frame",
       "id": "y5ifpJ",
       "x": 15019,
-      "y": 40886,
+      "y": 41293,
       "name": "Comprobante de Entrega (Imprimible)",
       "clip": true,
       "width": 816,
@@ -64053,7 +64053,7 @@
       "type": "frame",
       "id": "Qt2bm",
       "x": 16097,
-      "y": 40886,
+      "y": 41293,
       "name": "Comprobante de Traslado (Imprimible)",
       "clip": true,
       "width": 816,
@@ -68398,7 +68398,7 @@
       "type": "frame",
       "id": "i1X1Uf",
       "x": 12836,
-      "y": 40886,
+      "y": 41293,
       "name": "Acta de Recepción (Imprimible)",
       "clip": true,
       "width": 816,
@@ -75113,8 +75113,8 @@
     {
       "type": "note",
       "id": "MbdEV",
-      "x": 13722,
-      "y": 34198,
+      "x": 13976,
+      "y": 35318,
       "name": "Nota - Crear almacén (kNdQY)",
       "width": 300,
       "height": 0,
@@ -75123,8 +75123,8 @@
     {
       "type": "note",
       "id": "fKzYd",
-      "x": 15516,
-      "y": 34198,
+      "x": 15770,
+      "y": 35318,
       "name": "Nota - Crear almacén (v2kFD)",
       "width": 300,
       "height": 0,
@@ -76200,6 +76200,26 @@
           ]
         }
       ]
+    },
+    {
+      "type": "note",
+      "id": "KKryT",
+      "x": 14345,
+      "y": 11851,
+      "name": "Nota - Modal origen Productos (AgG3v)",
+      "width": 300,
+      "height": 0,
+      "content": "Modal origen en ListasyParametros.pen › Productos (nYI7C). Esta es una referencia; cualquier cambio se hace allá."
+    },
+    {
+      "type": "note",
+      "id": "x0BDBY",
+      "x": 13841,
+      "y": 9646,
+      "name": "Nota - Modal origen Productos (t584To)",
+      "width": 300,
+      "height": 0,
+      "content": "Modal origen en ListasyParametros.pen › Productos (nYI7C). Esta es una referencia; cualquier cambio se hace allá."
     }
   ],
   "variables": {
