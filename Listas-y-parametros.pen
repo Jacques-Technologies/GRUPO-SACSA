@@ -703,6 +703,18 @@
       "fontWeight": "normal"
     },
     {
+      "type": "text",
+      "id": "V4zNz1",
+      "x": -2593,
+      "y": 23650,
+      "name": "labelListas",
+      "fill": "$Color Secundario",
+      "content": "13 - LISTAS Y PARÁMETROS: TIPOS DE CAMBIO",
+      "fontFamily": "Inter",
+      "fontSize": 300,
+      "fontWeight": "normal"
+    },
+    {
       "type": "frame",
       "id": "enx9Q",
       "x": -2593,
@@ -2353,6 +2365,66 @@
                                       "name": "value",
                                       "fill": "$Blanco",
                                       "content": "5",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "rRlSq",
+                              "name": "listItem Tipos de cambio",
+                              "width": "fill_container",
+                              "height": 38,
+                              "fill": "#00000000",
+                              "stroke": "#00871d00",
+                              "strokeWidth": {
+                                "left": 3
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Phr23",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Tipos de cambio",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "BcYvO",
+                                  "name": "count",
+                                  "height": 19,
+                                  "fill": "$Gris 1",
+                                  "cornerRadius": 10,
+                                  "padding": [
+                                    0,
+                                    7
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "CDzVh",
+                                      "name": "value",
+                                      "fill": "$Blanco",
+                                      "content": "2",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 11,
                                       "fontWeight": "600"
@@ -5376,6 +5448,66 @@
                                       "name": "value",
                                       "fill": "$Blanco",
                                       "content": "5",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "kO2SC",
+                              "name": "listItem Tipos de cambio",
+                              "width": "fill_container",
+                              "height": 38,
+                              "fill": "#00000000",
+                              "stroke": "#00871d00",
+                              "strokeWidth": {
+                                "left": 3
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Zo899",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Tipos de cambio",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "qAEgt",
+                                  "name": "count",
+                                  "height": 19,
+                                  "fill": "$Gris 1",
+                                  "cornerRadius": 10,
+                                  "padding": [
+                                    0,
+                                    7
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "n1Dhe",
+                                      "name": "value",
+                                      "fill": "$Blanco",
+                                      "content": "2",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 11,
                                       "fontWeight": "600"
@@ -9199,6 +9331,66 @@
                                       "name": "value",
                                       "fill": "$Blanco",
                                       "content": "5",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "qySHb",
+                              "name": "listItem Tipos de cambio",
+                              "width": "fill_container",
+                              "height": 38,
+                              "fill": "#00000000",
+                              "stroke": "#00871d00",
+                              "strokeWidth": {
+                                "left": 3
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "vslEY",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Tipos de cambio",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "UQdph",
+                                  "name": "count",
+                                  "height": 19,
+                                  "fill": "$Gris 1",
+                                  "cornerRadius": 10,
+                                  "padding": [
+                                    0,
+                                    7
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "aTqcC",
+                                      "name": "value",
+                                      "fill": "$Blanco",
+                                      "content": "2",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 11,
                                       "fontWeight": "600"
@@ -13823,6 +14015,66 @@
                                   ]
                                 }
                               ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "UKoHM",
+                              "name": "listItem Tipos de cambio",
+                              "width": "fill_container",
+                              "height": 38,
+                              "fill": "#00000000",
+                              "stroke": "#00871d00",
+                              "strokeWidth": {
+                                "left": 3
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "PoZ8k",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Tipos de cambio",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "D94RLv",
+                                  "name": "count",
+                                  "height": 19,
+                                  "fill": "$Gris 1",
+                                  "cornerRadius": 10,
+                                  "padding": [
+                                    0,
+                                    7
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "YtLvU",
+                                      "name": "value",
+                                      "fill": "$Blanco",
+                                      "content": "2",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
                             }
                           ]
                         }
@@ -17017,6 +17269,66 @@
                                       "name": "value",
                                       "fill": "$Blanco",
                                       "content": "5",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "b3OUVB",
+                              "name": "listItem Tipos de cambio",
+                              "width": "fill_container",
+                              "height": 38,
+                              "fill": "#00000000",
+                              "stroke": "#00871d00",
+                              "strokeWidth": {
+                                "left": 3
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Yx9My",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Tipos de cambio",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "e4A9L",
+                                  "name": "count",
+                                  "height": 19,
+                                  "fill": "$Gris 1",
+                                  "cornerRadius": 10,
+                                  "padding": [
+                                    0,
+                                    7
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "AU0V5",
+                                      "name": "value",
+                                      "fill": "$Blanco",
+                                      "content": "2",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 11,
                                       "fontWeight": "600"
@@ -20241,6 +20553,66 @@
                                       "name": "value",
                                       "fill": "$Blanco",
                                       "content": "5",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "xVunH",
+                              "name": "listItem Tipos de cambio",
+                              "width": "fill_container",
+                              "height": 38,
+                              "fill": "#00000000",
+                              "stroke": "#00871d00",
+                              "strokeWidth": {
+                                "left": 3
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "FOD7O",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Tipos de cambio",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "pRefL",
+                                  "name": "count",
+                                  "height": 19,
+                                  "fill": "$Gris 1",
+                                  "cornerRadius": 10,
+                                  "padding": [
+                                    0,
+                                    7
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "AmhA0",
+                                      "name": "value",
+                                      "fill": "$Blanco",
+                                      "content": "2",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 11,
                                       "fontWeight": "600"
@@ -24424,6 +24796,66 @@
                                       "name": "value",
                                       "fill": "$Blanco",
                                       "content": "5",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "O2FGs",
+                              "name": "listItem Tipos de cambio",
+                              "width": "fill_container",
+                              "height": 38,
+                              "fill": "#00000000",
+                              "stroke": "#00871d00",
+                              "strokeWidth": {
+                                "left": 3
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "bkzlZ",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Tipos de cambio",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "J4isa",
+                                  "name": "count",
+                                  "height": 19,
+                                  "fill": "$Gris 1",
+                                  "cornerRadius": 10,
+                                  "padding": [
+                                    0,
+                                    7
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "q8CxW5",
+                                      "name": "value",
+                                      "fill": "$Blanco",
+                                      "content": "2",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 11,
                                       "fontWeight": "600"
@@ -33211,6 +33643,66 @@
                                       "name": "value",
                                       "fill": "$Blanco",
                                       "content": "5",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "mbJtq",
+                              "name": "listItem Tipos de cambio",
+                              "width": "fill_container",
+                              "height": 38,
+                              "fill": "#00000000",
+                              "stroke": "#00871d00",
+                              "strokeWidth": {
+                                "left": 3
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "FKEgh",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Tipos de cambio",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "AOsmO",
+                                  "name": "count",
+                                  "height": 19,
+                                  "fill": "$Gris 1",
+                                  "cornerRadius": 10,
+                                  "padding": [
+                                    0,
+                                    7
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "Ec10h",
+                                      "name": "value",
+                                      "fill": "$Blanco",
+                                      "content": "2",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 11,
                                       "fontWeight": "600"
@@ -44409,6 +44901,66 @@
                                   ]
                                 }
                               ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "QvDMU",
+                              "name": "listItem Tipos de cambio",
+                              "width": "fill_container",
+                              "height": 38,
+                              "fill": "#00000000",
+                              "stroke": "#00871d00",
+                              "strokeWidth": {
+                                "left": 3
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "X0fKy",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Tipos de cambio",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "XdB6r",
+                                  "name": "count",
+                                  "height": 19,
+                                  "fill": "$Gris 1",
+                                  "cornerRadius": 10,
+                                  "padding": [
+                                    0,
+                                    7
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "qS2sG",
+                                      "name": "value",
+                                      "fill": "$Blanco",
+                                      "content": "2",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
                             }
                           ]
                         }
@@ -51310,6 +51862,66 @@
                                   ]
                                 }
                               ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "wuKYm",
+                              "name": "listItem Tipos de cambio",
+                              "width": "fill_container",
+                              "height": 38,
+                              "fill": "#00000000",
+                              "stroke": "#00871d00",
+                              "strokeWidth": {
+                                "left": 3
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "JC5a9",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Tipos de cambio",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "C9GSj",
+                                  "name": "count",
+                                  "height": 19,
+                                  "fill": "$Gris 1",
+                                  "cornerRadius": 10,
+                                  "padding": [
+                                    0,
+                                    7
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "UQanp",
+                                      "name": "value",
+                                      "fill": "$Blanco",
+                                      "content": "2",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
                             }
                           ]
                         }
@@ -54781,6 +55393,66 @@
                                       "name": "value",
                                       "fill": "$Blanco",
                                       "content": "5",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "HFskx",
+                              "name": "listItem Tipos de cambio",
+                              "width": "fill_container",
+                              "height": 38,
+                              "fill": "#00000000",
+                              "stroke": "#00871d00",
+                              "strokeWidth": {
+                                "left": 3
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "HYgyZ",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Tipos de cambio",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "AglP7",
+                                  "name": "count",
+                                  "height": 19,
+                                  "fill": "$Gris 1",
+                                  "cornerRadius": 10,
+                                  "padding": [
+                                    0,
+                                    7
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "UZl9l",
+                                      "name": "value",
+                                      "fill": "$Blanco",
+                                      "content": "2",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 11,
                                       "fontWeight": "600"
@@ -64013,6 +64685,2515 @@
       "width": 250,
       "height": 100,
       "content": "Se abre desde \"Ver ficha\" en la tabla de Productos."
+    },
+    {
+      "type": "frame",
+      "id": "AnhQd",
+      "x": -2593,
+      "y": 24359,
+      "name": "Listas y parámetros · Tipos de cambio",
+      "clip": true,
+      "width": 1440,
+      "height": 1065,
+      "fill": "$Blanco",
+      "children": [
+        {
+          "type": "frame",
+          "id": "THuKL",
+          "name": "Sidebar Modulos",
+          "width": 240,
+          "height": "fill_container",
+          "fill": "$Hover 1",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            28,
+            0,
+            20,
+            0
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ngYQA",
+              "name": "logoRow",
+              "width": "fill_container",
+              "padding": [
+                0,
+                28
+              ],
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 5,
+                  "id": "ZBrqD",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
+                    "mode": "fill"
+                  },
+                  "width": 184,
+                  "height": 125
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "d1pUW",
+              "name": "navList",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 2,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "D1mMsm",
+                  "name": "navItem Almacén",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "lPeoS",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    },
+                    {
+                      "type": "icon",
+                      "id": "sNQ2M",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "box",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "V2oAw",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Almacén",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "bWRgj",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Afe7D",
+                  "x": 0,
+                  "y": 46,
+                  "name": "Frame 35",
+                  "enabled": false,
+                  "width": 240,
+                  "layout": "vertical",
+                  "gap": 2,
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    30
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "tV053",
+                      "name": "navItem Mano de Obra",
+                      "width": "fill_container",
+                      "height": 44,
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "padding": [
+                        0,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Fz8sv",
+                          "name": "navIcon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "list-plus",
+                          "library": "lucide",
+                          "fill": "$Gris 2"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ARJlU",
+                          "name": "navLabel",
+                          "fill": "$Gris 2",
+                          "content": "Inventarios",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CFqfH",
+                      "name": "navItem Agua",
+                      "width": "fill_container",
+                      "height": 44,
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "padding": [
+                        0,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "ODQqR",
+                          "name": "navIcon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "move-horizontal",
+                          "library": "lucide",
+                          "fill": "$Gris 2"
+                        },
+                        {
+                          "type": "text",
+                          "id": "KpNQw",
+                          "name": "navLabel",
+                          "fill": "$Gris 2",
+                          "content": "Movimientos",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uklbT",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "SnaCi",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "grid",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VRXVu",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lotes",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "BbNnX",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Kv7KS",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1,
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "rgAbI",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "dollar-sign",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rOeVM",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Registro de costos",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "SVvWI",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "t5VE8A",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oBdBn",
+                  "x": 0,
+                  "y": 184,
+                  "name": "Frame 35",
+                  "enabled": false,
+                  "width": 240,
+                  "layout": "vertical",
+                  "gap": 2,
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    30
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "PfJZJ",
+                      "name": "navItem Mano de Obra",
+                      "width": "fill_container",
+                      "height": 44,
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "padding": [
+                        0,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "p7bnZ",
+                          "name": "navIcon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "users",
+                          "library": "feather",
+                          "fill": "$Color Secundario"
+                        },
+                        {
+                          "type": "text",
+                          "id": "I0TiA",
+                          "name": "navLabel",
+                          "fill": "$Color Secundario",
+                          "content": "Mano de Obra",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pT68I",
+                      "name": "navItem Agua",
+                      "width": "fill_container",
+                      "height": 44,
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "padding": [
+                        0,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "fFB0M",
+                          "name": "navIcon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "droplet",
+                          "library": "feather",
+                          "fill": "$Gris 2"
+                        },
+                        {
+                          "type": "text",
+                          "id": "gbMu8",
+                          "name": "navLabel",
+                          "fill": "$Gris 2",
+                          "content": "Agua",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "O7j1T",
+                      "name": "navItem Maquinaria",
+                      "width": "fill_container",
+                      "height": 44,
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "padding": [
+                        0,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "u3RenQ",
+                          "name": "navIcon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "truck",
+                          "library": "feather",
+                          "fill": "$Gris 2"
+                        },
+                        {
+                          "type": "text",
+                          "id": "lvrmL",
+                          "name": "navLabel",
+                          "fill": "$Gris 2",
+                          "content": "Maquinaria",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "J4KTMY",
+                      "name": "navItem Costeo Indirecto",
+                      "width": "fill_container",
+                      "height": 44,
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "padding": [
+                        0,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "NPGtP",
+                          "name": "navIcon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "bar-chart-2",
+                          "library": "feather",
+                          "fill": "$Gris 2"
+                        },
+                        {
+                          "type": "text",
+                          "id": "oNLj3",
+                          "name": "navLabel",
+                          "fill": "$Gris 2",
+                          "content": "Costeo Indirecto",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "x7CGL",
+                  "name": "navItem Registro de costos",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "vRldW",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    },
+                    {
+                      "type": "icon",
+                      "id": "vEiTd",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "droplet",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hNmtJ",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Control de diésel",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "FS6PN",
+                      "name": "navChevron",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dwaGA",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "f9f2Pr",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "users",
+                      "library": "feather",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "psVRR",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Trabajadores",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "AbHoe",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "P3dbM",
+                  "name": "navItem Listas y parámetros",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#0a3d14ff",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "top": 1,
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "jbAi9",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    },
+                    {
+                      "type": "icon",
+                      "id": "ew0cE",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "sliders",
+                      "library": "feather",
+                      "fill": "$Color Secundario"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VC46o",
+                      "name": "navLabel",
+                      "fill": "$Blanco",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Listas y parámetros",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dgzWb",
+                  "name": "navItem Mano de Obra",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#00000000",
+                  "stroke": "#0a3d14",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "JdURz",
+                      "name": "navIcon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "user-cog",
+                      "library": "lucide",
+                      "fill": "$Gris 2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "V9FWNn",
+                      "name": "navLabel",
+                      "fill": "$Gris 2",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Usuarios",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "zN20W",
+                      "layoutPosition": "absolute",
+                      "x": 0,
+                      "y": 0,
+                      "name": "activeIndicator",
+                      "enabled": false,
+                      "fill": "$Color Secundario",
+                      "width": 3,
+                      "height": 44
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "v8eUsa",
+              "name": "navItem Mano de Obra",
+              "width": "fill_container",
+              "height": 44,
+              "fill": "#00000000",
+              "stroke": "#0a3d14",
+              "strokeWidth": {
+                "top": 1
+              },
+              "strokeAlignment": "inner",
+              "gap": 12,
+              "padding": [
+                0,
+                24
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "a0F80",
+                  "name": "navIcon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "log-out",
+                  "library": "feather",
+                  "fill": "$Gris 2"
+                },
+                {
+                  "type": "text",
+                  "id": "OJFQt",
+                  "name": "navLabel",
+                  "fill": "$Gris 2",
+                  "content": "Cerrar sesión",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "D2VKc",
+          "name": "RightColumn",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "WXnBr",
+              "name": "HeaderRow",
+              "width": "fill_container",
+              "gap": 6,
+              "padding": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rZVFx",
+                  "name": "Breadcrumb",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jkBiC",
+                      "name": "crumbCurrent",
+                      "fill": "$Negro",
+                      "content": "Listas y parámetros",
+                      "fontFamily": "$Font Primaria",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Rps8B",
+              "name": "Main Content",
+              "clip": true,
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "$Fondo",
+              "layout": "vertical",
+              "gap": 22,
+              "padding": [
+                32,
+                40,
+                28,
+                40
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "T4pQJO",
+                  "name": "HeaderRow",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DSm0Y",
+                      "name": "TitleCol",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "IRXvp",
+                          "name": "pageTitle",
+                          "fill": "$Negro",
+                          "content": "Listas y parámetros",
+                          "fontFamily": "$Font Primaria",
+                          "fontSize": 26,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XGNMW",
+                          "name": "pageSubtitle",
+                          "fill": "$Gris 1",
+                          "content": "Catálogos y valores base que alimentan los módulos del sistema",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wL51i",
+                  "name": "Body",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "snR5V",
+                      "name": "CatalogPanel",
+                      "width": 262,
+                      "height": "fill_container",
+                      "fill": "$Blanco",
+                      "cornerRadius": 8,
+                      "stroke": "$Gris 2",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": [
+                        16,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "cUXJ5",
+                          "name": "searchWrap",
+                          "width": "fill_container",
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "XEVhG",
+                              "name": "field",
+                              "width": "fill_container",
+                              "height": 36,
+                              "fill": "$Gris 3",
+                              "cornerRadius": 8,
+                              "stroke": "$Gris 2",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "l2Fmj",
+                                  "name": "icon",
+                                  "width": 15,
+                                  "height": 15,
+                                  "icon": "search",
+                                  "library": "feather",
+                                  "fill": "$Gris 1"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "F5hZEn",
+                                  "name": "placeholder",
+                                  "fill": "$Gris 1",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Buscar lista…",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ybEYF",
+                          "name": "Frame 37",
+                          "width": 262,
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "RMtDG",
+                              "name": "listItem Actividades",
+                              "width": "fill_container",
+                              "height": 38,
+                              "stroke": "#00871d00",
+                              "strokeWidth": {
+                                "left": 3
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "bVcm4",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Proveedores",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Prz85",
+                                  "name": "count",
+                                  "height": 19,
+                                  "fill": "$Gris 1",
+                                  "cornerRadius": 10,
+                                  "padding": [
+                                    0,
+                                    7
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "rauD3",
+                                      "name": "value",
+                                      "fill": "$Blanco",
+                                      "content": "6",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "vfcN6",
+                              "name": "listGroup",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "tiyyf",
+                                  "name": "listItem Actividades",
+                                  "width": "fill_container",
+                                  "height": 38,
+                                  "stroke": "#00871d00",
+                                  "strokeWidth": {
+                                    "left": 3
+                                  },
+                                  "strokeAlignment": "inner",
+                                  "gap": 8,
+                                  "padding": [
+                                    0,
+                                    16
+                                  ],
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "ZtzG6",
+                                      "name": "label",
+                                      "fill": "$Negro",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Actividades de trabajadores",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "crOkE",
+                                      "name": "count",
+                                      "height": 19,
+                                      "fill": "$Gris 1",
+                                      "cornerRadius": 10,
+                                      "padding": [
+                                        0,
+                                        7
+                                      ],
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "ORPj8",
+                                          "name": "value",
+                                          "fill": "$Blanco",
+                                          "content": "14",
+                                          "fontFamily": "$Font Secundaria",
+                                          "fontSize": 11,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "D9P8b3",
+                              "name": "listGroup",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "FEn0z",
+                                  "name": "listItem Actividades",
+                                  "width": "fill_container",
+                                  "height": 38,
+                                  "stroke": "#00871d00",
+                                  "strokeWidth": {
+                                    "left": 3
+                                  },
+                                  "strokeAlignment": "inner",
+                                  "gap": 8,
+                                  "padding": [
+                                    0,
+                                    16
+                                  ],
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "Mtfq6",
+                                      "name": "label",
+                                      "fill": "$Negro",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Empresas vinculadas de control de diésel",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "jJlbN",
+                                      "name": "count",
+                                      "height": 19,
+                                      "fill": "$Gris 1",
+                                      "cornerRadius": 10,
+                                      "padding": [
+                                        0,
+                                        7
+                                      ],
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "dVznR",
+                                          "name": "value",
+                                          "fill": "$Blanco",
+                                          "content": "5",
+                                          "fontFamily": "$Font Secundaria",
+                                          "fontSize": 11,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "KIxXp",
+                              "name": "listItem Actividades",
+                              "width": "fill_container",
+                              "height": 38,
+                              "fill": "#00000000",
+                              "stroke": "#00871d00",
+                              "strokeWidth": {
+                                "left": 3
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "XbbVP",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Maquinaria",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Hu0h7",
+                                  "name": "count",
+                                  "height": 19,
+                                  "fill": "$Gris 1",
+                                  "cornerRadius": 10,
+                                  "padding": [
+                                    0,
+                                    7
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "pcI4z",
+                                      "name": "value",
+                                      "fill": "$Blanco",
+                                      "content": "8",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "VoWKe",
+                              "name": "listItem Actividades",
+                              "width": "fill_container",
+                              "height": 38,
+                              "fill": "#00000000",
+                              "stroke": "#00871d00",
+                              "strokeWidth": {
+                                "left": 3
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "gCsMk",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Productos",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "qrGjL",
+                                  "name": "count",
+                                  "height": 19,
+                                  "fill": "$Gris 1",
+                                  "cornerRadius": 10,
+                                  "padding": [
+                                    0,
+                                    7
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "p9DcI",
+                                      "name": "value",
+                                      "fill": "$Blanco",
+                                      "content": "42",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "wh43k",
+                              "name": "listItem Actividades",
+                              "width": "fill_container",
+                              "height": 38,
+                              "stroke": "#00871d00",
+                              "strokeWidth": {
+                                "left": 3
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "NKn6t",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Cultivos",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "JHyxt",
+                                  "name": "count",
+                                  "height": 19,
+                                  "fill": "$Gris 1",
+                                  "cornerRadius": 10,
+                                  "padding": [
+                                    0,
+                                    7
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "pDjMg",
+                                      "name": "value",
+                                      "fill": "$Blanco",
+                                      "content": "9",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "PN3uO",
+                              "name": "listItem Actividades",
+                              "width": "fill_container",
+                              "height": 38,
+                              "stroke": "#00871d00",
+                              "strokeWidth": {
+                                "left": 3
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "h5Jkb",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Consumo esperado",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "tCwbP",
+                                  "name": "count",
+                                  "height": 19,
+                                  "fill": "$Gris 1",
+                                  "cornerRadius": 10,
+                                  "padding": [
+                                    0,
+                                    7
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "jszET",
+                                      "name": "value",
+                                      "fill": "$Blanco",
+                                      "content": "18",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "UGX40",
+                              "name": "listItem Actividades",
+                              "width": "fill_container",
+                              "height": 38,
+                              "stroke": "#00871d00",
+                              "strokeWidth": {
+                                "left": 3
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "yY7ta",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Compradores",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Zq6JI",
+                                  "name": "count",
+                                  "height": 19,
+                                  "fill": "$Gris 1",
+                                  "cornerRadius": 10,
+                                  "padding": [
+                                    0,
+                                    7
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "nRIpu",
+                                      "name": "value",
+                                      "fill": "$Blanco",
+                                      "content": "8",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "waJzp",
+                              "name": "listItem Cultivos",
+                              "width": "fill_container",
+                              "height": 38,
+                              "fill": "#00000000",
+                              "stroke": "#00871d00",
+                              "strokeWidth": {
+                                "left": 3
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "V2TFux",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Unidades de medida",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "AyXYw",
+                                  "name": "count",
+                                  "height": 19,
+                                  "fill": "$Gris 1",
+                                  "cornerRadius": 10,
+                                  "padding": [
+                                    0,
+                                    7
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "c69hh",
+                                      "name": "value",
+                                      "fill": "$Blanco",
+                                      "content": "8",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "E1642",
+                              "name": "listItem Motivos",
+                              "width": "fill_container",
+                              "height": 38,
+                              "fill": "#00000000",
+                              "stroke": "#00871d00",
+                              "strokeWidth": {
+                                "left": 3
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Y5BOs5",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Motivos",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "nX1Hg",
+                                  "name": "count",
+                                  "height": 19,
+                                  "fill": "$Gris 1",
+                                  "cornerRadius": 10,
+                                  "padding": [
+                                    0,
+                                    7
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "M2f9K",
+                                      "name": "value",
+                                      "fill": "$Blanco",
+                                      "content": "7",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "XSKXf",
+                              "name": "listItem Almacenes",
+                              "width": "fill_container",
+                              "height": 38,
+                              "fill": "#00000000",
+                              "stroke": "#00871d00",
+                              "strokeWidth": {
+                                "left": 3
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "T5v9H",
+                                  "name": "label",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Almacenes",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "kBe1r",
+                                  "name": "count",
+                                  "height": 19,
+                                  "fill": "$Gris 1",
+                                  "cornerRadius": 10,
+                                  "padding": [
+                                    0,
+                                    7
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "afQo5",
+                                      "name": "value",
+                                      "fill": "$Blanco",
+                                      "content": "5",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "QY3RH",
+                              "name": "listItem Tipos de cambio",
+                              "width": "fill_container",
+                              "height": 38,
+                              "fill": "$Hover 3",
+                              "stroke": "$Color Primario",
+                              "strokeWidth": {
+                                "left": 3
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 8,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Gto0j",
+                                  "name": "label",
+                                  "fill": "$Hover 1",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Tipos de cambio",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "ySCnl",
+                                  "name": "count",
+                                  "height": 19,
+                                  "fill": "$Color Primario",
+                                  "cornerRadius": 10,
+                                  "padding": [
+                                    0,
+                                    7
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "Ak8rk",
+                                      "name": "value",
+                                      "fill": "$Blanco",
+                                      "content": "2",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EggLF",
+                      "name": "ListColumn",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "r7tqu",
+                          "name": "ListHeader",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "end",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "egE6B",
+                              "name": "titleCol",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "LlzVB",
+                                  "name": "listTitle",
+                                  "fill": "$Negro",
+                                  "content": "Tipos de cambio",
+                                  "fontFamily": "$Font Primaria",
+                                  "fontSize": 19,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ypijr",
+                                  "name": "listDesc",
+                                  "fill": "$Gris 1",
+                                  "content": "2 registros",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xb9QP",
+                          "name": "VerifyNote",
+                          "width": "fill_container",
+                          "fill": "$Hover 3",
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            12,
+                            14
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "j5ziS",
+                              "name": "noteIcon",
+                              "width": 15,
+                              "height": 15,
+                              "icon": "info",
+                              "library": "feather",
+                              "fill": "$Hover 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "AhkoQ",
+                              "name": "noteText",
+                              "fill": "$Hover 1",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Todos los costos y reportes se manejan en pesos. Estos tipos de cambio se usan para convertir montos capturados en dólares o euros.",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "pcR4c",
+                          "name": "Tabla Tipos de cambio",
+                          "clip": true,
+                          "width": "fill_container",
+                          "fill": "$Blanco",
+                          "cornerRadius": 12,
+                          "stroke": "$Gris 3",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "HC5Bz",
+                              "name": "TableHeaderRow",
+                              "width": "fill_container",
+                              "fill": "$Gris 3",
+                              "gap": 16,
+                              "padding": [
+                                12,
+                                20
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "SeDdO",
+                                  "name": "colHeader",
+                                  "fill": "$Gris 1",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "MONEDA",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 10,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.4
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ObvNI",
+                                  "name": "colHeader",
+                                  "fill": "$Gris 1",
+                                  "textGrowth": "fixed-width",
+                                  "width": 170,
+                                  "content": "EQUIVALENCIA EN PESOS",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 10,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.4
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "DcKCi",
+                                  "name": "colHeader",
+                                  "fill": "$Gris 1",
+                                  "textGrowth": "fixed-width",
+                                  "width": 150,
+                                  "content": "ÚLTIMA ACTUALIZACIÓN",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 10,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.4
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "WZhhi",
+                                  "name": "colHeader",
+                                  "fill": "$Gris 1",
+                                  "textGrowth": "fixed-width",
+                                  "width": 130,
+                                  "content": "ACTUALIZÓ",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 10,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.4
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "xywkS",
+                                  "name": "colHeader",
+                                  "fill": "$Gris 1",
+                                  "textGrowth": "fixed-width",
+                                  "width": 80,
+                                  "content": "ACCIONES",
+                                  "textAlign": "center",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 10,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.4
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "cmPLf",
+                              "name": "row_USD → MXN",
+                              "width": "fill_container",
+                              "stroke": "$Gris 3",
+                              "strokeWidth": {
+                                "bottom": 1
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 16,
+                              "padding": [
+                                16,
+                                20
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "S5AB6",
+                                  "name": "moneda",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "USD → MXN",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "tW26i",
+                                  "name": "equivalencia",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": 170,
+                                  "content": "$18.50 MXN",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "KlC6Z",
+                                  "name": "fecha",
+                                  "fill": "$Gris 1",
+                                  "textGrowth": "fixed-width",
+                                  "width": 150,
+                                  "content": "12/Sep/26",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "wgauW",
+                                  "name": "actualizo",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": 130,
+                                  "content": "Daniela Jacques",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "r2xryC",
+                                  "name": "editarCol",
+                                  "width": 80,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "FYDbg",
+                                      "name": "btnEditar",
+                                      "width": 32,
+                                      "height": 32,
+                                      "cornerRadius": 8,
+                                      "stroke": "$Gris 2",
+                                      "strokeWidth": 1,
+                                      "strokeAlignment": "inner",
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "tiFOw",
+                                          "name": "icon",
+                                          "width": 15,
+                                          "height": 15,
+                                          "icon": "edit-2",
+                                          "library": "feather",
+                                          "fill": "$Gris 1"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "pRTAY",
+                              "name": "row_EUR → MXN",
+                              "width": "fill_container",
+                              "stroke": "$Gris 3",
+                              "strokeWidth": {
+                                "bottom": 1
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 16,
+                              "padding": [
+                                16,
+                                20
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "a2VBdF",
+                                  "name": "moneda",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "EUR → MXN",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "tmW1r",
+                                  "name": "equivalencia",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": 170,
+                                  "content": "$20.10 MXN",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "GduA0",
+                                  "name": "fecha",
+                                  "fill": "$Gris 1",
+                                  "textGrowth": "fixed-width",
+                                  "width": 150,
+                                  "content": "05/Sep/26",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "s2vPMZ",
+                                  "name": "actualizo",
+                                  "fill": "$Negro",
+                                  "textGrowth": "fixed-width",
+                                  "width": 130,
+                                  "content": "Daniela Jacques",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "P942H",
+                                  "name": "editarCol",
+                                  "width": 80,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "RdwpX",
+                                      "name": "btnEditar",
+                                      "width": 32,
+                                      "height": 32,
+                                      "cornerRadius": 8,
+                                      "stroke": "$Gris 2",
+                                      "strokeWidth": 1,
+                                      "strokeAlignment": "inner",
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "IoxSi",
+                                          "name": "icon",
+                                          "width": 15,
+                                          "height": 15,
+                                          "icon": "edit-2",
+                                          "library": "feather",
+                                          "fill": "$Gris 1"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "fp2QU",
+                          "name": "footerRow",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Tzuyc",
+                              "name": "footerText",
+                              "fill": "$Gris 1",
+                              "content": "Mostrando 2 de 2",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "LUnVm",
+                              "name": "pagination",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "M3GiFR",
+                                  "name": "pageBtn_chevron-left",
+                                  "opacity": 0.5,
+                                  "width": 34,
+                                  "height": 34,
+                                  "fill": "$Blanco",
+                                  "cornerRadius": 8,
+                                  "stroke": "$Gris 2",
+                                  "strokeWidth": 1,
+                                  "strokeAlignment": "inner",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "QqyI9",
+                                      "name": "icon",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "chevron-left",
+                                      "library": "feather",
+                                      "fill": "$Negro"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "IeTlh",
+                                  "name": "pg_1",
+                                  "width": 34,
+                                  "height": "fill_container",
+                                  "fill": "$Color Primario",
+                                  "cornerRadius": 6,
+                                  "stroke": "#00000000",
+                                  "strokeWidth": 1,
+                                  "strokeAlignment": "inner",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "N8Itz",
+                                      "name": "label",
+                                      "fill": "$Blanco",
+                                      "content": "1",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 12,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "oo29T",
+                                  "name": "pageBtn_chevron-right",
+                                  "opacity": 0.5,
+                                  "width": 34,
+                                  "height": 34,
+                                  "fill": "$Blanco",
+                                  "cornerRadius": 8,
+                                  "stroke": "$Gris 2",
+                                  "strokeWidth": 1,
+                                  "strokeAlignment": "inner",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "ZjV1p",
+                                      "name": "icon",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "chevron-right",
+                                      "library": "feather",
+                                      "fill": "$Negro"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "HVuUc",
+      "x": -1053,
+      "y": 24359,
+      "name": "Editar Tipo de Cambio - Modal",
+      "clip": true,
+      "width": 440,
+      "fill": "$Blanco",
+      "cornerRadius": 12,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#00000040",
+        "offset": {
+          "x": 0,
+          "y": 12
+        },
+        "blur": 32
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "LlROV",
+          "name": "ModalHeader",
+          "width": "fill_container",
+          "stroke": "$Gris 3",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "strokeAlignment": "inner",
+          "padding": [
+            20,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "q7vbq7",
+              "name": "titleCol",
+              "layout": "vertical",
+              "gap": 2,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "iUeQ5",
+                  "name": "modalTitle",
+                  "fill": "$Negro",
+                  "content": "Editar tipo de cambio",
+                  "fontFamily": "$Font Primaria",
+                  "fontSize": 17,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "xhJSW",
+                  "name": "modalSub",
+                  "fill": "$Gris 1",
+                  "content": "USD → MXN",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iQpLF",
+              "name": "closeBtn",
+              "width": 32,
+              "height": 32,
+              "cornerRadius": 8,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "Oia92",
+                  "name": "closeIcon",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "x",
+                  "library": "feather",
+                  "fill": "$Gris 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "j0pa9t",
+          "name": "ModalBody",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            20,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "lkdla",
+              "name": "equivalenciaField",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 5,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sM4hK",
+                  "name": "label",
+                  "fill": "$Negro",
+                  "content": "Equivalencia en pesos *",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "SmKVM",
+                  "name": "field",
+                  "width": "fill_container",
+                  "height": 40,
+                  "fill": "$Blanco",
+                  "cornerRadius": 8,
+                  "stroke": "$Gris 2",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZkCLf",
+                      "name": "value",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "18.50",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nyFnl",
+                      "name": "suffix",
+                      "fill": "$Gris 1",
+                      "content": "MXN",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "F0hSg9",
+              "name": "ultimaActualizacionField",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 5,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IawIW",
+                  "name": "label",
+                  "fill": "$Negro",
+                  "content": "Última actualización",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "FnvrT",
+                  "name": "field",
+                  "width": "fill_container",
+                  "height": 40,
+                  "fill": "$Gris 3",
+                  "cornerRadius": 8,
+                  "stroke": "$Gris 2",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "NYLn6",
+                      "name": "icon",
+                      "width": 15,
+                      "height": 15,
+                      "icon": "clock",
+                      "library": "feather",
+                      "fill": "$Gris 1"
+                    },
+                    {
+                      "type": "text",
+                      "id": "d4kjr",
+                      "name": "value",
+                      "fill": "$Gris 1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "12/Sep/26 · Daniela Jacques",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RzfPe",
+          "name": "ModalFooter",
+          "width": "fill_container",
+          "fill": "$Blanco",
+          "stroke": "$Gris 3",
+          "strokeWidth": {
+            "top": 1
+          },
+          "strokeAlignment": "inner",
+          "gap": 12,
+          "padding": [
+            16,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "m7Lrq",
+              "name": "btnCancelar",
+              "width": 170,
+              "fill": "$Blanco",
+              "cornerRadius": 8,
+              "stroke": "$Gris 2",
+              "strokeWidth": 1.5,
+              "strokeAlignment": "inner",
+              "gap": 8,
+              "padding": [
+                14,
+                20
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JwrDt",
+                  "name": "btnSecondaryText",
+                  "fill": "$Negro",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Cancelar",
+                  "textAlign": "center",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cOjDm",
+              "name": "btnGuardar",
+              "width": 180,
+              "fill": "$Color Primario",
+              "cornerRadius": 8,
+              "gap": 8,
+              "padding": [
+                14,
+                20
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fN78X",
+                  "name": "btnPrimaryText",
+                  "fill": "$Blanco",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Guardar cambios",
+                  "textAlign": "center",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "variables": {

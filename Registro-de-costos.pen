@@ -25742,7 +25742,7 @@
       "y": 1784,
       "name": "Registro de costos · Agua",
       "clip": true,
-      "width": 1440,
+      "width": 1602,
       "height": 1090,
       "fill": "$Blanco",
       "children": [
@@ -27426,6 +27426,26 @@
                         },
                         {
                           "type": "frame",
+                          "id": "DF8ob",
+                          "name": "th_Proveedor",
+                          "width": 150,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "VIdIQ",
+                              "name": "label",
+                              "fill": "$Gris 1",
+                              "content": "PROVEEDOR",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 11,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.4
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
                           "id": "uZvRg",
                           "name": "th_Monto",
                           "width": 130,
@@ -27572,6 +27592,28 @@
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
                               "content": "Maíz Blanco · Lote X · X ha ",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "kqyMO",
+                          "name": "cProveedor",
+                          "width": 150,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qfqyg",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Módulo de riego 1-3",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -27784,6 +27826,28 @@
                         },
                         {
                           "type": "frame",
+                          "id": "BbbMF",
+                          "name": "cProveedor",
+                          "width": 150,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "M9Qz2",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Módulo de riego 1-3",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
                           "id": "TpVN3",
                           "name": "cMonto",
                           "width": 130,
@@ -27980,6 +28044,28 @@
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
                               "content": "Frijol · Lote X · X ha ",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "fWwzA",
+                          "name": "cProveedor",
+                          "width": 150,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "rKTrk",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Fábricas del agua",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -28192,6 +28278,28 @@
                         },
                         {
                           "type": "frame",
+                          "id": "pp4N6",
+                          "name": "cProveedor",
+                          "width": 150,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "xtMLJ",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Módulo de riego 1-3",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
                           "id": "Fxj1t",
                           "name": "cMonto",
                           "width": 130,
@@ -28388,6 +28496,28 @@
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
                               "content": "Trigo · Lote X · X ha ",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "M2wBz",
+                          "name": "cProveedor",
+                          "width": 150,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "y1iRgZ",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Módulo de riego 1-3",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -28600,6 +28730,28 @@
                         },
                         {
                           "type": "frame",
+                          "id": "zwDp3",
+                          "name": "cProveedor",
+                          "width": 150,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "rfCnr",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Fábricas del agua",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
                           "id": "sP3Zw",
                           "name": "cMonto",
                           "width": 130,
@@ -28804,6 +28956,28 @@
                         },
                         {
                           "type": "frame",
+                          "id": "Kh0uR",
+                          "name": "cProveedor",
+                          "width": 150,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "q2INPU",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Módulo de riego 1-3",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
                           "id": "am45P",
                           "name": "cMonto",
                           "width": 130,
@@ -29000,6 +29174,28 @@
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
                               "content": "Frijol · Lote X · X ha ",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "lPgtR",
+                          "name": "cProveedor",
+                          "width": 150,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "PTiRh",
+                              "name": "value",
+                              "fill": "$Negro",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Módulo de riego 1-3",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -30524,7 +30720,7 @@
       "name": "Modal 3 · Monto de factura",
       "clip": true,
       "width": 520,
-      "height": 446,
+      "height": 663,
       "fill": "$Blanco",
       "cornerRadius": 16,
       "effect": {
@@ -30629,7 +30825,7 @@
           "id": "HslEi",
           "name": "ModalBody",
           "width": "fill_container",
-          "height": 266,
+          "height": 494,
           "layout": "vertical",
           "gap": 14,
           "padding": 22,
@@ -30699,6 +30895,257 @@
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zD0kc",
+              "name": "fld_Proveedor",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 5,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "iTxRU",
+                  "name": "labelRow",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hSMuE",
+                      "name": "label",
+                      "fill": "$Negro",
+                      "content": "Proveedor",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zwixr",
+                      "name": "req",
+                      "fill": "#dc2626",
+                      "content": "*",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vxGmX",
+                  "name": "field",
+                  "width": "fill_container",
+                  "height": 42,
+                  "fill": "$Blanco",
+                  "cornerRadius": 8,
+                  "stroke": "$Gris 2",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "n0u0V",
+                      "name": "left",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Z8tUK",
+                          "name": "icon",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "briefcase",
+                          "library": "feather",
+                          "fill": "$Gris 1"
+                        },
+                        {
+                          "type": "text",
+                          "id": "e32n1",
+                          "name": "value",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Módulo de riego 1-3",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "a1cGl",
+                      "name": "chevron",
+                      "width": 15,
+                      "height": 15,
+                      "icon": "chevron-down",
+                      "library": "feather",
+                      "fill": "$Gris 1"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "D8l5j",
+                  "name": "hint",
+                  "fill": "$Gris 1",
+                  "content": "Quién emite la factura (módulo de riego, fábricas del agua, permiso de siembra, etc.).",
+                  "fontFamily": "$Font Secundaria",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Wruf1",
+              "name": "proveedorDropdown",
+              "clip": true,
+              "width": "fill_container",
+              "fill": "$Blanco",
+              "cornerRadius": 8,
+              "stroke": "$Gris 2",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000022",
+                "offset": {
+                  "x": 0,
+                  "y": 6
+                },
+                "blur": 16
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "twU0u",
+                  "name": "opt_Módulo de riego 1-3",
+                  "width": "fill_container",
+                  "height": 42,
+                  "fill": "$Hover 3",
+                  "stroke": "$Gris 3",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 10,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MXjCm",
+                      "name": "name",
+                      "fill": "$Hover 1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Módulo de riego 1-3",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "sjHof",
+                      "name": "check",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "check",
+                      "library": "feather",
+                      "fill": "$Color Primario"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "p5Rey",
+                  "name": "opt_Fábricas del agua",
+                  "width": "fill_container",
+                  "height": 42,
+                  "fill": "$Blanco",
+                  "stroke": "$Gris 3",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 10,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BmztB",
+                      "name": "name",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Fábricas del agua",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "h54S8",
+                  "name": "opt_Nuevo proveedor",
+                  "width": "fill_container",
+                  "height": 42,
+                  "fill": "$Blanco",
+                  "gap": 10,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "yNoDa",
+                      "name": "icon",
+                      "width": 14,
+                      "height": 14,
+                      "icon": "plus",
+                      "library": "feather",
+                      "fill": "$Color Primario"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QLlJp",
+                      "name": "name",
+                      "fill": "$Color Primario",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "+ Nuevo proveedor",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
                 }
               ]
             },
