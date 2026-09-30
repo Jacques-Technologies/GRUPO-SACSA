@@ -1,5 +1,5 @@
 {
-  "version": "2.17",
+  "version": "2.20",
   "children": [
     {
       "type": "text",
@@ -68,7 +68,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 184,
                   "height": 125
@@ -1871,7 +1871,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 150,
-                          "content": "Maíz · Lote X · X ha ",
+                          "content": "Lote 04 · Maíz Blanco · 84.20 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -2175,7 +2175,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 150,
-                          "content": "Maíz · Lote X · X ha ",
+                          "content": "Lote 04 · Maíz Blanco · 84.20 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -2631,7 +2631,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 150,
-                          "content": "Maíz · Lote X · X ha ",
+                          "content": "Lote 04 · Maíz Blanco · 84.20 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -6102,7 +6102,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 184,
                   "height": 125
@@ -8518,7 +8518,7 @@
                               "id": "Shw5w",
                               "name": "meta",
                               "fill": "$Gris 1",
-                              "content": "TL-01",
+                              "content": "ECO-174",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "normal"
@@ -8532,7 +8532,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 160,
-                          "content": "Maíz · Lote X · X ha ",
+                          "content": "Lote 04 · Maíz Blanco · 84.20 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "600"
@@ -8714,7 +8714,7 @@
                               "id": "CevaV",
                               "name": "meta",
                               "fill": "$Gris 1",
-                              "content": "AS-02",
+                              "content": "ECO-175",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "normal"
@@ -8884,7 +8884,7 @@
                               "id": "I8MpC",
                               "name": "meta",
                               "fill": "$Gris 1",
-                              "content": "TR-07",
+                              "content": "ECO-172",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "normal"
@@ -8898,7 +8898,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 160,
-                          "content": "Alfalfa · Lote X · X ha ",
+                          "content": "Lote 09 · Alfalfa · 12.00 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "600"
@@ -9080,7 +9080,7 @@
                               "id": "cDcJ2",
                               "name": "meta",
                               "fill": "$Gris 1",
-                              "content": "TL-01",
+                              "content": "ECO-174",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "normal"
@@ -9264,7 +9264,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 160,
-                          "content": "Trigo · Lote X · X ha ",
+                          "content": "Lote 02 · Trigo Cristalino · 46.50 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "600"
@@ -9441,7 +9441,7 @@
                               "id": "cjfQz",
                               "name": "meta",
                               "fill": "$Gris 1",
-                              "content": "MB-03",
+                              "content": "ECO-176",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "normal"
@@ -10649,7 +10649,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "TR-09 · Tractor · Operando",
+                              "content": "ECO-173 · Tractor · Operando",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "normal"
@@ -12930,7 +12930,7 @@
     {
       "type": "frame",
       "id": "JqCvx",
-      "x": 4045,
+      "x": 4165,
       "y": 4482,
       "name": "Modal A3 · Mantenimiento registrado",
       "clip": true,
@@ -13316,7 +13316,7 @@
     {
       "type": "text",
       "id": "LanRg",
-      "x": 4045,
+      "x": 4165,
       "y": 4402,
       "name": "caption",
       "fill": "$Negro",
@@ -13394,7 +13394,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 184,
                   "height": 125
@@ -21040,7 +21040,7 @@
                           "id": "q9vmu0",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Lote-04 ",
+                          "content": "Lote 04 ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -21237,7 +21237,7 @@
                           "id": "iJOJ3",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Lote-02",
+                          "content": "Lote 02",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -21330,7 +21330,7 @@
                           "id": "X6rnG",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Lote-09 ",
+                          "content": "Lote 09 ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -21423,7 +21423,7 @@
                           "id": "RlSV5",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Lote-01 ",
+                          "content": "Lote 01 ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -24354,7 +24354,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "Lote-04 · Lote 07",
+                      "content": "Lote 04 · Lote 07",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -24517,7 +24517,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "Lote-02",
+                      "content": "Lote 02",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -25780,7 +25780,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 184,
                   "height": 125
@@ -28043,7 +28043,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Frijol · Lote X · X ha ",
+                              "content": "Lote 11 · Frijol Negro · 18.30 ha",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -28495,7 +28495,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Trigo · Lote X · X ha ",
+                              "content": "Lote 02 · Trigo Cristalino · 46.50 ha",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -29173,7 +29173,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Frijol · Lote X · X ha ",
+                              "content": "Lote 11 · Frijol Negro · 18.30 ha",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"

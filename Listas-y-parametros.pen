@@ -1,5 +1,5 @@
 {
-  "version": "2.17",
+  "version": "2.20",
   "children": [
     {
       "type": "frame",
@@ -759,7 +759,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 184,
                   "height": 125
@@ -3842,7 +3842,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 184,
                   "height": 125
@@ -7725,7 +7725,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 184,
                   "height": 125
@@ -12401,7 +12401,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 184,
                   "height": 125
@@ -15663,7 +15663,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 184,
                   "height": 125
@@ -18911,7 +18911,7 @@
       "name": "Listas y parámetros · Maquinaria",
       "clip": true,
       "width": 1440,
-      "height": 1065,
+      "height": 1407,
       "fill": "$Blanco",
       "children": [
         {
@@ -18948,7 +18948,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 184,
                   "height": 125
@@ -20136,7 +20136,7 @@
                                       "id": "QD6Dh",
                                       "name": "value",
                                       "fill": "$Blanco",
-                                      "content": "8",
+                                      "content": "13",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 11,
                                       "fontWeight": "600"
@@ -20665,7 +20665,7 @@
                                   "id": "ABBRr",
                                   "name": "listDesc",
                                   "fill": "$Gris 1",
-                                  "content": "8 registros",
+                                  "content": "13 registros",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 12,
                                   "fontWeight": "normal"
@@ -22208,6 +22208,9 @@
                               "name": "row_EC-171",
                               "width": "fill_container",
                               "stroke": "$Gris 3",
+                              "strokeWidth": {
+                                "bottom": 1
+                              },
                               "strokeAlignment": "inner",
                               "gap": 16,
                               "padding": [
@@ -22385,6 +22388,888 @@
                                   ]
                                 }
                               ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "XqrRS",
+                              "name": "row_ECO-172",
+                              "width": "fill_container",
+                              "stroke": "$Gris 3",
+                              "strokeWidth": {
+                                "bottom": 1
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 16,
+                              "padding": [
+                                14,
+                                20
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "H584Q",
+                                  "name": "no",
+                                  "fill": "$Gris 1",
+                                  "textGrowth": "fixed-width",
+                                  "width": 44,
+                                  "content": "9",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "j7MjGj",
+                                  "name": "maquinaCol",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "Z2Gurw",
+                                      "name": "nombre",
+                                      "fill": "$Negro",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "ECO-172 · Tractor Massey Ferguson 4707",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "l1tS72",
+                                  "name": "tanqueCol",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "uFvM7",
+                                      "name": "actual",
+                                      "fill": "$Negro",
+                                      "content": "380 L",
+                                      "fontFamily": "$Font Primaria",
+                                      "fontSize": 14,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "B3B1q",
+                                      "name": "cap",
+                                      "fill": "$Gris 1",
+                                      "content": "de 500 L",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "vj9rZ",
+                                  "name": "rendCol",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "fVgqz",
+                                      "name": "rend",
+                                      "fill": "$Negro",
+                                      "content": "6 combinaciones",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 13,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "GF6oy",
+                                  "name": "estatusCol",
+                                  "width": "fill_container",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "TgivM",
+                                      "name": "pill",
+                                      "fill": "$Verde Fondo",
+                                      "cornerRadius": 999,
+                                      "gap": 5,
+                                      "padding": [
+                                        5,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "gHrJn",
+                                          "name": "icon",
+                                          "width": 12,
+                                          "height": 12,
+                                          "icon": "check-circle",
+                                          "library": "feather",
+                                          "fill": "$Color Primario"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "Ntr51",
+                                          "name": "label",
+                                          "fill": "$Color Primario",
+                                          "content": "Dentro de parámetro",
+                                          "fontFamily": "$Font Secundaria",
+                                          "fontSize": 11,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "MaYiH",
+                                  "name": "linkCol",
+                                  "width": 110,
+                                  "gap": 4,
+                                  "justifyContent": "end",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "Y6QdvU",
+                                      "name": "verFicha",
+                                      "fill": "$Color Primario",
+                                      "content": "Ver ficha",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 12,
+                                      "fontWeight": "600"
+                                    },
+                                    {
+                                      "type": "icon",
+                                      "id": "BV1r8",
+                                      "name": "chevron",
+                                      "width": 13,
+                                      "height": 13,
+                                      "icon": "arrow-right",
+                                      "library": "feather",
+                                      "fill": "$Color Primario"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "P3hAW",
+                              "name": "row_ECO-173",
+                              "width": "fill_container",
+                              "stroke": "$Gris 3",
+                              "strokeWidth": {
+                                "bottom": 1
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 16,
+                              "padding": [
+                                14,
+                                20
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "UX7RD",
+                                  "name": "no",
+                                  "fill": "$Gris 1",
+                                  "textGrowth": "fixed-width",
+                                  "width": 44,
+                                  "content": "10",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "lEycp",
+                                  "name": "maquinaCol",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "zQ4tE",
+                                      "name": "nombre",
+                                      "fill": "$Negro",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "ECO-173 · Tractor John Deere 5090E",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "qfMgm",
+                                  "name": "tanqueCol",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "YsO5r",
+                                      "name": "actual",
+                                      "fill": "$Negro",
+                                      "content": "340 L",
+                                      "fontFamily": "$Font Primaria",
+                                      "fontSize": 14,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "Kan1n",
+                                      "name": "cap",
+                                      "fill": "$Gris 1",
+                                      "content": "de 450 L",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "s5oj4",
+                                  "name": "rendCol",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "OGxRv",
+                                      "name": "rend",
+                                      "fill": "$Negro",
+                                      "content": "5 combinaciones",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 13,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "ZHcG9",
+                                  "name": "estatusCol",
+                                  "width": "fill_container",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "tFRp8",
+                                      "name": "pill",
+                                      "fill": "$Verde Fondo",
+                                      "cornerRadius": 999,
+                                      "gap": 5,
+                                      "padding": [
+                                        5,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "TBSrf",
+                                          "name": "icon",
+                                          "width": 12,
+                                          "height": 12,
+                                          "icon": "check-circle",
+                                          "library": "feather",
+                                          "fill": "$Color Primario"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "t5Jv7",
+                                          "name": "label",
+                                          "fill": "$Color Primario",
+                                          "content": "Dentro de parámetro",
+                                          "fontFamily": "$Font Secundaria",
+                                          "fontSize": 11,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "tkmjN",
+                                  "name": "linkCol",
+                                  "width": 110,
+                                  "gap": 4,
+                                  "justifyContent": "end",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "N2tf1u",
+                                      "name": "verFicha",
+                                      "fill": "$Color Primario",
+                                      "content": "Ver ficha",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 12,
+                                      "fontWeight": "600"
+                                    },
+                                    {
+                                      "type": "icon",
+                                      "id": "s7IeVr",
+                                      "name": "chevron",
+                                      "width": 13,
+                                      "height": 13,
+                                      "icon": "arrow-right",
+                                      "library": "feather",
+                                      "fill": "$Color Primario"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "P8fQZ",
+                              "name": "row_ECO-174",
+                              "width": "fill_container",
+                              "stroke": "$Gris 3",
+                              "strokeWidth": {
+                                "bottom": 1
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 16,
+                              "padding": [
+                                14,
+                                20
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "VBcCV",
+                                  "name": "no",
+                                  "fill": "$Gris 1",
+                                  "textGrowth": "fixed-width",
+                                  "width": 44,
+                                  "content": "11",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "B9bqBN",
+                                  "name": "maquinaCol",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "K6o3nS",
+                                      "name": "nombre",
+                                      "fill": "$Negro",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "ECO-174 · Trilladora Case IH 7150",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "o1mI0a",
+                                  "name": "tanqueCol",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "jtZFO",
+                                      "name": "actual",
+                                      "fill": "$Negro",
+                                      "content": "460 L",
+                                      "fontFamily": "$Font Primaria",
+                                      "fontSize": 14,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "FBpzG",
+                                      "name": "cap",
+                                      "fill": "$Gris 1",
+                                      "content": "de 600 L",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "ush7Z",
+                                  "name": "rendCol",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "m7Ouz",
+                                      "name": "rend",
+                                      "fill": "$Negro",
+                                      "content": "7 combinaciones",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 13,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "o3uew",
+                                  "name": "estatusCol",
+                                  "width": "fill_container",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "UcHy8",
+                                      "name": "pill",
+                                      "fill": "$Verde Fondo",
+                                      "cornerRadius": 999,
+                                      "gap": 5,
+                                      "padding": [
+                                        5,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "y2rq6m",
+                                          "name": "icon",
+                                          "width": 12,
+                                          "height": 12,
+                                          "icon": "check-circle",
+                                          "library": "feather",
+                                          "fill": "$Color Primario"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "u4gVOC",
+                                          "name": "label",
+                                          "fill": "$Color Primario",
+                                          "content": "Dentro de parámetro",
+                                          "fontFamily": "$Font Secundaria",
+                                          "fontSize": 11,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "iWxUy",
+                                  "name": "linkCol",
+                                  "width": 110,
+                                  "gap": 4,
+                                  "justifyContent": "end",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "vDSpU",
+                                      "name": "verFicha",
+                                      "fill": "$Color Primario",
+                                      "content": "Ver ficha",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 12,
+                                      "fontWeight": "600"
+                                    },
+                                    {
+                                      "type": "icon",
+                                      "id": "K71Oka",
+                                      "name": "chevron",
+                                      "width": 13,
+                                      "height": 13,
+                                      "icon": "arrow-right",
+                                      "library": "feather",
+                                      "fill": "$Color Primario"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "JpZ6h",
+                              "name": "row_ECO-175",
+                              "width": "fill_container",
+                              "stroke": "$Gris 3",
+                              "strokeWidth": {
+                                "bottom": 1
+                              },
+                              "strokeAlignment": "inner",
+                              "gap": 16,
+                              "padding": [
+                                14,
+                                20
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "k4Vj8T",
+                                  "name": "no",
+                                  "fill": "$Gris 1",
+                                  "textGrowth": "fixed-width",
+                                  "width": 44,
+                                  "content": "12",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "zV0l9",
+                                  "name": "maquinaCol",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "XLhmk",
+                                      "name": "nombre",
+                                      "fill": "$Negro",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "ECO-175 · Aspersora Jacto 800",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "F2hGxl",
+                                  "name": "tanqueCol",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "KZ0dL",
+                                      "name": "actual",
+                                      "fill": "$Negro",
+                                      "content": "150 L",
+                                      "fontFamily": "$Font Primaria",
+                                      "fontSize": 14,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "MPO7e",
+                                      "name": "cap",
+                                      "fill": "$Gris 1",
+                                      "content": "de 250 L",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "j1YrZ",
+                                  "name": "rendCol",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "e4LJAe",
+                                      "name": "rend",
+                                      "fill": "$Negro",
+                                      "content": "3 combinaciones",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 13,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "H2p5RO",
+                                  "name": "estatusCol",
+                                  "width": "fill_container",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "P4BXQ",
+                                      "name": "pill",
+                                      "fill": "$Verde Fondo",
+                                      "cornerRadius": 999,
+                                      "gap": 5,
+                                      "padding": [
+                                        5,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "SX6sz",
+                                          "name": "icon",
+                                          "width": 12,
+                                          "height": 12,
+                                          "icon": "check-circle",
+                                          "library": "feather",
+                                          "fill": "$Color Primario"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "ZNRNo",
+                                          "name": "label",
+                                          "fill": "$Color Primario",
+                                          "content": "Dentro de parámetro",
+                                          "fontFamily": "$Font Secundaria",
+                                          "fontSize": 11,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "wA5uk",
+                                  "name": "linkCol",
+                                  "width": 110,
+                                  "gap": 4,
+                                  "justifyContent": "end",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "kTinR",
+                                      "name": "verFicha",
+                                      "fill": "$Color Primario",
+                                      "content": "Ver ficha",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 12,
+                                      "fontWeight": "600"
+                                    },
+                                    {
+                                      "type": "icon",
+                                      "id": "ESxvI",
+                                      "name": "chevron",
+                                      "width": 13,
+                                      "height": 13,
+                                      "icon": "arrow-right",
+                                      "library": "feather",
+                                      "fill": "$Color Primario"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "PCHsy",
+                              "name": "row_ECO-176",
+                              "width": "fill_container",
+                              "stroke": "$Gris 3",
+                              "strokeAlignment": "inner",
+                              "gap": 16,
+                              "padding": [
+                                14,
+                                20
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "j6kK4",
+                                  "name": "no",
+                                  "fill": "$Gris 1",
+                                  "textGrowth": "fixed-width",
+                                  "width": 44,
+                                  "content": "13",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "l7S2fX",
+                                  "name": "maquinaCol",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "c0PKf",
+                                      "name": "nombre",
+                                      "fill": "$Negro",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "ECO-176 · Motobomba Honda WB30",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "xBmpQ",
+                                  "name": "tanqueCol",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "h1iOE",
+                                      "name": "actual",
+                                      "fill": "$Negro",
+                                      "content": "40 L",
+                                      "fontFamily": "$Font Primaria",
+                                      "fontSize": 14,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "TCxII",
+                                      "name": "cap",
+                                      "fill": "$Gris 1",
+                                      "content": "de 80 L",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "H8Dmr3",
+                                  "name": "rendCol",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "kv9bO",
+                                      "name": "rend",
+                                      "fill": "$Negro",
+                                      "content": "2 combinaciones",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 13,
+                                      "fontWeight": "700"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "xxnpf",
+                                  "name": "estatusCol",
+                                  "width": "fill_container",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "HIZ1Y",
+                                      "name": "pill",
+                                      "fill": "$Verde Fondo",
+                                      "cornerRadius": 999,
+                                      "gap": 5,
+                                      "padding": [
+                                        5,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "vsiPW",
+                                          "name": "icon",
+                                          "width": 12,
+                                          "height": 12,
+                                          "icon": "check-circle",
+                                          "library": "feather",
+                                          "fill": "$Color Primario"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "y3TWy",
+                                          "name": "label",
+                                          "fill": "$Color Primario",
+                                          "content": "Dentro de parámetro",
+                                          "fontFamily": "$Font Secundaria",
+                                          "fontSize": 11,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "E3HHNb",
+                                  "name": "linkCol",
+                                  "width": 110,
+                                  "gap": 4,
+                                  "justifyContent": "end",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "T0ya9t",
+                                      "name": "verFicha",
+                                      "fill": "$Color Primario",
+                                      "content": "Ver ficha",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 12,
+                                      "fontWeight": "600"
+                                    },
+                                    {
+                                      "type": "icon",
+                                      "id": "Z7S9Zc",
+                                      "name": "chevron",
+                                      "width": 13,
+                                      "height": 13,
+                                      "icon": "arrow-right",
+                                      "library": "feather",
+                                      "fill": "$Color Primario"
+                                    }
+                                  ]
+                                }
+                              ]
                             }
                           ]
                         },
@@ -22401,7 +23286,7 @@
                               "id": "lDc2f",
                               "name": "footerText",
                               "fill": "$Gris 1",
-                              "content": "Mostrando 8 de 8",
+                              "content": "Mostrando 13 de 13",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -22539,7 +23424,7 @@
                           "id": "If0jN",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "8",
+                          "content": "13",
                           "fontFamily": "$Font Primaria",
                           "fontSize": 18,
                           "fontWeight": "700"
@@ -23190,7 +24075,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 184,
                   "height": 125
@@ -26357,7 +27242,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 184,
                   "height": 125
@@ -29296,7 +30181,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 184,
                   "height": 125
@@ -32037,7 +32922,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 184,
                   "height": 125
@@ -43009,7 +43894,7 @@
             "type": "image",
             "enabled": true,
             "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
-            "mode": "fill"
+            "mode": "cover"
           },
           "width": 184,
           "height": 125
@@ -43288,7 +44173,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 184,
                   "height": 125
@@ -46369,7 +47254,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 184,
                   "height": 125
@@ -50249,7 +51134,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 184,
                   "height": 125
@@ -53787,7 +54672,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 184,
                   "height": 125
@@ -57539,7 +58424,7 @@
             "type": "image",
             "enabled": true,
             "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
-            "mode": "fill"
+            "mode": "cover"
           },
           "width": 184,
           "height": 125
@@ -60518,7 +61403,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "6155M",
+                          "content": "6110J",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -60651,7 +61536,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "1L06155MTJK892043",
+                          "content": "1L06110JTJK892043",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -64692,7 +65577,7 @@
                     "type": "image",
                     "enabled": true,
                     "url": "LOGO%20LA%20COLONIA%20GRANOS%20(1).jpg.jpeg",
-                    "mode": "fill"
+                    "mode": "cover"
                   },
                   "width": 184,
                   "height": 125
