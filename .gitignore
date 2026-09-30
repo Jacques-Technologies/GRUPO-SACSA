@@ -1,1 +1,5 @@
 .DS_Store
+
+# Archivos temporales de trabajo
+_*.js
+_*.json
