@@ -1534,7 +1534,7 @@
                               "id": "forSH",
                               "name": "label",
                               "fill": "$Gris 1",
-                              "content": "8 registros liberados · 01/Sep – 08/Sep 26 · no editables",
+                              "content": "8 registros liberados · 01/Sep – 08/Sep/26 · no editables",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -1719,7 +1719,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 150,
-                          "content": "Sorgo · Lote X · X ha ",
+                          "content": "Lote 04 · Maíz Blanco · 84.20 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -2023,7 +2023,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 150,
-                          "content": "Sorgo · Lote X · X ha ",
+                          "content": "Lote 04 · Maíz Blanco · 84.20 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -2327,7 +2327,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 150,
-                          "content": "Sorgo · Lote X · X ha ",
+                          "content": "Lote 04 · Maíz Blanco · 84.20 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -7928,7 +7928,7 @@
                               "id": "UGKUz",
                               "name": "label",
                               "fill": "$Gris 1",
-                              "content": "8 registros · 01/Sep – 08/Sep 26 · no editables",
+                              "content": "8 registros · 01/Sep – 08/Sep/26 · no editables",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -8142,7 +8142,7 @@
                               "fill": "$Hover 1",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Tractor John Deere 6110",
+                              "content": "Tractor John Deere 6110J",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "600"
@@ -8152,7 +8152,7 @@
                               "id": "uUyvQ",
                               "name": "meta",
                               "fill": "$Gris 1",
-                              "content": "TR-04",
+                              "content": "ECO-104",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "normal"
@@ -8166,7 +8166,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 160,
-                          "content": "Sorgo · Lote-010 · 1.5 ha",
+                          "content": "Lote 10 · Sorgo · 1.50 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "600"
@@ -8338,7 +8338,7 @@
                               "fill": "$Hover 1",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Tractor John Deere 6110",
+                              "content": "Tractor John Deere 6110J",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "600"
@@ -8348,7 +8348,7 @@
                               "id": "CAJvs",
                               "name": "meta",
                               "fill": "$Gris 1",
-                              "content": "TR-04",
+                              "content": "ECO-104",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "normal"
@@ -9240,7 +9240,7 @@
                               "fill": "$Hover 1",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Tractor John Deere 6110",
+                              "content": "Tractor John Deere 6110J",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "600"
@@ -9250,7 +9250,7 @@
                               "id": "j7NAxj",
                               "name": "meta",
                               "fill": "$Gris 1",
-                              "content": "TR-04",
+                              "content": "ECO-104",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "normal"
@@ -10562,7 +10562,7 @@
                               "fill": "$Hover 1",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Tractor John Deere 6110",
+                              "content": "Tractor John Deere 6110J",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "600"
@@ -10574,7 +10574,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "TR-04 · Tractor · Operando",
+                              "content": "ECO-104 · Tractor · Operando",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "normal"
@@ -10697,7 +10697,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Tractor John Deere 6155M",
+                              "content": "Tractor Massey Ferguson 4708",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "600"
@@ -10709,7 +10709,7 @@
                               "fill": "$Gris 1",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "TR-12 · Tractor · En taller",
+                              "content": "ECO-132 · Tractor · En taller",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 11,
                               "fontWeight": "normal"
@@ -11422,7 +11422,7 @@
                   "id": "OjMDN",
                   "name": "modalSub",
                   "fill": "$Gris 1",
-                  "content": "Cambio de aceite y filtros · Tractor John Deere 6110 · TR-04 · 5 cultivos productivos activos",
+                  "content": "Cambio de aceite y filtros · Tractor John Deere 6110J · ECO-104 · 5 cultivos productivos activos",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -11703,7 +11703,7 @@
                       "id": "WqexA",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "Tractor John Deere 6110 · TR-04",
+                      "content": "Tractor John Deere 6110J · ECO-104",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -13091,7 +13091,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Tractor John Deere 6110 · TR-04",
+                  "content": "Tractor John Deere 6110J · ECO-104",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -14950,7 +14950,7 @@
                               "id": "T7hcNq",
                               "name": "meta",
                               "fill": "$Gris 1",
-                              "content": "· 01/Sep – 30/Sep 26",
+                              "content": "· 01/Sep – 30/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -17496,7 +17496,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Sorgo · Lote-010 · 1.5 ha",
+                          "content": "Lote 10 · Sorgo · 1.50 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -17608,7 +17608,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Tractor John Deere 6110 · TR-04",
+                          "content": "Tractor John Deere 6110J · ECO-104",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -18670,7 +18670,7 @@
                       "id": "fHNIa",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "Sorgo · Lote-010 · 1.5 ha",
+                      "content": "Lote 10 · Sorgo · 1.50 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -18699,7 +18699,7 @@
                       "id": "rzeOS",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "Tractor John Deere 6110 · TR-04",
+                      "content": "Tractor John Deere 6110J · ECO-104",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -19895,7 +19895,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Sorgo · Lote-010 · 1.5 ha",
+                  "content": "Lote 10 · Sorgo · 1.50 ha",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -19941,7 +19941,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Tractor John Deere 6110 · TR-04",
+                  "content": "Tractor John Deere 6110J · ECO-104",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -21037,16 +21037,6 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "g4L83",
-                          "name": "nombre",
-                          "fill": "$Negro",
-                          "content": "Maíz Blanco",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
                           "id": "q9vmu0",
                           "name": "meta",
                           "fill": "$Gris 1",
@@ -21054,6 +21044,16 @@
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "g4L83",
+                          "name": "nombre",
+                          "fill": "$Negro",
+                          "content": "Maíz Blanco",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "600"
                         }
                       ]
                     },
@@ -21141,6 +21141,16 @@
                       "children": [
                         {
                           "type": "text",
+                          "id": "iGxQT",
+                          "name": "meta",
+                          "fill": "$Gris 1",
+                          "content": "Lote 07",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
                           "id": "f911bD",
                           "name": "nombre",
                           "fill": "$Negro",
@@ -21148,16 +21158,6 @@
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
-                          "id": "iGxQT",
-                          "name": "meta",
-                          "fill": "$Gris 1",
-                          "content": "Lote-07",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 11,
-                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -21234,16 +21234,6 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "srtha",
-                          "name": "nombre",
-                          "fill": "$Negro",
-                          "content": "Frijol Negro",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
                           "id": "iJOJ3",
                           "name": "meta",
                           "fill": "$Gris 1",
@@ -21251,6 +21241,16 @@
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "srtha",
+                          "name": "nombre",
+                          "fill": "$Negro",
+                          "content": "Frijol Negro",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "600"
                         }
                       ]
                     },
@@ -21327,16 +21327,6 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "WhQ47",
-                          "name": "nombre",
-                          "fill": "$Negro",
-                          "content": "Maíz Amarillo",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
                           "id": "X6rnG",
                           "name": "meta",
                           "fill": "$Gris 1",
@@ -21344,6 +21334,16 @@
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "WhQ47",
+                          "name": "nombre",
+                          "fill": "$Negro",
+                          "content": "Maíz Amarillo",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "600"
                         }
                       ]
                     },
@@ -21420,16 +21420,6 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "KuWbI",
-                          "name": "nombre",
-                          "fill": "$Negro",
-                          "content": "Trigo Cristalino",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
                           "id": "RlSV5",
                           "name": "meta",
                           "fill": "$Gris 1",
@@ -21437,6 +21427,16 @@
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "KuWbI",
+                          "name": "nombre",
+                          "fill": "$Negro",
+                          "content": "Trigo Cristalino",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "600"
                         }
                       ]
                     },
@@ -22224,7 +22224,7 @@
                       "id": "n7fjYs",
                       "name": "label",
                       "fill": "$Gris 1",
-                      "content": "Sorgo Forrajero · Lote-07",
+                      "content": "Lote 07 · Sorgo Forrajero · 62.50 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -22692,7 +22692,7 @@
                       "id": "lFCho",
                       "name": "v",
                       "fill": "$Negro",
-                      "content": "Lote-125 · Maíz · 9.7 ha",
+                      "content": "Lote 125 · Maíz · 9.70 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "600"
@@ -24354,7 +24354,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "Lote-04 · Lote-07",
+                      "content": "Lote-04 · Lote 07",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -27336,7 +27336,7 @@
                               "id": "xPpzy",
                               "name": "meta",
                               "fill": "$Gris 1",
-                              "content": "· 01/Sep – 30/Sep 26",
+                              "content": "· 01/Sep – 30/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -27817,7 +27817,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Sorgo · Lote X · X ha ",
+                              "content": "Lote 04 · Maíz Blanco · 84.20 ha",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -28947,7 +28947,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Sorgo · Lote X · X ha ",
+                              "content": "Lote 04 · Maíz Blanco · 84.20 ha",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -29724,16 +29724,6 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "JP70X",
-                          "name": "nombre",
-                          "fill": "$Negro",
-                          "content": "Maíz Blanco",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
                           "id": "CdVjf",
                           "name": "meta",
                           "fill": "$Gris 1",
@@ -29741,6 +29731,16 @@
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "JP70X",
+                          "name": "nombre",
+                          "fill": "$Negro",
+                          "content": "Maíz Blanco",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "600"
                         }
                       ]
                     },
@@ -29828,6 +29828,16 @@
                       "children": [
                         {
                           "type": "text",
+                          "id": "AgoHG",
+                          "name": "meta",
+                          "fill": "$Gris 1",
+                          "content": "Lote 07",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
                           "id": "NTyGJ",
                           "name": "nombre",
                           "fill": "$Negro",
@@ -29835,16 +29845,6 @@
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
-                          "id": "AgoHG",
-                          "name": "meta",
-                          "fill": "$Gris 1",
-                          "content": "Lote-07",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 11,
-                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -29921,16 +29921,6 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "KZRtI",
-                          "name": "nombre",
-                          "fill": "$Negro",
-                          "content": "Frijol Negro",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
                           "id": "kZoHP",
                           "name": "meta",
                           "fill": "$Gris 1",
@@ -29938,6 +29928,16 @@
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "KZRtI",
+                          "name": "nombre",
+                          "fill": "$Negro",
+                          "content": "Frijol Negro",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "600"
                         }
                       ]
                     },
@@ -30014,16 +30014,6 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "PAoiG",
-                          "name": "nombre",
-                          "fill": "$Negro",
-                          "content": "Maíz Amarillo",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
                           "id": "U2HfP",
                           "name": "meta",
                           "fill": "$Gris 1",
@@ -30031,6 +30021,16 @@
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "PAoiG",
+                          "name": "nombre",
+                          "fill": "$Negro",
+                          "content": "Maíz Amarillo",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "600"
                         }
                       ]
                     },
@@ -30107,16 +30107,6 @@
                       "children": [
                         {
                           "type": "text",
-                          "id": "wVU7P",
-                          "name": "nombre",
-                          "fill": "$Negro",
-                          "content": "Trigo Cristalino",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
                           "id": "YgRrc",
                           "name": "meta",
                           "fill": "$Gris 1",
@@ -30124,6 +30114,16 @@
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wVU7P",
+                          "name": "nombre",
+                          "fill": "$Negro",
+                          "content": "Trigo Cristalino",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 14,
+                          "fontWeight": "600"
                         }
                       ]
                     },
@@ -30418,7 +30418,7 @@
                       "id": "c3AZxL",
                       "name": "value",
                       "fill": "$Hover 1",
-                      "content": "Sorgo Forrajero · Lote-07 · 62.50 ha",
+                      "content": "Lote 07 · Sorgo Forrajero · 62.50 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "700"
@@ -31619,7 +31619,7 @@
                       "id": "GGEWW",
                       "name": "label",
                       "fill": "$Gris 1",
-                      "content": "Sorgo Forrajero · Lote-07",
+                      "content": "Lote 07 · Sorgo Forrajero · 62.50 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -32312,7 +32312,7 @@
                       "id": "a8zSTG",
                       "name": "v",
                       "fill": "$Negro",
-                      "content": "Sorgo Forrajero · Lote-07",
+                      "content": "Lote 07 · Sorgo Forrajero · 62.50 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "600"
@@ -32693,7 +32693,7 @@
                       "id": "A7wfS",
                       "name": "label",
                       "fill": "$Gris 1",
-                      "content": "Sorgo Forrajero · Lote-07",
+                      "content": "Lote 07 · Sorgo Forrajero · 62.50 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -33550,7 +33550,7 @@
                       "id": "qdDNV",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "Sorgo · Lote-010 · 1.5 ha",
+                      "content": "Lote 10 · Sorgo · 1.50 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -33579,7 +33579,7 @@
                       "id": "erCex",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "Tractor John Deere 6110 · TR-04",
+                      "content": "Tractor John Deere 6110J · ECO-104",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -34971,7 +34971,7 @@
                       "id": "tRaDg",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "Sorgo · Lote-010 · 1.5 ha",
+                      "content": "Lote 10 · Sorgo · 1.50 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -35000,7 +35000,7 @@
                       "id": "CO07a",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "Tractor John Deere 6110 · TR-04",
+                      "content": "Tractor John Deere 6110J · ECO-104",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -36288,7 +36288,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Sorgo · Lote-010 · 1.5 ha",
+                  "content": "Lote 10 · Sorgo · 1.50 ha",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -36334,7 +36334,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Tractor John Deere 6110 · TR-04",
+                  "content": "Tractor John Deere 6110J · ECO-104",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -36868,7 +36868,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Sorgo · Lote-010 · 1.5 ha",
+                  "content": "Lote 10 · Sorgo · 1.50 ha",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -36914,7 +36914,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Tractor John Deere 6110 · TR-04",
+                  "content": "Tractor John Deere 6110J · ECO-104",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -37763,7 +37763,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Sorgo · Lote-010 · 1.5 ha",
+                          "content": "Lote 10 · Sorgo · 1.50 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -37875,7 +37875,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Tractor John Deere 6110 · TR-04",
+                          "content": "Tractor John Deere 6110J · ECO-104",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -38676,7 +38676,7 @@
                       "id": "e9yDt",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "Sorgo · Lote-010 · 1.5 ha",
+                      "content": "Lote 10 · Sorgo · 1.50 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -38705,7 +38705,7 @@
                       "id": "FoCs5",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "Tractor John Deere 6155M · TR-12",
+                      "content": "Tractor Massey Ferguson 4708 · ECO-132",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -39754,7 +39754,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Sorgo · Lote-010 · 1.5 ha",
+                  "content": "Lote 10 · Sorgo · 1.50 ha",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -39800,7 +39800,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Tractor John Deere 6155M · TR-12",
+                  "content": "Tractor Massey Ferguson 4708 · ECO-132",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,

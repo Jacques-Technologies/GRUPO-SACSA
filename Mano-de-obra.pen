@@ -2337,7 +2337,7 @@
                               "id": "oHyEx",
                               "name": "part_Lote 1187",
                               "fill": "$Negro",
-                              "content": "Lote-1187",
+                              "content": "Lote 1187",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "600"
@@ -2377,7 +2377,7 @@
                               "id": "YhuMG",
                               "name": "part_12.4 ha",
                               "fill": "$Gris 1",
-                              "content": "12.4 ha",
+                              "content": "12.40 ha",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -2782,7 +2782,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "mié 08/Sep/26",
+                  "content": "Mié 08/Sep/26",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -3730,7 +3730,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "mié 08/Sep/26",
+                  "content": "Mié 08/Sep/26",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -3914,7 +3914,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Lote-14 · Naranja Valencia",
+                  "content": "Lote 14 · Naranja Valencia · 3.50 ha",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -4950,7 +4950,7 @@
                                   "id": "dosrN",
                                   "name": "value",
                                   "fill": "$Negro",
-                                  "content": "Tomate Saladette · Lote-X · X ha",
+                                  "content": "Lote 01 · Tomate Saladette · 1.20 ha",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 14,
                                   "fontWeight": "normal"
@@ -5314,7 +5314,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Tomate Saladette  · Lote-X · X ha",
+                          "content": "Lote 01 · Tomate Saladette · 1.20 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -5435,7 +5435,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Tomate Saladette · Lote-X · X ha",
+                          "content": "Lote 01 · Tomate Saladette · 1.20 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -5540,7 +5540,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Tomate Saladette · Lote-X · X ha",
+                          "content": "Lote 01 · Tomate Saladette · 1.20 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -5645,7 +5645,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Tomate Saladette · Lote-X · X ha",
+                          "content": "Lote 01 · Tomate Saladette · 1.20 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -5750,7 +5750,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Chile Jalapeño · Lote-X · X ha",
+                          "content": "Lote 08 · Chile Jalapeño · 2.50 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -5855,7 +5855,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Chile Jalapeño · Lote-X · X ha",
+                          "content": "Lote 08 · Chile Jalapeño · 2.50 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -5960,7 +5960,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Tomate Saladette · Lote-X · X ha",
+                          "content": "Lote 01 · Tomate Saladette · 1.20 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -6065,7 +6065,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Tomate Saladette · Lote-X · X ha",
+                          "content": "Lote 01 · Tomate Saladette · 1.20 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -8634,7 +8634,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "mié 08/Sep/26",
+                      "content": "Mié 08/Sep/26",
                       "textAlign": "right",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 13,
@@ -8726,7 +8726,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Lote-14 · Naranja Valencia",
+                      "content": "Lote 14 · Naranja Valencia · 3.50 ha",
                       "textAlign": "right",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 13,
@@ -8968,97 +8968,9 @@
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
-                      "icon": "chevron-up",
+                      "icon": "chevron-down",
                       "library": "feather",
                       "fill": "$Gris 2"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "a7k0v",
-                  "name": "Frame 35",
-                  "width": 240,
-                  "layout": "vertical",
-                  "gap": 2,
-                  "padding": [
-                    0,
-                    0,
-                    0,
-                    30
-                  ],
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "A5tIE",
-                      "name": "navItem Mano de Obra",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "DS55Y",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "list-plus",
-                          "library": "lucide",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "D5eL5",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Inventarios",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "iq7Ui",
-                      "name": "navItem Agua",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "G3uT6",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "move-horizontal",
-                          "library": "lucide",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "JyThs",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Movimientos",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
                     }
                   ]
                 },
@@ -10034,7 +9946,7 @@
                                       "id": "qcahP",
                                       "name": "value",
                                       "fill": "$Negro",
-                                      "content": "Maíz  · Lote-X · X ha",
+                                      "content": "Lote 22 · Maíz · 4.60 ha",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 13,
                                       "fontWeight": "500"
@@ -10453,7 +10365,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "A012345",
+                          "content": "012345-6",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -10465,7 +10377,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 175,
-                          "content": "Maíz · Lote-X · X ha",
+                          "content": "Lote 22 · Maíz · 4.60 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -10626,7 +10538,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 175,
-                          "content": "Maíz · Lote-X · X ha",
+                          "content": "Lote 22 · Maíz · 4.60 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -10787,7 +10699,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 175,
-                          "content": "Sorgo  · Lote-X · X ha",
+                          "content": "Lote 19 · Sorgo · 3.80 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -10948,7 +10860,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 175,
-                          "content": "Maíz · Lote-X · X ha",
+                          "content": "Lote 22 · Maíz · 4.60 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -11109,7 +11021,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 175,
-                          "content": "Sorgo · Lote-X · X ha",
+                          "content": "Lote 19 · Sorgo · 3.80 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -11270,7 +11182,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 175,
-                          "content": "Maíz · Lote-X · X ha",
+                          "content": "Lote 22 · Maíz · 4.60 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -11431,7 +11343,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 175,
-                          "content": "Sorgo · Lote-X · X ha",
+                          "content": "Lote 19 · Sorgo · 3.80 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -11996,97 +11908,9 @@
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
-                      "icon": "chevron-up",
+                      "icon": "chevron-down",
                       "library": "feather",
                       "fill": "$Gris 2"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "cKLmA",
-                  "name": "Frame 35",
-                  "width": 240,
-                  "layout": "vertical",
-                  "gap": 2,
-                  "padding": [
-                    0,
-                    0,
-                    0,
-                    30
-                  ],
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "Bn5MY",
-                      "name": "navItem Mano de Obra",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "DPj7R",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "list-plus",
-                          "library": "lucide",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "LKqCg",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Inventarios",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "sGeA2",
-                      "name": "navItem Agua",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "mVmwT",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "move-horizontal",
-                          "library": "lucide",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "L5sLBf",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Movimientos",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
                     }
                   ]
                 },
@@ -13137,7 +12961,7 @@
                                       "id": "JP9bR",
                                       "name": "value",
                                       "fill": "$Negro",
-                                      "content": "Maíz · Lote-X · X ha",
+                                      "content": "Lote 22 · Maíz · 4.60 ha",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 13,
                                       "fontWeight": "500"
@@ -13624,7 +13448,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 175,
-                          "content": "Sorgo · Lote-X · X ha",
+                          "content": "Lote 19 · Sorgo · 3.80 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -13744,7 +13568,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 175,
-                          "content": "Maíz · Lote-X · X ha",
+                          "content": "Lote 22 · Maíz · 4.60 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -13864,7 +13688,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 175,
-                          "content": "Sorgo · Lote-X · X ha",
+                          "content": "Lote 19 · Sorgo · 3.80 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -13960,7 +13784,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 100,
-                          "content": "A012345",
+                          "content": "012345-6",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -13972,7 +13796,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 175,
-                          "content": "Maíz · Lote-X · X ha",
+                          "content": "Lote 22 · Maíz · 4.60 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -14080,7 +13904,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 175,
-                          "content": "Maíz · Lote-X · X ha",
+                          "content": "Lote 22 · Maíz · 4.60 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -14188,7 +14012,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 175,
-                          "content": "Sorgo · Lote-X · X ha",
+                          "content": "Lote 19 · Sorgo · 3.80 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -14296,7 +14120,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 175,
-                          "content": "Maíz · Lote-X · X ha",
+                          "content": "Lote 22 · Maíz · 4.60 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -15092,7 +14916,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "Sorgo · Lote-X · X ha",
+                      "content": "Lote 19 · Sorgo · 3.80 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -15236,7 +15060,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "Maíz · Lote-X · X ha",
+                      "content": "Lote 22 · Maíz · 4.60 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -15367,7 +15191,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "Sorgo · Lote-X · X ha",
+                      "content": "Lote 19 · Sorgo · 3.80 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -15749,7 +15573,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "01 – 08/Sep/26",
+                  "content": "01/Sep – 08/Sep/26",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -16086,97 +15910,9 @@
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
-                      "icon": "chevron-up",
+                      "icon": "chevron-down",
                       "library": "feather",
                       "fill": "$Gris 2"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "Q5vtb",
-                  "name": "Frame 35",
-                  "width": 240,
-                  "layout": "vertical",
-                  "gap": 2,
-                  "padding": [
-                    0,
-                    0,
-                    0,
-                    30
-                  ],
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "T5eVa",
-                      "name": "navItem Mano de Obra",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "h9l1bS",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "list-plus",
-                          "library": "lucide",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "r7B0Qa",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Inventarios",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "Wj7YA",
-                      "name": "navItem Agua",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "R5Ur2P",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "move-horizontal",
-                          "library": "lucide",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "w1yoPO",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Movimientos",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
                     }
                   ]
                 },
@@ -17227,7 +16963,7 @@
                                       "id": "i4pNR",
                                       "name": "value",
                                       "fill": "$Negro",
-                                      "content": "Maíz · Lote-X · X ha",
+                                      "content": "Lote 22 · Maíz · 4.60 ha",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 13,
                                       "fontWeight": "500"
@@ -17692,7 +17428,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 130,
-                          "content": "Sorgo · Lote-X · X ha",
+                          "content": "Lote 19 · Sorgo · 3.80 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -17754,7 +17490,7 @@
                           "fill": "$Gris 1",
                           "textGrowth": "fixed-width",
                           "width": 135,
-                          "content": "08/Sep · D. Jacques",
+                          "content": "08/Sep/26 · D. Jacques",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -17811,7 +17547,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 130,
-                          "content": "Maíz · Lote-X · X ha",
+                          "content": "Lote 22 · Maíz · 4.60 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -17873,7 +17609,7 @@
                           "fill": "$Gris 1",
                           "textGrowth": "fixed-width",
                           "width": 135,
-                          "content": "08/Sep · D. Jacques",
+                          "content": "08/Sep/26 · D. Jacques",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -17930,7 +17666,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 130,
-                          "content": "Sorgo · Lote-X · X ha",
+                          "content": "Lote 19 · Sorgo · 3.80 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -17992,7 +17728,7 @@
                           "fill": "$Gris 1",
                           "textGrowth": "fixed-width",
                           "width": 135,
-                          "content": "08/Sep · D. Jacques",
+                          "content": "08/Sep/26 · D. Jacques",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -18396,97 +18132,9 @@
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
-                      "icon": "chevron-up",
+                      "icon": "chevron-down",
                       "library": "feather",
                       "fill": "$Gris 2"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "PRIez",
-                  "name": "Frame 35",
-                  "width": 240,
-                  "layout": "vertical",
-                  "gap": 2,
-                  "padding": [
-                    0,
-                    0,
-                    0,
-                    30
-                  ],
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "sLamW",
-                      "name": "navItem Mano de Obra",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "Ew4oJ",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "list-plus",
-                          "library": "lucide",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "T7mX0J",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Inventarios",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "TaeXA",
-                      "name": "navItem Agua",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "cFKZL",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "move-horizontal",
-                          "library": "lucide",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "uosJA",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Movimientos",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
                     }
                   ]
                 },
@@ -19537,7 +19185,7 @@
                                       "id": "zmr4q",
                                       "name": "value",
                                       "fill": "$Negro",
-                                      "content": "Maíz · Lote-X · X ha",
+                                      "content": "Lote 22 · Maíz · 4.60 ha",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 13,
                                       "fontWeight": "500"
@@ -22319,7 +21967,7 @@
                                           "fill": "$Negro",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
-                                          "content": "A012345",
+                                          "content": "012345-6",
                                           "fontFamily": "$Font Secundaria",
                                           "fontSize": 14,
                                           "fontWeight": "600"
@@ -23933,7 +23581,7 @@
                                   "fill": "$Negro",
                                   "textGrowth": "fixed-width",
                                   "width": "fill_container",
-                                  "content": "Tomate Saladette · Lote-X · X ha",
+                                  "content": "Lote 01 · Tomate Saladette · 1.20 ha",
                                   "textAlign": "right",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 13,
@@ -26916,7 +26564,7 @@
                                           "fill": "$Negro",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
-                                          "content": "14/Feb/1985",
+                                          "content": "14/Feb/85",
                                           "fontFamily": "$Font Secundaria",
                                           "fontSize": 14,
                                           "fontWeight": "600"
@@ -28750,7 +28398,7 @@
                                   "fill": "$Negro",
                                   "textGrowth": "fixed-width",
                                   "width": "fill_container",
-                                  "content": "Tomate Saladette · Lote-X · X ha",
+                                  "content": "Lote 01 · Tomate Saladette · 1.20 ha",
                                   "textAlign": "right",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 13,
@@ -28955,7 +28603,7 @@
               "fill": "$Negro",
               "textGrowth": "fixed-width",
               "width": "fill_container",
-              "content": "Mis turnos de este ciclo",
+              "content": "Mis turnos de esta semana",
               "fontFamily": "$Font Primaria",
               "fontSize": 16,
               "fontWeight": "700"
@@ -29074,7 +28722,7 @@
                       "id": "nVpYj",
                       "name": "fecha",
                       "fill": "$Negro",
-                      "content": "Hoy · Lun 15 Sep",
+                      "content": "Hoy · Lun 15/Sep/26",
                       "fontFamily": "$Font Primaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -29125,16 +28773,33 @@
                   "alignItems": "center",
                   "children": [
                     {
-                      "type": "text",
-                      "id": "HOy5n",
+                      "type": "frame",
+                      "id": "wJk6f",
                       "name": "lote",
-                      "fill": "$Gris 1",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Lote-14 · Poda de formación",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12.5,
-                      "fontWeight": "normal"
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pDrbF",
+                          "name": "loteLine",
+                          "fill": "$Gris 1",
+                          "content": "Lote 14 · Naranja Valencia · 3.50 ha",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 12.5,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "aiTLl",
+                          "name": "activityLine",
+                          "fill": "$Negro",
+                          "content": "Poda de formación",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 12.5,
+                          "fontWeight": "600"
+                        }
+                      ]
                     },
                     {
                       "type": "frame",
@@ -29303,7 +28968,7 @@
                       "id": "Az93X",
                       "name": "fecha",
                       "fill": "$Negro",
-                      "content": "Vie 12 Sep",
+                      "content": "Vie 12/Sep/26",
                       "fontFamily": "$Font Primaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -29329,16 +28994,33 @@
                   "alignItems": "center",
                   "children": [
                     {
-                      "type": "text",
-                      "id": "m4jcn",
+                      "type": "frame",
+                      "id": "t4v9Fn",
                       "name": "lote",
-                      "fill": "$Gris 1",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Lote-09 · Aplicación foliar",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12.5,
-                      "fontWeight": "normal"
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SwdTJ",
+                          "name": "loteLine",
+                          "fill": "$Gris 1",
+                          "content": "Lote 09 · Chile Jalapeño · 2.00 ha",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 12.5,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xs2Tz",
+                          "name": "activityLine",
+                          "fill": "$Negro",
+                          "content": "Aplicación foliar",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 12.5,
+                          "fontWeight": "600"
+                        }
+                      ]
                     },
                     {
                       "type": "frame",
@@ -29507,7 +29189,7 @@
                       "id": "QEhCh",
                       "name": "fecha",
                       "fill": "$Negro",
-                      "content": "Jue 11 Sep",
+                      "content": "Jue 11/Sep/26",
                       "fontFamily": "$Font Primaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -29533,16 +29215,33 @@
                   "alignItems": "center",
                   "children": [
                     {
-                      "type": "text",
-                      "id": "e7SmU",
+                      "type": "frame",
+                      "id": "bYmGx",
                       "name": "lote",
-                      "fill": "$Gris 1",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Lote-14 · Poda de formación",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12.5,
-                      "fontWeight": "normal"
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "JwiuY",
+                          "name": "loteLine",
+                          "fill": "$Gris 1",
+                          "content": "Lote 14 · Naranja Valencia · 3.50 ha",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 12.5,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "l7F1EK",
+                          "name": "activityLine",
+                          "fill": "$Negro",
+                          "content": "Poda de formación",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 12.5,
+                          "fontWeight": "600"
+                        }
+                      ]
                     },
                     {
                       "type": "frame",
@@ -29711,7 +29410,7 @@
                       "id": "J7terX",
                       "name": "fecha",
                       "fill": "$Negro",
-                      "content": "Mié 10 Sep",
+                      "content": "Mié 10/Sep/26",
                       "fontFamily": "$Font Primaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -29737,16 +29436,33 @@
                   "alignItems": "center",
                   "children": [
                     {
-                      "type": "text",
-                      "id": "GSntP",
+                      "type": "frame",
+                      "id": "SikwM",
                       "name": "lote",
-                      "fill": "$Gris 1",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Lote-03 · Deshierbe manual",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12.5,
-                      "fontWeight": "normal"
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "vUWR0",
+                          "name": "loteLine",
+                          "fill": "$Gris 1",
+                          "content": "Lote 03 · Sorgo · 1.50 ha",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 12.5,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xoGmy",
+                          "name": "activityLine",
+                          "fill": "$Negro",
+                          "content": "Deshierbe manual",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 12.5,
+                          "fontWeight": "600"
+                        }
+                      ]
                     },
                     {
                       "type": "frame",
@@ -30208,17 +29924,41 @@
                       "fontWeight": "normal"
                     },
                     {
-                      "type": "text",
-                      "id": "GhJWx",
+                      "type": "frame",
+                      "id": "zAnCd",
                       "name": "value",
-                      "fill": "$Negro",
-                      "textGrowth": "fixed-width",
-                      "width": 170,
-                      "content": "Lote-09 · Aplicación foliar",
-                      "textAlign": "right",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 13,
-                      "fontWeight": "700"
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "EMbKz",
+                          "name": "loteLine",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Lote 09 · Chile Jalapeño · 2.00 ha",
+                          "textAlign": "right",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "UHB2o",
+                          "name": "activityLine",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Aplicación foliar",
+                          "textAlign": "right",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -30499,7 +30239,7 @@
                       "fill": "$Gris 1",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Consulta tus registros de este ciclo",
+                      "content": "Consulta tus registros de esta semana",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -31331,17 +31071,41 @@
                       "fontWeight": "normal"
                     },
                     {
-                      "type": "text",
-                      "id": "S16CA2",
+                      "type": "frame",
+                      "id": "LHfA7",
                       "name": "value",
-                      "fill": "$Negro",
-                      "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Lote-14 · Poda de formación",
-                      "textAlign": "right",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 13,
-                      "fontWeight": "700"
+                      "layout": "vertical",
+                      "gap": 2,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "IxLhJ",
+                          "name": "loteLine",
+                          "fill": "$Negro",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Lote 14 · Naranja Valencia · 3.50 ha",
+                          "textAlign": "right",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 12,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "aeSZ2",
+                          "name": "activityLine",
+                          "fill": "$Gris 1",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Poda de formación",
+                          "textAlign": "right",
+                          "fontFamily": "$Font Secundaria",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -32561,7 +32325,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 110,
-                          "content": "A012345",
+                          "content": "012345-6",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -32585,7 +32349,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 155,
-                          "content": "08/Sep/25, 07:02",
+                          "content": "08/Sep/25 · 07:02",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "500"
@@ -32597,7 +32361,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 210,
-                          "content": "Tomate Saladette · Lote-X · X ha",
+                          "content": "Lote 01 · Tomate Saladette · 1.20 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -32688,7 +32452,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 155,
-                          "content": "08/Sep/25, 06:58",
+                          "content": "08/Sep/25 · 06:58",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "500"
@@ -32700,7 +32464,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 210,
-                          "content": "Tomate Saladette · Lote-X · X ha",
+                          "content": "Lote 01 · Tomate Saladette · 1.20 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -32825,7 +32589,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 155,
-                          "content": "07/Sep/25, 07:10",
+                          "content": "07/Sep/25 · 07:10",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "500"
@@ -32837,7 +32601,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 210,
-                          "content": "Chile Jalapeño · Lote-X · X ha",
+                          "content": "Lote 08 · Chile Jalapeño · 2.50 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -32928,7 +32692,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 155,
-                          "content": "08/Sep/25, 07:05",
+                          "content": "08/Sep/25 · 07:05",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "500"
@@ -32940,7 +32704,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 210,
-                          "content": "Tomate Saladette · Lote-X · X ha",
+                          "content": "Lote 01 · Tomate Saladette · 1.20 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -33031,7 +32795,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 155,
-                          "content": "06/Sep/25, 07:03",
+                          "content": "06/Sep/25 · 07:03",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "500"
@@ -33043,7 +32807,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 210,
-                          "content": "Pepino Persa · Lote-X · X ha",
+                          "content": "Lote 05 · Pepino Persa · 1.80 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -33134,7 +32898,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 155,
-                          "content": "08/Sep/25, 07:04",
+                          "content": "08/Sep/25 · 07:04",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "500"
@@ -33146,7 +32910,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 210,
-                          "content": "Chile Jalapeño · Lote-X · X ha",
+                          "content": "Lote 08 · Chile Jalapeño · 2.50 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -33237,7 +33001,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 155,
-                          "content": "08/Sep/25, 07:06",
+                          "content": "08/Sep/25 · 07:06",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "500"
@@ -33249,7 +33013,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 210,
-                          "content": "Calabaza Italiana · Lote-X · X ha",
+                          "content": "Lote 11 · Calabaza Italiana · 2.75 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -33374,7 +33138,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 155,
-                          "content": "04/Sep/25, 06:55",
+                          "content": "04/Sep/25 · 06:55",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "500"
@@ -33386,7 +33150,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 210,
-                          "content": "Pepino Persa · Lote-X · X ha",
+                          "content": "Lote 05 · Pepino Persa · 1.80 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -33614,7 +33378,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 155,
-                          "content": "05/Sep/25, 07:01",
+                          "content": "05/Sep/25 · 07:01",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "500"
@@ -33626,7 +33390,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 210,
-                          "content": "Tomate Saladette · Lote-X · X ha",
+                          "content": "Lote 01 · Tomate Saladette · 1.20 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -34818,7 +34582,7 @@
                           "fill": "$Gris 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "dd/mmm/aaaa",
+                          "content": "dd/mmm/aa",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -37586,7 +37350,7 @@
                           "id": "lYERw",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "14/Mar/1994",
+                          "content": "14/Mar/94",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "600"
@@ -39363,7 +39127,7 @@
               "id": "x88jCA",
               "name": "value",
               "fill": "$Hover 1",
-              "content": "A012345",
+              "content": "012345-6",
               "fontFamily": "$Font Primaria",
               "fontSize": 22,
               "fontWeight": "700"
@@ -41275,7 +41039,7 @@
                           "fill": "$Gris 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "dd/mmm/aaaa",
+                          "content": "dd/mmm/aa",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "normal"
@@ -42585,7 +42349,7 @@
                           "fill": "$Gris 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "dd/mmm/aaaa",
+                          "content": "dd/mmm/aa",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -42657,7 +42421,7 @@
                           "fill": "$Gris 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "dd/mmm/aaaa",
+                          "content": "dd/mmm/aa",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -42738,7 +42502,7 @@
                           "fill": "$Gris 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "dd/mmm/aaaa",
+                          "content": "dd/mmm/aa",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -42810,7 +42574,7 @@
                           "fill": "$Gris 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "dd/mmm/aaaa",
+                          "content": "dd/mmm/aa",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -43122,7 +42886,7 @@
                           "fill": "$Gris 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "dd/mmm/aaaa",
+                          "content": "dd/mmm/aa",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -43194,7 +42958,7 @@
                           "fill": "$Gris 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "dd/mmm/aaaa",
+                          "content": "dd/mmm/aa",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -43883,7 +43647,7 @@
                           "fill": "$Gris 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "dd/mmm/aaaa",
+                          "content": "dd/mmm/aa",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -45042,7 +44806,7 @@
                           "fill": "$Gris 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "dd/mmm/aaaa",
+                          "content": "dd/mmm/aa",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -45257,7 +45021,7 @@
                           "fill": "$Gris 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "dd/mmm/aaaa",
+                          "content": "dd/mmm/aa",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -46433,7 +46197,7 @@
                                   "id": "UnhZw",
                                   "name": "code",
                                   "fill": "$Gris 1",
-                                  "content": "Código A012350-9",
+                                  "content": "Código 012350-9",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 13,
                                   "fontWeight": "500"
@@ -46778,7 +46542,7 @@
                                           "fill": "$Negro",
                                           "textGrowth": "fixed-width",
                                           "width": "fill_container",
-                                          "content": "A012350",
+                                          "content": "012350-9",
                                           "fontFamily": "$Font Secundaria",
                                           "fontSize": 14,
                                           "fontWeight": "600"
@@ -48975,7 +48739,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "mié 08/Sep/26",
+                      "content": "Mié 08/Sep/26",
                       "textAlign": "right",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 13,
@@ -49067,7 +48831,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Lote-14 · Naranja Valencia",
+                      "content": "Lote 14 · Naranja Valencia · 3.50 ha",
                       "textAlign": "right",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 13,
@@ -50148,7 +49912,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "mié 08/Sep/26",
+                  "content": "Mié 08/Sep/26",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
@@ -50332,7 +50096,7 @@
                   "fill": "$Negro",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Lote-14 · Naranja Valencia",
+                  "content": "Lote 14 · Naranja Valencia · 3.50 ha",
                   "textAlign": "right",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,

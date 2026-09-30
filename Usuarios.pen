@@ -354,7 +354,7 @@
                       "fill": "$Gris 1",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Listas y Parámetros",
+                      "content": "Listas y parámetros",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -2609,7 +2609,7 @@
                       "fill": "$Gris 1",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Listas y Parámetros",
+                      "content": "Listas y parámetros",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"

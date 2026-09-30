@@ -5408,7 +5408,7 @@
                                   "id": "ZMvRu",
                                   "name": "folio",
                                   "fill": "$Negro",
-                                  "content": "FAC-A-18342",
+                                  "content": "FD-01128",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 13,
                                   "fontWeight": "normal",
@@ -6220,7 +6220,7 @@
                                   "id": "pRbaV",
                                   "name": "folio",
                                   "fill": "$Negro",
-                                  "content": "FAC-A-18290",
+                                  "content": "FD-01127",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 13,
                                   "fontWeight": "normal",
@@ -6829,7 +6829,7 @@
                                   "id": "uUICc",
                                   "name": "folio",
                                   "fill": "$Negro",
-                                  "content": "FAC-A-18211",
+                                  "content": "FD-01126",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 13,
                                   "fontWeight": "normal",
@@ -10212,7 +10212,7 @@
                       "id": "n04Xgi",
                       "name": "crumbCurrent",
                       "fill": "$Negro",
-                      "content": "Tractor T-04 · John Deere 6155M",
+                      "content": "ECO-104 · Tractor John Deere 6110J",
                       "fontFamily": "$Font Primaria",
                       "fontSize": 20,
                       "fontWeight": "700"
@@ -10290,7 +10290,7 @@
                           "id": "Kf2M1",
                           "name": "pageTitle",
                           "fill": "$Negro",
-                          "content": "Tractor T-04 · John Deere 6155M",
+                          "content": "ECO-104 · Tractor John Deere 6110J",
                           "fontFamily": "$Font Primaria",
                           "fontSize": 26,
                           "fontWeight": "700"
@@ -10475,7 +10475,7 @@
                                       "id": "oMCe4",
                                       "name": "numeroEconomico",
                                       "fill": "$Negro",
-                                      "content": "T-04",
+                                      "content": "ECO-104",
                                       "fontFamily": "$Font Primaria",
                                       "fontSize": 24,
                                       "fontWeight": "700"
@@ -10533,7 +10533,7 @@
                                   "textGrowth": "fixed-width-height",
                                   "width": "fill_container",
                                   "height": 15,
-                                  "content": "John Deere 6155M · Modelo 2021 · Serie 1L06155MTJK892043",
+                                  "content": "John Deere 6110J · Modelo 2021 · Serie 1L06155MTJK892043",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 13,
                                   "fontWeight": "500"
@@ -13603,7 +13603,7 @@
                       "id": "rR1VF",
                       "name": "crumbCurrent",
                       "fill": "$Negro",
-                      "content": "Tractor T-04 · John Deere 6155M",
+                      "content": "ECO-104 · Tractor John Deere 6110J",
                       "fontFamily": "$Font Primaria",
                       "fontSize": 20,
                       "fontWeight": "700"
@@ -13681,7 +13681,7 @@
                           "id": "WOsGu",
                           "name": "pageTitle",
                           "fill": "$Negro",
-                          "content": "Tractor T-04 · John Deere 6155M",
+                          "content": "ECO-104 · Tractor John Deere 6110J",
                           "fontFamily": "$Font Primaria",
                           "fontSize": 26,
                           "fontWeight": "700"
@@ -13866,7 +13866,7 @@
                                       "id": "qkLZ5",
                                       "name": "numeroEconomico",
                                       "fill": "$Negro",
-                                      "content": "T-04",
+                                      "content": "ECO-104",
                                       "fontFamily": "$Font Primaria",
                                       "fontSize": 24,
                                       "fontWeight": "700"
@@ -13923,7 +13923,7 @@
                                   "fill": "$Gris 1",
                                   "textGrowth": "fixed-width",
                                   "width": "fill_container",
-                                  "content": "John Deere 6155M · Modelo 2021 · Serie 1L06155MTJK892043",
+                                  "content": "John Deere 6110J · Modelo 2021 · Serie 1L06155MTJK892043",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 13,
                                   "fontWeight": "500"
@@ -15156,7 +15156,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Tomate Saladette · CP-0142 · Barbecho",
+                              "content": "Lote 01 · Tomate Saladette · 1.20 ha · Barbecho",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -15346,7 +15346,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Tomate Saladette · CP-0142 · Rastreo · Primer pase",
+                              "content": "Lote 01 · Tomate Saladette · 1.20 ha · Rastreo · Primer pase",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -15916,7 +15916,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Lote 3 · Siembra  · (cultivo aún no asignado)",
+                              "content": "Lote 03 · Siembra  · (cultivo aún no asignado)",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -16296,7 +16296,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Tomate Saladette · CP-0142 · Subsoleo",
+                              "content": "Lote 01 · Tomate Saladette · 1.20 ha · Subsoleo",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "normal"
@@ -22992,7 +22992,7 @@
       "id": "IPtE9",
       "x": -819,
       "y": 11981,
-      "name": "Modal · Editar ficha · Tractor T-04",
+      "name": "Modal · Editar ficha · ECO-104",
       "clip": true,
       "width": 640,
       "fill": "$Blanco",
@@ -23048,7 +23048,7 @@
                   "id": "M2ZZM",
                   "name": "modalSub",
                   "fill": "$Gris 1",
-                  "content": "Actualiza los datos y el tanque propio de Tractor T-04",
+                  "content": "Actualiza los datos y el tanque propio de ECO-104 · Tractor John Deere 6110J",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -23190,7 +23190,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "ECO-04",
+                          "content": "ECO-104",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -23366,7 +23366,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Tractor agrícola John Deere 6155M",
+                      "content": "Tractor agrícola John Deere 6110J",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -23497,7 +23497,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "6155M",
+                          "content": "6110J",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -24222,7 +24222,7 @@
                   "id": "LHIFE",
                   "name": "modalSub",
                   "fill": "$Gris 1",
-                  "content": "Corrección de inventario por discrepancia física · Tractor T-04",
+                  "content": "Corrección de inventario por discrepancia física · ECO-104 · Tractor John Deere 6110J",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -25142,7 +25142,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "T-04 · John Deere 6155M",
+                      "content": "ECO-104 · Tractor John Deere 6110J",
                       "fontFamily": "$Font Primaria",
                       "fontSize": 15,
                       "fontWeight": "700"
@@ -27633,7 +27633,7 @@
                       "id": "b7JAah",
                       "name": "crumbAlmacen",
                       "fill": "$Gris 1",
-                      "content": "Tractor T-04 · John Deere 6155M",
+                      "content": "ECO-118 · Retroexcavadora CAT 420F",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "500"
@@ -28019,7 +28019,7 @@
                                   "fill": "$Negro",
                                   "textGrowth": "fixed-width",
                                   "width": "fill_container",
-                                  "content": "ECO-04 · Retroexcavadora CAT 320D",
+                                  "content": "ECO-118 · Retroexcavadora CAT 420F",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 14,
                                   "fontWeight": "600"
@@ -28076,7 +28076,7 @@
                                   "id": "C2bjU",
                                   "name": "machine",
                                   "fill": "$Negro",
-                                  "content": "ECO-04 · Frente Norte",
+                                  "content": "ECO-118 · Frente Norte",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 13,
                                   "fontWeight": "600"
@@ -28827,7 +28827,7 @@
                                           "id": "g8G3lk",
                                           "name": "who",
                                           "fill": "$Negro",
-                                          "content": "ECO-04 · Retroexcavadora · 600 L",
+                                          "content": "ECO-118 · Retroexcavadora · 600 L",
                                           "fontFamily": "$Font Secundaria",
                                           "fontSize": 13,
                                           "fontWeight": "600"
@@ -29083,7 +29083,7 @@
                                   "id": "YGCxR",
                                   "name": "cardTitle",
                                   "fill": "$Negro",
-                                  "content": "Últimas cargas · ECO-04",
+                                  "content": "Últimas cargas · ECO-118",
                                   "fontFamily": "$Font Primaria",
                                   "fontSize": 15,
                                   "fontWeight": "700"
@@ -29292,7 +29292,7 @@
                       "fill": "$Gris 1",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Al guardar se descuentan 400 L del tanque general y se abonan al tanque de ECO-04.",
+                      "content": "Al guardar se descuentan 400 L del tanque general y se abonan al tanque de ECO-118.",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 13,
                       "fontWeight": "normal"
@@ -29596,7 +29596,7 @@
                               "id": "oaK8x",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "AJ-0142",
+                              "content": "AJT-0142",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "700"

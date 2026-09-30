@@ -583,7 +583,7 @@
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
-                      "icon": "chevron-up",
+                      "icon": "chevron-down",
                       "library": "feather",
                       "fill": "$Gris 2"
                     }
@@ -592,7 +592,10 @@
                 {
                   "type": "frame",
                   "id": "Eg30B",
+                  "x": 0,
+                  "y": 230,
                   "name": "Frame 35",
+                  "enabled": false,
                   "width": 240,
                   "layout": "vertical",
                   "gap": 2,
@@ -603,42 +606,6 @@
                     30
                   ],
                   "children": [
-                    {
-                      "type": "frame",
-                      "id": "VeIBX",
-                      "name": "navItem Mano de Obra",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "asSnq",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "users",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "A2ocAD",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Mano de Obra",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
                     {
                       "type": "frame",
                       "id": "h51l4",
@@ -1741,7 +1708,7 @@
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
-                      "icon": "chevron-up",
+                      "icon": "chevron-down",
                       "library": "feather",
                       "fill": "$Gris 2"
                     }
@@ -1750,7 +1717,10 @@
                 {
                   "type": "frame",
                   "id": "pSX93",
+                  "x": 0,
+                  "y": 230,
                   "name": "Frame 35",
+                  "enabled": false,
                   "width": 240,
                   "layout": "vertical",
                   "gap": 2,
@@ -1761,42 +1731,6 @@
                     30
                   ],
                   "children": [
-                    {
-                      "type": "frame",
-                      "id": "d4zZB",
-                      "name": "navItem Mano de Obra",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "AzIPs",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "users",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "p10pQ",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Mano de Obra",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
                     {
                       "type": "frame",
                       "id": "eXLyk",
@@ -11784,7 +11718,7 @@
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
-                      "icon": "chevron-up",
+                      "icon": "chevron-down",
                       "library": "feather",
                       "fill": "$Gris 2"
                     }
@@ -11793,7 +11727,10 @@
                 {
                   "type": "frame",
                   "id": "BCcgG",
+                  "x": 0,
+                  "y": 230,
                   "name": "Frame 35",
+                  "enabled": false,
                   "width": 240,
                   "layout": "vertical",
                   "gap": 2,
@@ -11804,42 +11741,6 @@
                     30
                   ],
                   "children": [
-                    {
-                      "type": "frame",
-                      "id": "thaHp",
-                      "name": "navItem Mano de Obra",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "J2xSHG",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "users",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "SeJ6O",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Mano de Obra",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
                     {
                       "type": "frame",
                       "id": "U7AABB",
@@ -13620,7 +13521,7 @@
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
-                      "icon": "chevron-up",
+                      "icon": "chevron-down",
                       "library": "feather",
                       "fill": "$Gris 2"
                     }
@@ -13629,7 +13530,10 @@
                 {
                   "type": "frame",
                   "id": "KXHRH",
+                  "x": 0,
+                  "y": 230,
                   "name": "Frame 35",
+                  "enabled": false,
                   "width": 240,
                   "layout": "vertical",
                   "gap": 2,
@@ -13640,42 +13544,6 @@
                     30
                   ],
                   "children": [
-                    {
-                      "type": "frame",
-                      "id": "X1QX3N",
-                      "name": "navItem Mano de Obra",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "t6eIED",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "users",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "XL6Ge",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Mano de Obra",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
                     {
                       "type": "frame",
                       "id": "b3FAO",
@@ -18080,7 +17948,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Maíz · Lote-2044 · 8 ha",
+                          "content": "Lote 01 · Maíz · 8.00 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -18462,7 +18330,7 @@
                                   "fill": "#78350f",
                                   "textGrowth": "fixed-width",
                                   "width": "fill_container",
-                                  "content": "Este cultivo lleva 145 kg de Fungicida Mancozeb este ciclo (esperado: 160 kg según 8 ha) — con esta salida: 300 kg. Supera lo esperado para este ciclo.",
+                                  "content": "Este cultivo lleva 145 kg de Fungicida Mancozeb en este cultivo productivo (esperado: 160 kg según 8 ha) — con esta salida: 300 kg. Supera lo esperado para este cultivo productivo.",
                                   "lineHeight": 1.35,
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 11,
@@ -18666,7 +18534,7 @@
                                   "fill": "#78350f",
                                   "textGrowth": "fixed-width",
                                   "width": "fill_container",
-                                  "content": "Este cultivo lleva 190 kg de Fertilizante Triple 17 este ciclo (esperado: 220 kg según 8 ha) — con esta salida: 690 kg. Supera lo esperado para este ciclo.",
+                                  "content": "Este cultivo lleva 190 kg de Fertilizante Triple 17 en este cultivo productivo (esperado: 220 kg según 8 ha) — con esta salida: 690 kg. Supera lo esperado para este cultivo productivo.",
                                   "lineHeight": 1.35,
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 11,
@@ -19138,7 +19006,7 @@
           "fill": "$Gris 1",
           "textGrowth": "fixed-width",
           "width": "fill_container",
-          "content": "La salida de 3 productos (Fertilizante Foliar X-20, Urea 46%, Sulfato de Amonio Granulado) para LT-2044 · Maíz fue autorizada",
+          "content": "La salida de 3 productos (Fertilizante Foliar X-20, Urea 46%, Sulfato de Amonio Granulado) para Lote 01 · Maíz · 8.00 ha fue autorizada",
           "textAlign": "center",
           "fontFamily": "$Font Secundaria",
           "fontSize": 13,
@@ -19532,7 +19400,7 @@
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
-                      "icon": "chevron-up",
+                      "icon": "chevron-down",
                       "library": "feather",
                       "fill": "$Gris 2"
                     }
@@ -19541,7 +19409,10 @@
                 {
                   "type": "frame",
                   "id": "aS9rD",
+                  "x": 0,
+                  "y": 230,
                   "name": "Frame 35",
+                  "enabled": false,
                   "width": 240,
                   "layout": "vertical",
                   "gap": 2,
@@ -19552,42 +19423,6 @@
                     30
                   ],
                   "children": [
-                    {
-                      "type": "frame",
-                      "id": "h0nRF",
-                      "name": "navItem Mano de Obra",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "V5zMJ",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "users",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "qap4g",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Mano de Obra",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
                     {
                       "type": "frame",
                       "id": "FusqE",
@@ -20618,7 +20453,7 @@
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
-                      "icon": "chevron-up",
+                      "icon": "chevron-down",
                       "library": "feather",
                       "fill": "$Gris 2"
                     }
@@ -20627,7 +20462,10 @@
                 {
                   "type": "frame",
                   "id": "jOGkL",
+                  "x": 0,
+                  "y": 230,
                   "name": "Frame 35",
+                  "enabled": false,
                   "width": 240,
                   "layout": "vertical",
                   "gap": 2,
@@ -20638,42 +20476,6 @@
                     30
                   ],
                   "children": [
-                    {
-                      "type": "frame",
-                      "id": "AlsoO",
-                      "name": "navItem Mano de Obra",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "e3IJC",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "users",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "P2IeKl",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Mano de Obra",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
                     {
                       "type": "frame",
                       "id": "GjVrV",
@@ -21527,7 +21329,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Lote/Cultivo",
+                              "content": "CULTIVO PRODUCTIVO",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "600"
@@ -21788,7 +21590,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Maíz · Lote-2044 · 12.5 ha",
+                          "content": "Lote 01 · Maíz · 8.00 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -21947,7 +21749,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": 164,
-                          "content": "Cultivo · Lote X · X ha",
+                          "content": "Lote 01 · Maíz · 8.00 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -22106,7 +21908,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": 164,
-                          "content": "Cultivo · Lote X · X ha",
+                          "content": "Lote 01 · Maíz · 8.00 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -22265,7 +22067,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": 164,
-                          "content": "Cultivo · Lote X · X ha",
+                          "content": "Lote 01 · Maíz · 8.00 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -22424,7 +22226,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": 164,
-                          "content": "Cultivo · Lote X · X ha",
+                          "content": "Lote 01 · Maíz · 8.00 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -22583,7 +22385,7 @@
                           "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": 164,
-                          "content": "Cultivo · Lote X · X ha",
+                          "content": "Lote 01 · Maíz · 8.00 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "600"
@@ -23284,7 +23086,7 @@
                   "id": "sBPEj",
                   "name": "registroInfo",
                   "fill": "$Negativo",
-                  "content": "Rechazada por Carlos Medina · 03/Sep/26, 09:10",
+                  "content": "Rechazada por Carlos Medina · 03/Sep/26 · 09:10",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -23322,7 +23124,7 @@
                       "id": "Qj7SR",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "Maíz · Lote-2044 · 12.5 ha",
+                      "content": "Lote 01 · Maíz · 8.00 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -23353,7 +23155,7 @@
                       "id": "q54P3k",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "03/Sep/26, 07:58",
+                      "content": "03/Sep/26 · 07:58",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -24142,7 +23944,7 @@
                   "id": "FQEaJ",
                   "name": "registroInfo",
                   "fill": "#92400e",
-                  "content": "Solicitada por Diego Ruiz · 03/Sep/26, 08:10",
+                  "content": "Solicitada por Diego Ruiz · 03/Sep/26 · 08:10",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -24180,7 +23982,7 @@
                       "id": "TDe72",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "Maíz · Lote-2044 · 12.5 ha",
+                      "content": "Lote 01 · Maíz · 8.00 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -24211,7 +24013,7 @@
                       "id": "s6gZ9",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "03/Sep/26, 07:58",
+                      "content": "03/Sep/26 · 07:58",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -24997,7 +24799,7 @@
                   "id": "NI088",
                   "name": "registroInfo",
                   "fill": "$Gris 1",
-                  "content": "Autorizada por Carlos Medina · 03/Sep/26, 11:15",
+                  "content": "Autorizada por Carlos Medina · 03/Sep/26 · 11:15",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -25035,7 +24837,7 @@
                       "id": "ofQiQ",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "Maíz · Lote-2044 · 12.5 ha",
+                      "content": "Lote 01 · Maíz · 8.00 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -25066,7 +24868,7 @@
                       "id": "nWhKd",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "03/Sep/26, 07:58",
+                      "content": "03/Sep/26 · 07:58",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -26138,7 +25940,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 122,
-                      "content": "03/Sep/26, 08:10",
+                      "content": "03/Sep/26 · 08:10",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -26236,7 +26038,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 122,
-                      "content": "03/Sep/26, 09:45",
+                      "content": "03/Sep/26 · 09:45",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -26343,7 +26145,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "03/Sep/26, 14:20",
+                          "content": "03/Sep/26 · 14:20",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -26457,7 +26259,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "05/Sep/26, 10:15",
+                          "content": "05/Sep/26 · 10:15",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -26772,7 +26574,7 @@
                   "id": "aMawl",
                   "name": "registroInfo",
                   "fill": "$Gris 1",
-                  "content": "Autorizada por Ramiro Osuna · 03/Sep/26, 09:45",
+                  "content": "Autorizada por Ramiro Osuna · 03/Sep/26 · 09:45",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -26810,7 +26612,7 @@
                       "id": "MbN0D",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "Maíz · Lote-2044 · 12.5 ha",
+                      "content": "Lote 01 · Maíz · 8.00 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -26841,7 +26643,7 @@
                       "id": "R5DCyr",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "03/Sep/26, 07:58",
+                      "content": "03/Sep/26 · 07:58",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -27627,7 +27429,7 @@
                   "id": "P4MwZg",
                   "name": "registroInfo",
                   "fill": "$Gris 1",
-                  "content": "Entregada por Carlos Medina · 03/Sep/26, 14:20",
+                  "content": "Entregada por Carlos Medina · 03/Sep/26 · 14:20",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -27665,7 +27467,7 @@
                       "id": "uQzDb",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "Maíz · Lote-2044 · 12.5 ha",
+                      "content": "Lote 01 · Maíz · 8.00 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -27696,7 +27498,7 @@
                       "id": "oLBYu",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "03/Sep/26, 07:58",
+                      "content": "03/Sep/26 · 07:58",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -28626,7 +28428,7 @@
                       "id": "E6x3sY",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "Maíz · Lote-2044 · 12.5 ha",
+                      "content": "Lote 01 · Maíz · 8.00 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 13,
                       "fontWeight": "600"
@@ -29412,7 +29214,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "EC-00483 · 01/Sep/26",
+                              "content": "EC-01048 · 01/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -29559,7 +29361,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "EC-00483 · 01/Sep/26",
+                              "content": "EC-01048 · 01/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -29706,7 +29508,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "EC-00483 · 01/Sep/26",
+                              "content": "EC-01048 · 01/Sep/26",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 12,
                               "fontWeight": "500"
@@ -30566,7 +30368,7 @@
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
-                      "icon": "chevron-up",
+                      "icon": "chevron-down",
                       "library": "feather",
                       "fill": "$Gris 2"
                     }
@@ -30575,7 +30377,10 @@
                 {
                   "type": "frame",
                   "id": "T6oyBK",
+                  "x": 0,
+                  "y": 230,
                   "name": "Frame 35",
+                  "enabled": false,
                   "width": 240,
                   "layout": "vertical",
                   "gap": 2,
@@ -30586,42 +30391,6 @@
                     30
                   ],
                   "children": [
-                    {
-                      "type": "frame",
-                      "id": "m48nfP",
-                      "name": "navItem Mano de Obra",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "R7Wpx",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "users",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "vBZST",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Mano de Obra",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
                     {
                       "type": "frame",
                       "id": "f4N7p",
@@ -31853,7 +31622,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "01/Sep/26, 09:42",
+                          "content": "01/Sep/26 · 09:42",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -31967,7 +31736,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "03/Sep/26, 11:15",
+                          "content": "03/Sep/26 · 11:15",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -32297,7 +32066,7 @@
                   "id": "UdIUm",
                   "name": "registroInfo",
                   "fill": "$Gris 1",
-                  "content": "Recibida por Carlos Medina · 01/Sep/26, 09:42",
+                  "content": "Recibida por Carlos Medina · 01/Sep/26 · 09:42",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -32406,7 +32175,7 @@
                       "id": "OTWS8",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "01/Sep/26, 10:45",
+                      "content": "01/Sep/26 · 10:45",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -33401,7 +33170,7 @@
                               "id": "a4S6k",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "01/Sep/26, 10:45",
+                              "content": "01/Sep/26 · 10:45",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -34524,7 +34293,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 122,
-                      "content": "03/Sep/26, 08:10",
+                      "content": "03/Sep/26 · 08:10",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -34622,7 +34391,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 122,
-                      "content": "03/Sep/26, 09:45",
+                      "content": "03/Sep/26 · 09:45",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -34729,7 +34498,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "03/Sep/26, 14:20",
+                          "content": "03/Sep/26 · 14:20",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -34843,7 +34612,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "04/Sep/26, 10:05",
+                          "content": "04/Sep/26 · 10:05",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -35191,7 +34960,7 @@
                               "id": "GSo4b",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "03/Sep/26, 14:30",
+                              "content": "03/Sep/26 · 14:30",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -35231,7 +35000,7 @@
                               "id": "jSC8e",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "Maíz · Lote-2044 · 12.5 ha",
+                              "content": "Lote 01 · Maíz · 8.00 ha",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "700"
@@ -35659,7 +35428,7 @@
                           "id": "N7Uzu5",
                           "name": "label",
                           "fill": "#78350f",
-                          "content": "COSTO DIRECTO DEL LOTE LT-2044",
+                          "content": "COSTO DIRECTO DE Lote 01 · Maíz · 8.00 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 10,
                           "fontWeight": "700",
@@ -36074,7 +35843,7 @@
                   "id": "CYePo",
                   "name": "registroInfo",
                   "fill": "$Gris 1",
-                  "content": "Entregada por Carlos Medina · 03/Sep/26, 14:20",
+                  "content": "Entregada por Carlos Medina · 03/Sep/26 · 14:20",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -36112,7 +35881,7 @@
                       "id": "XK9YY",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "Maíz · Lote-2044 · 12.5 ha",
+                      "content": "Lote 01 · Maíz · 8.00 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -36143,7 +35912,7 @@
                       "id": "f1wHq",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "03/Sep/26, 07:58",
+                      "content": "03/Sep/26 · 07:58",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -38356,7 +38125,7 @@
                   "id": "n1OnkZ",
                   "name": "registroInfo",
                   "fill": "$Gris 1",
-                  "content": "Solicitado por Ramiro Osuna · 05/Sep/26, 10:00",
+                  "content": "Solicitado por Ramiro Osuna · 05/Sep/26 · 10:00",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -38496,7 +38265,7 @@
                       "id": "Q1lEIU",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "05/Sep/26, 10:00",
+                      "content": "05/Sep/26 · 10:00",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -40229,7 +39998,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 122,
-                      "content": "05/Sep/26, 10:00",
+                      "content": "05/Sep/26 · 10:00",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -40331,7 +40100,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "06/Sep/26, 08:30",
+                          "content": "06/Sep/26 · 08:30",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -40766,7 +40535,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 122,
-                      "content": "05/Sep/26, 10:00",
+                      "content": "05/Sep/26 · 10:00",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -40873,7 +40642,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "06/Sep/26, 08:30",
+                          "content": "06/Sep/26 · 08:30",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -40987,7 +40756,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "06/Sep/26, 11:15",
+                          "content": "06/Sep/26 · 11:15",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -41400,7 +41169,7 @@
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
-                      "icon": "chevron-up",
+                      "icon": "chevron-down",
                       "library": "feather",
                       "fill": "$Gris 2"
                     }
@@ -41409,7 +41178,10 @@
                 {
                   "type": "frame",
                   "id": "FsnQX",
+                  "x": 0,
+                  "y": 230,
                   "name": "Frame 35",
+                  "enabled": false,
                   "width": 240,
                   "layout": "vertical",
                   "gap": 2,
@@ -41420,42 +41192,6 @@
                     30
                   ],
                   "children": [
-                    {
-                      "type": "frame",
-                      "id": "QltMG",
-                      "name": "navItem Mano de Obra",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "zDjwe",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "users",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "aqV4Z",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Mano de Obra",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
                     {
                       "type": "frame",
                       "id": "M8YEOw",
@@ -44019,7 +43755,7 @@
                   "id": "oHs2z",
                   "name": "registroInfo",
                   "fill": "$Gris 1",
-                  "content": "Entregado por Iván Torres · 06/Sep/26, 08:30",
+                  "content": "Entregado por Iván Torres · 06/Sep/26 · 08:30",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -44159,7 +43895,7 @@
                       "id": "G1NbXq",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "05/Sep/26, 10:00",
+                      "content": "05/Sep/26 · 10:00",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -45037,7 +44773,7 @@
                   "id": "V0l2zI",
                   "name": "registroInfo",
                   "fill": "$Gris 1",
-                  "content": "Recibida por Iván Torres · 06/Sep/26, 08:30",
+                  "content": "Recibida por Iván Torres · 06/Sep/26 · 08:30",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -45177,7 +44913,7 @@
                       "id": "jES9e",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "05/Sep/26, 10:00",
+                      "content": "05/Sep/26 · 10:00",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -46236,7 +45972,7 @@
                               "id": "z6Dw9T",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "07/Sep/26, 08:30",
+                              "content": "07/Sep/26 · 08:30",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -47985,7 +47721,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Maíz · Lote-2044 · 12.5 ha",
+                      "content": "Lote 01 · Maíz · 8.00 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -48735,7 +48471,7 @@
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
-                      "icon": "chevron-up",
+                      "icon": "chevron-down",
                       "library": "feather",
                       "fill": "$Gris 2"
                     }
@@ -48744,7 +48480,10 @@
                 {
                   "type": "frame",
                   "id": "AG7Jl",
+                  "x": 0,
+                  "y": 230,
                   "name": "Frame 35",
+                  "enabled": false,
                   "width": 240,
                   "layout": "vertical",
                   "gap": 2,
@@ -48755,42 +48494,6 @@
                     30
                   ],
                   "children": [
-                    {
-                      "type": "frame",
-                      "id": "VDtAW",
-                      "name": "navItem Mano de Obra",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "Y3LZEH",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "users",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "s5MuV",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Mano de Obra",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
                     {
                       "type": "frame",
                       "id": "l2i75",
@@ -50239,7 +49942,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 140,
-                          "content": "Maíz · Lote-2044 · 12.5 ha",
+                          "content": "Lote 01 · Maíz · 8.00 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -50669,7 +50372,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 140,
-                          "content": "Maíz · Lote X · X ha",
+                          "content": "Lote 01 · Maíz · 8.00 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -51099,7 +50802,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 140,
-                          "content": "Maíz · Lote X · X ha",
+                          "content": "Lote 01 · Maíz · 8.00 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -51940,7 +51643,7 @@
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
-                      "icon": "chevron-up",
+                      "icon": "chevron-down",
                       "library": "feather",
                       "fill": "$Gris 2"
                     }
@@ -51949,7 +51652,10 @@
                 {
                   "type": "frame",
                   "id": "zO8FW",
+                  "x": 0,
+                  "y": 230,
                   "name": "Frame 35",
+                  "enabled": false,
                   "width": 240,
                   "layout": "vertical",
                   "gap": 2,
@@ -51960,42 +51666,6 @@
                     30
                   ],
                   "children": [
-                    {
-                      "type": "frame",
-                      "id": "NM2lz",
-                      "name": "navItem Mano de Obra",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "qmdC7",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "users",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "y3g0F",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Mano de Obra",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
                     {
                       "type": "frame",
                       "id": "YhVk0",
@@ -53124,7 +52794,7 @@
                               "id": "koDvz",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "02/Sep/26, 11:42",
+                              "content": "02/Sep/26 · 11:42",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -53266,7 +52936,7 @@
                               "id": "tEdju",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "LT-2038 · Maíz · 12.5 ha",
+                              "content": "Lote 01 · Maíz · 8.00 ha",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -53390,7 +53060,9 @@
                           "id": "nITvZ",
                           "name": "label",
                           "fill": "#78350f",
-                          "content": "COSTO DIRECTO AL LOTE LT-2038 (SE REVIERTE)",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "COSTO DIRECTO A Lote 01 · Maíz · 8.00 ha (SE REVIERTE)",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 10,
                           "fontWeight": "700",
@@ -53931,7 +53603,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "05/Sep/26, 11:42",
+                          "content": "05/Sep/26 · 11:42",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -54035,7 +53707,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": 122,
-                          "content": "06/Sep/26, 11:15",
+                          "content": "06/Sep/26 · 11:15",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "normal"
@@ -54383,7 +54055,7 @@
                               "id": "dxfZ5",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "05/Sep/26, 11:42",
+                              "content": "05/Sep/26 · 11:42",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -55308,7 +54980,7 @@
                       "id": "UZ25l",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "05/Sep/26, 11:42",
+                      "content": "05/Sep/26 · 11:42",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -55949,7 +55621,7 @@
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
-                      "icon": "chevron-up",
+                      "icon": "chevron-down",
                       "library": "feather",
                       "fill": "$Gris 2"
                     }
@@ -55958,7 +55630,10 @@
                 {
                   "type": "frame",
                   "id": "uEcQe",
+                  "x": 0,
+                  "y": 230,
                   "name": "Frame 35",
+                  "enabled": false,
                   "width": 240,
                   "layout": "vertical",
                   "gap": 2,
@@ -55969,42 +55644,6 @@
                     30
                   ],
                   "children": [
-                    {
-                      "type": "frame",
-                      "id": "q7R45",
-                      "name": "navItem Mano de Obra",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "b608zw",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "users",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "tn4QA",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Mano de Obra",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
                     {
                       "type": "frame",
                       "id": "iwzcC",
@@ -58302,7 +57941,7 @@
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
-                      "icon": "chevron-up",
+                      "icon": "chevron-down",
                       "library": "feather",
                       "fill": "$Gris 2"
                     }
@@ -58311,7 +57950,10 @@
                 {
                   "type": "frame",
                   "id": "g6Wxn",
+                  "x": 0,
+                  "y": 230,
                   "name": "Frame 35",
+                  "enabled": false,
                   "width": 240,
                   "layout": "vertical",
                   "gap": 2,
@@ -58322,42 +57964,6 @@
                     30
                   ],
                   "children": [
-                    {
-                      "type": "frame",
-                      "id": "Jy811",
-                      "name": "navItem Mano de Obra",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "EB1Ya",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "users",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "zHLoP",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Mano de Obra",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
                     {
                       "type": "frame",
                       "id": "i2VUF0",
@@ -59363,7 +58969,7 @@
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
-                      "icon": "chevron-up",
+                      "icon": "chevron-down",
                       "library": "feather",
                       "fill": "$Gris 2"
                     }
@@ -59372,7 +58978,10 @@
                 {
                   "type": "frame",
                   "id": "DrC2p",
+                  "x": 0,
+                  "y": 230,
                   "name": "Frame 35",
+                  "enabled": false,
                   "width": 240,
                   "layout": "vertical",
                   "gap": 2,
@@ -59383,42 +58992,6 @@
                     30
                   ],
                   "children": [
-                    {
-                      "type": "frame",
-                      "id": "apbKg",
-                      "name": "navItem Mano de Obra",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "cX5Xq",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "users",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "cmgvm",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Mano de Obra",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
                     {
                       "type": "frame",
                       "id": "R2NMDG",
@@ -61221,7 +60794,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Lote 08 · Maíz",
+                          "content": "Lote 01 · Maíz · 8.00 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "normal"
@@ -61473,7 +61046,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Lote 08 · Maíz",
+                          "content": "Lote 01 · Maíz · 8.00 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "normal"
@@ -62110,7 +61683,7 @@
                           "id": "tfuq5",
                           "name": "genValue",
                           "fill": "$Negro",
-                          "content": "03/Sep/26, 14:32",
+                          "content": "03/Sep/26 · 14:32",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "500"
@@ -63128,7 +62701,7 @@
                           "id": "xavPI",
                           "name": "genValue",
                           "fill": "$Negro",
-                          "content": "03/Sep/26, 14:32",
+                          "content": "03/Sep/26 · 14:32",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "500"
@@ -64146,7 +63719,7 @@
                           "id": "YhmF5",
                           "name": "genValue",
                           "fill": "$Negro",
-                          "content": "03/Sep/26, 14:32",
+                          "content": "03/Sep/26 · 14:32",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "500"
@@ -66090,7 +65663,7 @@
                       "name": "navIcon",
                       "width": 18,
                       "height": 18,
-                      "icon": "chevron-up",
+                      "icon": "chevron-down",
                       "library": "feather",
                       "fill": "$Gris 2"
                     }
@@ -66099,7 +65672,10 @@
                 {
                   "type": "frame",
                   "id": "z4lqz3",
+                  "x": 0,
+                  "y": 230,
                   "name": "Frame 35",
+                  "enabled": false,
                   "width": 240,
                   "layout": "vertical",
                   "gap": 2,
@@ -66110,42 +65686,6 @@
                     30
                   ],
                   "children": [
-                    {
-                      "type": "frame",
-                      "id": "gH37E",
-                      "name": "navItem Mano de Obra",
-                      "width": "fill_container",
-                      "height": 44,
-                      "fill": "#00000000",
-                      "gap": 12,
-                      "padding": [
-                        0,
-                        24
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "icon",
-                          "id": "p3rpIv",
-                          "name": "navIcon",
-                          "width": 18,
-                          "height": 18,
-                          "icon": "users",
-                          "library": "feather",
-                          "fill": "$Gris 2"
-                        },
-                        {
-                          "type": "text",
-                          "id": "XP5Vf",
-                          "name": "navLabel",
-                          "fill": "$Gris 2",
-                          "content": "Mano de Obra",
-                          "fontFamily": "$Font Secundaria",
-                          "fontSize": 14,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
                     {
                       "type": "frame",
                       "id": "Wmab1",
@@ -68491,7 +68031,7 @@
                           "id": "kLBl0",
                           "name": "genValue",
                           "fill": "$Negro",
-                          "content": "01/Sep/26, 09:42",
+                          "content": "01/Sep/26 · 09:42",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "500"
@@ -69609,7 +69149,7 @@
                   "id": "gw8bB",
                   "name": "registroInfo",
                   "fill": "$Gris 1",
-                  "content": "Entregada por Carlos Medina · 03/Sep/26, 14:20",
+                  "content": "Entregada por Carlos Medina · 03/Sep/26 · 14:20",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -69647,7 +69187,7 @@
                       "id": "DZhKD",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "Maíz · Lote-2044 · 12.5 ha",
+                      "content": "Lote 01 · Maíz · 8.00 ha",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "700"
@@ -69678,7 +69218,7 @@
                       "id": "u64Zd",
                       "name": "value",
                       "fill": "$Negro",
-                      "content": "03/Sep/26, 07:58",
+                      "content": "03/Sep/26 · 07:58",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "500"
@@ -70737,7 +70277,7 @@
                               "id": "pwa9F",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "Maíz · Lote-2044 · 12.5 ha",
+                              "content": "Lote 01 · Maíz · 8.00 ha",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "700"
@@ -70768,7 +70308,7 @@
                               "id": "isfh5",
                               "name": "value",
                               "fill": "$Negro",
-                              "content": "03/Sep/26, 14:30",
+                              "content": "03/Sep/26 · 14:30",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -71291,7 +70831,7 @@
                   "fill": "$Hover 1",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Se revierte del cultivo productivo Maíz · Lote-2044 · 12.5 ha el costo de lo devuelto, al mismo costo PEPS de la salida original: [monto]",
+                  "content": "Se revierte del cultivo productivo Lote 01 · Maíz · 8.00 ha el costo de lo devuelto, al mismo costo PEPS de la salida original: [monto]",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
                   "fontWeight": "500"
@@ -71792,7 +71332,7 @@
           "fill": "$Gris 1",
           "textGrowth": "fixed-width",
           "width": "fill_container",
-          "content": "Se revierte del cultivo productivo Maíz · Lote-2044 · 12.5 ha el costo de lo devuelto, al mismo costo PEPS de la salida original: [monto]",
+          "content": "Se revierte del cultivo productivo Lote 01 · Maíz · 8.00 ha el costo de lo devuelto, al mismo costo PEPS de la salida original: [monto]",
           "textAlign": "center",
           "fontFamily": "$Font Secundaria",
           "fontSize": 13,
@@ -74389,7 +73929,7 @@
       "x": 12888,
       "y": 25740,
       "fill": "#000000",
-      "content": "Maíz · Lote-2044 · 12.5 ha",
+      "content": "Lote 01 · Maíz · 8.00 ha",
       "fontFamily": "Inter",
       "fontSize": 12,
       "fontWeight": "normal"

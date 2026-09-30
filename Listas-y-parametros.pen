@@ -1525,7 +1525,7 @@
               "clip": true,
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "gap": 22,
               "padding": [
@@ -4608,7 +4608,7 @@
               "clip": true,
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "gap": 22,
               "padding": [
@@ -8491,7 +8491,7 @@
               "clip": true,
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "gap": 22,
               "padding": [
@@ -13167,7 +13167,7 @@
               "clip": true,
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "gap": 22,
               "padding": [
@@ -16429,7 +16429,7 @@
               "clip": true,
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "gap": 22,
               "padding": [
@@ -19714,7 +19714,7 @@
               "clip": true,
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "gap": 22,
               "padding": [
@@ -23956,7 +23956,7 @@
               "clip": true,
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "gap": 22,
               "padding": [
@@ -27163,7 +27163,7 @@
               "clip": true,
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "gap": 18,
               "padding": [
@@ -27669,7 +27669,7 @@
                                       "id": "C4qJ3k",
                                       "name": "c_Fecha",
                                       "fill": "$Negro",
-                                      "content": "05/Sep/2026",
+                                      "content": "05/Sep/26",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 12,
                                       "fontWeight": "normal"
@@ -27699,7 +27699,7 @@
                                       "id": "KMbbQ",
                                       "name": "c_Folio",
                                       "fill": "$Gris 1",
-                                      "content": "FOL-1042",
+                                      "content": "FD-01042",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 12,
                                       "fontWeight": "normal"
@@ -27729,7 +27729,7 @@
                                       "id": "xk0Kg",
                                       "name": "c_Fecha",
                                       "fill": "$Negro",
-                                      "content": "01/Sep/2026",
+                                      "content": "01/Sep/26",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 12,
                                       "fontWeight": "normal"
@@ -27759,7 +27759,7 @@
                                       "id": "SgjpN",
                                       "name": "c_Folio",
                                       "fill": "$Gris 1",
-                                      "content": "FOL-1038",
+                                      "content": "FD-01038",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 12,
                                       "fontWeight": "normal"
@@ -27789,7 +27789,7 @@
                                       "id": "iEjdB",
                                       "name": "c_Fecha",
                                       "fill": "$Negro",
-                                      "content": "28/Ago/2026",
+                                      "content": "28/Ago/26",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 12,
                                       "fontWeight": "normal"
@@ -27819,7 +27819,7 @@
                                       "id": "hBbN5",
                                       "name": "c_Folio",
                                       "fill": "$Gris 1",
-                                      "content": "FOL-1031",
+                                      "content": "FD-01031",
                                       "fontFamily": "$Font Secundaria",
                                       "fontSize": 12,
                                       "fontWeight": "normal"
@@ -28123,7 +28123,7 @@
                                   "id": "D9nTWz",
                                   "name": "value",
                                   "fill": "$Negro",
-                                  "content": "08/Sep/26, 14:22",
+                                  "content": "08/Sep/26 · 14:22",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 12,
                                   "fontWeight": "600"
@@ -28551,7 +28551,7 @@
                       "id": "UnhKT",
                       "name": "t",
                       "fill": "$Gris 1",
-                      "content": "Última edición 08/Sep/2026 14:22 · Daniela Jacques",
+                      "content": "Última edición 08/Sep/26 · 14:22 · Daniela Jacques",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -30102,7 +30102,7 @@
               "clip": true,
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "gap": 18,
               "padding": [
@@ -31480,7 +31480,7 @@
                                   "id": "NLCt9",
                                   "name": "value",
                                   "fill": "$Negro",
-                                  "content": "05/Sep/25, 14:22",
+                                  "content": "05/Sep/25 · 14:22",
                                   "fontFamily": "$Font Secundaria",
                                   "fontSize": 12,
                                   "fontWeight": "600"
@@ -31903,7 +31903,7 @@
                       "id": "bL2o5",
                       "name": "t",
                       "fill": "$Gris 1",
-                      "content": "Última edición 05/Sep/2025 14:22 · Daniela Jacques",
+                      "content": "Última edición 05/Sep/25 · 14:22 · Daniela Jacques",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "normal"
@@ -32803,7 +32803,7 @@
               "clip": true,
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "gap": 22,
               "padding": [
@@ -44054,7 +44054,7 @@
               "clip": true,
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "gap": 22,
               "padding": [
@@ -47175,7 +47175,7 @@
               "clip": true,
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "gap": 22,
               "padding": [
@@ -51015,7 +51015,7 @@
               "clip": true,
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "gap": 22,
               "padding": [
@@ -54553,7 +54553,7 @@
               "clip": true,
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "gap": 22,
               "padding": [
@@ -57698,45 +57698,6 @@
         },
         {
           "type": "frame",
-          "id": "pWqWi",
-          "x": 0,
-          "y": 0,
-          "name": "detailCard",
-          "enabled": false,
-          "width": 364,
-          "fill": "$Gris 3",
-          "cornerRadius": 8,
-          "padding": [
-            10,
-            14
-          ],
-          "justifyContent": "space_between",
-          "alignItems": "center",
-          "children": [
-            {
-              "type": "text",
-              "id": "P5Nmj",
-              "name": "detailLabel",
-              "fill": "$Gris 1",
-              "content": "Folio de salida",
-              "fontFamily": "$Font Secundaria",
-              "fontSize": 12,
-              "fontWeight": "normal"
-            },
-            {
-              "type": "text",
-              "id": "e1uIV",
-              "name": "detailValue",
-              "fill": "$Negro",
-              "content": "S-01048",
-              "fontFamily": "$Font Secundaria",
-              "fontSize": 13,
-              "fontWeight": "700"
-            }
-          ]
-        },
-        {
-          "type": "frame",
           "id": "lgcEc",
           "name": "buttonsRow",
           "width": "fill_container",
@@ -60098,7 +60059,7 @@
                   "id": "v3wn5Z",
                   "name": "modalTitle",
                   "fill": "$Negro",
-                  "content": "Editar ficha de la máquina",
+                  "content": "Editar ficha · ECO-104",
                   "fontFamily": "$Font Primaria",
                   "fontSize": 19,
                   "fontWeight": "700"
@@ -60108,7 +60069,7 @@
                   "id": "Qj35Z",
                   "name": "modalSub",
                   "fill": "$Gris 1",
-                  "content": "Actualiza los datos y el tanque propio de Tractor T-04",
+                  "content": "Actualiza los datos y el tanque propio de ECO-104",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 12,
                   "fontWeight": "normal"
@@ -60250,7 +60211,7 @@
                           "fill": "$Negro",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "ECO-04",
+                          "content": "ECO-104",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -60426,7 +60387,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Tractor agrícola John Deere 6155M",
+                      "content": "Tractor John Deere 6110J",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -65497,7 +65458,7 @@
               "clip": true,
               "width": "fill_container",
               "height": "fill_container",
-              "fill": "$Fondo",
+              "fill": "$Fondo-2",
               "layout": "vertical",
               "gap": 22,
               "padding": [
