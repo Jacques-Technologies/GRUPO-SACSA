@@ -15420,7 +15420,7 @@
                               "fill": "$Negro",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Trigo Cristalino · Lote-01 · 46.50 ha",
+                              "content": "Trigo Cristalino · Lote 02 · 46.50 ha",
                               "fontFamily": "$Font Secundaria",
                               "fontSize": 13,
                               "fontWeight": "500"
@@ -21237,7 +21237,7 @@
                           "id": "iJOJ3",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Lote 02",
+                          "content": "Lote 11",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -21276,7 +21276,7 @@
                           "id": "LpKIR",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "48.30 ha",
+                          "content": "18.30 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "700"
@@ -21330,7 +21330,7 @@
                           "id": "X6rnG",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Lote 09 ",
+                          "content": "Lote 08 ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -21369,7 +21369,7 @@
                           "id": "QM0XD",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "71.00 ha",
+                          "content": "30.00 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "700"
@@ -21423,7 +21423,7 @@
                           "id": "RlSV5",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Lote 01 ",
+                          "content": "Lote 02 ",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -24517,7 +24517,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "Lote 02",
+                      "content": "Lote 10",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -24680,7 +24680,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "Lote-11",
+                      "content": "Lote 11",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -24833,7 +24833,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "Lote-08",
+                      "content": "Lote 08",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -24981,7 +24981,7 @@
                       "fill": "$Negro",
                       "textGrowth": "fixed-width",
                       "width": 130,
-                      "content": "Lote-15",
+                      "content": "Lote 15",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 14,
                       "fontWeight": "normal"
@@ -29727,7 +29727,7 @@
                           "id": "CdVjf",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Lote-04",
+                          "content": "Lote 04",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -29924,7 +29924,7 @@
                           "id": "kZoHP",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Lote-02",
+                          "content": "Lote 11",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -29963,7 +29963,7 @@
                           "id": "RR1vr",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "48.30 ha",
+                          "content": "18.30 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "700"
@@ -30017,7 +30017,7 @@
                           "id": "U2HfP",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Lote-09",
+                          "content": "Lote 08",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"
@@ -30056,7 +30056,7 @@
                           "id": "lpQDi",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "71.00 ha",
+                          "content": "30.00 ha",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 12,
                           "fontWeight": "700"
@@ -30110,7 +30110,7 @@
                           "id": "YgRrc",
                           "name": "meta",
                           "fill": "$Gris 1",
-                          "content": "Lote-01",
+                          "content": "Lote 02",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 11,
                           "fontWeight": "normal"

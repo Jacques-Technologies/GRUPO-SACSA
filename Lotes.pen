@@ -32666,15 +32666,15 @@
               "id": "X8yix",
               "name": "TableTotalRow",
               "width": "fill_container",
-              "height": 56,
               "fill": "$Hover 3",
               "cornerRadius": 8,
               "stroke": "$Gris 2",
               "strokeWidth": 1,
               "strokeAlignment": "inner",
-              "gap": 12,
+              "layout": "vertical",
+              "gap": 6,
               "padding": [
-                0,
+                12,
                 20
               ],
               "justifyContent": "space_between",
@@ -32682,38 +32682,11 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "X6xQC",
-                  "name": "left",
-                  "gap": 8,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "cMpjX",
-                      "name": "i",
-                      "width": 15,
-                      "height": 15,
-                      "icon": "dollar-sign",
-                      "library": "feather",
-                      "fill": "$Hover 1"
-                    },
-                    {
-                      "type": "text",
-                      "id": "KovMo",
-                      "name": "t",
-                      "fill": "$Hover 1",
-                      "content": "Importe bruto − deducciones + bonificaciones − anticipos/preliquidaciones",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "600"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
                   "id": "xn5n8",
                   "name": "right",
+                  "width": "fill_container",
                   "gap": 10,
+                  "justifyContent": "end",
                   "alignItems": "center",
                   "children": [
                     {
@@ -32736,6 +32709,38 @@
                       "fontFamily": "$Font Primaria",
                       "fontSize": 22,
                       "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "X6xQC",
+                  "name": "left",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "cMpjX",
+                      "name": "i",
+                      "width": 15,
+                      "height": 15,
+                      "icon": "dollar-sign",
+                      "library": "feather",
+                      "fill": "$Hover 1"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KovMo",
+                      "name": "t",
+                      "fill": "$Hover 1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Importe bruto − deducciones + bonificaciones − anticipos/preliquidaciones",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "600"
                     }
                   ]
                 }
@@ -33669,7 +33674,7 @@
                           "id": "jZXbG",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "3,200 kg",
+                          "content": "2,700 kg",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "700"
@@ -33700,7 +33705,7 @@
                           "id": "i9PKi",
                           "name": "value",
                           "fill": "$Negro",
-                          "content": "$15.00 / kg",
+                          "content": "US$15.00 / kg",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 13,
                           "fontWeight": "500"
@@ -34044,7 +34049,7 @@
                       "fill": "$Hover 1",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "3,200 kg",
+                      "content": "2,700 kg",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 13,
                       "fontWeight": "700"
@@ -34084,38 +34089,229 @@
             },
             {
               "type": "frame",
-              "id": "E046B",
-              "name": "deduccionesEmpty",
+              "id": "F560D",
+              "name": "deduccionesTable",
               "width": "fill_container",
-              "height": 48,
-              "fill": "$Gris 3",
+              "fill": "$Blanco",
               "cornerRadius": 8,
-              "gap": 8,
-              "padding": [
-                0,
-                16
-              ],
-              "alignItems": "center",
+              "stroke": "$Gris 2",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner",
+              "layout": "vertical",
               "children": [
                 {
-                  "type": "icon",
-                  "id": "zUuO0",
-                  "name": "icon",
-                  "width": 15,
-                  "height": 15,
-                  "icon": "info",
-                  "library": "feather",
-                  "fill": "$Gris 1"
+                  "type": "frame",
+                  "id": "VFFGC",
+                  "name": "TableHeaderRow",
+                  "width": "fill_container",
+                  "height": 34,
+                  "fill": "$Gris 3",
+                  "stroke": "$Gris 2",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jkbJb",
+                      "name": "h_CONCEPTO",
+                      "fill": "$Gris 1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "CONCEPTO",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "CSmud",
+                      "name": "h_TIPO",
+                      "fill": "$Gris 1",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "TIPO",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "rjp41",
+                      "name": "h_MONTO",
+                      "fill": "$Gris 1",
+                      "textGrowth": "fixed-width",
+                      "width": 110,
+                      "content": "MONTO",
+                      "textAlign": "right",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    }
+                  ]
                 },
                 {
-                  "type": "text",
-                  "id": "tBRW3",
-                  "name": "t",
-                  "fill": "$Gris 1",
-                  "content": "Sin deducciones ni bonificaciones registradas para esta liquidación",
-                  "fontFamily": "$Font Secundaria",
-                  "fontSize": 12.5,
-                  "fontWeight": "normal"
+                  "type": "frame",
+                  "id": "nyGlH",
+                  "name": "row",
+                  "width": "fill_container",
+                  "height": 40,
+                  "stroke": "$Gris 3",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BeTCA",
+                      "name": "c_CONCEPTO",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Flete y maniobra",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "C0sfmB",
+                      "name": "c_TIPO",
+                      "width": 140,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "hutmW",
+                          "name": "chip",
+                          "height": 22,
+                          "fill": "#fef2f2",
+                          "cornerRadius": 6,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "cXXiT",
+                              "name": "t",
+                              "fill": "#b91c1c",
+                              "content": "Deducción",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "N026YZ",
+                      "name": "c_MONTO",
+                      "fill": "#b91c1c",
+                      "textGrowth": "fixed-width",
+                      "width": 110,
+                      "content": "-US$1,200.00",
+                      "textAlign": "right",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pWB9A",
+                  "name": "row",
+                  "width": "fill_container",
+                  "height": 40,
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "o8VM7N",
+                      "name": "c_CONCEPTO",
+                      "fill": "$Negro",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Bono por calidad",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "R0YaD",
+                      "name": "c_TIPO",
+                      "width": 140,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "l5PuG",
+                          "name": "chip",
+                          "height": 22,
+                          "fill": "$Hover 3",
+                          "cornerRadius": 6,
+                          "padding": [
+                            0,
+                            8
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Hs9Df",
+                              "name": "t",
+                              "fill": "$Hover 1",
+                              "content": "Bonificación",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "heD7v",
+                      "name": "c_MONTO",
+                      "fill": "$Hover 1",
+                      "textGrowth": "fixed-width",
+                      "width": 110,
+                      "content": "+US$500.00",
+                      "textAlign": "right",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    }
+                  ]
                 }
               ]
             },
@@ -34124,15 +34320,15 @@
               "id": "xTSWj",
               "name": "TableTotalRow",
               "width": "fill_container",
-              "height": 56,
               "fill": "$Hover 3",
               "cornerRadius": 8,
               "stroke": "$Gris 2",
               "strokeWidth": 1,
               "strokeAlignment": "inner",
-              "gap": 10,
+              "layout": "vertical",
+              "gap": 6,
               "padding": [
-                0,
+                12,
                 20
               ],
               "justifyContent": "space_between",
@@ -34140,38 +34336,11 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "BJpQM",
-                  "name": "left",
-                  "gap": 8,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "kIUy8",
-                      "name": "i",
-                      "width": 15,
-                      "height": 15,
-                      "icon": "dollar-sign",
-                      "library": "feather",
-                      "fill": "$Hover 1"
-                    },
-                    {
-                      "type": "text",
-                      "id": "n1l3co",
-                      "name": "t",
-                      "fill": "$Hover 1",
-                      "content": "Importe bruto $48,000.00 · sin deducciones",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "600"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
                   "id": "t37zCO",
                   "name": "right",
+                  "width": "fill_container",
                   "gap": 10,
+                  "justifyContent": "end",
                   "alignItems": "center",
                   "children": [
                     {
@@ -34190,10 +34359,42 @@
                       "id": "WHvpn",
                       "name": "total",
                       "fill": "$Hover 1",
-                      "content": "$48,000.00",
+                      "content": "US$14,800.00",
                       "fontFamily": "$Font Primaria",
                       "fontSize": 22,
                       "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BJpQM",
+                  "name": "left",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "kIUy8",
+                      "name": "i",
+                      "width": 15,
+                      "height": 15,
+                      "icon": "dollar-sign",
+                      "library": "feather",
+                      "fill": "$Hover 1"
+                    },
+                    {
+                      "type": "text",
+                      "id": "n1l3co",
+                      "name": "t",
+                      "fill": "$Hover 1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Importe bruto US$40,500.00 − deducciones + bonificaciones − anticipos ya cubiertos",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "600"
                     }
                   ]
                 }
@@ -34229,7 +34430,7 @@
                       "id": "g8c5e8",
                       "name": "t",
                       "fill": "$Gris 1",
-                      "content": "Equivalente en pesos: $888,000.00 MXN",
+                      "content": "Equivalente en pesos: $273,800.00 MXN",
                       "fontFamily": "$Font Secundaria",
                       "fontSize": 12,
                       "fontWeight": "600"
@@ -40232,15 +40433,15 @@
               "id": "m1p27t",
               "name": "TableTotalRow",
               "width": "fill_container",
-              "height": 56,
               "fill": "$Hover 3",
               "cornerRadius": 8,
               "stroke": "$Gris 2",
               "strokeWidth": 1,
               "strokeAlignment": "inner",
-              "gap": 12,
+              "layout": "vertical",
+              "gap": 6,
               "padding": [
-                0,
+                12,
                 20
               ],
               "justifyContent": "space_between",
@@ -40248,38 +40449,11 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "lFTt5",
-                  "name": "left",
-                  "gap": 8,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "icon",
-                      "id": "YqFxS",
-                      "name": "i",
-                      "width": 15,
-                      "height": 15,
-                      "icon": "dollar-sign",
-                      "library": "feather",
-                      "fill": "$Hover 1"
-                    },
-                    {
-                      "type": "text",
-                      "id": "x60FK",
-                      "name": "t",
-                      "fill": "$Hover 1",
-                      "content": "Importe bruto − deducciones + bonificaciones − anticipos/preliquidaciones",
-                      "fontFamily": "$Font Secundaria",
-                      "fontSize": 12,
-                      "fontWeight": "600"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
                   "id": "gjLHI",
                   "name": "right",
+                  "width": "fill_container",
                   "gap": 10,
+                  "justifyContent": "end",
                   "alignItems": "center",
                   "children": [
                     {
@@ -40302,6 +40476,38 @@
                       "fontFamily": "$Font Primaria",
                       "fontSize": 22,
                       "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lFTt5",
+                  "name": "left",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "YqFxS",
+                      "name": "i",
+                      "width": 15,
+                      "height": 15,
+                      "icon": "dollar-sign",
+                      "library": "feather",
+                      "fill": "$Hover 1"
+                    },
+                    {
+                      "type": "text",
+                      "id": "x60FK",
+                      "name": "t",
+                      "fill": "$Hover 1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Importe bruto − deducciones + bonificaciones − anticipos/preliquidaciones",
+                      "fontFamily": "$Font Secundaria",
+                      "fontSize": 12,
+                      "fontWeight": "600"
                     }
                   ]
                 }
