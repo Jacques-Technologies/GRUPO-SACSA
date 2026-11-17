@@ -1,5 +1,5 @@
 {
-  "version": "2.20",
+  "version": "2.22",
   "children": [
     {
       "type": "text",
@@ -1099,6 +1099,32 @@
                       "gap": 8,
                       "padding": 8,
                       "children": [
+                        {
+                          "type": "frame",
+                          "id": "GHPkK",
+                          "name": "Tab Pill Inactive",
+                          "height": 36,
+                          "fill": "$Blanco",
+                          "cornerRadius": 16,
+                          "padding": [
+                            8,
+                            15
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "XkyGO",
+                              "name": "pillTabInactiveText",
+                              "fill": "$Gris 1",
+                              "content": "Por recibir",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
                         {
                           "type": "frame",
                           "id": "fmQXA",
@@ -2205,6 +2231,32 @@
                       "gap": 8,
                       "padding": 8,
                       "children": [
+                        {
+                          "type": "frame",
+                          "id": "HGRRC",
+                          "name": "Tab Pill Inactive",
+                          "height": 36,
+                          "fill": "$Blanco",
+                          "cornerRadius": 16,
+                          "padding": [
+                            8,
+                            15
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "JFUW9",
+                              "name": "pillTabInactiveText",
+                              "fill": "$Gris 1",
+                              "content": "Por recibir",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
                         {
                           "type": "frame",
                           "id": "AXJt1",
@@ -20202,6 +20254,32 @@
                       "children": [
                         {
                           "type": "frame",
+                          "id": "hAYUR",
+                          "name": "Tab Pill Inactive",
+                          "height": 36,
+                          "fill": "$Blanco",
+                          "cornerRadius": 16,
+                          "padding": [
+                            8,
+                            15
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "kbprr",
+                              "name": "pillTabInactiveText",
+                              "fill": "$Gris 1",
+                              "content": "Por recibir",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
                           "id": "B6oSz",
                           "name": "Tab Pill Inactive",
                           "height": 36,
@@ -21253,6 +21331,32 @@
                       "gap": 8,
                       "padding": 8,
                       "children": [
+                        {
+                          "type": "frame",
+                          "id": "w9zz3s",
+                          "name": "Tab Pill Inactive",
+                          "height": 36,
+                          "fill": "$Blanco",
+                          "cornerRadius": 16,
+                          "padding": [
+                            8,
+                            15
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "a9eEy",
+                              "name": "pillTabInactiveText",
+                              "fill": "$Gris 1",
+                              "content": "Por recibir",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
                         {
                           "type": "frame",
                           "id": "YKVaV",
@@ -31168,6 +31272,32 @@
                       "gap": 8,
                       "padding": 8,
                       "children": [
+                        {
+                          "type": "frame",
+                          "id": "kf1nF",
+                          "name": "Tab Pill Inactive",
+                          "height": 36,
+                          "fill": "$Blanco",
+                          "cornerRadius": 16,
+                          "padding": [
+                            8,
+                            15
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "A7ppl",
+                              "name": "pillTabInactiveText",
+                              "fill": "$Gris 1",
+                              "content": "Por recibir",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
                         {
                           "type": "frame",
                           "id": "uTSc3",
@@ -42073,6 +42203,32 @@
                       "children": [
                         {
                           "type": "frame",
+                          "id": "DVXoT",
+                          "name": "Tab Pill Inactive",
+                          "height": 36,
+                          "fill": "$Blanco",
+                          "cornerRadius": 16,
+                          "padding": [
+                            8,
+                            15
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "mqYUi",
+                              "name": "pillTabInactiveText",
+                              "fill": "$Gris 1",
+                              "content": "Por recibir",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
                           "id": "N0rXMF",
                           "name": "Tab Pill Inactive",
                           "height": 36,
@@ -49375,6 +49531,32 @@
                       "children": [
                         {
                           "type": "frame",
+                          "id": "v3ulDz",
+                          "name": "Tab Pill Inactive",
+                          "height": 36,
+                          "fill": "$Blanco",
+                          "cornerRadius": 16,
+                          "padding": [
+                            8,
+                            15
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "HsP9b",
+                              "name": "pillTabInactiveText",
+                              "fill": "$Gris 1",
+                              "content": "Por recibir",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
                           "id": "nM3PK",
                           "name": "Tab Pill Inactive",
                           "height": 36,
@@ -52545,6 +52727,32 @@
                       "gap": 8,
                       "padding": 8,
                       "children": [
+                        {
+                          "type": "frame",
+                          "id": "Jar8y",
+                          "name": "Tab Pill Inactive",
+                          "height": 36,
+                          "fill": "$Blanco",
+                          "cornerRadius": 16,
+                          "padding": [
+                            8,
+                            15
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ALnfD",
+                              "name": "pillTabInactiveText",
+                              "fill": "$Gris 1",
+                              "content": "Por recibir",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
                         {
                           "type": "frame",
                           "id": "K4zl7",
