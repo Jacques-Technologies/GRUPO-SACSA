@@ -72989,7 +72989,7 @@
                   "fill": "$Hover 1",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Verifica físicamente la cantidad recibida contra la factura antes de guardar la entrada.",
+                  "content": "Verifica físicamente la cantidad recibida antes de guardar la entrada.",
                   "fontFamily": "$Font Secundaria",
                   "fontSize": 13,
                   "fontWeight": "normal"
