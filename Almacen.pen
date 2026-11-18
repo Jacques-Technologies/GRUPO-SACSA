@@ -3046,13 +3046,13 @@
                           "type": "text",
                           "id": "hrY2B",
                           "name": "c_OC",
-                          "fill": "$Negro",
+                          "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": 100,
                           "content": "OC-04821",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontWeight": "600"
                         },
                         {
                           "type": "frame",
@@ -3171,13 +3171,13 @@
                           "type": "text",
                           "id": "SoKq3",
                           "name": "c_OC",
-                          "fill": "$Negro",
+                          "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": 100,
                           "content": "OC-01049",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontWeight": "600"
                         },
                         {
                           "type": "frame",
@@ -3296,13 +3296,13 @@
                           "type": "text",
                           "id": "ts1JY",
                           "name": "c_OC",
-                          "fill": "$Negro",
+                          "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": 100,
                           "content": "OC-01048",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontWeight": "600"
                         },
                         {
                           "type": "frame",
@@ -3421,13 +3421,13 @@
                           "type": "text",
                           "id": "YOaYR",
                           "name": "c_OC",
-                          "fill": "$Negro",
+                          "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": 100,
                           "content": "OC-01047",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontWeight": "600"
                         },
                         {
                           "type": "frame",
@@ -3546,13 +3546,13 @@
                           "type": "text",
                           "id": "BqEHi",
                           "name": "c_OC",
-                          "fill": "$Negro",
+                          "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": 100,
                           "content": "OC-01046",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontWeight": "600"
                         },
                         {
                           "type": "frame",
@@ -3671,13 +3671,13 @@
                           "type": "text",
                           "id": "acr71",
                           "name": "c_OC",
-                          "fill": "$Negro",
+                          "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": 100,
                           "content": "OC-01045",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontWeight": "600"
                         },
                         {
                           "type": "frame",
@@ -3796,13 +3796,13 @@
                           "type": "text",
                           "id": "cTupb",
                           "name": "c_OC",
-                          "fill": "$Negro",
+                          "fill": "$Hover 1",
                           "textGrowth": "fixed-width",
                           "width": 100,
                           "content": "OC-01044",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
-                          "fontWeight": "normal"
+                          "fontWeight": "600"
                         },
                         {
                           "type": "frame",
@@ -9247,6 +9247,44 @@
                         },
                         {
                           "type": "frame",
+                          "id": "UusnK",
+                          "name": "cotejoRow",
+                          "width": "fill_container",
+                          "fill": "#dcfce7",
+                          "cornerRadius": 6,
+                          "gap": 6,
+                          "padding": [
+                            4,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "azAFr",
+                              "name": "icon",
+                              "width": 12,
+                              "height": 12,
+                              "icon": "check-circle",
+                              "library": "feather",
+                              "fill": "#15803d"
+                            },
+                            {
+                              "type": "text",
+                              "id": "cmqo1",
+                              "name": "text",
+                              "fill": "#15803d",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Cotejo IA vs OC-04821: coincide en cantidad (200 L) y precio ($185.50/L)",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
                           "id": "QQu8Z",
                           "name": "c_PrecioField",
                           "width": 185,
@@ -9470,6 +9508,44 @@
                         },
                         {
                           "type": "frame",
+                          "id": "D15hfm",
+                          "name": "cotejoRow",
+                          "width": "fill_container",
+                          "fill": "#dcfce7",
+                          "cornerRadius": 6,
+                          "gap": 6,
+                          "padding": [
+                            4,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "JsDml",
+                              "name": "icon",
+                              "width": 12,
+                              "height": 12,
+                              "icon": "check-circle",
+                              "library": "feather",
+                              "fill": "#15803d"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Xl5C9",
+                              "name": "text",
+                              "fill": "#15803d",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Cotejo IA vs OC-04821: coincide en cantidad (500 kg) y precio ($18.20/kg)",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
                           "id": "KoNBC",
                           "name": "c_PrecioField",
                           "width": 185,
@@ -9685,6 +9761,44 @@
                                   "fill": "$Negativo"
                                 }
                               ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "vn05w",
+                          "name": "cotejoRow",
+                          "width": "fill_container",
+                          "fill": "#fef3c7",
+                          "cornerRadius": 6,
+                          "gap": 6,
+                          "padding": [
+                            4,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "S2jc6",
+                              "name": "icon",
+                              "width": 12,
+                              "height": 12,
+                              "icon": "alert-triangle",
+                              "library": "feather",
+                              "fill": "#b45309"
+                            },
+                            {
+                              "type": "text",
+                              "id": "yYkWv",
+                              "name": "text",
+                              "fill": "#b45309",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Cotejo IA vs OC-04821: nombre de producto no coincide exacto en la OC, se vinculó por similitud",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 11,
+                              "fontWeight": "600"
                             }
                           ]
                         },
@@ -73157,7 +73271,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "sz7nH",
+                      "id": "rKDxb",
                       "name": "field",
                       "width": "fill_container",
                       "height": 40,
@@ -73176,35 +73290,578 @@
                       "children": [
                         {
                           "type": "icon",
-                          "id": "Z8XCj",
+                          "id": "sTksQ",
                           "name": "searchIcon",
                           "width": 15,
                           "height": 15,
-                          "icon": "help-circle",
+                          "icon": "search",
                           "library": "feather",
                           "fill": "$Gris 1"
                         },
                         {
                           "type": "text",
-                          "id": "EteMD",
+                          "id": "lfPpk",
                           "name": "value",
-                          "fill": "$Negro",
+                          "fill": "$Gris 1",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Esta entrada no corresponde a una orden de compra en el sistema",
+                          "content": "Buscar por folio o proveedor...",
                           "fontFamily": "$Font Secundaria",
                           "fontSize": 14,
-                          "fontWeight": "500"
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "icon",
-                          "id": "Qznj9",
+                          "id": "U0Dmc",
                           "name": "chevron",
                           "width": 16,
                           "height": 16,
-                          "icon": "chevron-down",
+                          "icon": "chevron-up",
                           "library": "feather",
                           "fill": "$Gris 1"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zlT8H",
+                      "name": "ocOptionsList",
+                      "clip": true,
+                      "width": "fill_container",
+                      "fill": "$Blanco",
+                      "cornerRadius": 8,
+                      "stroke": "$Gris 2",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "zhSrr",
+                          "name": "opt_OC-01052",
+                          "width": "fill_container",
+                          "fill": "$Hover 3",
+                          "stroke": "$Gris 3",
+                          "strokeWidth": {
+                            "bottom": 1
+                          },
+                          "strokeAlignment": "inner",
+                          "gap": 12,
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "ruG5i",
+                              "name": "left",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "RknwH",
+                                  "name": "topRow",
+                                  "gap": 8,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "aaQ6F",
+                                      "name": "folio",
+                                      "fill": "$Negro",
+                                      "content": "OC-01052",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 13.5,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "vVkqa",
+                                      "name": "proveedor",
+                                      "fill": "$Gris 1",
+                                      "content": "Agroinsumos del Bajío",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 12.5,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "akVFi",
+                                  "name": "metaRow",
+                                  "gap": 10,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "J2DU0g",
+                                      "name": "fecha",
+                                      "fill": "$Gris 1",
+                                      "content": "Fecha OC: 12/Sep/26",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11.5,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "esgNg",
+                                      "name": "pendiente",
+                                      "fill": "#b45309",
+                                      "content": "Pendiente: 350 kg",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11.5,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Zm78u",
+                              "name": "badge_Enviada",
+                              "fill": "#dbeafe",
+                              "cornerRadius": 20,
+                              "gap": 5,
+                              "padding": [
+                                4,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "Kkv4I",
+                                  "name": "icon",
+                                  "width": 11,
+                                  "height": 11,
+                                  "icon": "send",
+                                  "library": "feather",
+                                  "fill": "#1d4ed8"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Pmw5Y",
+                                  "name": "text",
+                                  "fill": "#1d4ed8",
+                                  "content": "Enviada",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 11,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "n7m7K3",
+                          "name": "opt_OC-01051",
+                          "width": "fill_container",
+                          "fill": "$Blanco",
+                          "stroke": "$Gris 3",
+                          "strokeWidth": {
+                            "bottom": 1
+                          },
+                          "strokeAlignment": "inner",
+                          "gap": 12,
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "zU0bh",
+                              "name": "left",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "pQu1H",
+                                  "name": "topRow",
+                                  "gap": 8,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "O9O1q7",
+                                      "name": "folio",
+                                      "fill": "$Negro",
+                                      "content": "OC-01051",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 13.5,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "jktH7",
+                                      "name": "proveedor",
+                                      "fill": "$Gris 1",
+                                      "content": "Fertilizantes del Pacífico",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 12.5,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "uaasy",
+                                  "name": "metaRow",
+                                  "gap": 10,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "iCQDu",
+                                      "name": "fecha",
+                                      "fill": "$Gris 1",
+                                      "content": "Fecha OC: 10/Sep/26",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11.5,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "hEG6O",
+                                      "name": "pendiente",
+                                      "fill": "#b45309",
+                                      "content": "Pendiente: 120 L",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11.5,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Z0CIVm",
+                              "name": "badge_Enviada",
+                              "fill": "#dbeafe",
+                              "cornerRadius": 20,
+                              "gap": 5,
+                              "padding": [
+                                4,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "rzHak",
+                                  "name": "icon",
+                                  "width": 11,
+                                  "height": 11,
+                                  "icon": "send",
+                                  "library": "feather",
+                                  "fill": "#1d4ed8"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "v6tA0",
+                                  "name": "text",
+                                  "fill": "#1d4ed8",
+                                  "content": "Enviada",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 11,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "HnFAk",
+                          "name": "opt_OC-01050",
+                          "width": "fill_container",
+                          "fill": "$Blanco",
+                          "stroke": "$Gris 3",
+                          "strokeWidth": {
+                            "bottom": 1
+                          },
+                          "strokeAlignment": "inner",
+                          "gap": 12,
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "MDvyU",
+                              "name": "left",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "n5ngGQ",
+                                  "name": "topRow",
+                                  "gap": 8,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "NRG9I",
+                                      "name": "folio",
+                                      "fill": "$Negro",
+                                      "content": "OC-01050",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 13.5,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "El3dp",
+                                      "name": "proveedor",
+                                      "fill": "$Gris 1",
+                                      "content": "Semillas y Cultivos Herrera",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 12.5,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "R31rCq",
+                                  "name": "metaRow",
+                                  "gap": 10,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "U31EjO",
+                                      "name": "fecha",
+                                      "fill": "$Gris 1",
+                                      "content": "Fecha OC: 08/Sep/26",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11.5,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "lYVjm",
+                                      "name": "pendiente",
+                                      "fill": "#b45309",
+                                      "content": "Pendiente: 25 saco",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11.5,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "nm74k",
+                              "name": "badge_Enviada",
+                              "fill": "#dbeafe",
+                              "cornerRadius": 20,
+                              "gap": 5,
+                              "padding": [
+                                4,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "dLP5Z",
+                                  "name": "icon",
+                                  "width": 11,
+                                  "height": 11,
+                                  "icon": "send",
+                                  "library": "feather",
+                                  "fill": "#1d4ed8"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "r9ATEO",
+                                  "name": "text",
+                                  "fill": "#1d4ed8",
+                                  "content": "Enviada",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 11,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "q7Z5M",
+                          "name": "opt_OC-01047",
+                          "width": "fill_container",
+                          "fill": "$Blanco",
+                          "stroke": "$Gris 3",
+                          "strokeWidth": {
+                            "bottom": 1
+                          },
+                          "strokeAlignment": "inner",
+                          "gap": 12,
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "r5lsn",
+                              "name": "left",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "yXJad",
+                                  "name": "topRow",
+                                  "gap": 8,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "yMAmn",
+                                      "name": "folio",
+                                      "fill": "$Negro",
+                                      "content": "OC-01047",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 13.5,
+                                      "fontWeight": "700"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "C0KIW",
+                                      "name": "proveedor",
+                                      "fill": "$Gris 1",
+                                      "content": "Distribuidora El Campo",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 12.5,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "KXdeh",
+                                  "name": "metaRow",
+                                  "gap": 10,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "R3VHve",
+                                      "name": "fecha",
+                                      "fill": "$Gris 1",
+                                      "content": "Fecha OC: 02/Sep/26",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11.5,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "BQdem",
+                                      "name": "pendiente",
+                                      "fill": "#b45309",
+                                      "content": "Pendiente: 80 kg",
+                                      "fontFamily": "$Font Secundaria",
+                                      "fontSize": 11.5,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "OeKQU",
+                              "name": "badge_Parcialmente recibida",
+                              "fill": "#fef3c7",
+                              "cornerRadius": 20,
+                              "gap": 5,
+                              "padding": [
+                                4,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "qFOPk",
+                                  "name": "icon",
+                                  "width": 11,
+                                  "height": 11,
+                                  "icon": "alert-circle",
+                                  "library": "feather",
+                                  "fill": "#b45309"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Phsn3",
+                                  "name": "text",
+                                  "fill": "#b45309",
+                                  "content": "Parcialmente recibida",
+                                  "fontFamily": "$Font Secundaria",
+                                  "fontSize": 11,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "x6Yhf",
+                          "name": "opt_NoCorresponde",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "l9gDk",
+                              "name": "icon",
+                              "width": 15,
+                              "height": 15,
+                              "icon": "help-circle",
+                              "library": "feather",
+                              "fill": "$Gris 1"
+                            },
+                            {
+                              "type": "text",
+                              "id": "i9dNPt",
+                              "name": "text",
+                              "fill": "$Gris 1",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Esta entrada no corresponde a una orden de compra en el sistema",
+                              "fontFamily": "$Font Secundaria",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -78836,6 +79493,36 @@
           ]
         }
       ]
+    },
+    {
+      "type": "ellipse",
+      "id": "lgo4Q",
+      "x": 18108,
+      "y": 3562,
+      "name": "Circulo morado",
+      "fill": "#8B5CF6",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "type": "ellipse",
+      "id": "e2mV1S",
+      "x": 14406,
+      "y": 6433,
+      "name": "Circulo morado",
+      "fill": "#8B5CF6",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "type": "ellipse",
+      "id": "o7o8Zo",
+      "x": 21237,
+      "y": 3562,
+      "name": "Circulo morado",
+      "fill": "#8B5CF6",
+      "width": 40,
+      "height": 40
     }
   ],
   "variables": {
